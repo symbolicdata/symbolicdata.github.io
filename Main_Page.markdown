@@ -31,10 +31,7 @@ At the moment the project hosts data from
 #### A Short Guide through this Site
 
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
--   Overview
-    -   [Motivation](Motivation "wikilink")
-    -   [Main Goals](Goals "wikilink")
-    -   [Current State](CurrentState "wikilink")
+-   [Overview](Overview "wikilink")
 -   [Design](Design "wikilink") Issues
 
 * * * * *
