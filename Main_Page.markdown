@@ -5,7 +5,35 @@ title: Main Page
 
 ### The SymbolicData Wiki (work in progress)
 
-This will be developed to a new SymbolicData Web Site during the next weeks.
+The SymbolicData project is set out to develop concepts and tools for testing Computer Algebra Software (CAS) and to collect relevant data from different areas of Computer Algebra. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org.
+
+SymbolicData tools and data are available for download under the terms of the **GNU Public License**. Any contribution to SymbolicData presupposes (silently) that you agree (and are allowed) to put your contribution under these terms.
+
+#### Main goals
+
+The SymbolicData Project aims at two main goals:
+
+-   to unify efforts to collect digital benchmark data from various areas of Symbolic Computation together with concepts, tools and experience for their management both globally and also for special testing and benchmarking purposes at a local site.
+-   to promote a network of repositories of Symbolic Computation digital data and related information from different areas of Computer Algebra.
+
+At the moment the project hosts data from
+
+-   [Polynomial Systems Solving](PolSys "wikilink")
+-   [G-Algebra](GAlgebra "wikilink")
+-   [Testsets](Testsets "wikilink")
+-   [Noncommutative Polynomial Systems](NCPoly "wikilink")
+-   [Geometry Theorem Proving](Geo "wikilink")
+
+#### A Short Guide through this Site
+
+-   More about the [history](History "wikilink") of the Symbolic Data Project.
+-   Overview
+    -   [Motivation](Motivation "wikilink")
+    -   [Main Goals](Goals "wikilink")
+    -   [Current State](CurrentState "wikilink")
+-   [Design](Design "wikilink") Issues
+
+* * * * *
 
 -   see [Hauptseite](Hauptseite "wikilink") for some Links about MediaWiki at all.
 -   see <http://symbolicdata.uni-leipzig.de> for more information about the SymbolicData Project
