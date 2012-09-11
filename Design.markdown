@@ -13,78 +13,76 @@ Due to the increasing importance of **XML data** representations those data was 
 
 In the last years ontology based semantic representations of data gain more and more importance. Hence we started another transformaton project to bring the SymbolicData data collection in such a knowledge base format. The new format takes into account the Web Ontology concepts as proposed in the [Recommendation for the OWL Web Ontology Language](http://www.w3.org/TR/owl-features|W3C). We use not (yet) the full power of an OWL description.
 
-For such a format the data is divided into two parts, the XMLResources (resources in the RDF terminology) and the OWLResources (relational information to describe the resources). The transformation is yet onthe way. The new data is available "as is" in the OWLData directory of the SD-2 bundle from the CVS.
+For such a format the data is divided into two parts, the **XMLResources** (resources in the RDF terminology) and the **OWLResources** (relational information to describe the resources). The transformation is yet on the way. The new data is available "as is" in the **OWLData** directory of the **SD-2 bundle** from the CVS.
 
-It follows a more detailed explanation of the new concept. Note that these developments are yet on the way. XMLResources
+It follows a more detailed explanation of the new concept. Note that these developments are yet on the way.
 
-XMLResources are the smallest indivisible units of information handled by SymbolicData, e.g., systems of polynomials, geometry proof schemes, bibliographical items etc. Each such item belongs to a certain XMLType that is described by a XSchema stored in the local SymbolicData distribution. Different to former SD-convention we use a flat naming scheme with dot (.) separated prefixes as common, e.g., for naming Java packages.
+##### XMLResources
 
-Small and medium sized items are stored locally to the SymbolicData distribution. Huge items are stored in locations distributed all over the world and can be accessed through the internet. Each XMLResource is described by a unique resource locator (URL). This concept allows to be extended to a distributed data storage that can be queried through SPARQL endpoints.
+XMLResources are the smallest indivisible units of information handled by SymbolicData, e.g., systems of polynomials, geometry proof schemes, bibliographical items etc. Each such item belongs to a certain XMLType that is **described by a XSchema** stored in the local SymbolicData distribution. Different to former SD-convention we use a flat naming scheme with dot (.) separated prefixes as common, e.g., for naming Java packages.
+
+Small and medium sized items are stored locally to the SymbolicData distribution. Huge items are stored in locations distributed all over the world and can be accessed through the internet. Each XMLResource is described by a **unique resource locator** (URL). This concept allows to be extended to a distributed data storage that can be queried through [endpoints](http://ontoworld.org/wiki/SPARQL_endpoint|SPARQL).
 
 The locally available resources have URL starting with the name space tag 'sdxml:' and are stored in the Data/XMLResources directory. A typical description of a reference to a local XMLResource has the form
 
 `   `<XML XMLType="IntegerPolynomialSystem" url="sdxml:INTPS/ZeroDim.example_61.xml"/>` `
 
-where XMLType.xsd is the XSchema describing the structure and url gives the location of the resource.
+where *XMLType*.xsd is the XSchema describing the structure and *url* gives the location of the resource.
 
 The following types of XMLResources are available:
 
-IntegerPolynomialSystem
+IntegerPolynomialSystem  
+Systems of polynomials in expanded distributive form with integer coefficients and variable names matching the regexp `[a-zA-Z][a-zA-Z0-9]*`
 
-`   Systems of polynomials in expanded distributive form with integer coefficients and variable names matching the regexp [a-zA-Z][a-zA-Z0-9]* `
+GeneralPolynomialSystem  
+Systems of polynomials in expanded distributive form with coefficients from a given base domain (mainly finite fields) and variable names matching the regexp `[a-zA-Z][a-zA-Z0-9]*`
 
-GeneralPolynomialSystem
+ProofScheme  
+Proof schemes from mechanized geometry theorem proving. The description uses a denested syntax based on functions specified in GeoCode.xml (to be fixed).
 
-`   Systems of polynomials in expanded distributive form with coefficients from a given base domain (mainly finite fields) and variable names matching the regexp [a-zA-Z][a-zA-Z0-9]* `
+##### OWLResources
 
-ProofScheme
+OWLResources store information describing the XMLResources and also relational information about them according to OWL design principles. This resolves a main disadvantage of the old SymbolicData format and allows for a flexibly extendable design of relations. The development of a **common ontology** Ontology.owl is on the way.
 
-`   Proof schemes from mechanized geometry theorem proving. The description uses a denested syntax based on functions specified in GeoCode.xml (to be fixed). `
-
-OWLResources
-
-OWLResources store information describing the XMLResources and also relational information about them according to OWL design principles. This resolves a main disadvantage of the old SymbolicData format and allows for a flexibly extendable design of relations. The development of a common ontology Ontology.owl is on the way.
-
-This ontology is translated (by hand) into a couple of XSchema descriptions, one for each OWL class. Each record (individuals in the OWL terminology) has a (human readable) identifier 'id' matching the regexp [a-zA-Z][a-zA-Z0-9\_.-]\*. Individuals are identified according to their class and id. A typical description of a reference to a local OWLResource has the form
+This ontology is translated (by hand) into a couple of XSchema descriptions, one for each OWL class. Each record (**individuals** in the OWL terminology) has a (human readable) identifier 'id' matching the regexp `[a-zA-Z][a-zA-Z0-9_.-]*`. Individuals are identified according to their *class* and *id*. A typical description of a reference to a local OWLResource has the form
 
 `   `<OWL xref="ZeroDim.example_7" class="INTPSAnnotation"/>` `
 
 where 'xref' gives the 'id' of the referred individual and 'class' the name of an XSchema that describes its structure.
 
-An OWL individual is stored in an XML file sdowl:class/id.xml with root element 'class' and mandatory root attributes 'id' (for the identifier), 'createdBy' (for the nick name of the creator within the SymbolicData team) and 'createdAt' (for create time).
+An OWL individual is stored in an XML file *sdowl:class/id.xml* with root element 'class' and **mandatory root attributes** 'id' (for the identifier), 'createdBy' (for the nick name of the creator within the SymbolicData team) and 'createdAt' (for create time).
 
 The following types of OWLResources are available (for a detailed description see Ontology.owl or the corresponding XSchema):
 
-Annotation
+Annotation  
+The individuals contain annotation information, i.e., a text field 'note' together with links to related OWL or XML resources.
 
-`   The individuals contain annotation information, i.e., a text field 'note' together with links to related OWL or XML resources. `
+Contributor  
+The individuals contain information about the contribution and status of cooperation of a person within SymbolicData. Each contributor has a nick name that is used to assign a contribution to her person.
 
-Contributor
+Ideal  
+A set of polynomials can define ideals in different rings if some of the variables are regarded as parameters. Different individuals associated to the same INTPSAnnotation individual contain information about different such settings and collect invariants about the ideal described by such a setting.
 
-`   The individuals contain information about the contribution and status of cooperation of a person within SymbolicData. Each contributor has a nick name that is used to assign a contribution to her person. `
+INTPSAnnotation  
+The individuals contain information about an associated XMLResource of type 'IntegerPolynomialSystem' that are related only to the polynomials as they are. Used to identify equal examples with different variable names etc.
 
-Ideal
+Person  
+A hook to the GB-Publications Project (A. Zapletal). The individuals contain more detailed information about a person. Persons can be involved in different roles (e.g., contributor of data, author of a paper).
 
-`   A set of polynomials can define ideals in different rings if some of the variables are regarded as parameters. Different individuals associated to the same INTPSAnnotation individual contain information about different such settings and collect invariants about the ideal described by such a setting. `
+In a near future these data will be stored in full compliance with the OWL standard.
 
-INTPSAnnotation
-
-`   The individuals contain information about an associated XMLResource of type 'IntegerPolynomialSystem' that are related only to the polynomials as they are. Used to identify equal examples with different variable names etc. `
-
-Person
-
-`   A hook to the GB-Publications Project (A. Zapletal). The individuals contain more detailed information about a person. Persons can be involved in different roles (e.g., contributor of data, author of a paper). `
-
-In a near future these data will be stored in full compliance with the OWL standard. Tools
+##### Tools
 
 In the first version, records of the data base were stored internally as a special Perl data type 'Record' based on hashes of strings and manipulated by Perl tools that were developed within the SymbolicData project.
 
-We did not migrate these tools to XML based storage since there exists a great number of generally available tools to work with XML. Instead we collect best practice examples of tools to do different jobs on the data. Users can learn from these scripts and adopt them for their own purposes. At the moment there is a bundle of Perl scripts available that rest on the XML::DOM Perl modules family divided into categories Service (scripts for management tasks within the data; useful mainly for service people) and Compute (scripts to extract data and set up computations).
+We did not migrate these tools to XML based storage since there exists a great number of generally available tools to work with XML. Instead we collect best practice examples of tools to do different jobs on the data. Users can learn from these scripts and adopt them for their own purposes. At the moment there is a bundle of Perl scripts available that rest on the XML::DOM Perl modules family divided into categories **Service** (scripts for management tasks within the data; useful mainly for service people) and **Compute** (scripts to extract data and set up computations).
 
-We encourage all users to supply their own scripts.
+**We encourage all users to supply their own scripts.**
 
-The string management facilities of Perl are well suited for creating output in various formats. Forthcoming versions will use also XSLT based technology. q
+The string management facilities of Perl are well suited for creating output in various formats. Forthcoming versions will use also XSLT based technology.
 
-For the evaluation of semantical aspects of records SymbolicData has to cooperate with software capable for symbolic manipulations. In the first version we used for such purposes Singular and MuPAD. With more experience an interface will be specified such that also other CAS can be used as underlying Computer Algebra Engine in the future. Computations
+For the evaluation of semantical aspects of records SymbolicData has to cooperate with software capable for symbolic manipulations. In the first version we used for such purposes *Singular* and *MuPAD*. With more experience an interface will be specified such that also other CAS can be used as underlying Computer Algebra Engine in the future.
+
+##### Computations
 
 To set up a trusted computation the user has to extract the digital data from the primary data base, prepare them for input to the specified Computer Algebra Software, create the corresponding input file, start and monitor the computation, and evaluate the output file. This requires much flexibility and SymbolicData provides only scripts of its users as best practice examples in the Compute section of the Scripts directory.
