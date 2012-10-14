@@ -10,7 +10,9 @@ title: Main Page
 -   [Events](Events "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
 -   [Overview](Overview "wikilink")
+-   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications](Publications "wikilink")
+-   Different [Software](Software "wikilink") related to the SymbolicData Project
 
 See <http://symbolicdata.org> for the old Web site of the SymbolicData Project
 
