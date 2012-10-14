@@ -3,11 +3,17 @@ layout: default
 title: Main Page
 ---
 
-### The SymbolicData Wiki (work in progress)
+### The SymbolicData Wiki
 
+-   [Design](Design "wikilink") Issues
 -   [Events](Events "wikilink")
+-   More about the [history](History "wikilink") of the Symbolic Data Project.
+-   [Overview](Overview "wikilink")
+-   [Publications](Publications "wikilink")
 
-#### Abstract
+See <http://symbolicdata.org> for the old Web site of the SymbolicData Project
+
+#### Vision
 
 The SymbolicData project is set out to develop concepts and tools for testing Computer Algebra Software (CAS) and to collect relevant data from different areas of Computer Algebra. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org.
 
@@ -29,15 +35,4 @@ At the moment the project hosts data from
 -   [Testsets](Testsets "wikilink")
 -   [Noncommutative Polynomial Systems](NCPoly "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
-
-#### A Short Guide through this Site
-
--   More about the [history](History "wikilink") of the Symbolic Data Project.
--   [Overview](Overview "wikilink")
--   [Design](Design "wikilink") Issues
-
-* * * * *
-
--   see [Hauptseite](Hauptseite "wikilink") for some Links about MediaWiki at all.
--   see <http://symbolicdata.org> for more information about the SymbolicData Project
 
