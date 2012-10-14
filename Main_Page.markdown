@@ -17,7 +17,7 @@ The SymbolicData Project aims at two main goals:
 -   to unify efforts to collect digital benchmark data from various areas of Symbolic Computation together with concepts, tools and experience for their management both globally and also for special testing and benchmarking purposes at a local site.
 -   to promote a network of repositories of Symbolic Computation digital data and related information from different areas of Computer Algebra.
 
-At the moment the project hosts data from
+At the moment the project hosts data from the following areas of Symbolic Computing
 
 -   [Polynomial Systems Solving](PolSys "wikilink")
 -   [G-Algebra](GAlgebra "wikilink")
