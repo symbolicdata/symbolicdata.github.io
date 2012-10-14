@@ -25,6 +25,12 @@ At the moment the project hosts data from
 -   [Noncommutative Polynomial Systems](NCPoly "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 
+Additional Data:
+
+-   [Person](Person "wikilink") - different people and groups
+-   [BIB](BIB "wikilink") - bibliographical entries
+-   [Systems](Systems "wikilink") - list of systems
+
 ### A Small Guide through this Site
 
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
