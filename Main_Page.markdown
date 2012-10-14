@@ -13,7 +13,7 @@ title: Main Page
 
 See <http://symbolicdata.org> for the old Web site of the SymbolicData Project
 
-#### Vision
+#### [Vision](Symbolicdata:About "wikilink")
 
 The SymbolicData project is set out to develop concepts and tools for testing Computer Algebra Software (CAS) and to collect relevant data from different areas of Computer Algebra. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org.
 
