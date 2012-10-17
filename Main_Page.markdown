@@ -42,4 +42,4 @@ Additional Data:
 -   [Publications](Publications "wikilink")
 -   Different [Software](Software "wikilink") related to the SymbolicData Project
 
-See <http://symbolicdata.org> for the old Web site of the SymbolicData Project
+See <http://symbolicdata.org/Webseiten> for the old Web site of the SymbolicData Project
