@@ -16,6 +16,6 @@ Note that we have no funding for that workshop, so all expenses on travelling an
 
 For accommodation we recommend
 
+-   [Pension Leipzig Süd](http://www.pension-leipzig-sued.de), Fichtestraße 12, 04275 Leipzig
 -   [Hotel Leonardo](http://www.hotel-leonardo.de/main.htm), Windscheidstrasse 21-23, 04277 Leipzig (Hotel mit guter Ausstattung, Tagungsort zu Fuß erreichbar, Zimmerkosten ca. 60 Euro/ÜF)
--   Pension am Stern, Bornaische Straße 124, 04279 Leipzig (einfache, aber gut geführte Pension, 4 Stationen Strb. in Richtung Süden, bis 40 Euro/ÜF)
 
