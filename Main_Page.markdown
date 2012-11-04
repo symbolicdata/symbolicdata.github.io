@@ -27,7 +27,7 @@ At the moment the project hosts data from the following areas of Symbolic Comput
 
 Additional Data:
 
--   [Person](Person "wikilink") - different people and groups
+-   [People](People "wikilink") - different people and groups
 -   [BIB](BIB "wikilink") - bibliographical entries
 -   [Systems](Systems "wikilink") - list of systems
 
