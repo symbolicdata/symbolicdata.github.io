@@ -31,6 +31,15 @@ Additional Data:
 -   [BIB](BIB "wikilink") - bibliographical entries
 -   [Systems](Systems "wikilink") - list of systems
 
+### Resources
+
+We manage the following resources:
+
+-   This Web site for background information an informal descriptions
+-   A Mercurial Repo at <https://bitbucket.org/hgg/symbolicdata>
+    -   There is a spin off at <https://bitbucket.org/levandov/symbolicdata_freealgebra> that will be merged back to the main branch soon.
+    -   Note that we use a Mercurial repo instance at Univ. Leipzig to handle the transformation underway and will push a consolidated version of the changes soon.
+
 ### A Small Guide through this Site
 
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
