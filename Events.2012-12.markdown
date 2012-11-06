@@ -10,12 +10,13 @@ title: Events.2012-12
 Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we invite for a Workshop and Hackathon to discuss and promote different aspects of the SymbolicData Project. The Workshop will take place at
 
   
-[HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig - Karl-Liebknecht-Straße 132, 04277 Leipzig
+[HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig - Karl-Liebknecht-Straße 132, 04277 Leipzig (Lipsius-Bau)
 
 Note that we have no funding for that workshop, so all expenses on travelling and lodging are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
 
 For accommodation we recommend
 
--   [Pension Leipzig Süd](http://www.pension-leipzig-sued.de), Fichtestraße 12, 04275 Leipzig
+-   [Pension Leipzig Süd](http://www.pension-leipzig-sued.de), Fichtestraße 12, 04275 Leipzig (Pension mit einfacher Ausstattung, Tagungsort zu Fuß erreichbar, Zimmerkosten ca. 40 Euro/ÜF)
+-   Pension Am Stern, Bornaische Straße 124, 04279 Leipzig, 0341-3338440 (Pension mit einfacher Ausstattung, Tagungsort 4 Stationen Strb., Zimmerkosten ca. 40 Euro/ÜF)
 -   [Hotel Leonardo](http://www.hotel-leonardo.de/main.htm), Windscheidstrasse 21-23, 04277 Leipzig (Hotel mit guter Ausstattung, Tagungsort zu Fuß erreichbar, Zimmerkosten ca. 60 Euro/ÜF)
 
