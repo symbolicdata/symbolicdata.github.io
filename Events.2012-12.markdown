@@ -12,7 +12,7 @@ Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we inv
   
 [HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig - Karl-Liebknecht-Straße 132, 04277 Leipzig (Lipsius-Bau)
 
-Note that we have no funding for that workshop, so all expenses on travelling and lodging are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
+Note that we have no funding for that workshop, so all expenses on travelling, lodging and "Kneipe" are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
 
 ### Program Schedule (tentative)
 
