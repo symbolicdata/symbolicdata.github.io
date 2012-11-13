@@ -14,6 +14,28 @@ Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we inv
 
 Note that we have no funding for that workshop, so all expenses on travelling and lodging are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
 
+### Program Schedule (tentative)
+
+Thursday, 13.12.
+
+-   13:00 Registration, Come Together
+-   14:00 Opening, Presentation of the SymbolicData Project
+-   15:30 Coffee
+-   16:00 Discussion of goals and tasks
+-   17:30 Kneipe / Pub / "Social Event"
+
+Friday, 14.12.
+
+-   9:00 Plenary Discussion
+-   10-15 Working Groups with hands on the code (thematically to be determined)
+-   16:00 Plenary Discussion
+-   17:30 Kneipe / Pub / "Social Event"
+
+Saturday, 15.12.
+
+-   09:00 Plenary Discussion
+-   13:00 Closing
+
 For accommodation we recommend
 
 -   [Pension Leipzig Süd](http://www.pension-leipzig-sued.de), Fichtestraße 12, 04275 Leipzig (Pension mit einfacher Ausstattung, Tagungsort zu Fuß erreichbar, Zimmerkosten ca. 40 Euro/ÜF)
