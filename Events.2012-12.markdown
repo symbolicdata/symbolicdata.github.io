@@ -10,7 +10,13 @@ title: Events.2012-12
 Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we invite for a Workshop and Hackathon to discuss and promote different aspects of the SymbolicData Project. The Workshop will take place at
 
   
-[HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig - Karl-Liebknecht-Straße 132, 04277 Leipzig (Lipsius-Bau)
+[HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig
+
+Gustav-Freytag-Str.42A (Zuse-Bau)
+
+Raum Z417
+
+04277 Leipzig
 
 Note that we have no funding for that workshop, so all expenses on travelling, lodging and "Kneipe" are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
 
