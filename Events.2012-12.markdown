@@ -12,7 +12,7 @@ Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we inv
   
 [HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig
 
-Gustav-Freytag-Str.42A (Zuse-Bau)
+[Gustav-Freytag-Str.42A](http://www.htwk-leipzig.de/index.php?id=239) (Zuse-Bau)
 
 Raum Z417
 
