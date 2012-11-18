@@ -3,9 +3,9 @@ layout: default
 title: PolynomialSystems
 ---
 
-### Polynomial Systems Solving
+### Polynomial Systems
 
-See the file *PolynomialSystems.ttl* and the XML Resources
+See the [PolynomialSystems](http://symbolicdata.org/Data/PolynomialSystems) Knowledge Base (link to be fixed), the XML Resources
 
 -   [INTPS](http://symbolicdata.org/XMLResources/INTPS) (Polynomial Systems with integer coefficients)
 -   and [ModPS](http://symbolicdata.org/XMLResources/ModPS) (Polynomial Systems with modular coefficients)
