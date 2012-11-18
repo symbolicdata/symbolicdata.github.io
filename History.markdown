@@ -11,7 +11,7 @@ In 1999, the project joint forces with the symbolic computation groups of the Un
 
 The main design decisions and implementations of the first prototype were realized by O. Bachmann and H.-G. Gräbe during two visits in Leipzig and Kaiserslautern in 1999 and 2000. The data was stored in a flat XML-like syntax and managed with elaborated Perl tools. Meta information about data was stored in the same format in a special META directory and allowed for a unique and flexible handling of all the data.
 
-We collected data from Polynomial System Solving and Geometry Theorem Proving, set up a CVS repository, and started test computations, both at [UMS Medicis](http://www.medicis.polytechnique.fr), with the main focus on [Polynomial System Solving](PolSys "wikilink"). The prototype was presented at the Meeting of the Fachgruppe Computeralgebra, Kaiserslautern, February 2000.
+We collected data from Polynomial System Solving and Geometry Theorem Proving, set up a CVS repository, and started test computations, both at [UMS Medicis](http://www.medicis.polytechnique.fr), with the main focus on [Polynomial System Solving](PolynomialSystems "wikilink"). The prototype was presented at the Meeting of the Fachgruppe Computeralgebra, Kaiserslautern, February 2000.
 
 O. Bachmann left the project for a new job at the end of 2000. Now the main focus moved to Geometry Theorem Proving. M. Witte (Leipzig) digitized a great part of the 512 geometry theorems considered in [Chou 88] and prepared them for benchmark computations with the GeoProver package of H.-G. Gräbe.
 
