@@ -19,7 +19,7 @@ The SymbolicData Project aims at two main goals:
 
 At the moment the project hosts data from the following areas of Symbolic Computing
 
--   [Polynomial Systems Solving](PolSys "wikilink")
+-   [Polynomial Systems Solving](PolynomialSystems "wikilink")
 -   [G-Algebra](GAlgebra "wikilink")
 -   [Testsets](Testsets "wikilink")
 -   [Free Algebras](FreeAlgebra "wikilink")
