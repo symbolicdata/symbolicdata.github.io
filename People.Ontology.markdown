@@ -9,6 +9,8 @@ An informal description of the Ontology of the People involved and addressed wit
 
 We use the [FOAF Ontology](http://www.foaf-project.org/), in particular the classes **foaf:Person** and **foaf:Group** for people and groups. To specify authors of papers within our BIB collection there is another class **sd:Author**.
 
+The **naming scheme** for people is <name_initials> where *name* is the full surname, initials are the concatenated initials of the other name parts with a further letter to make the identifier unique, transformed to [true ASCII strings](Naming "wikilink").
+
 They have the following additional predicates
 
 -   standard predicates sd:hasEmail, sd:lastModified, rdfs:comment
