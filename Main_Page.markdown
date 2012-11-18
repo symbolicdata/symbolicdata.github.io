@@ -22,7 +22,7 @@ At the moment the project hosts data from the following areas of Symbolic Comput
 -   [Polynomial Systems Solving](PolSys "wikilink")
 -   [G-Algebra](GAlgebra "wikilink")
 -   [Testsets](Testsets "wikilink")
--   [Noncommutative Polynomial Systems](NCPoly "wikilink")
+-   [Free Algebras](FreeAlgebra "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 
 Additional Data:
