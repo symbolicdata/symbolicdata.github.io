@@ -23,7 +23,7 @@ Get the example
 -   sd:relatedINTPSEntry sd:INTPS - the example addressed by the create command
 -   sd:relatedXMLResource URI - the Resource file (if any) containing the basis
 -   sd:hasVariables Literal - comma separated list of variables
--   sd:hasParameters Literal - comma separated list of variables
+-   sd:hasParameters Literal - comma separated list of parameters
 
   
   
