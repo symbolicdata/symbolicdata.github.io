@@ -36,6 +36,7 @@ Additional Data:
 We manage the following resources:
 
 -   This Web site for background information an informal descriptions
+-   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
 -   A Mercurial Repo at <https://bitbucket.org/hgg/symbolicdata>
     -   There is a spin off at <https://bitbucket.org/levandov/symbolicdata_freealgebra> that will be merged back to the main branch soon.
     -   Note that we use a Mercurial repo instance at Univ. Leipzig to handle the transformation underway and will push a consolidated version of the changes soon.
