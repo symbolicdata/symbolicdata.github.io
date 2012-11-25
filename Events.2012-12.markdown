@@ -20,10 +20,13 @@ Raum Z417
 
 Note that we have no funding for that workshop, so all expenses on travelling, lodging and "Kneipe" are to the participants. We kindly ask you to **announce your interest for participation until Nov. 30, 2012**, to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de).
 
+[Announcement](http://portal.imn.htwk-leipzig.de/events/workshop-on-symbolicdata-design) of the meeting by HTWK.
+
 Participants:
 
 -   Hans-Gert Gräbe, Andreas Nareike (Uni Leipzig)
 -   Johannes Waldmann (HTWK Leipzig)
+-   
 
 ### Program Schedule (tentative)
 
