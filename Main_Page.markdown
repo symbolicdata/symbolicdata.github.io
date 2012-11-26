@@ -43,6 +43,7 @@ We manage the following resources:
 
 ### A Small Guide through this Site
 
+-   [Benchmarks](Benchmarks "wikilink")
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Events](Events "wikilink")
