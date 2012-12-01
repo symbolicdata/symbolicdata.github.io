@@ -16,4 +16,4 @@ With the [raise of XML](http://en.wikipedia.org/wiki/XML), in particular after 2
   
 Meanwhile the experience with complex Semantic Web tasks is coined into a whole stack of protocols for different levels of communication. In particular, there is a clear distinction between **Resources** (with XML and XSchema proved useful to describe their data structures) and **Descriptions** (with RDF and OWL as appropriate standards). This is the current direction of development of a **third version** of SymbolicData.
 
-
+More about how to get started has to be added.
