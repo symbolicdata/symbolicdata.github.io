@@ -47,6 +47,7 @@ We manage the following resources:
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Events](Events "wikilink")
+-   [GettingStarted](GettingStarted "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
 -   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
