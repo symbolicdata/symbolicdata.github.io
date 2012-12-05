@@ -42,3 +42,14 @@ Invariants of the ideal
 -   sd:hasIsolatedPrimesDegrees Literal - comma separated list of integers, degrees of the prime components of a zero dimensional ideal
 -   sd:hasIsolatedPrimesDimensions Literal - comma separated list of integers, dimensions of the isolated prime components
 
+#### Polynomial Systems XML-Resources
+
+The XML-Resource contains mainly the following tags
+
+-   (ModPS only) <basedomain> - the base domain (if not the rationals)
+-   <vars> - a list x1,...,xn of variables,
+-   <basis> - a sequence of <poly> entries of (commutative) polynomials
+
+The list of polynomials can generate different ideals in different commutative polynomial rings Q(y1,...,yk)[z1,...,zm], where y1,...,yk,z1,...,zm is a rearrangement of x1,...,xn. So the same XML Resource may be related to several INTPS or ModPS examples.
+
+For details see the XSchema description [PolynomialSystem.xsd](http://symbolicdata.org/XMLResources/PolynomialSystem.xsd).
