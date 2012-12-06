@@ -3,7 +3,7 @@ layout: default
 title: TestSets.Ontology
 ---
 
-### TestSets Ontology
+### Test Sets Ontology
 
 An informal description of the Ontology of the TestSets Knowledge Base developed so far.
 
@@ -11,7 +11,7 @@ The following has to be fixed.
 
 * * * * *
 
-All Testsets instances belong to the owl:Class **sd:Testset** that is the rdfs:domain of the predicates
+All TestSet instances belong to the owl:Class **sd:TestSet** that is the rdfs:domain of the predicates
 
 -   sd:hasVariables Literal - comma separated list of (non commuting) variables
 -   sd:hasParameters Literal - comma separated list of (commuting) parameters
