@@ -21,7 +21,7 @@ At the moment the project hosts data from the following areas of Symbolic Comput
 
 -   [Polynomial Systems Solving](PolynomialSystems "wikilink")
 -   [G-Algebra](GAlgebra "wikilink")
--   [Testsets](Testsets "wikilink")
+-   [Test Sets](TestSets "wikilink")
 -   [Free Algebras](FreeAlgebra "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 
