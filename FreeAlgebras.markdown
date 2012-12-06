@@ -5,6 +5,12 @@ title: FreeAlgebras
 
 ### Free Algebras
 
+#### About
+
+to be added
+
+#### Structure of the Data
+
 See
 
 -   the [FreeAlgebra](http://symbolicdata.org/Data/FreeAlgebra) Knowledge Base (link to be fixed),
