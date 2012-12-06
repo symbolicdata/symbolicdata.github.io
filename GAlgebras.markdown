@@ -16,6 +16,8 @@ with default c\_ij=1, d\_ij=0 (i.e., commuting variables).
 
 For the examples, only the non default values c\_ij, d\_ij are recorded.
 
+The base domain k is a field, either Q or Q(a1,...,ak) for (commuting) parameters a1,...,ak
+
 #### Structure of the Data
 
 See
