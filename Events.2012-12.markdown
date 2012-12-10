@@ -33,21 +33,20 @@ Participants:
 Thursday, 13.12.
 
 -   13:00 Registration, Come Together
--   14:00 Opening, Presentation of the SymbolicData Project
--   15:30 Coffee
--   16:00 Discussion of goals and tasks
+-   14:00 Opening, Presentation and Discussion of the SymbolicData Project overall structure
+-   16:00 Presentation and Discussion of the Free Algebra Data Part
 -   17:30 Kneipe / Pub / "Social Event"
 
 Friday, 14.12.
 
--   9:00 Plenary Discussion
--   10-15 Working Groups with hands on the code (thematically to be determined)
--   16:00 Plenary Discussion
+-   9:00 Plenary Discussion about the future infrastructure of SymbolicData
+-   11:00 Presentation and Discussion about Scripts and Tools
+-   13:00 Presentation and Discussion of a possible Extension to Benchmarks from Logics (J. Waldmann)
 -   17:30 Kneipe / Pub / "Social Event"
 
 Saturday, 15.12.
 
--   09:00 Plenary Discussion
+-   09:00 t.b.d.
 -   13:00 Closing
 
 For accommodation we recommend
