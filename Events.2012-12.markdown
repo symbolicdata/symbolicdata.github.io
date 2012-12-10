@@ -26,7 +26,7 @@ Participants:
 
 -   Hans-Gert Gräbe, Andreas Nareike (Uni Leipzig)
 -   Johannes Waldmann (HTWK Leipzig)
--   Viktor Levandovskyy, Albert Heinle, NN (RTWH Aachen)
+-   Viktor Levandovskyy, Albert Heinle, Benjamin Schnitzler (RTWH Aachen)
 
 ### Program Schedule (tentative)
 
