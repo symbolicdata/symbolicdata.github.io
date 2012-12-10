@@ -42,11 +42,12 @@ Friday, 14.12.
 -   9:00 Plenary Discussion about the future infrastructure of SymbolicData
 -   11:00 Presentation and Discussion about Scripts and Tools
 -   13:00 Presentation and Discussion of a possible Extension to Benchmarks from Logics (J. Waldmann)
+-   15:00 Connecting large scientific Projects as [SageMath](http://www.sagemath.org/) or [StarExec](http://www.starexec.org/starexec/public/about.jsp)
 -   17:30 Kneipe / Pub / "Social Event"
 
 Saturday, 15.12.
 
--   09:00 t.b.d.
+-   09:00 The SymbolicData Geometry Problems Collection
 -   13:00 Closing
 
 For accommodation we recommend
