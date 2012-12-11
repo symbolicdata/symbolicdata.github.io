@@ -12,6 +12,8 @@ I was this year at CASC in Maribor and learned about PoCab <http://pocab.cg.cs.u
 
 Ich habe mit den Leuten auf der Konferenz gesprochen und Symbolicdata erwähnt, wovon sie noch nie gehört haben. Sie haben sich allerdings noch nicht auf ein einheitliches Format ihrer mathematischen Daten geeinigt, sondern lediglich Beispiele eingefügt und eine gute Such-Umgebung geschaffen.
 
+-   see also the paper <http://pocab.cg.cs.uni-bonn.de:8080/pocab_online/Results/casc2012_sna_software.pdf>
+
 Johannes Waldmann (2012-12-05) reports about projects on benchmarks and competitions in
 
 -   SAT (boolean satisfiability), <http://www.satcompetition.org/>
