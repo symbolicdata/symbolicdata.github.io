@@ -27,6 +27,7 @@ Participants:
 -   Hans-Gert Gräbe, Andreas Nareike (Uni Leipzig)
 -   Johannes Waldmann (HTWK Leipzig)
 -   Viktor Levandovskyy, Albert Heinle, Benjamin Schnitzler (RTWH Aachen)
+-   Satya S. Samal (Uni Bonn)
 
 ### Program Schedule (tentative)
 
