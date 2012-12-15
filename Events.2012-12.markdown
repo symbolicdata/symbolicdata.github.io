@@ -36,14 +36,16 @@ Thursday, 13.12.
 -   13:00 Registration, Come Together
 -   14:00 Opening, Presentation and Discussion of the SymbolicData Project overall structure
 -   16:00 Presentation and Discussion of the Free Algebra Data Part
--   17:30 Kneipe / Pub / "Social Event"
+-   18:00 Presentation and Discussion about Scripts and Tools
+-   19:30 Kneipe / Pub / "Social Event"
 
 Friday, 14.12.
 
 -   9:00 Plenary Discussion about the future infrastructure of SymbolicData
--   11:00 Presentation and Discussion about Scripts and Tools
--   13:30 Presentation and Discussion of a possible Extension to Benchmarks from Logics (J. Waldmann)
--   15:00 Connecting large scientific Projects as [SageMath](http://www.sagemath.org/) or [PoCab](http://pocab.cg.cs.uni-bonn.de) or [StarExec](http://www.starexec.org/starexec/public/about.jsp)
+-   11:00 Presentation on the [PoCaB](http://pocab.cg.cs.uni-bonn.de) project by Satya S. Samal (Uni Bonn)
+-   13:30 Benchmarks and Competitions in Termination, SAT and SMT. Presentation by J.Waldmann and Discussion
+    -   [Slides](http://www.imn.htwk-leipzig.de/~waldmann/talk/12/sym/main.pdf)
+-   15:00 Connecting large scientific Projects as [SageMath](http://www.sagemath.org/) or [PoCaB](http://pocab.cg.cs.uni-bonn.de) or [StarExec](http://www.starexec.org/starexec/public/about.jsp)
 -   17:30 Kneipe / Pub / "Social Event"
 
 Saturday, 15.12.
