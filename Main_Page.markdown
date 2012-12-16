@@ -37,9 +37,9 @@ We manage the following resources:
 
 -   This Web site for background information an informal descriptions
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
--   A Mercurial Repo at <https://bitbucket.org/hgg/symbolicdata>
-    -   There is a spin off at <https://bitbucket.org/levandov/symbolicdata_freealgebra> that was already merged back to the local repo und will be merged back to the main branch soon.
-    -   Note that we use a Mercurial repo instance at Univ. Leipzig to handle the transformation underway and will push a consolidated version of the changes soon.
+-   A Mercurial Repo at <https://bitbucket.org/hgg/symbolicdata> (moving to git and github is on the way)
+    -   There was a spin off at <https://bitbucket.org/levandov/symbolicdata_freealgebra> that was recently merged back.
+-   A SPARQL endpoint <http://symbolicdata.ontowiki.net> to the RDFData part of the project.
 
 ### A Small Guide through this Site
 
