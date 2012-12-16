@@ -23,11 +23,6 @@ All TestSet instances belong to the owl:Class **sd:TestSet** that is the rdfs:do
 
 The XML-Resource contains mainly the following tags
 
--   <vars> - a list x1,...,xn of (non commuting) variables,
--   (optionally) <parameters> - a list a1,...,ak of (commuting) parameters
--   (optionally) <uptoDeg> - an integer (meaning has to be specified)
--   <basis> - a sequence of <ncpoly> entries of non commutative polynomials
+-   <basis> - a sequence of <rows> with comma separated integers
 
-The basis generates an ideal in the non commutative polynomial ring Q(a1,...ak)<x1,...,xn>.
-
-For details see the XSchema description [FREEALGEBRA.xsd](http://symbolicdata.org/XMLResources/FREEALGEBRA.xsd).
+For details see the XSchema description [TestSets.xsd](http://symbolicdata.org/XMLResources/TestSets.xsd).
