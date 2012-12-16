@@ -19,7 +19,7 @@ All TestSet instances belong to the owl:Class **sd:TestSet** that is the rdfs:do
 -   sd:relatedXMLResource URI - the Resource file
 -   standard predicates sd:createdAt, sd:createdBy, rdfs:comment
 
-#### GAlgebra XML-Resources
+#### TestSets XML-Resources
 
 The XML-Resource contains mainly the following tags
 
