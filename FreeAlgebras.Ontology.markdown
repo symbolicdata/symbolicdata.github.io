@@ -26,4 +26,4 @@ The XML-Resource contains mainly the following tags
 
 The basis generates an ideal in the non commutative polynomial ring Q(a1,...ak)<x1,...,xn>.
 
-For details see the XSchema description [FREEALGEBRA.xsd](http://symbolicdata.org/XMLResources/FREEALGEBRA.xsd).
+For details see the XSchema description [FreeAlgebra.xsd](http://symbolicdata.org/XMLResources/FreeAlgebra.xsd).
