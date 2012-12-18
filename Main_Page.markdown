@@ -37,8 +37,8 @@ We manage the following resources:
 
 -   This Web site for background information an informal descriptions
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
--   A Mercurial Repo at <https://bitbucket.org/hgg/symbolicdata> (moving to git and github is on the way)
-    -   There was a spin off at <https://bitbucket.org/levandov/symbolicdata_freealgebra> that was recently merged back.
+-   A git Repo at <https://github.com/symbolicdata/symbolicdata>
+    -   For active developers we manage a clone of that repo at symbolicdata@symbolicdata.org:git/symbolicdata with SSH access
 -   A SPARQL endpoint <http://symbolicdata.ontowiki.net> to the RDFData part of the project.
 
 ### A Small Guide through this Site
