@@ -46,6 +46,7 @@ We manage the following resources:
 -   [Benchmarks](Benchmarks "wikilink")
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
+-   [Dumps](Dumps "wikilink")
 -   [Events](Events "wikilink")
 -   [GettingStarted](GettingStarted "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
