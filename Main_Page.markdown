@@ -44,6 +44,7 @@ We manage the following resources:
 ### A Small Guide through this Site
 
 -   [Benchmarks](Benchmarks "wikilink")
+    -   [The SDEval Framework](SDEval "wikilink")
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Dumps](Dumps "wikilink")
