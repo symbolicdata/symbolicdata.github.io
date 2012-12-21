@@ -54,6 +54,7 @@ We manage the following resources:
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")
+-   [Timing](Timing "wikilink")
 -   Different [Software](Software "wikilink") related to the SymbolicData Project
 
 See <http://symbolicdata.org/Webseiten> for the old Web site of the SymbolicData Project
