@@ -3,10 +3,7 @@ layout: default
 title: Timing
 ---
 
-A little Note on Time Measurement for Calculation Tasks
--------------------------------------------------------
-
-=
+### A little Note on Time Measurement for Calculation Tasks
 
 There are different implementations of algorithms out there. Often one wants to compare their performance on several examples, and this comparison and its evaluation is desired to be as automatized as possible. Thus, there is a need of standard methods.
 
@@ -16,9 +13,12 @@ A better approach: A fair way to do it is using an external time measurement too
 
 But there is still a problem with this way concerning automated evaluation of the timings, since the outputs differ from machine to machine due to different configurations. For example, on a computer we have access to we observe the following behavior:
 
-% \$ time echo "Hello SymbolicData" Hello SymbolicData
+    $ time echo "Hello SymbolicData"
+    Hello SymbolicData
 
-real\\t0m0.001s user\\t0m0.000s sys\\t0m0.000s %
+    real\t0m0.001s
+    user\t0m0.000s
+    sys\t0m0.000s
 
 Experience showed us, that different outputs are quite usual. That makes it harder to write tools that can work with time outputs independent from the system.
 
@@ -33,6 +33,10 @@ user %f\\ sys %f\\ ".
 
 For the "time" command on UNIX-systems, one simply has to add the flag "-p" to the "time" command and the output is generated in the desired way. Therefore, for the same example as above, we obtain:
 
-% \$ time -p echo "Hello SymbolicData" Hello SymbolicData real 0.00 user 0.00 sys 0.00 %
+    $ time -p echo "Hello SymbolicData"
+    Hello SymbolicData
+    real 0.00
+    user 0.00
+    sys 0.00
 
 Using this, one is independent of the machine where the comparison is run and only has to adjust the "time"-command to produce this standardized output. We recommend using that in order to automatized extract time measurement of different calculations stored in several files. We used it also in the project SDEval for evaluation of the outputs of different computer algebra systems.
