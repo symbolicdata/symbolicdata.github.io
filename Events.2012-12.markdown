@@ -55,3 +55,5 @@ A nice talk was given by the Aachen group on [SDEval](SDEval "wikilink") - a com
 So we will now consolidate SymbolicData v.3. As a first step we moved the sources from Mecurial to git and opened a [public Repo](https://github.com/symbolicdata) at github. A local git Repo symbolicdata@symbolicdata.org:git/symbolicdata is yet working and synced from time to time with the public Repo. At the moment we manage two branches 'old-master' and 'master' but we plan to start a dedicated development process with 'master' and 'development' branches following a well established development model. See [Using.Git](Using.Git "wikilink") for more information about the organization of the public Repo and our Git Development Process (in status nascendi).
 
 Note that I started a [Sparql endpoint](http://en.wikipedia.org/wiki/SPARQL) for SymbolicData available at <http://symbolicdata.ontowiki.net> that serves the latest RDFData.
+
+In six months we want to have another workshop in Leipzig (we agreed last week to have it in the second part of July) to "count the chickens that we hatched" andto estimate what left after the E-Science project will end at Aug 31, 2013.
