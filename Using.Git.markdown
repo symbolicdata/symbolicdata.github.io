@@ -29,6 +29,8 @@ Ralf Hemmecke (26.12.2012)
   
 For directories I would anyway use all lower case (it'll make less complications if SD wants to support Windows).
 
+* * * * *
+
 #### What docu put into the repo ?
 
 Albert Heinle (25.12.2012)
