@@ -39,4 +39,45 @@ The thing is, that there are tex files, and my experience is that latex has diff
   
 The same argument can be brought up about the epydoc documentation in the subfolder doc/ForDevelopers. We want the users to read the documentation, not compile it.
 
+Ralf Hemmecke (26.12.2012)
 
+I haven't done anything with epydoc so far, but I've taken your latex files and converted them to .rst.
+
+This has two advantages.
+
+1.  The pages can be easily viewed online - <http://hemmecke.github.com/symbolicdata/sdeval-quick-manual.html>
+2.  The corresponding .rst file is reasonably readable even without translation into html.
+
+Wow, github.com even [shows .rst files](https://github.com/hemmecke/symbolicdata/blob/gh-doc/documentation-sources/source/sdeval-quick-manual.rst) compiled. You have to press the "Raw" button to see the actual source.
+
+What do you think?
+
+Oh, I just realise that the generated epydoc stuff lives under doc/ForDevelopers.
+
+  
+1) Whom to you count as "developer"?
+
+2) Should all developers be able to generate the documentation from source?
+
+3) Where is it described how to install/use epydoc?
+
+My answer to that is:
+
+  
+1) Everyone who takes the sources from the git repository declares himself to be knowledgable enough to count as a developer. For "users" there should be a release tarball with a proper release
+
+version number.
+
+  
+2) Yes. In fact, it should be as simple as taking a one-time installation of some tools (epydoc, sphinx, etc.) and then calling some "make" target.
+
+That would also help to be able to deal with broken links. When I load symbolicdata/sdevalv2/doc/ForDevelopers/index.html into my browser and then click in the lower right frame on
+
+  
+sdevalv2.classes.exceptions.XMLRessourcesInvalidPath.XMLRessourcesInvalidPath
+
+I get "File not found"
+
+3) I'd expect something like this. <http://symbolicdata.github.com/symbolicdata/website.html>
+
+BTW, do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
