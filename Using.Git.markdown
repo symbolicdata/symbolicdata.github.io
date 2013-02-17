@@ -85,3 +85,10 @@ I get "File not found"
 BTW, do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
 
 [epydoc](http://epydoc.sourceforge.net/whatsnew.html) seams to be dead since almost 4 years.
+
+Albert Heinle (31.12.2012)
+
+  
+Your concerns might be valid, but this is also a team-internal name for it so that we know what we are talking about. Just leave it, it does not hurt anyone I think. It will be the last time we put a "vn" to a directory.
+
+
