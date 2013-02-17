@@ -5,7 +5,7 @@ title: Publications
 
 ### Publications about the SymbolicData Project
 
--   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Publications/Papers/car-51.pdf))
+-   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf))
     -   In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
 -   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
 -   H.-G. Gräbe: The SymbolicData GEO Records - A Public Repository of Geometry Theorem Proof Schemes. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-02.pdf))
