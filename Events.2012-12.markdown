@@ -40,4 +40,16 @@ Participants:
 
 ### A Short Report
 
-We shortened the workshop that ended on friday late evening due to time constraints of the participants.
+We shortened the workshop that ended on friday late evening due to time constraints of the participants. We had two days of intense discussions about the goals, philosophy, subprojects, links etc. Here are some notes beyond the slides and links added to the program schedule.
+
+Much requires some more structure, but here is a first report of the most important things.
+
+First we decided to refocus (or even focus, I have no idea if there was really a focus of SymbolicData during the last years) as a project that addresses needs of *communities* within Symbolic Computation to benchmark implementations. There is a commonly complained misrecognition of these efforts because such contributions are not in the focus of reputational processes of the respective communities and are rarely proper acknowledged. This is mainly due to the specifics in that area, and SymbolicData will address, collect, offer, ... standards and best practices to change that *across* communities.
+
+SymbolicData (v.1 and v.2) had its origin within the PolynomialSystems community, so such a refocussing has to be processed also as a reorganization of data for SymbolicData v.3. A list of communities (at the moment called "areas") with benchmarking activities addressed by SymbolicData you can find already now on the [wiki main page](Main_Page "wikilink"), and there is a process of standardized presentation of community aims on the way.
+
+For the future there should be a better linking between (intracommunity) sources, resources and communication structures *within* such a community and SymbolicData. A new use case to really understand the problems with such interlinking is given with [PoCaB](http://pocab.cg.cs.uni-bonn.de). This will be a great step towards Linked Data.
+
+A nice talk was given by the Aachen group on [SDEval](SDEval "wikilink") - a common benchmarking compute framework written in python and (more or less) ready to use also beyond the [FreeAlgebra](FreeAlgebra "wikilink") community. We decided to put that within a separate project.
+
+So we will now consolidate SymbolicData v.3. As a first step we moved the sources from Mecurial to git and opened a [public Repo](https://github.com/symbolicdata) at github. A local git Repo symbolicdata@symbolicdata.org:git/symbolicdata is yet working and synced from time to time with the public Repo. At the moment we manage two branches 'old-master' and 'master' but we plan to start a dedicated development process with 'master' and 'development' branches following a well established development model. See [Using.Git](Using.Git "wikilink") for more information about the organization of the public Repo and our Git Development Process (in status nascendi).
