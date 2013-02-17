@@ -22,7 +22,7 @@ So clone the public Repo
 
 and you can switch between both branches with 'git checkout'. Project members (with proper SSH access) can freely push their changes to the repo symbolicdata@symbolicdata.org:git/symbolicdata that will be synced from time to time with the public Repo.
 
-#### What docu to put into the repo ?
+#### What docu put into the repo ?
 
 Albert Heinle (25.12.2012)
 
