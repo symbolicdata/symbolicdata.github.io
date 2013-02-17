@@ -84,4 +84,4 @@ I get "File not found"
 
 BTW, do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
 
-Consulting their [svn Repo](http://epydoc.svn.sourceforge.net) epydoc seams to be dead since almost 4 years.
+[epydoc](http://epydoc.sourceforge.net/whatsnew.html) seams to be dead since almost 4 years.
