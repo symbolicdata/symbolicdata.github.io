@@ -27,7 +27,12 @@ and you can switch between both branches with 'git checkout'. Project members (w
 Ralf Hemmecke (26.12.2012)
 
   
-For directories I would anyway use all lower case (it'll make less complications if SD wants to support Windows).
+For directories I would anyway use all lower case (it'll make less complications if SD wants to support Windows). And no version number in the directory name.
+
+Albert Heinle (31.12.2012)
+
+  
+Your concerns might be valid, but this is also a team-internal name for it so that we know what we are talking about. Just leave it, it does not hurt anyone I think. It will be the last time we put a "vn" to a directory.
 
 * * * * *
 
@@ -40,6 +45,8 @@ The thing is, that there are tex files, and my experience is that latex has diff
 
   
 The same argument can be brought up about the epydoc documentation in the subfolder doc/ForDevelopers. We want the users to read the documentation, not compile it.
+
+* * * * *
 
 Ralf Hemmecke (26.12.2012)
 
@@ -82,13 +89,25 @@ I get "File not found"
 
 3) I'd expect something like this. <http://symbolicdata.github.com/symbolicdata/website.html>
 
-BTW, do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
-
 [epydoc](http://epydoc.sourceforge.net/whatsnew.html) seams to be dead since almost 4 years.
+
+Albert Heinle (31.12.2012) My answers to them are
+
+  
+1) Somebody who wants to just translate the entries in SData to executable code and then have an environment to run it on a machine, is a user.
+
+Somebody who e.g. is familiar with certain computer algebra systems that we are not and wants to provide us templates for those systems to translate entries into code, we call a developer. And of course any development beyond this is also considered "a developer".
+
+* * * * *
+
+Ralf Hemmecke (26.12.2012)
+
+  
+Do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
 
 Albert Heinle (31.12.2012)
 
   
-Your concerns might be valid, but this is also a team-internal name for it so that we know what we are talking about. Just leave it, it does not hurt anyone I think. It will be the last time we put a "vn" to a directory.
+Yes, in fact we do. Give it a little time, we will provide it.
 
 
