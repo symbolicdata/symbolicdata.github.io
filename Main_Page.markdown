@@ -39,6 +39,7 @@ We manage the following resources:
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
 -   A git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   For active developers we manage a clone of that repo at symbolicdata@symbolicdata.org:git/symbolicdata with SSH access
+    -   [More](Using.Git "wikilink") about the way how we use Git
 -   A SPARQL endpoint <http://symbolicdata.ontowiki.net> to the RDFData part of the project.
 
 ### A Small Guide through this Site
