@@ -21,3 +21,9 @@ So clone the public Repo
 ` git clone `[`https://github.com/symbolicdata/symbolicdata`](https://github.com/symbolicdata/symbolicdata)
 
 and you can switch between both branches with 'git checkout'. Project members (with proper SSH access) can freely push their changes to the repo symbolicdata@symbolicdata.org:git/symbolicdata that will be synced from time to time with the public Repo.
+
+#### What's about a development model?
+
+Within another project we discussed the git-branch development model <http://nvie.com/posts/a-successful-git-branching-model>
+
+It looks quite reasonable, so my proposal is to follow these standards also with symbolicdata.
