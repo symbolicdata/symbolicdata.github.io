@@ -3,18 +3,33 @@ layout: default
 title: Using.Git
 ---
 
-HGG 2013-01-19
+### More about the way we organize our Repos
 
-Within another project we discussed the git-branch development model <http://nvie.com/posts/a-successful-git-branching-model>
+These notes are yet provisional, since we did not yet decide all point in a final way. Here are the arguments "How to use Git" and "How to organize the Repo" collected so far.
 
-It looks quite reasonable, so my proposal is to follow these standards also with symbolicdata.
+#### Which Repos and where to find them
 
-* * * * *
+Ralf Hemmecke created and manages the *symbolicdata* git account at github running
 
-Ralf 2013-01-22
+-   the public Repo *symbolicdata* with two branches 'master' and 'old-master'
+-   the public Repo *symbolicdata.wiki* with the ([gollum](https://github.com/github/gollum#readme) based) wiki that comes with each github-Repo for free.
 
-I've nothing against following this, but I think for SD it looks like too much overhead in learning these branching structure. Release tagging happens on the master branch. That should be pretty clear, but otherwise most important thing for me is that the master branch always compiles, i.e. each developer can build a local version for him/herself without any problem. Anything else must happen on another branch.
+The pre v.3 sources are copied to 'old-master' and will go step by step to 'master'. There remains a local clone symbolicdata@symbolicdata.org:git/symbolicdata for the moment, since we have learned to use the public Repo properly.
 
-More important for me than fixing a branching model is that SD get's commits at all.
+So clone the public Repo
 
-But OK, let's follow your suggestion.
+` git clone `[`https://github.com/symbolicdata/symbolicdata`](https://github.com/symbolicdata/symbolicdata)
+
+and you can switch between both branches with 'git checkout'. Project members (with proper SSH access) can freely push their changes to the repo symbolicdata@symbolicdata.org:git/symbolicdata that will be synced from time to time with the public Repo.
+
+#### What's about a development model?
+
+Under discussion.
+
+#### What's about commit messages?
+
+In the git world there is a convention of how commit messages should be structured.
+
+-   <http://doc.norang.ca/git-howto.html#sec-2>
+-   <http://www.mediawiki.org/wiki/Git/Commit_message_guidelines>
+
