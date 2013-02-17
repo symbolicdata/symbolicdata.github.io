@@ -52,6 +52,7 @@ We manage the following resources:
 -   [Events](Events "wikilink")
 -   [GettingStarted](GettingStarted "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
+-   [Project Organization](Organisation "wikilink")
 -   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications](Publications "wikilink")
