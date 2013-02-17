@@ -31,7 +31,7 @@ For directories I would anyway use all lower case (it'll make less complications
 
 * * * * *
 
-#### What docu put into the repo ?
+#### How organize docu and what put into the repo ?
 
 Albert Heinle (25.12.2012)
 
@@ -83,3 +83,5 @@ I get "File not found"
 3) I'd expect something like this. <http://symbolicdata.github.com/symbolicdata/website.html>
 
 BTW, do you intend to also write up a document that explains the overall structure of the SDEval code? I mean some overview document that would help new developers to quickly be able to understand your code even if they are not super-professional in Python.
+
+Consulting their [svn Repo](http://epydoc.svn.sourceforge.net) epydoc seams to be dead since almost 4 years.
