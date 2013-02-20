@@ -29,6 +29,7 @@ Additional Data:
 
 -   [People](People "wikilink") - different people and groups
 -   [BIB](BIB "wikilink") - bibliographical entries
+-   Towards a [CA Social Network](CASN "wikilink")
 -   [Systems](Systems "wikilink") - list of systems
 
 ### Resources
