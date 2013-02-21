@@ -14,15 +14,11 @@ lmonade is a light-weight meta distribution of scientific software that can be i
 
 * * * * *
 
-From a mail conversation with Burcin Erocal (2013-02-20)
+From a mail conversation between Hans-Gert Gräbe (HGG), Burcin Erocal (BE) and Albert Heinle (AH) (2013-02-20)
 
-Q: Relation to [SDEval](SDEval "wikilink")
+**Cooperation with the SymbolicData project**
 
-A: We can optionally install the scripts from SDEval from the (yet to be created) symbolic data package in lmonade. For this we need to make sure that they work outside of the directory tree obtained from the SD repository.
-
-Q: Are you interested in a cooperation with the SymbolicData project?
-
-A: Yes, definitely.
+BE: Yes, we are definitely interested in such a cooperation.
 
 -   We should have a SymbolicData package in lmonade which installs a snapshot of the database and perhaps some of the scripts:
     -   <http://issues.lmona.de/issue74>
@@ -32,3 +28,9 @@ A: Yes, definitely.
 -   We could try to work on this infrastructure together, but I'm afraid I don't have any spare resources ATM.
 
 I would be happy to discuss issues related to symbolic data packaging in lmonade on the mailing list <https://groups.google.com/forum/?fromgroups>\#!forum/lmnd-devel
+
+**Relation to [SDEval](SDEval "wikilink")**
+
+BE: We can optionally install the scripts from SDEval from the (yet to be created) symbolic data package in lmonade. For this we need to make sure that they work outside of the directory tree obtained from the SD repository.
+
+AH: It does. If you do not have the SymbolicData entries, you will be asked for a complete path to access them in the create\_tasks\_gui.py. You cannot make export folders without taking the entries from SymbolicData.
