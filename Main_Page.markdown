@@ -43,6 +43,12 @@ We manage the following resources:
     -   [More](Using.Git "wikilink") about the way how we use Git
 -   A SPARQL endpoint <http://symbolicdata.ontowiki.net> to the RDFData part of the project.
 
+### Related Activities
+
+-   [Computer Algebra Fachgruppe](http://www.fachgruppe-computeralgebra.de)
+-   [DFG Priority Program SPP 1489](http://www.computeralgebra.de)
+-   [The lmonade project](Lmonade "wikilink")
+
 ### A Small Guide through this Site
 
 -   [Benchmarks](Benchmarks "wikilink")
