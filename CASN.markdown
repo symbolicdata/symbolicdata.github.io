@@ -13,3 +13,7 @@ For the moment we collect
 -   (meta) informations about current conferences, workshops etc. (using the ical Ontology)
 
 Soonly I will add more information. -- HGG, 20.02.2013
+
+* * * * *
+
+There is a project to collect informations about conferences served at a Semantic Mediawiki - <http://openresearch.aksw.org>. HGG, 2013-02-21
