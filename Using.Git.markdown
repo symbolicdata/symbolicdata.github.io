@@ -17,7 +17,7 @@ Ralf Hemmecke created and manages the *symbolicdata* git account at github runni
 The pre v.3 sources are copied to 'old-master' and will go step by step to 'master'.
 
   
-For the moment we have two more repos symbolicdata@symbolicdata.org:git/symbolicdata and <https://github.com/hg-graebe/symbolicdata> with branches 'old-master', 'developer' and 'master' to get closer to our git development model.
+For the moment we have two more repos symbolicdata@symbolicdata.org:git/symbolicdata and <https://github.com/hg-graebe/symbolicdata> with branches 'old-master', 'developer' and 'master' to get closer to our git development model. -- HGG, 2013-02-20
 
 So clone the public Repo
 
