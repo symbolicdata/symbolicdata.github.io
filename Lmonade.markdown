@@ -14,7 +14,11 @@ lmonade is a light-weight meta distribution of scientific software that can be i
 
 * * * * *
 
-From a mail conversation with Burcin Erocal
+From a mail conversation with Burcin Erocal (2013-02-20)
+
+Q: Relation to [SDEval](SDEval "wikilink")
+
+A: We can optionally install the scripts from SDEval from the (yet to be created) symbolic data package in lmonade. For this we need to make sure that they work outside of the directory tree obtained from the SD repository.
 
 Q: Are you interested in a cooperation with the SymbolicData project?
 
