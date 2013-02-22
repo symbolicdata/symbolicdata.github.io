@@ -39,3 +39,18 @@ In the git world there is a convention of how commit messages should be structur
 -   <http://doc.norang.ca/git-howto.html#sec-2>
 -   <http://www.mediawiki.org/wiki/Git/Commit_message_guidelines>
 
+#### Why git?
+
+Some remarks translated from a mail by Ralf Hemmecke:
+
+Due to a well elaborated concept git allows for flexible management also of earlier commits. Git takes the content of a file (blob), computes the sha1, adds the length of the blob, zips that and stores it with the computed sha1 as file name. So it stores complete files and not increments as other VCS. Only "git gc" (it is called automatically after a while) tries to collect garbage.
+
+  
+From "git help gc": Runs a number of housekeeping tasks within the current repository, such as compressing file revisions (to reduce disk space and increase performance) and removing unreachable objects which may have been created from prior invocations of git add.
+
+Due to the sha1 signature one has all the time the assurance that all data are intact. And if you are in doubt you can start "git fsck"
+
+  
+git-fsck - Verifies the connectivity and validity of the objects in the database
+
+
