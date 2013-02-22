@@ -3,9 +3,9 @@ layout: default
 title: Benchmarks
 ---
 
-### How to run Benchmarks from the Data?
+### How to run Testing, Profiling, Benchmarking from the Data?
 
-Benchmark examples are given
+Data are given
 
 -   either directly as XML Resources
 -   or as descriptions how to build the example from another resource.
