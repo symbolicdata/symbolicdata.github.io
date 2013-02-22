@@ -8,14 +8,14 @@ The SymbolicData Project Wiki
 
 ### [Vision](Symbolicdata:About "wikilink")
 
-The SymbolicData project is set out to develop concepts and tools for testing Computer Algebra Software (CAS) and to collect relevant data from different areas of Computer Algebra. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org. SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
+The SymbolicData project is set out to develop concepts and tools for profiling, testing and benchmarking Computer Algebra Software (CAS) and to collect and interlink relevant data from different Computer Algebra Communities. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org. SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
 
 ### Main goals
 
 The SymbolicData Project aims at two main goals:
 
--   to unify efforts to collect digital benchmark data from various areas of Symbolic Computation together with concepts, tools and experience for their management both globally and also for special testing and benchmarking purposes at a local site.
--   to promote a network of repositories of Symbolic Computation digital data and related information from different areas of Computer Algebra.
+-   to unify efforts to collect digital data for profiling, testing and benchmarking Computer Algebra Software from various Symbolic Computation Communities together with concepts, tools and experience for their management both globally and also for special testing and benchmarking purposes at a local site.
+-   to promote a network of repositories of Symbolic Computation digital data and related information from different areas of Computer Algebra that can evolve to a digitally supported Distributed Computer Algebra Social Network.
 
 At the moment the project hosts data from the following communities within Symbolic Computing
 
