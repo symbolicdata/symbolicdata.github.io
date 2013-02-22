@@ -9,8 +9,6 @@ title: Events.2012-12
 
 Within the [E-Science Benchmarking Project](Projects.EScience "wikilink") we invited for a Workshop and Hackathon to discuss and promote different aspects of the SymbolicData Project. The Workshop took place at [HTWK](http://www.htwk-leipzig.de) - Hochschule für Technik, Wirtschaft und Kultur Leipzig.
 
-We had no funding for that workshop, so all expenses on travelling, lodging and "Kneipe" were to the participants.
-
 [Announcement](http://portal.imn.htwk-leipzig.de/events/workshop-on-symbolicdata-design) of the meeting by HTWK.
 
 Participants:
@@ -41,6 +39,10 @@ Participants:
 ### A Short Report
 
 We shortened the workshop that ended on friday late evening due to time constraints of the participants. We had two days of intense discussions about the goals, philosophy, subprojects, links etc. Here are some notes beyond the slides and links added to the program schedule.
+
+First we discussed the current state of the SymbolicData Project. *Hans-Gert Gräbe* explained in detail the work done so far towards a redesign of the Data collection according to Linked Open Data standards. This refactoring distinguished more clearly between *Data* (called *XMLResources*, although it turned out during the discussion that it is not a good idea to resctrict the support of syntactical expressiveness to XML only) and *Metadata* (called *RDFResources*, since interlinking of metadata is nowadays best supported by the RDF based [Semantic Web Stack](http://en.wikipedia.org/wiki/Semantic_Web_Stack)). Such a distinction allows to express more clearly another point: *Data* and it semantic meaning are managed *within* different Computer Algebra Communities, *Metadata* are required for *Cross Community Communication* purposes. The main future focus of SymbolicData will be on the needs of such a Cross Community Communication between different Computer Algebra Communities.
+
+*Albert Heinle* presented the [SDEval](SDEval "wikilink") framework.
 
 Much requires some more structure, but here is a first report of the most important things.
 
