@@ -41,7 +41,7 @@ In the git world there is a convention of how commit messages should be structur
 
 #### Why git?
 
-Some remarks translated from a mail by Ralf Hemmecke:
+Some remarks translated from a mail from Ralf Hemmecke:
 
 Due to a well elaborated concept git allows for flexible management also of earlier commits. Git takes the content of a file (blob), computes the sha1, adds the length of the blob, zips that and stores it with the computed sha1 as file name. So it stores complete files and not increments as other VCS. Only "git gc" (it is called automatically after a while) tries to collect garbage.
 
