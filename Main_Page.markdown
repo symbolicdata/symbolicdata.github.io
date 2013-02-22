@@ -50,7 +50,7 @@ We manage the following resources:
 
 ### A Small Guide through this Site
 
--   [Benchmarks](Benchmarks "wikilink")
+-   [Testing, Profiling, Benchmarking](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink")
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
