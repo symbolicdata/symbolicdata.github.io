@@ -63,6 +63,12 @@ I hope that pretty much explains how the patches flow. RH counts as the Integrat
 
 Only the Integration manager needs write access to the blessed repo.
 
+HGG: We started to set up such an infrastructure at github. The following repos are set up yet:
+
+-   github.com:hemmecke/symbolicdata.git
+-   github.com:hg-graebe/symbolicdata.git
+-   github.com:symbolicdata/symbolicdata.git (hosting the forthcoming official public master)
+
 #### What's about commit messages?
 
 In the git world there is a convention of how commit messages should be structured.
