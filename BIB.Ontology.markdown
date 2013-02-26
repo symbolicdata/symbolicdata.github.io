@@ -23,7 +23,7 @@ Records of type **sd:BIB** have the following additional predicates
 
 #### Changes
 
--   Update to dcterms ontology
+-   Update to dcterms ontology (Andreas, 2013-02-25)
 
 To be discussed:
 
