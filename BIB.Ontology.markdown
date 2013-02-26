@@ -15,7 +15,7 @@ Uses dcterms: <http://dublincore.org/documents/dcmi-terms>
 
 Records of type **sd:BIB** have the following additional predicates
 
--   standard predicates sd:createdAt, sd:createdBy, sd:lastModified, rdfs:comment
+-   standard predicates sd:createdAt, sd:createdBy, sd:lastModified (deprecated), rdfs:comment
 -   sd:hasAbstract Literal - a short
 -   sd:hasAuthor sd:BIBAuthor - authors of the paper (multiple)
 -   sd:hasTitle Literal - title of the paper
