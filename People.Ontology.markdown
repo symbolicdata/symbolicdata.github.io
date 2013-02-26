@@ -11,6 +11,8 @@ We use the [FOAF Ontology](http://www.foaf-project.org/), in particular the clas
 
 The **naming scheme** for people is <name_initials> where *name* is the full surname, initials are the concatenated initials of the other name parts with a further letter to make the identifier unique, transformed to [true ASCII strings](Naming "wikilink").
 
+Uses foaf: <http://xmlns.com/foaf/0.1/>
+
 They have the following additional predicates
 
 -   standard predicates sd:hasEmail, sd:lastModified, rdfs:comment
