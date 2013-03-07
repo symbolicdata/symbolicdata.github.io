@@ -11,6 +11,8 @@ These notes are yet provisional, since we did not yet decide all point in a fina
 
 We changed the way to organize our git repository structure. Read the [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org>
 
+-   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
+
 #### What's about a development model?
 
 We follow the git-branch development model <http://nvie.com/posts/a-successful-git-branching-model> with dedicated branches 'master', 'developer' and naming conventions for pre-release and feature branches.
