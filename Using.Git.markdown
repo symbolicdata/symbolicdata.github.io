@@ -9,7 +9,7 @@ These notes are yet provisional, since we did not yet decide all point in a fina
 
 #### Which Repos and where to find them
 
-We changed the way to organize our git repository structure. Read the [Author Notes](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org>
+We changed the way to organize our git repository structure. Read the [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org>
 
 #### What's about a development model?
 
