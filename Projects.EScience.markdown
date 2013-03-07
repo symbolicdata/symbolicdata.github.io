@@ -28,14 +28,18 @@ We use the well approved agile-evolutive concept "a little bit coding, a little 
   
 Different to the SymbolicData practice so far and in accordance with experiences of the semantic web community we try to achieve a better understanding if and how a *decentralized* data management will be better suited for the transformation of a heterogeneous landscape of symbolic computing web 2.0 projects into semantically interlinked web 3.0 formats. This requires substantial structural and conceptional work with considerably explorative character, since the semantic web technologies developed so far need to be approved useful also on heterogeneous semantically rich structures as they typically occur within symbolic computing.
 
-**Working plan:** (in weeks from the project start at 01.09.2012 - to be translated)
+**Working plan:** (in weeks from the project start at 01.09.2012)
 
 -   (A.1) Technical preparations (1-2)
--   (A.2) Einarbeitung in die Thematik des Benchmarkings im Symbolischen Rechnen sowie in Konzepte und Ansätze des Web 3.0 (Monat 1--3).
--   (A.3) Entwicklung des Transformationskonzepts für die SymbolicData Datensammlung und Umsetzung der Transformation (Monat 2--6).
--   (A.4) Literaturstudium zum Benchmarking im Symbolischen Rechnen unter besonderer Berücksichtigung formalisierter Beschreibungstechniken, Beginn einer diesbezüglichen Anforderungsanalyse (Monat 1--4).
--   (A.5) Herstellen von Arbeitskontakten zu ausgewählten Partnern mit Erfahrungen zum Benchmarking im Symbolisches Rechnen, weiterer Ausbau und Systematisierung der Anforderungsanalyse (Monat 3--6).
--   Abschluss mit einem Meilenstein, auf dem die Designkonzepte, Arbeitsergebnisse, "Lessons learned" sowie die transformierte SymbolicData Datensammlung im Rahmen eines Workshops vorgestellt werden, sowie einer Fachpublikation, in der die Erfahrungen der Transformation systematisiert dargestellt sind.
--   (B) Dauer sechs Monate. Die detaillierte Konzipierung erfolgt im Zuge der ersten Etappe in Auswertung der gewonnenen Erfahrungen und Problemsichten. Der detaillierte Arbeitsplan für diese Etappe wird auf dem Meilensteintreffen der ersten Etappe vorgestellt und dort verabschiedet.
--   Abschluss der Etappe und damit des Projekts mit einem weiteren Meilenstein, auf dem die Projektergebnisse im Rahmen eines Workshops vorgestellt werden, sowie wenigstens einer Fachpublikation, in der die Inter-Linking-Erfahrungen systematisiert dargestellt sind.
+-   (A.2) Reading about Benchmarking in Symbolic Computing and concepts of the semantic web (9/12-12/12).
+-   (A.3) Develop a transformation concept for the SD data collection and realize the transformation (10/12-2/13).
+-   (A.4) Study literature on Benchmarking in Symbolic Computing with focus on formal description techniques, start a requirements analysis on benchmarking (9/12-12/12).
+-   (A.5) Establish working contact with partners having experience within Benchmarking in Symbolic Computing, qualify the requirements analysis on benchmarking (1/12-2/13).
+-   Complete phase A with
+    -   a mile stone workshop, where design concepts, working results, lessons learned and the transformed SD data collection are presented, and
+    -   a publication where the transformation experience is explained in a systematic way.
+-   (B) 6 months. The detailed concept will be fixed within phase 1 based on the evaluation of the experience collected during that phase. The detailed working plan for phase 2 will be presented and decided at the mile stone meeting at the end of phase 1.
+-   Complete phase B and the whole project
+    -   with another mile stone workshop, where the results of the project are presented, and
+    -   another publication that presents the interlinking experience in a systematic way.
 
