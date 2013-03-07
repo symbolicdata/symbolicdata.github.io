@@ -5,24 +5,16 @@ title: Using.Git
 
 ### More about the way we organize our Repos
 
-These notes are yet provisional, since we did not yet decide all point in a final way. Here are the arguments "How to use Git" and "How to organize the Repo" collected so far.
+#### Repos and Development Model
 
-#### Which Repos and where to find them
+We currently (March 2013) changed the way to organize our git repository structure. We follow the [Integration-Manager-Workflow Model](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
 
-We changed the way to organize our git repository structure. Read the [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org>
-
+-   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
 -   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
 
-#### What's about a development model?
+Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop' (and a deprecated branch 'old-master' not connected with the other branches containing legacy material that has yet to transformed into the new framework). All development goes on the 'develop' branch.
 
-We follow the git-branch development model <http://nvie.com/posts/a-successful-git-branching-model> with dedicated branches 'master', 'developer' and naming conventions for pre-release and feature branches.
-
-  
-To get closer to that model I started a branch 'developer' from 'master'. A first stable release within the master branch is yet ahead, the 'old-master' branch should be closed in future. -- HGG, 2013-02-20
-
-**The Integration-Manager-Workflow Model**
-
-<http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow>
+#### How the Integration-Manager-Workflow Model works
 
 Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These are the repositories at github (GH) and local (LOC) repositories for the developers HGG and RH. Each one has only write access to his own repos. Everyone has read-access to the github repo, but not to the local repository of the other person.
 
@@ -50,12 +42,6 @@ Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These a
 I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/symbolicdata.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/symbolicdata.git.
 
 Only the Integration manager needs write access to the blessed repo.
-
-HGG: We started to set up such an infrastructure at github. The following repos are set up yet:
-
--   github.com:hemmecke/symbolicdata.git
--   github.com:hg-graebe/symbolicdata.git
--   github.com:symbolicdata/symbolicdata.git (hosting the forthcoming official public master)
 
 #### What's about commit messages?
 
