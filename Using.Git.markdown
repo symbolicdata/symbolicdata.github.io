@@ -9,21 +9,7 @@ These notes are yet provisional, since we did not yet decide all point in a fina
 
 #### Which Repos and where to find them
 
-Ralf Hemmecke created and manages the *symbolicdata* git account at github running
-
--   the public Repo *symbolicdata* with two branches 'master' and 'old-master'
--   the public Repo *symbolicdata.wiki* with the ([gollum](https://github.com/github/gollum#readme) based) wiki that comes with each github-Repo for free.
-
-The pre v.3 sources are copied to 'old-master' and will go step by step to 'master'.
-
-  
-For the moment we have two more repos symbolicdata@symbolicdata.org:git/symbolicdata and <https://github.com/hg-graebe/symbolicdata> with branches 'old-master', 'developer' and 'master' to get closer to our git development model. -- HGG, 2013-02-20
-
-So clone the public Repo
-
-` git clone `[`https://github.com/symbolicdata/symbolicdata`](https://github.com/symbolicdata/symbolicdata)
-
-and switch between branches with 'git checkout'. Project members (with proper SSH access) can freely push their changes to the repo symbolicdata@symbolicdata.org:git/symbolicdata that will be synced from time to time with the public Repo.
+We changed the way to organize our git repository structure. Read the [Author Notes](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org>
 
 #### What's about a development model?
 
