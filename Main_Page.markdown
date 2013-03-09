@@ -40,7 +40,7 @@ We manage the following resources:
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
 -   A git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   [More](Using.Git "wikilink") about the way how we use Git
--   A SPARQL endpoint <http://symbolicdata.org/Webseiten/sparql.php> to the RDFData part of the project.
+-   A [SPARQL endpoint](http://symbolicdata.org/Webseiten/sparql.php) to the RDFData part of the project.
 
 ### Related Activities
 
