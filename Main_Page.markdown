@@ -37,9 +37,11 @@ Additional Data:
 We manage the following resources:
 
 -   This Web site for background information an informal descriptions
--   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
--   A git Repo at <https://github.com/symbolicdata/symbolicdata>
+-   A Google mailing list <https://groups.google.com/forum/>\#!forum/symboli
+-   This Web site for background information an informal descriptionscdata
+-   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   [More](Using.Git "wikilink") about the way how we use Git
+-   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
 -   A [SPARQL endpoint](http://symbolicdata.org/Webseiten/sparql.php) to the RDFData part of the project.
 
 ### Related Activities
