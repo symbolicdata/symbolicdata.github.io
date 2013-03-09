@@ -12,7 +12,9 @@ We currently (March 2013) changed the way to organize our git repository structu
 -   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
 -   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
 
-Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop' (and a deprecated branch 'old-master' not connected with the other branches containing legacy material that has yet to transformed into the new framework). All development goes on the 'develop' branch.
+Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop' (and a deprecated branch 'old-master' not connected with the other branches containing legacy material that has yet to transformed into the new framework).
+
+**All development goes on the 'develop' branch.**
 
 #### How the Integration-Manager-Workflow Model works
 
@@ -42,6 +44,18 @@ Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These a
 I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/symbolicdata.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/symbolicdata.git.
 
 Only the Integration manager needs write access to the blessed repo.
+
+#### How to run certain tasks?
+
+##### Pick a certain file from old-master to develop
+
+You can easily extract the scripts by doing
+
+` git checkout develop`
+` git checkout old-master -- Scripts/perl/Service/transHomog.pl`
+` git reset`
+
+After that you would have Scripts/perl/Service/transHomog.pl which is not committed in in the develop branch. Modify as you like, run the script, maybe even commit it together with the result after running it. Of course, transHomog.pl was just an example.
 
 #### What's about commit messages?
 
