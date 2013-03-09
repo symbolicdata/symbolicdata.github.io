@@ -47,7 +47,7 @@ Only the Integration manager needs write access to the blessed repo.
 
 #### How to run certain tasks?
 
-##### Pick a certain file from old-master to develop
+##### Pick a file from old-master to develop
 
 You can easily extract the scripts by doing
 
