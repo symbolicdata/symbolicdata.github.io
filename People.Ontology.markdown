@@ -7,21 +7,34 @@ title: People.Ontology
 
 An informal description of the Ontology of the People involved and addressed within SymbolicData.
 
-We use the [FOAF Ontology](http://www.foaf-project.org/), in particular the classes **foaf:Person** and **foaf:Group** for people and groups. To specify authors of papers within our BIB collection there is another class **sd:Author**.
+Used ontologies:
 
-The **naming scheme** for people is <name_initials> where *name* is the full surname, initials are the concatenated initials of the other name parts with a further letter to make the identifier unique, transformed to [true ASCII strings](Naming "wikilink").
+-   foaf: [FOAF Vocabulary](http://xmlns.com/foaf/spec/)
+-   org: [ORG - An organization ontology](http://www.w3.org/TR/vocab-org)
+-   skos: [SKOS - Simple Knowledge Organization System](http://www.w3.org/2004/02/skos/)
 
-Uses foaf: <http://xmlns.com/foaf/0.1/>
+Changes:
 
-They have the following additional predicates
+-   2013-03-09 (graebe): sd:Author removed, sd:Contributor added, foaf:Group changed to org:Organization, several properties changed to the FOAF Vocabulary
 
--   standard predicates sd:hasEmail, sd:lastModified, rdfs:comment
--   sd:hasURLLiteral Literal - URLs as Literals (may be changed in the future)
--   sd:hasAffiliation foaf:Group - Person belongs to a Group
+**Classes:**
 
-Relation to the SymbolicData Project
+-   foaf:Person - any person, in particular authors of papers listed in the SymbolicData [BIB](BIB "wikilink") references system
+    -   The naming scheme is <name_initials> where *name* is the full surname, initials are the concatenated initials of the other name parts with a further letter to make the identifier unique, transformed to [true ASCII strings](Naming "wikilink").
+-   org:Organization - organization of a sd:Contributor.
+    -   A naming scheme is not (yet) defined.
+-   sd:Contributor - a foaf:Person that contributed to SymbolicData
 
--   sd:hasContributed Literal - what Person has contributed
--   sd:hasShortName Literal - short name of the Person used within createdBy attribute in XMLResource records
--   sd:hasStatus Literal - how long Person worked active within the SymbolicData Project
+**Common Predicates:**
+
+-   foaf:name Literal: "name, firstname"
+-   foaf:Person org:memberOf org:Organization: relation of a person to an organization
+
+**sd:Contributor**
+
+-   foaf:homepage URI: URL
+-   foaf:mbox Literal: email
+-   sd:hasContributed Literal: What the person contributed
+-   sd:hasStatus Literal: - when the person worked within the SymbolicData Project (no complete record)
+-   sd:lastModified xsd:date: last modification of the record
 
