@@ -28,7 +28,7 @@ At the moment the project hosts data from the following communities within Symbo
 Additional Data:
 
 -   [People](People "wikilink") - different people and groups
--   [BIB](BIB "wikilink") - bibliographical entries
+-   [BIB](BIB "wikilink") - bibliographical references system
 -   Towards a [CA Social Network](CASN "wikilink")
 -   [Systems](Systems "wikilink") - list of systems
 
