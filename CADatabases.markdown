@@ -11,7 +11,7 @@ At the site [computeralgebra.de](http://www.computeralgebra.de/index.php?option=
 
 Link: [1](http://galoisdb.math.uni-paderborn.de/)
 
--   Triples extracted: 86476
+-   **Triples extracted**: 86476
 -   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (`<nowiki><http://symbolicdata.org/Data/TransitiveGroups/Gr8T43></nowiki>`), because there are some problems with names that start with numbers.
 
 -   `:hasURL` ­— a URL that point a web page with more information. This information is right now only partly extracted.
@@ -37,3 +37,9 @@ Group can be represented as different product. We have the following:
 All three have a list of two values as object, in Turtle this look like this:
 
 `sdtg:Gr9T2 sdtg:isDirectProductOf ( sdtg:Gr3T1 sdtg:Gr3T1 ) ;`
+
+### Smooth reflexive lattice polytopes
+
+(by Andreas Paffenholz, most of the data is provided in the polymake format)
+
+Link: [2](http://polymake.org/polytopes/paffenholz/www/fano.html)
