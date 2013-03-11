@@ -80,4 +80,23 @@ The polymake files are in XML and there are some void tags for simple properties
 
 These void tags were converted to RDF predicates (into camel case like "gorensteinIndex"). It is not clear yet if "pointed", "feasible", "centered", etc... (those with "true" as only value) should be better modelled by introducing new (sub) classes. On the other hand there are also boolean properties that have "false" has value. If the class representation is chosen here, this would have to be modelled with a negative assertion.
 
-### Combinatorial types of Birkhoff Polytopes
+### Combinatorial types of Birkhoff Faces
+
+(also by Andreas Paffenholz)
+
+Link: [3](http://polymake.org/polytopes/paffenholz/www/birkhoff.html)
+
+-   **Triples extracted:** 56734
+
+-   consists of seven tables which are readily converted into RDF
+
+Predicates used:
+
+-   `:hasDimension` — predicate added for convenience
+-   `:hasNode`, `:hasVertices` — straightforward
+-   `:f-vector` ­— This should probably be an `xsd:type` like 'vector' or a sub class of a vector class. There is probably already a nice vocubulary we could use here (open question).
+-   `:hasCombinatorialType` — It's right now not really clear how these are meant. There are only five allowed values: "pyr", "prod", "join", "wed", "pyrb" (all `xsd:string`). The deeper semantic behind these is not yet understood by us. There is probably more that can be said about those combinatorial types.
+
+-   `:simpl`, `:hiCube` — These have integer values. The meaning is not clear. This could probably be modelled better.
+-   `:hasPolymakeFile`, `:hasEPSFile` — straightforward, a link to the polymake or EPS file
+
