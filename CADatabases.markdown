@@ -1,0 +1,39 @@
+---
+layout: default
+title: CADatabases
+---
+
+At the site [computeralgebra.de](http://www.computeralgebra.de/index.php?option=com_content&view=article&id=89&Itemid=53) there are listed different databases, some of which were processed into RDF.
+
+### Number Fields
+
+(contains a database of number fields up to degree 19 created by Jürgen Klüners and Gunter Malle)
+
+Link: [1](http://galoisdb.math.uni-paderborn.de/)
+
+-   Triples extracted: 86476
+-   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (`<nowiki><http://symbolicdata.org/Data/TransitiveGroups/Gr8T43></nowiki>`), because there are some problems with names that start with numbers.
+
+-   `:hasURL` ­— a URL that point a web page with more information. This information is right now only partly extracted.
+-   `:hasGenerator` — a permutation, should probably be an `xsd:type`. A group can have more than one generator.
+-   `hasProperty` — values can be something like `:cyclic`, `:primitive`, \<`:simple`, `:semiabelian`, `:even`, `:solvable`, `:notSolvable`, `:irreducible`, `:nilpotent`, ...
+
+This should maybe be classes, because those properties are not independent.
+
+-   `:hasName` — can have values like "L(8):2=PGL(2,7)", so it's a bit of a dump predicate which could be further analyzed.
+-   `:hasOrder` — integer, self explaining
+-   `:OrderOfCenter` — integer, self explaining
+-   `:hasOrderFactorization` — A prime factorization as a string (i.e. "2\^7 \* 3\^2 \* 5 \* 7"). Should be an `xsd:type`, probably without the spaces.
+-   `:numberOfFieldsInDatabase` ­— An integer number with has no real mathematical meaning but is related to the database.
+
+#### Products
+
+Group can be represented as different product. We have the following:
+
+-   `:isDirectProductOf`
+-   `:isWreathProductOf`
+-   `:isQuotientOfWreathProductOf`
+
+All three have a list of two values as object, in Turtle this look like this:
+
+`sdtg:Gr9T2 sdtg:isDirectProductOf ( sdtg:Gr3T1 sdtg:Gr3T1 ) ;`
