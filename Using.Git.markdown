@@ -14,7 +14,12 @@ We currently (March 2013) changed the way to organize our git repository structu
 
 Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop' (and a deprecated branch 'old-master' not connected with the other branches containing legacy material that has yet to transformed into the new framework).
 
-**All development goes on the 'develop' branch.**
+The workflow is as follows:
+
+-   Start a feature branch from develop on your blessed repo (HGG and Andreas started a branch 'workflow') and prepare work thereon.
+-   Merge finalized contributions to the 'develop' branch on your blessed repo and start a pull request to the integration master (Ralf)
+-   If accepted, the contribution will be merged into the official repo.
+-   Realign your blessed repo with the official one.
 
 #### How the Integration-Manager-Workflow Model works
 
