@@ -34,11 +34,11 @@ Group can be represented as different product. We have the following:
 -   `:isWreathProductOf`
 -   `:isQuotientOfWreathProductOf`
 
-All three have a list of two values as object, in Turtle this look like this:
+All three list the argument with blank nodes, in Turtle this look like this:
 
-`sdtg:Gr9T2 sdtg:isDirectProductOf ( sdtg:Gr3T1 sdtg:Gr3T1 ) ;`
+`sdtg:Gr9T2 sdtg:isDirectProductOf [ sdtg:left sdtg:Gr3T1 ; sdtg:right sdtg:Gr3T1 ] ;`
 
-A list might be too general here, since all we need is a pair. This could also be modelled with blank nodes:
+This approach is now favored instead of using (very general) lists. For details on blank nodes see also:
 
 -   [RDF/XML Syntax Specification (Revised)](http://www.w3.org/TR/rdf-syntax-grammar/)
 -   [example on StackoverFlow](http://stackoverflow.com/questions/9833008/a-pair-of-attributes-in-rdf)
