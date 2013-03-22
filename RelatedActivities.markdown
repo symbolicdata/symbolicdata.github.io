@@ -21,3 +21,8 @@ Johannes Waldmann (2012-12-05) reports about projects on benchmarks and competit
 -   Termination <http://termination-portal.org/wiki/Termination_Competition>
 
 and mentions the recent "grand unified" execution platform effort <http://www.starexec.org/starexec/public/about.jsp>
+
+Florian Hess (Uni Oldenburg) pointed to a database project within KANT
+
+-   <http://page.math.tu-berlin.de/~kant/database.html> - seems to be at dead end.
+
