@@ -41,8 +41,8 @@ Experimental data (work in progress):
 We manage the following resources:
 
 -   This Web site for background information an informal descriptions
--   A Google mailing list <https://groups.google.com/forum/>\#!forum/symboli
--   This Web site for background information an informal descriptionscdata
+-   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
+-   This Web site for background information an informal descriptions
 -   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   [More](Using.Git "wikilink") about the way how we use Git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
