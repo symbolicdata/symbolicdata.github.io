@@ -83,7 +83,7 @@ The polymake files are in XML and there are some void tags for simple properties
 `FACET_WIDTH : 4, 3, 7, 2, 5 `
 `GORENSTEIN : true`
 
-These void tags were converted to RDF predicates (into camel case like "gorensteinIndex"). It is not clear yet if "pointed", "feasible", "centered", etc... (those with "true" as only value) should be better modelled by introducing new (sub) classes. On the other hand there are also boolean properties that have "false" has value. If the class representation is chosen here, this would have to be modelled with a negative assertion.
+These void tags were converted to RDF predicates with namespace **sdpt**. (all lowercase like so "sdpt:gorenstein\_index"). It is not clear yet if "pointed", "feasible", "centered", etc... (those with "true" as only value) should be better modelled by introducing new (sub) classes. On the other hand there are also boolean properties that have "false" has value. If the class representation is chosen here, this would have to be modelled with a negative assertion.
 
 ### Combinatorial types of Birkhoff Faces
 
