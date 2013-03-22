@@ -22,7 +22,7 @@ Johannes Waldmann (2012-12-05) reports about projects on benchmarks and competit
 
 and mentions the recent "grand unified" execution platform effort <http://www.starexec.org/starexec/public/about.jsp>
 
-Florian Hess (Uni Oldenburg) pointed to a database project within KANT
+Florian Hess (2012-05-21) pointed to a database project within KANT
 
 -   <http://page.math.tu-berlin.de/~kant/database.html> - seems to be at dead end.
 
