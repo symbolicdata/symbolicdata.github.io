@@ -52,7 +52,7 @@ We manage the following resources:
 
 -   [Computer Algebra Fachgruppe](http://www.fachgruppe-computeralgebra.de)
 -   [DFG Priority Program SPP 1489](http://www.computeralgebra.de)
--   [Other related activities](RelatedActivities "wikilink") concerning databases, benchmarking and computational tasks in Symbolic Computing.
+-   [More related activities](RelatedActivities "wikilink") concerning databases, benchmarking and computational tasks in Symbolic Computing.
 
 ### A Small Guide through this Site
 
