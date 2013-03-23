@@ -5,6 +5,10 @@ title: RelatedActivities
 
 ### Related Activities
 
+Communicated by Anne Frühbis-Krüger (CA-FGL 2013-02-18)
+
+-   [The lmonade project](Lmonade "wikilink") (Burcin Erocal)
+
 Albert Heinle reports (2012-12-10)
 
   
