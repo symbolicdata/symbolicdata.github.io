@@ -13,6 +13,8 @@ title: RelatedActivities
 -   [QaoS](http://qaos.math.tu-berlin.de) - Querying Algebraic Objects System
     -   QaoS is the attempt to provide a uniform interface to various categories of algebraic objects. Currently we concentrate our efforts on objects arising in number theory.
 
+* * * * *
+
 Johannes Waldmann (2012-12-05) reported about projects on benchmarks and competitions in
 
 -   SAT (boolean satisfiability), <http://www.satcompetition.org/>
@@ -20,5 +22,3 @@ Johannes Waldmann (2012-12-05) reported about projects on benchmarks and competi
 -   Termination <http://termination-portal.org/wiki/Termination_Competition>
 
 and mentions the recent "grand unified" execution platform effort <http://www.starexec.org/starexec/public/about.jsp>
-
-Florian Hess (2012-05-21) pointed to a database project within KANT
