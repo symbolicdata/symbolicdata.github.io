@@ -48,7 +48,7 @@ We manage the following resources:
 -   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   [More](Using.Git "wikilink") about the way how we use Git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
--   A [SPARQL endpoint](http://symbolicdata.org/Webseiten/sparql.php) to the RDFData part of the project.
+-   A [SPARQL endpoint](http://symbolicdata.org/Webseiten/sparql/sparql.php) to the RDFData part of the project.
 
 ### Related Activities
 
