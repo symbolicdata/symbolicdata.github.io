@@ -109,7 +109,7 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `SELECT ?s ?d WHERE {`
 `  ?s a sd:IntPS .`
 `  ?s sd:hasDegree ?d .`
-`  FILTER (?d <= 20)`
+`  FILTER (xsd:integer(?d) <= 20)`
 `}`
 
 Unfortunately, this query will right now not give the right result, because the degree is missing the right data type (integer).
