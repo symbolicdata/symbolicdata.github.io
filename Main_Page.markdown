@@ -10,6 +10,8 @@ The SymbolicData Project Wiki
 
 The SymbolicData project is set out to develop concepts and tools for profiling, testing and benchmarking Computer Algebra Software (CAS) and to collect and interlink relevant data from different Computer Algebra Communities. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org. SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
 
+-   [Getting Started / What is this all about?](QuickStart "wikilink")
+
 ### Main goals
 
 The SymbolicData Project aims at two main goals:
