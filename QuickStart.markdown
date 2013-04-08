@@ -53,12 +53,14 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 
 Display Integer Polynomial Systems
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s WHERE {`
 `  ?s a sd:IntPS`
 `}`
 
 Display all Integer Polynomial Systems of degree 20
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s WHERE {`
 `  ?s a sd:IntPS .`
 `  ?s sd:hasDegree "20"`
@@ -66,6 +68,7 @@ Display all Integer Polynomial Systems of degree 20
 
 Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?p ?o WHERE {`
 `  sd:Caprasse ?p ?o`
 `}`
@@ -74,6 +77,7 @@ You might noticed that there are some values where there the object is quite com
 
 Getting a table-like display of all entries can also be done:
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
 `  ?a a sd:IntPS .`
 `  ?a sd:hasDimension ?dim .`
