@@ -91,6 +91,7 @@ This query could be send as HTTP request and then rendered into a HTML table by 
 
 For some polynomial systems there is no dimension specified. The previous query does not find these. You can fix this by giving the condition on dimension an optional modifier:
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
 `  ?a a sd:IntPS .`
 `  OPTIONAL {?a sd:hasDimension ?dim} .`
@@ -100,6 +101,7 @@ For some polynomial systems there is no dimension specified. The previous query 
 
 Now suppose we want to work with precisely the polynomial system that are missing a dimension. Here we could filter the result:
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
 `  ?a a sd:IntPS .`
 `  OPTIONAL {?a sd:hasDimension ?dim} .`
@@ -110,6 +112,7 @@ Now suppose we want to work with precisely the polynomial system that are missin
 
 If we want not just degree 20 but a degree within a certain range, it is useful to introduce a variable ?d for the degree and include another condition for the variable ?d.
 
+`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s ?d WHERE {`
 `  ?s a sd:IntPS .`
 `  ?s sd:hasDegree ?d .`
