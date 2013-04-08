@@ -58,6 +58,8 @@ Display Integer Polynomial Systems
 `  ?s a sd:IntPS`
 `}`
 
+[Run this query](http://symbolicdata.org/sparql/sparql?output=htmltab&query=%20PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:IntPS})
+
 Display all Integer Polynomial Systems of degree 20
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model/>
