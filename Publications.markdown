@@ -5,6 +5,7 @@ title: Publications
 
 ### Publications about the SymbolicData Project
 
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint))
 -   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf))
     -   In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
 -   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
