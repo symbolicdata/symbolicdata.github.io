@@ -70,9 +70,9 @@ Display all Integer Polynomial Systems of degree 20
 
 Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sdpol: `<http://symbolicdata.org/Data/PolynomialSystems/>
 `SELECT ?p ?o WHERE {`
-`  sd:Caprasse ?p ?o`
+`  sdpol:Caprasse ?p ?o`
 `}`
 [`Run` `this` `query`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?p%20?o%20WHERE{sd:Caprasse%20?p%20?o})
 
