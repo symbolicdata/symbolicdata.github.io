@@ -102,8 +102,7 @@ For some polynomial systems there is no dimension specified. The previous query 
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll`
 `}`
-
-[<http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE>{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} Run this query]
+`[`[`http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} Run this query]`
 
 Now suppose we want to work with precisely the polynomial system that are missing a dimension. Here we could filter the result:
 
@@ -115,8 +114,7 @@ Now suppose we want to work with precisely the polynomial system that are missin
 `  ?a sd:hasLengthsList ?ll .`
 `  FILTER !BOUND(?dim)`
 `}`
-
-[<http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE>{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER%20!BOUND(?dim)} Run this query]
+`[`[`http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER%20!BOUND(?dim)} Run this query]`
 
 If we want not just degree 20 but a degree within a certain range, it is useful to introduce a variable ?d for the degree and include another condition for the variable ?d.
 
@@ -126,7 +124,6 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `  ?s sd:hasDegree ?d .`
 `  FILTER (xsd:integer(?d) <= 20)`
 `}`
-
-[<http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE>{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER%20(xsd:integer(?d)%20%3C=%2020)} Run this query]
+`[`[`http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER%20(xsd:integer(?d)%20%3C=%2020)} Run this query]`
 
 Unfortunately, this query will right now not give the right result, because the degree is missing the right data type (integer).
