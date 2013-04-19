@@ -112,9 +112,9 @@ Now suppose we want to work with precisely the polynomial system that are missin
 `  OPTIONAL {?a sd:hasDimension ?dim} .`
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll .`
-`  FILTER !BOUND(?dim)`
+`  FILTER(!BOUND(?dim))`
 `}`
-`[`[`http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER%20!BOUND(?dim)} Run this query]`
+`[`[`http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org/sparql/sparql?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER(!BOUND(?dim))} Run this query]`
 
 If we want not just degree 20 but a degree within a certain range, it is useful to introduce a variable ?d for the degree and include another condition for the variable ?d.
 
