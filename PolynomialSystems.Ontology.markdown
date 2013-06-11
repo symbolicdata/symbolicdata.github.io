@@ -38,7 +38,7 @@ Invariants of the ideal
 
 -   sd:isHomogeneous Literal - integer, 1 if homogeneous (to be changed in type sd:HomogeneousIdeal)
 -   sd:hasDegree Literal - integer, degree for a zerodimensional ideal
--   sd:hasDimension Literal - integer, degree for a zerodimensional ideal
+-   sd:hasDimension Literal - integer, dimension for an ideal
 -   sd:hasIsolatedPrimesDegrees Literal - comma separated list of integers, degrees of the prime components of a zero dimensional ideal
 -   sd:hasIsolatedPrimesDimensions Literal - comma separated list of integers, dimensions of the isolated prime components
 
