@@ -31,8 +31,9 @@ The ideal is considered in the polynomial ring Z(parameters)[variables]
 
 Invariants of the generating polynomials
 
--   sd:hasDegreeList - comma separated list of integers, degrees of the generating polynomials
--   sd:hasLengthsList - comma separated list of integers, number of terms of the generating polynomials
+-   sd:hasDegreeList - comma separated list of integers in increasing order, degrees of the generating polynomials
+-   sd:hasLengthsList - comma separated list of integers in increasing order, number of terms of the generating polynomials
+    -   order has to be fixed
 
 Invariants of the ideal
 
