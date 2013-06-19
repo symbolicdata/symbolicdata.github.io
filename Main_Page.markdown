@@ -60,6 +60,7 @@ We manage the following resources:
 
 -   [Calculation Tasks](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink")
+    -   [Using Sage](Sage "wikilink") for SD computations
 -   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Dumps](Dumps "wikilink")
