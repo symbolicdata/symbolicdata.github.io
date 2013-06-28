@@ -8,7 +8,7 @@ The SymbolicData Project Wiki
 
 ### [Vision](Symbolicdata:About "wikilink")
 
-The SymbolicData project is set out to develop concepts and tools for profiling, testing and benchmarking Computer Algebra Software (CAS) and to collect and interlink relevant data and activities from different Computer Algebra Communities.
+The SymbolicData project is set out to develop concepts and tools for profiling, testing and benchmarking Computer Algebra Software (CAS) and to collect and interlink relevant data and activities from different Computer Algebra Communities. SymbolicData is an inter-community project that has its roots in the activities of different Computer Algebra communities and aims at interlinking these activities using modern Semantic Web concepts.
 
 Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at www.symbolicdata.org.
 
