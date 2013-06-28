@@ -11,7 +11,7 @@ We invite for a second Workshop to discuss progress and prospects of the Symboli
 
 Please get in contact with [Hans-Gert Gräbe](User:HGG "wikilink") for proposals and questions about goal and program.
 
-Participants and preliminary program:
+#### Participants and preliminary program
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Wolfram Sperber (ZMath Berlin, swMath project)
