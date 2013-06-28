@@ -43,6 +43,7 @@ Experimental data (work in progress):
 We manage the following resources:
 
 -   This Web site for background information an informal descriptions
+    -   A [poster](http://symbolicdata.org/Webseiten/overview-poster.pdf) displaying the overall structure and embedding of the project
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
 -   This Web site for background information an informal descriptions
 -   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
