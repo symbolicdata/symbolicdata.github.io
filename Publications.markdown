@@ -5,7 +5,7 @@ title: Publications
 
 ### Presentations
 
--   [Presentation](http://symbolicdata.uni-leipzig.de/Webseiten/Presentations/eSience-20130611.pdf) of the SymbolicData Project at the E-Science Workshop in Dresden, June 2013.
+-   [Presentation](http://symbolicdata.uni-leipzig.de/Webseiten/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the E-Science Workshop in Dresden, June 2013.
 
 ### Publications about the SymbolicData Project
 
