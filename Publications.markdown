@@ -3,6 +3,10 @@ layout: default
 title: Publications
 ---
 
+### Presentations
+
+-   [Presentation](http://symbolicdata.uni-leipzig.de/Webseiten/Presentations/eSience-20130611.pdf) of the SymbolicData Project at the E-Science Workshop in Dresden, June 2013.
+
 ### Publications about the SymbolicData Project
 
 -   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
