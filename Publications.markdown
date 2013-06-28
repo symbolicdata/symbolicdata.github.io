@@ -3,13 +3,16 @@ layout: default
 title: Publications
 ---
 
-### Presentations
+### Presentations and Publications about the SymbolicData Project
 
--   [Presentation](http://symbolicdata.uni-leipzig.de/Webseiten/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the E-Science Workshop in Dresden, June 2013.
+#### Presentations
 
-### Publications about the SymbolicData Project
+-   [Presentation](http://symbolicdata.uni-leipzig.de/Webseiten/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the [E-Science Workshop](http://www.escience-sachsen.de/?p=1342) in Dresden, June 2013.
+
+#### Publications
 
 -   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
+    -   Submitted and not accepted by CASC-13
 -   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf))
     -   In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
 -   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
