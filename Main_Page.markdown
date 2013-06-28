@@ -75,7 +75,7 @@ We manage the following resources:
 -   [Project Organization](Organisation "wikilink")
 -   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
--   [Publications](Publications "wikilink")
+-   [Publications and Presentations](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")
 -   [Timing](Timing "wikilink")
 -   Different [Software](Software "wikilink") related to the SymbolicData Project
