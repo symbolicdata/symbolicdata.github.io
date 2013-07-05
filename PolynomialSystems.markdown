@@ -18,15 +18,18 @@ The Polynomial System is interpreted in the polynomial ring over the integers (I
 
 The same polynomial system can be interpreted as generating set of an **Ideal** in different ways - as *flat ideal* (in the polynomial ring over the complete set of variables) or as *parameterized ideals* (if we take part of the variables as parameters and interpret the polynomials as polynomials with polynomial coefficients). Moreover, one can derive new polynomial systems (ideals) from old ones if polynomials are homogenized or if parameters are bound to special values. Such operations (homogenize polynomials that were obtained from a parameterized version of polynomials that were obtained by homogeization itself, etc.).
 
-We do not store all those polynomial systems not to waste space and bandwidth, but use the [Compsite Pattern](http://en.wikipedia.org/wiki/Composite_pattern) to generate child polynomial systems from a parent system by a dedicated number of polynomial time operations (homogeneization, parameterization, bounding variables to special values) by your semantic aware tools. Each example is assigned an RDF-URI and an RDF description to address informations about that example. See the
+We do not store all those polynomial systems not to waste space and bandwidth, but use the [Compsite Pattern](http://en.wikipedia.org/wiki/Composite_pattern) to generate child polynomial systems from a parent system by a dedicated number of polynomial time operations (homogeneization, parameterization, bounding variables to special values) by your semantic aware tools. Each example is assigned an RDF-URI and an RDF description to address informations about that example. See the [ ontology definition](PolynomialSystems.Ontology "wikilink") for more details.
 
 #### Structure of the Data
 
-See
+-   The [PolynomialSystems Knowledge Base](http://symbolicdata.org/RDFData/PolynomialSystems.ttl)
 
--   the [PolynomialSystems](http://symbolicdata.org/RDFData/PolynomialSystems.ttl) Knowledge Base (as ttl-Download),
--   the XML Resources in the repository with data complying to XSchema definitions [PolynomialSystem.xsd](http://symbolicdata.org/XMLResources/PolynomialSystem.xsd), [Common.xsd](http://symbolicdata.org/XMLResources/Common.xsd) (common structure) and [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd) (type definitions)
+  
+  
+Currently only as ttl-Download, a [Linked Data access](http://linkeddata.org) is on the way.
+
+-   The XML Resources in the repository with data complying to XSchema definitions [PolynomialSystem.xsd](http://symbolicdata.org/XMLResources/PolynomialSystem.xsd), [Common.xsd](http://symbolicdata.org/XMLResources/Common.xsd) (common structure) and [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd) (type definitions)
     -   [IntPS](http://symbolicdata.org/XMLResources/IntPS) (Polynomial Systems with integer coefficients)
-    -   and [ModPS](http://symbolicdata.org/XMLResources/ModPS) (Polynomial Systems with modular coefficients)
+    -   and [ModPS](http://symbolicdata.org/XMLResources/ModPS) (Polynomial Systems with modular coefficients).
 -   [PolynomialSystems.Ontology](PolynomialSystems.Ontology "wikilink") - an informal description of the Ontology of the Polynomial Systems Knowledge Base developed so far.
 
