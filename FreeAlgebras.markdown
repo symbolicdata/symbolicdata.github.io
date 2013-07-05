@@ -16,7 +16,7 @@ The ncpoly syntax for variables has to be tightened within a quality assurance p
 
 #### Structure of the Data
 
--   The [Free Algebras Knowledge Base](http://symbolicdata.org/RDFData/FreeAlgebra.ttl)
+-   The [Free Algebras Knowledge Base](http://symbolicdata.org/RDFData/FreeAlgebras.ttl)
 
   
   
