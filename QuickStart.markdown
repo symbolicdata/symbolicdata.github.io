@@ -125,5 +125,3 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `  FILTER(xsd:integer(?d) <= 20)`
 `}`
 `[`[`http://symbolicdata.org/sparql/sparql.php?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org/sparql/sparql.php?output=htmltab&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} Run this query]`
-
-Unfortunately, this query will right now not give the right result, because the degree is missing the right data type (integer).
