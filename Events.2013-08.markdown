@@ -29,7 +29,7 @@ Monday, August 27, 2013
 
 Tuesday, August 28, 2013
 
--   9-12 Presentation and discussion
+-   9-12 Inter project aspects - cooperation with [swmath](http://www.swmath.org), [lmonade](http://www.lmona.de/), [sage-math](http://www.sagemath.org), [SPP 1489](http://www.computeralgebra.de) Databases (who else)
 -   12-13 Lunch
 -   13-17 Discussion about the future of SymbolicData
 -   (otionally) evening - Get Together
