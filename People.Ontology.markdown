@@ -19,7 +19,7 @@ Changes:
 
 **Classes:**
 
--   foaf:Person - any person, in particular authors of papers listed in the SymbolicData [BIB](BIB "wikilink") references system
+-   foaf:Person - any person, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system
     -   The naming scheme is <name_initials> where *name* is the full surname, initials are the concatenated initials of the other name parts with a further letter to make the identifier unique, transformed to [true ASCII strings](Naming "wikilink").
 -   org:Organization - organization of a sd:Contributor.
     -   A naming scheme is not (yet) defined.
