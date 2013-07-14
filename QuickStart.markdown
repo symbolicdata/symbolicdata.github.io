@@ -64,9 +64,9 @@ Display all Integer Polynomial Systems of degree 20
 `PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s WHERE {`
 `  ?s a sd:IntPS .`
-`  ?s sd:hasDegree "20"`
+`  ?s sd:hasDegree "20"^^xsd:integer .`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20%2220%22})
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} Run this query]`
 
 Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
