@@ -40,7 +40,7 @@ Additional Data:
 
 Experimental data (work in progress):
 
--   [Computeralgebra Datenbanken](CADatabases "wikilink")
+-   [Computeralgebra Databases](CADatabases "wikilink")
 
 ### Resources
 
