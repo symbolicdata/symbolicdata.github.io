@@ -23,5 +23,5 @@ The ncpoly syntax for variables has to be tightened within a quality assurance p
 Currently only as ttl-Download, a [Linked Data access](http://linkeddata.org) is on the way.
 
 -   The XML Resources of type [FreeAlgebra](http://symbolicdata.org/XMLResources/FreeAlgebra) in the repository with data complying to XSchema definitions [FreeAlgebra.xsd](http://symbolicdata.org/XMLResources/FreeAlgebra.xsd), [Common.xsd](http://symbolicdata.org/XMLResources/Common.xsd) (common structure) and [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd) (type definitions)
--   [FreeAlgebra.Ontology](FreeAlgebra.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
+-   [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
 
