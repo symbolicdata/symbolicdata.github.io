@@ -63,7 +63,7 @@ We manage the following resources:
     -   [More](Using.Git "wikilink") about the way how we use Git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to the RDFData part of the project.
-    -   [More](Quickstart "wikilink") about the way how to use Sparql
+    -   [More](QuickStart "wikilink") about the way how to use Sparql
 
 ### Related Activities
 
