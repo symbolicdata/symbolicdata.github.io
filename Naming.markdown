@@ -36,9 +36,9 @@ To have human readable URIs they are generated from parts of the data that are *
 (fixed by hgg - 2013-07-14)
 
 -   sdp: symbolicdata.org/Data/Person/ (see [People.Ontology](People.Ontology "wikilink"))
--   sds: symbolicdata.org/Data/System/ (see [Systems.Ontology](Systems.Ontology "wikilink"))
--   sdb: symbolicdata.org/Data/BIB/ (see [Bibliography.Ontology](Bibliography.Ontology "wikilink"))
--   sdf: symbolicdata.org/Data/FanoPolytope/ (see [FanoPolytopes.Ontology](FanoPolytopes.Ontology "wikilink"))
+-   sds: symbolicdata.org/Data/System/ (see [Systems](Systems "wikilink"))
+-   sdb: symbolicdata.org/Data/BIB/ (see [BIB.Ontology](BIB.Ontology "wikilink"))
+-   sdf: symbolicdata.org/Data/FanoPolytope/
 -   sdg: symbolicdata.org/Data/GeometryProblem/
 -   symbolicdata.org/Data/FreeAlgebra/ (see [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink"))
 -   symbolicdata.org/Data/TestSet/ (see [TestSets.Ontology](TestSets.Ontology "wikilink"))
