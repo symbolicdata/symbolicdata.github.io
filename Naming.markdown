@@ -25,6 +25,8 @@ To have human readable URIs they are generated from parts of the data that are *
 -   Bibliography.ttl - Bibliographical references
 -   FanoPolytopes.ttl - Examples of Fano polytopes
 -   FreeAlgebras.ttl - Examples of twosided ideals in free algebras
+-   GAlgebras.ttl - Examples of twosided ideals in almost commutative polynomial rings (G-Algebras)
+    -   to be created -- HGG, 2013-07-14
 -   GeometryProblemFormulations.ttl - Latex-formulated references of geometry problems
 -   People.ttl -
 -   PolynomialSystems.ttl - Examples of polynomial systems and ideals, derived from such systems in different ways
@@ -39,6 +41,7 @@ To have human readable URIs they are generated from parts of the data that are *
 -   sds: symbolicdata.org/Data/System/ (see [Systems](Systems "wikilink"))
 -   sdb: symbolicdata.org/Data/BIB/ (see [BIB.Ontology](BIB.Ontology "wikilink"))
 -   sdf: symbolicdata.org/Data/FanoPolytope/
+-   sdg: symbolicdata.org/Data/GAlgebra/ (see [GAlgebras.Ontology](GAlgebras.Ontology "wikilink"))
 -   sdg: symbolicdata.org/Data/GeometryProblem/
 -   symbolicdata.org/Data/FreeAlgebra/ (see [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink"))
 -   symbolicdata.org/Data/TestSet/ (see [TestSets.Ontology](TestSets.Ontology "wikilink"))
