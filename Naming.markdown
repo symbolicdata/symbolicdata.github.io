@@ -26,12 +26,12 @@ Example:
 Namespaces (fixed by hgg - 2013-07-14)
 
 -   sdp: symbolicdata.org/Data/Person/ (see [People.Ontology](People.Ontology "wikilink"))
--   sds: symbolicdata.org/Data/System/ (see [Systems.Ontology](Systems.Ontology "wikilink"))
+-   sds: symbolicdata.org/Data/System/ (see [System.Ontology](System.Ontology "wikilink"))
 -   sdb: symbolicdata.org/Data/BIB/ (see [Bibliography.Ontology](Bibliography.Ontology "wikilink"))
 -   sdf: symbolicdata.org/Data/FanoPolytope/ (see [FanoPolytopes.Ontology](FanoPolytopes.Ontology "wikilink"))
 -   sdg: symbolicdata.org/Data/GeometryProblem/
--   symbolicdata.org/Data/FreeAlgebra/ (see [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink"))
--   symbolicdata.org/Data/TestSet/ (see [TestSets.Ontology](TestSets.Ontology "wikilink"))
+-   symbolicdata.org/Data/FreeAlgebra/ (see [FreeAlgebra.Ontology](FreeAlgebra.Ontology "wikilink"))
+-   symbolicdata.org/Data/TestSet/ (see [TestSet.Ontology](TestSet.Ontology "wikilink"))
 -   todo: sdpol: (2013-07-14, since Andreas is working on it)
 
 The URIs of SD Data have the form <NamespacePrefix>/<identifier> and contain only ASCII symbols to make life easier.
