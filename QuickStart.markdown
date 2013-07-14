@@ -57,7 +57,7 @@ Display Integer Polynomial Systems
 `SELECT ?s WHERE {`
 `  ?s a sd:IntPS`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?default-graph-uri`](http://symbolicdata.org:8890/sparql?default-graph-uri)`=&format=text%2Fhtml&timeout=0&debug=on&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:IntPS} Run this query]`
+[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&timeout=0&debug=on&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:IntPS})
 
 Display all Integer Polynomial Systems of degree 20
 
