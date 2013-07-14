@@ -5,6 +5,8 @@ title: Naming
 
 ### Naming Rules
 
+#### General Naming Rules
+
 We manage different knowledge bases of meta data that aggregate data (instances) of certain types. Usually a knowledge base is named by a word in plural whereas the instance URIs are within a name space with the same word in singular.
 
 Example:
@@ -18,7 +20,7 @@ The URIs of SD Data have the form <NamespacePrefix>/<identifier> and contain onl
 
 To have human readable URIs they are generated from parts of the data that are **ASCII fixed** to get identifiers with ASCII characters only (substituting á -\> a, ä -\> ae, ß -\> ss etc.)
 
-#### [Knowledge bases](http://symbolicdata.org/RDFData/)
+#### Knowledge bases
 
 -   Bibliography.ttl - Bibliographical references
 -   FanoPolytopes.ttl - Examples of Fano polytopes
