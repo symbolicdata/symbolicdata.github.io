@@ -5,6 +5,8 @@ title: BIB.Ontology
 
 ### BIB Ontology
 
+#### Description
+
 An informal description of the Ontology of the bibliographical references maintained within SymbolicData.
 
 We use short references to publications and links to other sources (i.e., foreign URIs) with full bibliographical data. Additionally, we maintain our own short note about the relevance of the bibliographical reference for SymbolicData. See [People.Ontology](People.Ontology "wikilink") for references of authors.
