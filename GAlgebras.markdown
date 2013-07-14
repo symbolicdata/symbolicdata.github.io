@@ -24,7 +24,7 @@ See
 
 -   the [GAlgebra](http://symbolicdata.org/Data/GAlgebra) Knowledge Base (link to be fixed),
 -   the XML Resources of type [GAlgebra](http://symbolicdata.org/XMLResources/GAlgebra) in the repository and
--   [GAlgebra.Ontology](GAlgebra.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
+-   [GAlgebras.Ontology](GAlgebras.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
 
 The examples have to be fixed syntactically (use a more appropriate notation for the commutator relations, that directly addresses the variable names as indices).
 
