@@ -26,9 +26,9 @@ The SymbolicData Project aims at two main goals:
 At the moment the project hosts data from the following communities within Symbolic Computing
 
 -   [Polynomial Systems](PolynomialSystems "wikilink")
--   [G-Algebra](GAlgebra "wikilink")
+-   [G-Algebras](GAlgebras "wikilink")
 -   [Test Sets](TestSets "wikilink")
--   [Free Algebras](FreeAlgebra "wikilink")
+-   [Free Algebras](FreeAlgebras "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 
 Additional Data:
@@ -36,7 +36,7 @@ Additional Data:
 -   [People](People "wikilink") - different people and groups
 -   [Bibliography](Bibliography "wikilink") - bibliographical references system
 -   Towards a [CA Social Network](CASN "wikilink")
--   [Systems](Systems "wikilink") - list of systems
+-   [Systems](Systems "wikilink") - list of CA systems
 
 Experimental data (work in progress):
 
