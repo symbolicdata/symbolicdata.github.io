@@ -13,8 +13,6 @@ We use short references to publications and links to other sources (i.e., foreig
 
 The **naming scheme** for bibliographical references is <name_yearcnt> where *name* is the ([ASCII fixed](Naming "wikilink")) surname of the main author and *yearcnt* is the year of publication (last two digits) concatenated with a alphanumerical counter a..z to make the URI unique.
 
-Uses dcterms: <http://dublincore.org/documents/dcmi-terms>
-
 Records of type **sd:BIB** have the following additional predicates
 
 -   standard predicates sd:createdAt, sd:createdBy, sd:lastModified (deprecated), rdfs:comment
@@ -25,7 +23,7 @@ Records of type **sd:BIB** have the following additional predicates
 
 #### Changes
 
--   Update to dcterms ontology (Andreas, 2013-02-25)
+-   Update to [dcterms](http://dublincore.org/documents/dcmi-terms) ontology (Andreas, 2013-02-25)
 
 To be discussed:
 
