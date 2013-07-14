@@ -9,7 +9,7 @@ An informal description of the Ontology of the Free Algebra Knowledge Base devel
 
 #### Metadata and Semantics
 
-All Free Algebra instances belong to the owl:Class **sd:FreeAlgebra** that is the rdfs:domain of the predicates
+All Free Algebra instances belong to the owl:Class **sd:FreeAlgebra** with predicates
 
 -   sd:hasVariables Literal - comma separated list of (non commuting) variables
 -   sd:hasParameters Literal - comma separated list of (commuting) parameters
