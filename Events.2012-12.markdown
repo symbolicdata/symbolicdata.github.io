@@ -68,7 +68,7 @@ SymbolicData (v.1 and v.2) had its origin within the Polynomial Systems Communit
 
 For the future there should be a better interlinking between (intracommunity) sources, resources and communication structures *within* such a community and SymbolicData. A new use case to really understand the problems with such interlinking is given with [PoCaB](http://pocab.cg.cs.uni-bonn.de). This will be a great step towards Linked Data. Other use cases are given by the Databases of the SPP1489.
 
-[SDEval](SDEval "wikilink") - a common benchmarking compute framework written in python and (more or less) ready to use also beyond the [FreeAlgebra](FreeAlgebra "wikilink") community - represents best practice of running dedicated computational tasks on a large amount of given data. This code is (almost) available from the SymbolicData Public Repository.
+[SDEval](SDEval "wikilink") - a common benchmarking compute framework written in python and (more or less) ready to use also beyond the [Free Algebra](FreeAlgebras "wikilink") community - represents best practice of running dedicated computational tasks on a large amount of given data. This code is (almost) available from the SymbolicData Public Repository.
 
 In the near future we focus on consolidating SymbolicData and releasing a stable v.3. As a first step we moved to git and operate a [public Repo](https://github.com/symbolicdata) at github. See [Using.Git](Using.Git "wikilink") for more information about the organization of the public Repo and our Git Development Process.
 
