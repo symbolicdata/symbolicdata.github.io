@@ -18,10 +18,10 @@ Uses dcterms: <http://dublincore.org/documents/dcmi-terms>
 Records of type **sd:BIB** have the following additional predicates
 
 -   standard predicates sd:createdAt, sd:createdBy, sd:lastModified (deprecated), rdfs:comment
--   sd:hasAbstract Literal - a short
--   sd:hasAuthor foaf:Person - authors of the paper (multiple)
--   sd:hasTitle Literal - title of the paper
--   sd:hasYear xsd:year - year of publication
+-   dcterms:abstract Literal - a short
+-   dcterms:creator foaf:Person - authors of the paper (multiple)
+-   dcterms:title Literal - title of the paper
+-   dcterms:issued dcterms:W3CDTF - year of publication
 
 #### Changes
 
