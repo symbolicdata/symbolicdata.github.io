@@ -9,9 +9,6 @@ An informal description of the Ontology of the G-Algebra Knowledge Base develope
 
 #### Metadata and Semantics
 
-  
-This has yet to be created. HGG - 2013-07-14
-
 All G-Algebra instances belong to the owl:Class **sd:GAlgebra** with predicates
 
 -   sd:relatedXMLResource URI - the Resource file
