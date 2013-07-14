@@ -9,7 +9,7 @@ An informal description of the Ontology of the bibliographical references mainta
 
 We use short references to publications and links to other sources (i.e., foreign URIs) with full bibliographical data. Additionally, we maintain our own short note about the relevance of the bibliographical reference for SymbolicData. See [People.Ontology](People.Ontology "wikilink") for references of authors.
 
-The **naming scheme** for bibliographical references is <name_yearcnt> where *name* is the (A[SCII fixed](Naming "wikilink")) surname of the main author and *yearcnt* is the year of publication (last two digits) concatenated with a alphanumerical counter a..z to make the URI unique.
+The **naming scheme** for bibliographical references is <name_yearcnt> where *name* is the ([ASCII fixed](Naming "wikilink")) surname of the main author and *yearcnt* is the year of publication (last two digits) concatenated with a alphanumerical counter a..z to make the URI unique.
 
 Uses dcterms: <http://dublincore.org/documents/dcmi-terms>
 
