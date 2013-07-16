@@ -33,7 +33,9 @@ The dot here stands for a logical 'and'. These conditions may also introduce add
 
 To test the following queries yourself, go to <http://symbolicdata.org:8890/sparql> or try the given link directly.
 
-So, let's search all triples and see what predicates are used to get a general idea about the data:
+### Examples
+
+**1)** Let's search all triples and see what predicates are used to get a general idea about the data:
 
 `SELECT DISTINCT ?p WHERE {`
 `  ?s ?p ?o`
@@ -43,7 +45,7 @@ This will extract the predicate of all triples. Since a given predicate usually 
 
 *NB:* This list does not contain a lot information. Usually additional information is given in a documentation. For the polynomial systems you can find it here: <http://symbolicdata.org/wiki/PolynomialSystems.Ontology>
 
-To retrieve all possible values ('objects') to a given predicate PRED:
+**2)** To retrieve all possible values ('objects') to a given predicate PRED:
 
 `SELECT DISTINCT ?v WHERE {`
 `  ?s PRED ?v`
@@ -51,7 +53,7 @@ To retrieve all possible values ('objects') to a given predicate PRED:
 
 These values could be used to fill a pull down menu using PHP, but depending on the the number of values this might be useful or not.
 
-Display Integer Polynomial Systems
+**3)** Display Integer Polynomial Systems
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s WHERE {`
@@ -59,7 +61,7 @@ Display Integer Polynomial Systems
 `}`
 [`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:IntPS})
 
-Display all Integer Polynomial Systems of degree 20
+**4)** Display all Integer Polynomial Systems of degree 20
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?s WHERE {`
@@ -68,7 +70,7 @@ Display all Integer Polynomial Systems of degree 20
 `}`
 `[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} Run this query]`
 
-Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
+**5)** Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
 `PREFIX sdpol: `<http://symbolicdata.org/Data/PolynomialSystems/>
 `SELECT ?p ?o WHERE {`
@@ -78,7 +80,7 @@ Maybe we already have a polynomial system, say Caprasse and just want all senten
 
 You might noticed that there are some values where there the object is quite complex, like for instance the variable list with values like "x,y,z,t". One could also parse these values (e.g. do a regex match on them, all within a SPARQL query). But maybe these values turn out to be so important that you don't want to parse them but rather query them directly. In this case the data could easily be modified (but we're not going into detail here).
 
-Getting a table-like display of all entries can also be done:
+**6)** Getting a table-like display of all entries can also be done:
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model/>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
