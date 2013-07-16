@@ -29,9 +29,9 @@ Generally we don't want all possible assignments but only assigments that satisf
 `  condition3`
 `}`
 
-The dot here stands or a logical 'and'. These conditions may also introduce additional variables where it is convenient. There are also more elaborate methods to extract exactly the things you want but we concentrate on this simple method at first.
+The dot here stands for a logical 'and'. These conditions may also introduce additional variables where it is convenient. There are also more elaborate methods to extract exactly the things you want but we concentrate on this simple method at first.
 
-To test the following queries yourself, go to <http://symbolicdata.ontowiki.net/>. On the left hand side select the knowledge base "SD Polynomial Systems Data". Now you can choose "SPARQL Query Editor" from the "Extras" menu on the top left. Note however that the Ontowiki is just one view on the data. For presenting your data on your side you might want to use a different view.
+To test the following queries yourself, go to <http://symbolicdata.org:8890/sparql> or try the given link directly.
 
 So, let's search all triples and see what predicates are used to get a general idea about the data:
 
