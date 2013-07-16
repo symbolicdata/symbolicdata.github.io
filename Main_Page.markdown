@@ -62,6 +62,9 @@ We manage the following resources:
 -   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
     -   [More](Using.Git "wikilink") about the way how we use Git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
+-   An instance of OntoWiki to present and maintain the RDF Data.
+    -   2013-07-16 hgg: Temporarily not operating, see <http://hgg.ontowiki.net/> for an alternate
+    -   [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to the RDFData part of the project.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
 
