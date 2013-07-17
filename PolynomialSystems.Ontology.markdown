@@ -27,7 +27,7 @@ Polynomial Systems instances belong to the classes **sd:IntegerPolynomialSystem*
 -   standard predicates sd:createdAt, sd:createdBy, rdfs:comment
 -   sd:relatedXMLResource URL - the URL of the corresponding XML resource
 
-Due to the universal property of Z[x\_1,...,x\_n] auch a polynomial list is the semantic starting point for all further constructions. There is a unique URI for each polynomial system in the RDF Data, e.g.,
+Due to the universal property of Z[x\_1,...,x\_n] such a polynomial list is the semantic starting point for all further constructions. There is a unique URI for each polynomial system in the RDF Data, e.g.,
 
   
 symbolicdata.org/Data/IntPS/Wang-92c
@@ -44,6 +44,9 @@ symbolicdata.org/Data/Ideal/Wang-92c
 
 A flat ideal RDF description has a predicate *sd:relatedPolynomialSystem* that refers to the underlying polynomial system.
 
+  
+A flat ideal does not have *sd:hasParameters* predicate.
+
 All **other ideals** are derived from already known ideals as pull back or push forward images of the generating polynomials of the known ideal along canonical ring homomorphisms by a restricted number of operations:
 
 -   interpreting part of the variables as parameters,
@@ -52,12 +55,14 @@ All **other ideals** are derived from already known ideals as pull back or push 
 
 The URI of the parent ideal is referenced with the predicate *sd:relatedParentIdeal*.
 
+  
+There are several example chains from Geometry Theorem Proving that do not start with a flat ideal but with the original parametric geometry setting. They have predicates *sd:hasParameters*, *sd:hasVariables* and *sd:relatedPolynomialSystem*.
+
 **Parameterized ideals** are defined with the predicates *sd:hasParameters* and *sd:hasVariables* that contain two disjoint lists of variable names that sum up to the complete list of variable names of the parent ideal.
 
-**Homogenized ideals** arize by homogenization (according to the standard grading of the variables) of the polynomials describing the parent ideal. For the moment there is a predicate *sd:createCommand* with a procedure call as value that describes the homogenization process.
+**Homogenized ideals** arize by homogenization (according to the standard grading of the variables) of the polynomials describing the parent ideal with a given homogenizing variable name as value of the predicate *sd:homogenizedWith*.
 
-  
-To be changed to *sd:homogenizingVariable varname*. -- HGG
+Homogenizing a parameterized ideal results in another parameterized ideal in Q(a\_1,...,a\_s)[y\_1,...y\_m,h] with denominator-free coefficients. One can compute the flat ideal in Q[a\_1,...,a\_s,y\_1,...y\_m,h] as pull back of the generating polynomials. This operation is written as *sd:flattenIdeal sd:retract*.
 
 #### Identification
 
