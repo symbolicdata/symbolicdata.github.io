@@ -9,15 +9,10 @@ title: PolynomialSystems
 
 The *Polynomial Systems and Ideals* data collection contains information about systems of (commutative) polynomials and derived mathematical objects. We assume the user to **have semantic aware tools** to work with polynomials (that supply input and basic computation methods). Such tools are not part of the SymbolicData Collection. Our main semantic aware reference system is [Sage](http://www.sagemath.org/).
 
-**Polynomial systems** are given as XML sequences of polynomials in distributive form in case sensitive variable names x\_1,...,x\_n with integer coefficients, complying to syntactical restrictions defined in [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd).
+**Polynomial systems** are given as XML sequences of polynomials in distributive form in case sensitive variable names x\_1,...,x\_n with integer coefficients, complying to syntactical restrictions defined in [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd). The polynomials can be directly read by most of the CA systems via string import. The list of variables is part of the XML record.
 
   
-This has to be tightened within a quality assurance process in the future. -- HGG
-
-The polynomials can be directly read by most of the CA systems via string import. The list of variables is part of the XML record.
-
-  
-The polynomial syntax for variables has to be tightened within a quality assurance process to avoid characters ()[] that are interpreted as function calls -- hgg, 2013-07-05
+The polynomial syntax for variables has to be tightened within a quality assurance process to avoid characters ()[] that are interpreted as function calls -- HGG, 2013-07-05
 
 The polynomial system is interpreted as a list of polynomials in the polynomial ring Z[x\_1,...,x\_n]. It is represented as instance of **sd:IntegerPolynomialSystem** or **sd:ModularPolynomialSystem** within the Metadata and has an XML resource attached. Note that - due to the universal property of Z[x\_1,...,x\_n]- we do not distinct between integer and modular polynomial systems at this point.
 
