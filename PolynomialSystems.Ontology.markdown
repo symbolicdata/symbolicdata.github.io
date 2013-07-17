@@ -11,10 +11,10 @@ An informal description of the Ontology of the Knowledge Base of Polynomial Syst
 
 Different to earlier versions in the upcoming SymbolicData v.3 (scheduled for Aug 2013) we drastically reduced the number of really stored polynomial systems in favour of standardized polynomial time (in the input length) algorithms to generate derived examples by a well defined workflow described below.
 
-We assume the user to have semantic aware tools at hand to generate the required examples and provide a prototypical solution for [Sage](http://www.sagemath.org) that can easily adapted to the favourite CA system of the user.
+We assume the user to have semantic aware tools at hand to generate the required examples and provide a prototypical solution for [Sage](http://www.sagemath.org) that can easily adapted to your favourite CA system.
 
   
-Assigned to Andreas.
+Develop the Sage solution. -- Assigned to Andreas.
 
 We encourage users to share their code developed for other CAS.
 
