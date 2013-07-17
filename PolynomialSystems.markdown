@@ -29,7 +29,7 @@ A parameterized ideal is derived from a flat (or more "polynomial" parametric id
 
 One can derive new polynomial systems (ideals) from old ones also by homogenization or if variables are bound to special values. They are triggered in an evident way by the corresponding ring homomorphisms either as pull back (homogenization) or push forward (special value) image of the old ideal.
 
-With the upcoming SymbolicData v.3 we decided not to store all polynomial systems as in earlier versions not to waste space and bandwidth, but use the [Compsite Pattern](http://en.wikipedia.org/wiki/Composite_pattern) to generate new ideals from already existing ones as desribed above. Each example is assigned an RDF-URI and an RDF description to address informations about that example. See the [ ontology definition](PolynomialSystems.Ontology "wikilink") for more details.
+With the upcoming SymbolicData v.3 we decided not to store all polynomial systems as in earlier versions not to waste space and bandwidth, but use the [Composite Pattern](http://en.wikipedia.org/wiki/Composite_pattern) to generate new ideals from already existing ones as desribed above. Each example is assigned an RDF-URI and an RDF description to address informations about that example. See the [ ontology definition](PolynomialSystems.Ontology "wikilink") for more details.
 
 #### Structure of the Data
 
