@@ -25,7 +25,7 @@ The modular case has to be discussed. May be it is a good idea to remove it comp
 
 An example with sd:relatedPolynomialSystem has necessarily to be flat and should not have sd:hasParameters property. This has to be fixed. Assigned to HGG. -- 2013-07-17, HGG
 
-A parameterized ideal is derived from a flat (or more "polynomial" parametric ideal) via the canonical ring homomorphism Q[a\_1,...,a\_s,y\_1,...,y\_k] -\> Q(a\_1,...,a\_s)[y\_1,...,y\_k].
+A parameterized ideal is derived from a flat (or more "polynomial" parametric ideal) via the canonical ring homomorphism Q[a\_1,...,a\_s,y\_1,...,y\_k] -\> Q(a\_1,...,a\_s)[y\_1,...,y\_k] as push forward image of the flat ideal.
 
 One can derive new polynomial systems (ideals) from old ones also by homogenization or if variables are bound to special values. They are triggered in an evident way by the corresponding ring homomorphisms either as pull back (homogenization) or push forward (special value) image of the old ideal.
 
