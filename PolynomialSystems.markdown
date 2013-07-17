@@ -40,7 +40,6 @@ With the upcoming SymbolicData v.3 we decided not to store all polynomial system
 Currently only as ttl-Download, a [Linked Data access](http://linkeddata.org) is on the way.
 
 -   The XML Resources in the repository with data complying to XSchema definitions [PolynomialSystem.xsd](http://symbolicdata.org/XMLResources/PolynomialSystem.xsd), [Common.xsd](http://symbolicdata.org/XMLResources/Common.xsd) (common structure) and [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd) (type definitions)
-    -   [IntPS](http://symbolicdata.org/XMLResources/IntPS) (Polynomial Systems with integer coefficients)
-    -   and [ModPS](http://symbolicdata.org/XMLResources/ModPS) (Polynomial Systems with modular coefficients).
+    -   [IntPS](http://symbolicdata.org/XMLResources/IntPS) (Polynomial Systems with integer coefficients) and [ModPS](http://symbolicdata.org/XMLResources/ModPS) (Polynomial Systems with modular coefficients).
 -   [PolynomialSystems.Ontology](PolynomialSystems.Ontology "wikilink") - an informal description of the Ontology of the Polynomial Systems Knowledge Base developed so far.
 
