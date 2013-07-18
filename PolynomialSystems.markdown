@@ -23,7 +23,7 @@ Such interpretations arize in several typical ways. For example, if x\_1,...,x\_
   
 The modular case has to be discussed. May be it is a good idea to remove it completely from the XML data interpretation in favour of "modular ideals"? -- 2013-07-17, HGG
 
-An example with sd:relatedPolynomialSystem has necessarily to be flat and should not have sd:hasParameters property. This has to be fixed. Assigned to HGG. -- 2013-07-17, HGG
+An example with sd:relatedPolynomialSystem should be flat and not have sd:hasParameters property. This is not the case for a number of examples from geometry theorem proving. -- 2013-07-17, HGG
 
 A parameterized ideal is derived from a flat (or more "polynomial" parametric ideal) via the canonical ring homomorphism Q[a\_1,...,a\_s,y\_1,...,y\_k] -\> Q(a\_1,...,a\_s)[y\_1,...,y\_k] as push forward image of the flat ideal.
 
