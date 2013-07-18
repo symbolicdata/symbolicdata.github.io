@@ -65,7 +65,10 @@ There are several example chains from Geometry Theorem Proving that do not start
 
 **Homogenized ideals** arise by homogenization (according to the standard grading of the variables) of the polynomials describing the parent ideal with a given homogenizing variable name as value of the predicate *sd:homogenizedWith*.
 
-Homogenizing a parameterized ideal results in another parameterized ideal in Q(a\_1,...,a\_s)[y\_1,...y\_m,h] with denominator-free coefficients. One can compute the flat ideal in Q[a\_1,...,a\_s,y\_1,...y\_m,h] as pull back of the generating polynomials. This operation is written as *sd:flattenIdeal sd:retract*.
+Homogenizing a parameterized ideal results in another parameterized ideal in Q(a\_1,...,a\_s)[y\_1,...y\_m,h] with denominator-free coefficients. One can compute the flat ideal in Q[a\_1,...,a\_s,y\_1,...y\_m,h] as inverse push forward image of the generating polynomials. This operation is written as *sd:flattenIdeal sd:retract*
+
+  
+2013-07-18 HGG, substitute that by something like (sd:direction sd:inverse) or so?
 
 #### Identification
 
