@@ -63,7 +63,7 @@ There are several example chains from Geometry Theorem Proving that do not start
 
 **Parameterized ideals** are defined with the predicates *sd:hasParameters* and *sd:hasVariables* that contain two disjoint lists of variable names that sum up to the complete list of variable names of the parent ideal.
 
-**Homogenized ideals** arize by homogenization (according to the standard grading of the variables) of the polynomials describing the parent ideal with a given homogenizing variable name as value of the predicate *sd:homogenizedWith*.
+**Homogenized ideals** arise by homogenization (according to the standard grading of the variables) of the polynomials describing the parent ideal with a given homogenizing variable name as value of the predicate *sd:homogenizedWith*.
 
 Homogenizing a parameterized ideal results in another parameterized ideal in Q(a\_1,...,a\_s)[y\_1,...y\_m,h] with denominator-free coefficients. One can compute the flat ideal in Q[a\_1,...,a\_s,y\_1,...y\_m,h] as pull back of the generating polynomials. This operation is written as *sd:flattenIdeal sd:retract*.
 
