@@ -3,7 +3,7 @@ layout: default
 title: LocalSparqlEndpoint
 ---
 
-On this page we describe how to set up your own SPARQL endpoint at a local server running under a recent Linux Debian Ubuntu distribution.
+On this page we describe how to set up your own SPARQL endpoint at a local server running under a recent Linux Debian Ubuntu distribution. We assume that an apache webserver process is running on that server.
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
@@ -62,44 +62,56 @@ and change the password (standard user = dba, passwd = dba)
 
 Load data from ttl files to the store, e.g., the SymbolicData Peoples knowledge base
 
-`DB.DBA.TTLP_MT (file_to_string_output ('Path/to/RDFData/People.ttl'), '`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`');`
+`DB.DBA.TTLP_MT (file_to_string_output ('/Path/to/RDFData/People.ttl'), '`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`');`
 
 The first parameter is the path to the file, the second parameter the ontology name. Note that data can be managed also via the Ontowiki attached to that Virtuoso service.
 
-Shutdown the service from the console with
+Test if the data are loaded correctly by a sparql query at console
+
+` sparql select distinct ?p from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
+
+Leave the console.
+
+Go to your Browser and call (webserver):8890/sparql. This opens a "Virtuoso SPARQL Query Editor". Try the query
+
+`select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
+
+It should list the URIs of all people stored in the SD People knowledge base.
+
+You can shutdown the service from the console with
 
 ` shutdown();`
 
+To enable the database service to interoperate with applications as Ontowiki it has to be registered with ODBC. Add a section
+
+` # Symbolicdata OntoWiki dsn start`
+` [SDOW]`
+` Description=Symbolicdata OntoWiki Virtuoso DSN`
+` Driver=/usr/local/lib/virtodbc.so`
+` Address=localhost:1111`
+` # Symbolicdata OntoWiki dsn end`
+
+with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
+
 ### Install Ontowiki
 
-Ontowiki ist eine reine PHP-Applikation, die vollständig innerhalb des Apache läuft und damit auch nicht selbst gestartet werden muss. Sie kann, ähnlich wie Wordpress, über eine Vielzahl von Plugins konfiguriert werden.
+Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
 
-Ausrollen der Quellen\\\\footnote{Details siehe
+We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers> for details.
 
-` \\url{`[`https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers`](https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers)`}. }  aus dem`
-
-github Repo in das Zielverezichnis \\\\begin{quote}\\\\tt
+-   Clone Ontowiki from the github repo to the target directory
 
 ` git clone `[`https://github.com/AKSW/OntoWiki.git`](https://github.com/AKSW/OntoWiki.git)
 
-\\\\end{quote} Laden von Erfurt, RDFAuthor und Zend mittels \\\\begin{quote}\\\\tt
+-   Change to that directory and load the additional libraries Erfurt, RDFAuthor and Zend
 
 ` make deploy`
 
-\\\\end{quote} und Anpassen der Datei \\\\texttt{config.ini}. Diese überschreibt die Standardeinstellungen aus anderen ini-Dateien (welche?). \\\\begin{center}
+-   Copy config.ini.sample to config.ini and adapt it. Note that values in config.ini overwrite standard settings in various other ini files.
+    -   store.virtuoso.dsn - Put here the section head of the Virtuoso store from odbc.ini (without quotes)
+    -   store.virtuoso.user - The Virtuoso store user (default dba)
+    -   store.virtuoso.password - Password of the Virtuoso store
+-   Link the directory to a directory (webserver)/WebDir that is delivered by the web server.
+-   Direct your browser to (webserver)/WebDir
+    -   Now you can login as Superadmin with login/passwd of the Virtuoso and upload rdf data files.
 
-` \\begin{tabular}{|lp{.6\\textwidth}|}\\hline`
-`   Parameter & Setting, Anmerkungen \\\\\\hline`
-`   \\tt store.virtuoso.dsn &  Section Head des Virtuoso Store aus`
-`   \\texttt{odbc.ini} (ohne Quotes)\\\\`
-`   \\tt store.virtuoso.user & User des Virtuoso Store (meist dba)\\\\`
-`   \\tt store.virtuoso.password & Passwort des Virtuoso Store\\\\`
-`   \\tt debug & true, wenn im Debug-Modus \\\\`
-`   \\tt cache.query.enable & false, wenn Query Caching problematisch ist\\\\`
-`   \\tt session.identifier & wird verwendet, um verschiedene OW-Instanzen zu `
-`   unterscheiden \\\\\\hline`
-` \\end{tabular}`
-
-\\\\end{center}
-
-Nach erfolgreicher Installation kann man sich als SuperAdmin mit den user/passwd Daten des Virtuoso anmelden. Das ist hart eingebrannt und jenseits aller AC-Mechanismen des Ontowiki.
