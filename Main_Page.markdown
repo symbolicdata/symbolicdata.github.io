@@ -15,7 +15,7 @@ The SymbolicData project is set out
 
 SymbolicData is an
 
--   *inter-community project* that has its roots in the activities of different Computer Algebra communities and
+-   *inter-community project* that has its roots in the activities of different Computer Algebra Communities and
 -   aims at interlinking these activities using *modern Semantic Web concepts*.
 
 Tools and data are designed to be used both
