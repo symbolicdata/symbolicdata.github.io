@@ -3,7 +3,7 @@ layout: default
 title: LocalSparqlEndpoint
 ---
 
-On this page we describe how to set up your own SPARQL endpoint at a local server running under a recent Linux Debian Ubuntu distribution. We assume that an apache webserver process is running on that server.
+On this page we describe how to set up your own SPARQL endpoint at a local server running under a recent Linux Debian Ubuntu distribution. We assume that an apache webserver process with functioning mod\_rewrite is running on that server.
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
@@ -113,5 +113,6 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
     -   store.virtuoso.password - Password of the Virtuoso store
 -   Link the directory to a directory (webserver)/WebDir that is delivered by the web server.
 -   Direct your browser to (webserver)/WebDir
-    -   Now you can login as Superadmin with login/passwd of the Virtuoso and upload rdf data files.
+    -   Test if (webserver)/WebDir/config.ini is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in the dir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
+    -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and upload rdf data files.
 
