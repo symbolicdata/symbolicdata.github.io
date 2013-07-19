@@ -93,7 +93,7 @@ To enable the database service to interoperate with applications as Ontowiki it 
 
 with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
 
-### Install Ontowiki
+### Install Ontowiki (Optional)
 
 Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
 
