@@ -7,7 +7,7 @@ On this page we describe how to set up your own SPARQL endpoint at a local serve
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
-Here we describe how we installed an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
+Here we describe how we installed an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and (optional) the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
 
 -   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. There is a Virtuoso Open Source Distribution (VOS) and even one that is bundled with Debian Ubuntu. We decided to use the latest VOS and to "install it from generic source".
 -   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at the University of Leipzig. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
