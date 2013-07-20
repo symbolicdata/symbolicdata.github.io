@@ -119,6 +119,6 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
     -   store.virtuoso.password - Password of the Virtuoso store
 -   Link the directory to a directory /WebDir that is delivered by the web server.
 -   Direct your browser to <http://localhost/WebDir>
-    -   Test if (http://localhost/WebDir/config.ini is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in /WebDir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
+    -   Test if <http://localhost/WebDir/config.ini> is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in /WebDir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
     -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
 
