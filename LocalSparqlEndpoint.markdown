@@ -18,7 +18,7 @@ Here we describe how we installed an RDF infrastructure based on the more powerf
 
 ### Install the Virtuoso engine
 
-We describe the main steps to install the latest VOS distribution "from generic source" (do not install as Ubuntu package!). For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes>.
+We describe the main steps to install the latest VOS distribution "from generic source" (do not install as Ubuntu package!). For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes> (Go to the section "Building from Upstream Source").
 
 -   (Once) Install additional Ubuntu packages to compile the VOS sources - requires root privileges.
 -   Download the sources (recent VOS 6.1.6) from sourceforge as tgz file, unpack and build them in a local directory
