@@ -82,7 +82,7 @@ Direct your Browser to <http://localhost:8890/sparql>. This opens a "Virtuoso SP
 
 `select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
 
-It should list the URIs of all people stored in the SD People knowledge base.
+It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
 You can shutdown the service from the console with
 
