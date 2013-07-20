@@ -3,7 +3,11 @@ layout: default
 title: LocalSparqlEndpoint
 ---
 
-On this page we describe how to set up your own SPARQL endpoint at a local server running under a recent Linux Debian Ubuntu distribution. We assume that an apache webserver process with functioning mod\_rewrite is running on that server.
+On this page we describe how to set up your own SPARQL endpoint at <http://localhost:8890/sparql> based on Apache (requires mod\_rewrite) running under a recent Linux Debian Ubuntu distribution.
+
+-   Tried with Debian GNU/Linux 7.0, Ubuntu 12.04.2 LTS, and Apache/2.2.22 (Debian)
+
+### Preliminary Remarks
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
@@ -14,11 +18,11 @@ Here we describe how we installed an RDF infrastructure based on the more powerf
 
 ### Install the Virtuoso engine
 
-We describe the main steps to install the latest VOS distribution "from generic source". For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes>.
+We describe the main steps to install the latest VOS distribution "from generic source" (do not install as Ubuntu package!). For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes>.
 
 -   (Once) Install additional Ubuntu packages to compile the VOS sources - requires root privileges.
 -   Download the sources (recent VOS 6.1.6) from sourceforge as tgz file, unpack and build them in a local directory
--   Install the build (reuires root privileges). In the standard settings the binaries (inifile, isql-v, isql-vw, virt\_mall, virtuoso-t) are deployed to /usr/local/bin, various libraries (virto\*, jdbc-\*, hibernate, sesame) to /usr/local/lib and the following directories are created:
+-   Install the build (requires root privileges). In the (recommended) standard settings the binaries (inifile, isql-v, isql-vw, virt\_mall, virtuoso-t) are deployed to /usr/local/bin, various libraries (virto\*, jdbc-\*, hibernate, sesame) to /usr/local/lib and the following directories are created:
     -   /usr/local/share/virtuoso/vad/ - used to store VAD archives prior to installation in an instance
     -   /usr/local/share/virtuoso/doc/ - local offline documentation
     -   /usr/local/var/lib/virtuoso/db/ - the default location for a Virtuoso instance
@@ -43,9 +47,9 @@ Copy /usr/local/var/lib/virtuoso/db/virtuoso.ini to /home/services/virtuoso/virt
 
 Then all data (ini-file, database files, logging) will be stored in the local directory of the given database. Note that backup is as easy as backing up all these files. To create a new database, create a new subdirectory, copy the virtuoso.ini.sample file to local virtuoso.ini, adapt it to the special needs and start the isql-v console. This will create all other required files.
 
-Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. Different databases have to use different ports.
+Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
 
-DirsAllowed contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file links.
+**DirsAllowed** contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file symlinks.
 
 Prepare a start skript with the two lines
 
@@ -72,7 +76,9 @@ Test if the data are loaded correctly by a sparql query at console
 
 Leave the console.
 
-Go to your Browser and call (webserver):8890/sparql. This opens a "Virtuoso SPARQL Query Editor". Try the query
+For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
+
+Direct your Browser to <http://localhost:8890/sparql>. This opens a "Virtuoso SPARQL Query Editor". Try the query
 
 `select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
 
@@ -111,8 +117,8 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
     -   store.virtuoso.dsn - Put here the section head of the Virtuoso store from odbc.ini (without quotes)
     -   store.virtuoso.user - The Virtuoso store user (default dba)
     -   store.virtuoso.password - Password of the Virtuoso store
--   Link the directory to a directory (webserver)/WebDir that is delivered by the web server.
--   Direct your browser to (webserver)/WebDir
-    -   Test if (webserver)/WebDir/config.ini is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in the dir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
-    -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and upload rdf data files.
+-   Link the directory to a directory /WebDir that is delivered by the web server.
+-   Direct your browser to <http://localhost/WebDir>
+    -   Test if (http://localhost/WebDir/config.ini is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in /WebDir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
+    -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
 
