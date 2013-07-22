@@ -148,6 +148,10 @@ with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
 
 Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
 
+To operate with Virtuoso the php5-odbc extension has to be installed.
+
+`sudo apt-get install php5-odbc`
+
 We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers> for details.
 
 -   Clone Ontowiki from the github repo to the target directory
