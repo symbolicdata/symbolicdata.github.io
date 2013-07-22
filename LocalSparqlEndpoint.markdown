@@ -40,7 +40,7 @@ The executables provided (in the virtuoso-opensource-6.1-bin package) are:
 
 At server start time a Virtuoso database is started with configuration read from /etc/virtuoso-opensource-6.1/virtuoso.ini. The default settings point to
 
--   /var/lib/virtuoso-opensource-6.1/db/ as the directory with all data and logging information resides
+-   /var/lib/virtuoso-opensource-6.1/db/ as the directory where all data and logging information resides
 -   the DB server port 1111 to be used by the console command
 
 `isql-vt 1111 dba YourDBPassword`
