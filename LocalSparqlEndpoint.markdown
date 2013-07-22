@@ -107,7 +107,7 @@ and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' 
 
 It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
-### Additional remarks
+### Useful remarks
 
 Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
 
@@ -133,7 +133,15 @@ You can shutdown the service from the console with
 
 ` SQL> shutdown();`
 
-To enable the database service to interoperate with applications as Ontowiki it has to be registered with ODBC. Add a section
+### Install Ontowiki (Optional)
+
+Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
+
+To operate with Virtuoso the php5-odbc extension has to be installed.
+
+`sudo apt-get install php5-odbc`
+
+and the database service has to be be registered with ODBC. Add a section
 
 ` # Symbolicdata OntoWiki dsn start`
 ` [SDOW]`
@@ -144,13 +152,8 @@ To enable the database service to interoperate with applications as Ontowiki it 
 
 with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
 
-### Install Ontowiki (Optional)
-
-Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
-
-To operate with Virtuoso the php5-odbc extension has to be installed.
-
-`sudo apt-get install php5-odbc`
+  
+hgg, 2013-07-22: I had a problem if the the port is not 1111, OntoWiki was installed under the default port instead of the port given here.
 
 We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers> for details.
 
