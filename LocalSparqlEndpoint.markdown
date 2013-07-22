@@ -13,7 +13,7 @@ On this page we describe how to set up your own SPARQL endpoint at <http://local
 
 ### Preliminary Remarks
 
-There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data. too (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
+There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data, too (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
 Here we describe how to install an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and (optional) the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
 
