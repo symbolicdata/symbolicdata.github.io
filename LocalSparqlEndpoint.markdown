@@ -5,7 +5,7 @@ title: LocalSparqlEndpoint
 
 ### Goal of this page
 
-To operate SymbolicData on a local site access to the data via a web server at localhost and a SPARQL endpoint is required.
+To operate SymbolicData on a local site requires access to the data via a web server at localhost and a SPARQL endpoint.
 
 On this page we describe how to set up your own SPARQL endpoint at <http://localhost:8890/sparql> based on Apache (requires mod\_rewrite) running under a recent Linux Debian Ubuntu distribution.
 
