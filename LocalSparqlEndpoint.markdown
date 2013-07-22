@@ -3,39 +3,55 @@ layout: default
 title: LocalSparqlEndpoint
 ---
 
+### Goal of this page
+
+To operate SymbolicData on a local site access to the data via a web server at localhost and a SPARQL endpoint is required.
+
 On this page we describe how to set up your own SPARQL endpoint at <http://localhost:8890/sparql> based on Apache (requires mod\_rewrite) running under a recent Linux Debian Ubuntu distribution.
 
 -   Tried with Debian GNU/Linux 7.0, Ubuntu 12.04.2 LTS, and Apache/2.2.22 (Debian)
 
 ### Preliminary Remarks
 
-There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
+There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data. too (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
 
-Here we describe how we installed an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and (optional) the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
+Here we describe how to install an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and (optional) the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
 
--   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. There is a Virtuoso Open Source Distribution (VOS) and even one that is bundled with Debian Ubuntu. We decided to use the latest VOS and to "install it from generic source".
+-   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. We recommend to use the Virtuoso Open Source Distribution (VOS) bundled with Debian.
 -   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at the University of Leipzig. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
 
 ### Install the Virtuoso engine
 
-We describe the main steps to install the latest VOS distribution "from generic source" (do not install as Ubuntu package!). For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes> (Go to the section "Building from Upstream Source").
+The virtuoso engine easily installed with the single command
 
--   (Once) Install additional Ubuntu packages to compile the VOS sources - requires root privileges.
--   Download the sources (recent VOS 6.1.6) from sourceforge as tgz file, unpack and build them in a local directory
--   Install the build (requires root privileges). In the (recommended) standard settings the binaries (inifile, isql-v, isql-vw, virt\_mall, virtuoso-t) are deployed to /usr/local/bin, various libraries (virto\*, jdbc-\*, hibernate, sesame) to /usr/local/lib and the following directories are created:
-    -   /usr/local/share/virtuoso/vad/ - used to store VAD archives prior to installation in an instance
-    -   /usr/local/share/virtuoso/doc/ - local offline documentation
-    -   /usr/local/var/lib/virtuoso/db/ - the default location for a Virtuoso instance
-    -   /usr/local/var/lib/virtuoso/vsp/ - various VSP scripts which comprise the default homepage until the Conductor is installed
-    -   /usr/local/lib/virtuoso/hosting/ - various modules
+  
+sudo aptitude install virtuoso-opensource
 
-Note that during installation the ports 1111, 1121 and 1131 are used for tempory databases to create the different VAD files. These ports must not be used by other running Virtuoso (or other) processes. Note that 1111 is the Virtuoso standard port.
+For security reasons during installation you will be asked for a password for the db users 'dba' and 'dav' (default: dba). The password should match the regex [a-zA-Z0-9]+, i.e., have only letters and ciphers.
 
-### Create a Virtuoso Database
+For details see <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VOSUbuntuNotes>
 
-We do not use the default directory /usr/local/var/lib/virtuoso/db/ but a directory /home/services/virtuoso under the non root account 'services' to operate the different databases. In the standard settings each Virtuoso database resides in its own subdirectory of /home/services/virtuoso and communicates over two ports - the DBPort (standard 1111) and the HTTPPort (standard 8890).
+The executables provided (in the virtuoso-opensource-6.1-bin package) are:
 
-Copy /usr/local/var/lib/virtuoso/db/virtuoso.ini to /home/services/virtuoso/virtuoso.ini.sample and change all database related file names to local ones.
+-   /usr/bin/isql-vt -- command-line database-access tool, iSQL
+-   /usr/bin/isqlw-vt -- Unicode-enabled iSQL
+-   /usr/bin/virt\_mail -- SMTP delivery agent for incoming mail
+-   /usr/bin/virtuoso-t -- Main daemon executable
+
+At server start time a Virtuoso database is started with configuration read from /etc/virtuoso-opensource-6.1/virtuoso.ini. The default settings point to
+
+-   /var/lib/virtuoso-opensource-6.1/db/ as the directory with all data and logging information resides
+-   the DB server port 1111 to be used by the console command
+
+`isql-vt 1111 dba YourDBPassword`
+
+if the daemon is running.
+
+-   the HTTP server port 8890 to be used as <http://localhost:8890> - it allows to manage the database via the conductor, a web interface similar to phpmyadmin or so - and the Sparql endpoint at <http://localhost:8890/sparql>.
+
+### (Optional) Create a new Virtuoso Database and start operation
+
+Copy /etc/virtuoso-opensource-6.1/virtuoso.ini to a fresh directory /myPATH/myNewVDir, change all file names to local ones
 
 `DatabaseFile                   = virtuoso.db`
 `ErrorLogFile                   = virtuoso.log`
@@ -45,18 +61,59 @@ Copy /usr/local/var/lib/virtuoso/db/virtuoso.ini to /home/services/virtuoso/virt
 `DatabaseFile                   = virtuoso-temp.db`
 `TransactionFile                = virtuoso-temp.trx`
 
-Then all data (ini-file, database files, logging) will be stored in the local directory of the given database. Note that backup is as easy as backing up all these files. To create a new database, create a new subdirectory, copy the virtuoso.ini.sample file to local virtuoso.ini, adapt it to the special needs and start the isql-v console. This will create all other required files.
+change the ports 1111 (new, e.g. 1112) and 8890 (new, e.g. 8891) to different ones and start a new daemon with
+
+`cd /myPATH/myNewVDir; virtuoso-t +configfile virtuoso.ini `
+
+This will generate all additional files in that directory and start the daemon. Access the database via console
+
+`isql-vt 1112 dba dba`
+
+and first change the default password 'dba'
+
+`SQL> set password dba YourVerySecretPassword ;`
+
+The web front end to the new database will be available at <http://localhost:8891>.
+
+Shut down the service from the console with
+
+`isql-vt 1112 dba YourVerySecretPassword`
+`SQL> shutdown() ;`
+
+### Data Management
+
+To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata and add the path /YourPathTo/symbolicdata/data to the data part of the distribution to the DirsAllowed
+
+`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata/data`
+
+and restart the daemon.
+
+Change to the RDFData directory and load all turtle graphs into the Virtuoso Engine:
+
+` cd /YourPathTo/symbolicdata/data`
+``  export MyDIR=`pwd` ``
+` for f in $(ls RDFData/*.ttl); do `
+`    echo "DB.DBA.TTLP_MT (file_to_string_output('$MyDIR/$f'),'`[`` http://symbolicdata.org/Data/`basename ``](http://symbolicdata.org/Data/`basename)``  $f .ttl`/');"; ``
+` done | isql-vt 1111 dba YourVerySecretPassword`
+
+Check success from within the console
+
+` isql-vt 1111 dba YourVerySecretPassword`
+` SQL> sparql select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
+
+and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' etc. The command will list you the URIs of all instances in the given graph. Try the same at the Sparql endpoint <http://localhost:8890/sparql> with
+
+` select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
+
+It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
+
+### Additional remarks
 
 Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
 
 **DirsAllowed** contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file symlinks.
 
-Prepare a start skript with the two lines
-
-` cd /home/services/virtuoso/(thedirectory)`
-` virtuoso-t +configfile virtuoso.ini `
-
-and start the service. Open the console
+Open the console
 
 `isql-v `<DBServerPort>` dba `<passwd>
 
@@ -66,34 +123,22 @@ and change the password (standard user = dba, passwd = dba)
 
 Load data from ttl files to the store, e.g., the SymbolicData Peoples knowledge base
 
-`DB.DBA.TTLP_MT (file_to_string_output ('/Path/to/RDFData/People.ttl'), '`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`');`
+`DB.DBA.TTLP_MT (file_to_string_output ('/home/graebe/git/SD/symbolicdata/data/RDFData/People.ttl'), '`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`');`
 
 The first parameter is the path to the file, the second parameter the ontology name. Note that data can be managed also via the Ontowiki attached to that Virtuoso service.
 
-Test if the data are loaded correctly by a sparql query at console
-
-` sparql select distinct ?p from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
-
-Leave the console.
-
 For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
-
-Direct your Browser to <http://localhost:8890/sparql>. This opens a "Virtuoso SPARQL Query Editor". Try the query
-
-`select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
-
-It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
 You can shutdown the service from the console with
 
-` shutdown();`
+` SQL> shutdown();`
 
 To enable the database service to interoperate with applications as Ontowiki it has to be registered with ODBC. Add a section
 
 ` # Symbolicdata OntoWiki dsn start`
 ` [SDOW]`
 ` Description=Symbolicdata OntoWiki Virtuoso DSN`
-` Driver=/usr/local/lib/virtodbc.so`
+` Driver=/usr/lib/odbc/virtodbc.so`
 ` Address=localhost:1111`
 ` # Symbolicdata OntoWiki dsn end`
 
