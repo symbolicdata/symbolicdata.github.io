@@ -22,7 +22,7 @@ Here we describe how to install an RDF infrastructure based on the more powerful
 
 ### Install the Virtuoso engine
 
-The virtuoso engine easily installed with the single command
+The virtuoso engine can easily be installed with the single command
 
   
 sudo aptitude install virtuoso-opensource
