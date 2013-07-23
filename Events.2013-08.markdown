@@ -18,7 +18,7 @@ Please get in contact with [Hans-Gert Gräbe](User:HGG "wikilink") for proposals
 #### Participants and preliminary program
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
--   Wolfram Sperber (ZMath Berlin, swMath project)
+-   Sebastian Bönisch, Wolfram Sperber (ZBl Math, FIZ Karlsruhe, swMath project)
 
 Monday, August 27, 2013
 
