@@ -59,13 +59,17 @@ We manage the following resources:
 -   This Web site for background information and informal descriptions
     -   A [poster](http://symbolicdata.org/Webseiten/overview-poster.pdf) displays the overall structure and embedding of the project
 -   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
--   An official public git Repo at <https://github.com/symbolicdata/symbolicdata>
-    -   [More](Using.Git "wikilink") about the way how we use Git
+-   A public git master repo at <https://github.com/symbolicdata/symbolicdata>
+    -   We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.
+    -   [More](Using.Git "wikilink") about the way how we use git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
--   An instance of OntoWiki to present and maintain the RDF Data.
+-   Primary data as [1](http://symbolicdata.org/XMLResources) XML Resources available (e.g.) via HTTP Get.
+-   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
+    -   Not yet, really -- hgg, 2013-07-24
+-   An instance of OntoWiki to present and maintain these primary RDF Metadata.
     -   2013-07-16 hgg: At the moment not operating, see temporarily <http://hgg.ontowiki.net/>
     -   [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
--   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to the RDFData part of the project.
+-   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
 
@@ -86,6 +90,7 @@ We manage the following resources:
 -   [Events](Events "wikilink")
 -   [GettingStarted](GettingStarted "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
+-   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
 -   [Project Organization](Organisation "wikilink")
 -   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
