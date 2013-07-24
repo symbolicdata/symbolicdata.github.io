@@ -17,7 +17,7 @@ The SymbolicData collection contains
 
 -   [GeometryProblemFormulations.ttl](http://symbolicdata.org/RDFData/GeometryProblemFormulations.ttl) - a knowledge base of **Geometry Problem Formulations** in latex
     -   The URIs are used as references for different proof schemes of these problems
--   GeometryFunctionSpecifications.ttl - the specification of the **GeoCode language**, a generic language to describe geometry problems, generate drawings and proof schemes
+-   GeometryFunctionSpecifications.ttl - the specification of the **[GeoCode](GeoCode "wikilink") language**, a generic language to describe geometry problems, generate drawings and proof schemes
 -   GeometryProofSchemes - XML Resources containing formally specified **Proof Schemes** for different problems using the GeoCode language
 -   GeometryProofSchemeDatabase - Metadata about relations between problems, proof schemes and other algebraic data
     -   Proof schemes of equational type are related to different problems in SymbolicData [PolynomialSystems](PolynomialSystems "wikilink") part.
