@@ -35,6 +35,8 @@ To have human readable URIs they are generated from parts of the data that are *
 
 #### Namespaces
 
+We try to reuse established namespaces and namespace abbreviations as, e.g., listed in <http://www.prefix.cc> or <http://lov.okfn.org>. It is a strong advice by Tim Berners-Lee to do so, and he set out the award to earn the [fifth star](http://5stardata.info) for ontology projects.
+
 (fixed by hgg - 2013-07-14)
 
 -   sdp: symbolicdata.org/Data/Person/ (see [People.Ontology](People.Ontology "wikilink"))
