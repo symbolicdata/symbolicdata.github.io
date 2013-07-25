@@ -20,21 +20,21 @@ Please get in contact with [Hans-Gert Gräbe](User:HGG "wikilink") for proposals
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Sebastian Bönisch, Wolfram Sperber (ZBl Math, FIZ Karlsruhe, swMath project)
 
-Monday, August 27, 2013
+Tuesday, August 27, 2013
 
 -   11-13 Presentation of the state of the project matter (Hans-Gert Gräbe)
 -   13-14 Lunch
 -   14-18 Tutorial - Using RDF, Sparql, Metadata, Virtuoso store. Compiling examples for tests and benchmarks in different areas (Andreas Nareike)
 -   evening - Get Together
 
-Tuesday, August 28, 2013
+Wednesday, August 28, 2013
 
 -   9-12 Inter project aspects - cooperation with [swmath](http://www.swmath.org), [lmonade](http://www.lmona.de/), [sage-math](http://www.sagemath.org), [SPP 1489](http://www.computeralgebra.de) Databases (who else)
 -   12-13 Lunch
 -   13-17 Discussion about the future of SymbolicData
 -   (otionally) evening - Get Together
 
-(Optionally) Wednesday, August 29, 2013
+(Optionally) Thursday, August 29, 2013
 
 -   9-13 Hackathon - prototypical implementation of new stuff
 
