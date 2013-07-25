@@ -37,15 +37,23 @@ To have human readable URIs they are generated from parts of the data that are *
 
 We try to reuse established namespaces and namespace abbreviations as, e.g., listed in <http://www.prefix.cc> or <http://lov.okfn.org>. It is a strong advice by Tim Berners-Lee to do so, and he set out the (moral) award to earn the [fifth star](http://5stardata.info) for ontology projects that follow this advice.
 
-(fixed by hgg - 2013-07-14)
+We use the standard namespaces rdf, rdfs, owl, xsd and the following ontologies:
 
--   sdp: symbolicdata.org/Data/Person/ (see [People.Ontology](People.Ontology "wikilink"))
--   sds: symbolicdata.org/Data/System/ (see [Systems](Systems "wikilink"))
--   sdb: symbolicdata.org/Data/BIB/ (see [BIB.Ontology](BIB.Ontology "wikilink"))
--   sdf: symbolicdata.org/Data/FanoPolytope/
--   sdg: symbolicdata.org/Data/GAlgebra/ (see [GAlgebras.Ontology](GAlgebras.Ontology "wikilink"))
--   sdg: symbolicdata.org/Data/GeometryProblem/
--   symbolicdata.org/Data/FreeAlgebra/ (see [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink"))
--   symbolicdata.org/Data/TestSet/ (see [TestSets.Ontology](TestSets.Ontology "wikilink"))
+-   foaf: <http://xmlns.com/foaf/0.1/> (see [People](People "wikilink"))
+-   dct: <http://purl.org/dc/terms/> (see [Bibliography](Bibliography "wikilink"))
+-   org: <http://www.w3.org/ns/org#> (see org:Organisation in [People]])
+-   skos: <http://www.w3.org/2004/02/skos/core#> (as superconcept of org: and sd:)
+-   sd: <http://symbolicdata.org/Data/Model#> (our own namespace for concepts)
+
+Inner project abbreviations (to be fixed):
+
+-   sdp: <http://symbolicdata.org/Data/Person/> (see [People.Ontology](People.Ontology "wikilink"))
+-   sds: <http://symbolicdata.org/Data/System/> (see [Systems](Systems "wikilink"))
+-   sdb: <http://symbolicdata.org/Data/BIB/> (see [BIB.Ontology](BIB.Ontology "wikilink"))
+-   sdf: <http://symbolicdata.org/Data/FanoPolytope/>
+-   sdg: <http://symbolicdata.org/Data/GAlgebra/> (see [GAlgebras.Ontology](GAlgebras.Ontology "wikilink"))
+-   sdg: <http://symbolicdata.org/Data/GeometryProblem/>
+-   <http://symbolicdata.org/Data/FreeAlgebra/> (see [FreeAlgebras.Ontology](FreeAlgebras.Ontology "wikilink"))
+-   <http://symbolicdata.org/Data/TestSet/> (see [TestSets.Ontology](TestSets.Ontology "wikilink"))
 -   todo: sdpol: (2013-07-14, since Andreas is working on it)
 
