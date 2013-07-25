@@ -21,14 +21,16 @@ For accommodation we recommend
 -   Pension Am Stern, Bornaische Straße 124, 04279 Leipzig, 0341-3338440 (Pension mit einfacher Ausstattung, zum Tagungsort 4 Stationen Strb., Zimmerkosten ca. 40 Euro/ÜF)
 -   [Hotel Leonardo](http://www.hotel-leonardo.de/main.htm), Windscheidstrasse 21-23, 04277 Leipzig (Hotel mit guter Ausstattung, Tagungsort zu Fuß erreichbar, Zimmerkosten ca. 60 Euro/ÜF)
 
-#### Participants and preliminary program
+#### Participants
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Sebastian Bönisch, Wolfram Sperber (ZBl Math, FIZ Karlsruhe, swMath project)
 
-Does not com due to other obligations
+Cannot join the workshop due to other obligations
 
 -   Ralf Hemmecke, Linz
+
+#### Preliminary Program
 
 Monday, August 26, 2013
 
