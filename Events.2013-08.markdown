@@ -26,6 +26,10 @@ For accommodation we recommend
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Sebastian Bönisch, Wolfram Sperber (ZBl Math, FIZ Karlsruhe, swMath project)
 
+Does not com due to other obligations
+
+-   Ralf Hemmecke, Linz
+
 Monday, August 26, 2013
 
 -   evening - Participants arrive, get Together
