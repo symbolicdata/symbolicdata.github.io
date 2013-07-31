@@ -18,8 +18,8 @@ and have an instance of Ontowiki rolled out within your webserver running at loc
 
 #### FAQ
 
-Q: There is a knowledge base (graph) loaded into Virtuoso but not yet visible in OntoWiki.
+Q: There is a knowledge base (graph) <URI> loaded into Virtuoso but not yet visible in OntoWiki.
 
-A: To be tested:
+A: Issue on Virtuoso console the command
 
-`create silent graph `<URI>
+`sparql create silent graph `<URI>` ;`
