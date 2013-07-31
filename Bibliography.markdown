@@ -46,7 +46,10 @@ without storing sentences of the second kind, since we can ask remotely the bibl
   
 List\_all ?Papers has\_author FranzBeckenbauerTheMathematician .
 
-For more details see the knowledge base [BIB.ttl](http://symbolicdata.org/RDFData/BIB.ttl)
+For more details see the knowledge bases
+
+-   [Bibliography.ttl](http://symbolicdata.org/RDFData/Bibliography.ttl) for URIs and short description of the bibliographical references used within SymbolicData
+-   [Bib-References.ttl](http://symbolicdata.org/RDFData/Bib-References.ttl) (to be compiled) for links of these data to external collections of bibliographical data (citeseer, GB Bibliography and ZBMath for the moment)
 
 #### Ontology
 
