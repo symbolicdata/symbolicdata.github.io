@@ -18,7 +18,7 @@ to be added.
 
 #### Predicates for sd:FanoPolytope
 
-to be added. List it with
+Listed with
 
   
 PREFIX sd: <http://symbolicdata.org/Data/Model#>
@@ -26,6 +26,38 @@ PREFIX sd: <http://symbolicdata.org/Data/Model#>
 select distinct ?p where { ?s a sd:FanoPolytope . ?s ?p ?o .}
 
 from the Sparql endpoint.
+
+-   sd:canonical
+-   sd:centered
+-   sd:compressed
+-   sd:cone\_ambient\_dim
+-   sd:cone\_dim
+-   sd:essentially\_generic
+-   sd:facet\_width
+-   sd:feasible
+-   sd:gorenstein
+-   sd:gorenstein\_index
+-   sd:hasDimension
+-   sd:hasFileName
+-   sd:inZIPFile
+-   sd:lattice
+-   sd:lattice\_volume
+-   sd:lineality\_dim
+-   sd:n\_boundary\_lattice\_points
+-   sd:n\_edges
+-   sd:n\_facets
+-   sd:n\_interior\_lattice\_points
+-   sd:n\_lattice\_points
+-   sd:normal
+-   sd:n\_vertices
+-   sd:pointed
+-   sd:reflexive
+-   sd:simple
+-   sd:simple\_polyhedron
+-   sd:smooth
+-   sd:terminal
+-   sd:volume
+-   sd:weakly\_centered
 
 #### Resources
 
