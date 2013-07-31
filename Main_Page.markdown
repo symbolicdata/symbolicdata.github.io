@@ -37,6 +37,7 @@ The SymbolicData Project aims at two main goals:
 At the moment the project hosts data from the following communities within Symbolic Computing
 
 -   [Polynomial Systems](PolynomialSystems "wikilink")
+-   [Fano Polytopes](FanoPolytopes "wikilink")
 -   [G-Algebras](GAlgebras "wikilink")
 -   [Test Sets](TestSets "wikilink")
 -   [Free Algebras](FreeAlgebras "wikilink")
