@@ -13,7 +13,7 @@ To be added
 
 #### Structure of the Data
 
--   The [Fano Polytopes Knowledge Base](http://symbolicdata.org/RDFData/FanoPolytopes.ttl)
+-   The [Fano Polytopes Knowledge Base](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) (5.2 MB)
 
   
   
