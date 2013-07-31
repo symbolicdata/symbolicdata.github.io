@@ -18,10 +18,10 @@ This information is collected in two knowledge bases, [Bibliography.ttl](http://
 Records of type **sd:BIB** have the following additional predicates
 
 -   standard predicates sd:createdAt, sd:createdBy, sd:lastModified (deprecated), rdfs:comment
--   dcterms:abstract Literal - a short
--   dcterms:creator foaf:Person - authors of the paper (multiple)
--   dcterms:title Literal - title of the paper
--   dcterms:issued dcterms:W3CDTF - year of publication
+-   dct:abstract Literal - a short
+-   dct:creator foaf:Person - authors of the paper (multiple)
+-   dct:title Literal - title of the paper
+-   dct:issued dcterms:W3CDTF - year of publication
 
 Links to external stores:
 
@@ -32,6 +32,7 @@ Links to external stores:
 #### Changes
 
 -   References to external bib databases (Andreas, 2013-07-30, to be aligned and moved from the workbench to rc-1)
+-   Changed prefix to dct: (HGG, 2013-07-31)
 -   Update to [dcterms](http://dublincore.org/documents/dcmi-terms) ontology (Andreas, 2013-02-25)
 
 To be discussed:
