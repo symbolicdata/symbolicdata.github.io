@@ -11,6 +11,8 @@ On this page we describe how to set up your own Sparql endpoint at <http://local
 
 -   Tried with Debian GNU/Linux 7.0, Ubuntu 12.04.2 LTS, and Apache/2.2.22 (Debian)
 
+For best practises using a Virtuoso based OntoWiki see our page [Using.Ontowiki](Using.Ontowiki "wikilink").
+
 ### Preliminary Remarks
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data, too (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
