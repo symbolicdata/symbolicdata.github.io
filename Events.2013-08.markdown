@@ -29,6 +29,7 @@ For accommodation we recommend
 Cannot join the workshop due to other obligations
 
 -   Ralf Hemmecke, Linz
+-   Max Horn, Gießen, libsing project
 
 #### Preliminary Program
 
