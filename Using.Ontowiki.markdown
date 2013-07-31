@@ -22,4 +22,7 @@ Q: There is a knowledge base (graph) <URI> loaded into Virtuoso but not yet visi
 
 A: Issue on Virtuoso console the command
 
-`sparql create silent graph `<URI>` ;`
+  
+sparql create silent graph <URI> ;
+
+
