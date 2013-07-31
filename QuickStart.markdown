@@ -55,20 +55,20 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 
 **3)** Display Integer Polynomial Systems
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?s WHERE {`
-`  ?s a sd:IntPS`
+`  ?s a sd:Ideal`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:IntPS})
+[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
 
 **4)** Display all Integer Polynomial Systems of degree 20
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?s WHERE {`
-`  ?s a sd:IntPS .`
+`  ?s a sd:Ideal .`
 `  ?s sd:hasDegree "20"^^xsd:integer .`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} Run this query]`
 
 **5)** Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
@@ -82,14 +82,14 @@ You might noticed that there are some values where there the object is quite com
 
 **6)** Getting a table-like display of all entries can also be done:
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
-`  ?a a sd:IntPS .`
+`  ?a a sd:Ideal .`
 `  ?a sd:hasDimension ?dim .`
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE{?a%20a%20sd:IntPS%20.%20?a%20sd:hasDimension%20?dim%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll})
+[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE{?a%20a%20sd:Ideal%20.%20?a%20sd:hasDimension%20?dim%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll})
 
 This query could be send as HTTP request and then rendered into a HTML table by a quite simple PHP script. (Details on this will be included later)
 
@@ -97,33 +97,33 @@ This query could be send as HTTP request and then rendered into a HTML table by 
 
 For some polynomial systems there is no dimension specified. The previous query does not find these. You can fix this by giving the condition on dimension an optional modifier:
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
-`  ?a a sd:IntPS .`
+`  ?a a sd:Ideal .`
 `  OPTIONAL {?a sd:hasDimension ?dim} .`
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} Run this query]`
 
 Now suppose we want to work with precisely the polynomial system that are missing a dimension. Here we could filter the result:
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?a ?dim ?deg ?ll WHERE {`
-`  ?a a sd:IntPS .`
+`  ?a a sd:Ideal .`
 `  OPTIONAL {?a sd:hasDimension ?dim} .`
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll .`
 `  FILTER(!BOUND(?dim))`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:IntPS%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER(!BOUND(?dim))} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER(!BOUND(?dim))} Run this query]`
 
 If we want not just degree 20 but a degree within a certain range, it is useful to introduce a variable ?d for the degree and include another condition for the variable ?d.
 
-`PREFIX sd: `<http://symbolicdata.org/Data/Model/>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?s ?d WHERE {`
-`  ?s a sd:IntPS .`
+`  ?s a sd:Ideal .`
 `  ?s sd:hasDegree ?d .`
 `  FILTER(xsd:integer(?d) <= 20)`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model/%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:IntPS%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} Run this query]`
