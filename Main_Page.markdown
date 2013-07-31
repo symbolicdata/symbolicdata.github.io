@@ -66,8 +66,7 @@ We manage the following resources:
 -   Primary data as [1](http://symbolicdata.org/XMLResources) XML Resources available (e.g.) via HTTP Get.
 -   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
     -   Not yet, really -- hgg, 2013-07-24
--   An instance of OntoWiki to present and maintain these primary RDF Metadata.
-    -   2013-07-16 hgg: At the moment not operating, see temporarily <http://hgg.ontowiki.net/>
+-   An [instance of OntoWiki](http://symbolicdata.org/Data) to present and maintain these primary RDF Metadata.
     -   [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
