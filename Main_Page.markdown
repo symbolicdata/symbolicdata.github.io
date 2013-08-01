@@ -26,6 +26,7 @@ Tools and data are designed to be used both
 SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
 
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
+-   There is a [proposal for SymbolicData reorganization](Organization "wikilink") towards an intercommunity project
 
 ### Main goals
 
