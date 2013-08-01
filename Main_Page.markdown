@@ -69,7 +69,9 @@ We manage the following resources:
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
 -   Primary data as [1](http://symbolicdata.org/XMLResources) XML Resources available (e.g.) via HTTP Get.
 -   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
-    -   Try out
+
+  
+Try out
 
 `curl -LH "Accept: application/rdf+xml" `[`http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog`](http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog)
 
