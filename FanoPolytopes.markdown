@@ -7,7 +7,11 @@ title: FanoPolytopes
 
 #### About
 
-To be added
+These data refer to polytope classificational data collected within the [polymake community](http://polymake.org) mainly be Andreas Paffenholz und Benjamin Lorenz. [Another database](http://polymake.org/doku.php/data) interface directly incorporated into the polymake software was develope by Silke Horn.
+
+The polymake project is maintained by Michael Joswig and Ewgenij Gawrilow.
+
+More about the Fano polytopes collection has to be added
 
 -   Assigned to Andreas (HGG, 2013-07-31)
 
