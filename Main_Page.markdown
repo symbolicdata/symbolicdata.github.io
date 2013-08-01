@@ -25,6 +25,8 @@ Tools and data are designed to be used both
 
 SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
 
+### What's new?
+
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   There is a [proposal for SymbolicData reorganization](Organization "wikilink") towards an intercommunity project
 
@@ -67,9 +69,14 @@ We manage the following resources:
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
 -   Primary data as [1](http://symbolicdata.org/XMLResources) XML Resources available (e.g.) via HTTP Get.
 -   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
-    -   Not yet fully operating -- hgg, 2013-07-31
+    -   Try out
+
+`curl -LH "Accept: application/rdf+xml" `[`http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog`](http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog)
+
+  
+to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf/xml format by a simple HTTP Get request to the URI
+
 -   An [instance of OntoWiki](http://symbolicdata.org/Data) to present and maintain these primary RDF Metadata.
-    -   Not yet fully operating -- hgg, 2013-07-31
     -   [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
