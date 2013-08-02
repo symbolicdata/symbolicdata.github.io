@@ -17,7 +17,7 @@ More about the Fano polytopes collection has to be added
 
 #### Structure of the Data
 
--   The Fano Polytopes Knowledge Base [for download](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) (5.2 MB) and as [Linked Data](http://symbolicdata.org/Data/FanoPolytopes)
+-   The Fano Polytopes Knowledge Base [for download](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) (5.2 MB) and as [Linked Data](http://symbolicdata.org/Data/FanoPolytopes/)
 -   The Resources are available as zip files directly from the polymake servers
 -   [FanoPolytopes.Ontology](FanoPolytopes.Ontology "wikilink") - an informal description of the Ontology of the Fano Polytopes Knowledge Base developed so far.
 
