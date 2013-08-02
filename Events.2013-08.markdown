@@ -9,7 +9,7 @@ title: Events.2013-08
 
 We invite for a second Workshop to discuss progress and prospects of the SymbolicData Project and resume the work done within the [E-Science Benchmarking Project](Projects.EScience "wikilink"). Due to little response we decided to shift the workshop to the end of August. Note that we have no financial support for the workshop, hence travel expenses, order and payment of accommodation are to you.
 
-The Workshop will take place in room P-901 (Paulinum) in the main building of the Leipzig University, Augustusplatz 10, 04103 Leipzig
+The Workshop will take place in **room P-901** (Paulinum) in the **main building of the Leipzig University, Augustusplatz 10, 04109 Leipzig**.
 
 Please get in contact with [Hans-Gert Gräbe](User:HGG "wikilink") for proposals and questions about goal and program.
 
@@ -26,6 +26,10 @@ Cannot join the workshop due to other obligations
 -   Max Horn, Gießen, libsing project
 
 #### Preliminary Program
+
+The program will address different use cases, efforts and aspects of RDF based concepts of inter community communication along the needs of scientific communities in Symbolic Computing (aka Computer Algebra).
+
+We use agile concept also planning the program schedule; much will depend on the participants themselves. A workshop ...
 
 Tuesday, August 27, 2013
 
