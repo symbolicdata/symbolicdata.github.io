@@ -11,11 +11,11 @@ We invite for a second Workshop to discuss progress and prospects of the Symboli
 
 The Workshop will take place in **room P-901** (Paulinum) in the **main building of the Leipzig University, Augustusplatz 10, 04109 Leipzig**.
 
-Please get in contact with [Hans-Gert Gräbe](User:HGG "wikilink") for proposals and questions about goal and program.
-
-For accommodation we recommend the [www.parkhotelleipzig.de Seaside Parkhotel]. Please make your own booking.
+For accommodation we recommend the [Seaside Parkhotel](http://www.parkhotelleipzig.de). Please make your own booking.
 
 #### Participants
+
+Please send an email to [mailto:graebe@informatik.uni-leipzig.de](mailto:graebe@informatik.uni-leipzig.de) of you plan to join the workshop.
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Sebastian Bönisch (?), Wolfram Sperber (ZBl Math Berlin, swMath project)
