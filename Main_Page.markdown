@@ -39,17 +39,17 @@ The SymbolicData Project aims at two main goals:
 
 At the moment the project hosts data from the following communities within Symbolic Computing
 
--   [Polynomial Systems](PolynomialSystems "wikilink")
 -   [Fano Polytopes](FanoPolytopes "wikilink")
--   [G-Algebras](GAlgebras "wikilink")
--   [Test Sets](TestSets "wikilink")
 -   [Free Algebras](FreeAlgebras "wikilink")
+-   [G-Algebras](GAlgebras "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
+-   [Polynomial Systems](PolynomialSystems "wikilink")
+-   [Test Sets](TestSets "wikilink")
 
 The project manages additional Data:
 
--   [People](People "wikilink") - different people and groups
 -   [Bibliography](Bibliography "wikilink") - bibliographical references system (to be aligned with [swmath](http://www.swmath.org))
+-   [People](People "wikilink") - different people and groups
 -   [Systems](Systems "wikilink") - list of CA systems (aligned with [swmath](http://www.swmath.org))
 
 Experimental data (work in progress):
