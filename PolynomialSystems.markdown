@@ -33,7 +33,7 @@ With the upcoming SymbolicData v.3 we decided not to store all polynomial system
 
 #### Structure of the Data
 
--   The [PolynomialSystems Knowledge Base](http://symbolicdata.org/RDFData/PolynomialSystems.ttl)
+-   The PolynomialSystems Knowledge Base [for download](http://symbolicdata.org/RDFData/PolynomialSystems.ttl) and as [Linked Data](http://symbolicdata.org/Data/PolynomialSystems/)
 
   
   
