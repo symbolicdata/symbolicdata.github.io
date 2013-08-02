@@ -15,13 +15,7 @@ There is a close relation to Polynomial Systems Solving via different Toric conc
 
 See
 
--   the [TestSets](http://symbolicdata.org/Data/TestSets) Knowledge Base (link to be fixed),
+-   the TestSets Knowledge Base [for download](http://symbolicdata.org/RDFData/TestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/TestSets/)
 -   the XML Resources of type [TestSets](http://symbolicdata.org/XMLResources/TestSets) in the repository and
 -   [TestSets.Ontology](TestSets.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
-
-These examples have to be refactored from SD-2 for the current distribution.
-
-  
-2012-11-20 - Assigned to Andreas, 2012-12-06 done
-
 
