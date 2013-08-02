@@ -102,7 +102,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   [GettingStarted](GettingStarted "wikilink")
 -   More about the [history](History "wikilink") of the Symbolic Data Project.
 -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
--   [Project Organization](Organisation "wikilink")
+-   Thoughts about the [Project Organization](Organisation "wikilink")
 -   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
