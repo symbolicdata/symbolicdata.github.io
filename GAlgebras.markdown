@@ -20,12 +20,7 @@ The base domain k is a field, either Q or Q(a1,...,ak) for (commuting) parameter
 
 #### Structure of the Data
 
--   The [G-Algebras Knowledge Base](http://symbolicdata.org/RDFData/GAlgebras.ttl)
-
-  
-  
-Currently only as ttl-Download, a [Linked Data access](http://linkeddata.org) is on the way.
-
+-   The G-Algebras Knowledge Base [for download](http://symbolicdata.org/RDFData/GAlgebras.ttl) and as [Linked Data](http://symbolicdata.org/Data/GAlgebras/)
 -   The [XML Resources](http://symbolicdata.org/XMLResources/GAlgebras) in the repository with data complying to XSchema definitions [GAlgebras.xsd](http://symbolicdata.org/XMLResources/GAlgebras.xsd), [Common.xsd](http://symbolicdata.org/XMLResources/Common.xsd) (common structure) and [Types.xsd](http://symbolicdata.org/XMLResources/Types.xsd) (type definitions)
 -   [GAlgebras.Ontology](GAlgebras.Ontology "wikilink") - an informal description of the Ontology of the G-Algebra Knowledge Base developed so far.
 
