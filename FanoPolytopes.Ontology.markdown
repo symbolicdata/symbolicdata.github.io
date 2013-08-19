@@ -14,50 +14,73 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 -   sd:inZIPFile URI - the Resource zip file with a bundle of polytopes
 -   sd:hasFileName String - the file name
 
-to be added.
+The name of the ZIP files gives rise to a property
+
+-   sd:hasDimension
+
+that is not explicitely stated in the resource files (also see [the comment before the ZIP files](http://polymake.org/polytopes/paffenholz/www/fano.html))
 
 #### Predicates for sd:FanoPolytope
 
-Listed with
+A list of all predicates can be generated with a SPARQL-Query:
 
-  
-PREFIX sd: <http://symbolicdata.org/Data/Model#>
+`PREFIX sd: `<http://symbolicdata.org/Data/Model#>
+`select distinct ?p where { ?s a sd:FanoPolytope . ?s ?p ?o .}`
 
-select distinct ?p where { ?s a sd:FanoPolytope . ?s ?p ?o .}
+We all properties with some comments:
 
-from the Sparql endpoint.
+##### Only "true" or not set
 
--   sd:canonical
+These should probably be modeled as classes (along with the other "boolean" properties). Some additional input from the polytopes community is needed here.
+
+-   sd:canonical (only used for F.5D.0040.poly)
 -   sd:centered
--   sd:compressed
 -   sd:cone\_ambient\_dim
--   sd:cone\_dim
--   sd:essentially\_generic
--   sd:facet\_width
 -   sd:feasible
 -   sd:gorenstein
--   sd:gorenstein\_index
--   sd:hasDimension
--   sd:hasFileName
--   sd:inZIPFile
 -   sd:lattice
--   sd:lattice\_volume
--   sd:lineality\_dim
--   sd:n\_boundary\_lattice\_points
--   sd:n\_edges
--   sd:n\_facets
--   sd:n\_interior\_lattice\_points
--   sd:n\_lattice\_points
 -   sd:normal
--   sd:n\_vertices
 -   sd:pointed
 -   sd:reflexive
 -   sd:simple
 -   sd:simple\_polyhedron
 -   sd:smooth
--   sd:terminal
--   sd:volume
 -   sd:weakly\_centered
+
+##### Only "false" or not set
+
+-   sd:compressed
+-   sd:terminal
+
+##### Can be "true" or "false"
+
+-   sd:essentially\_generic
+
+##### Either "1" or not set
+
+-   sd:gorenstein\_index
+-   sd:n\_interior\_lattice\_points
+
+##### Integer values
+
+-   sd:cone\_dim
+-   sd:facet\_width
+-   sd:n\_lattice\_points
+-   sd:lattice\_volume
+-   sd:n\_boundary\_lattice\_points
+-   sd:n\_edges
+-   sd:n\_facets
+-   sd:n\_vertices
+
+##### Always "0"
+
+Might be wrong?
+
+-   sd:lineality\_dim
+
+##### Fractions values (e.g. "123/435")
+
+-   sd:volume
 
 #### Resources
 
