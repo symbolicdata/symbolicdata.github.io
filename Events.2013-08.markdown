@@ -24,6 +24,7 @@ Cannot join the workshop due to other obligations
 
 -   Ralf Hemmecke, Linz
 -   Max Horn, Gießen, libsing project
+-   Andreas Paffenholz, Darmstadt, Fano Polytopes
 
 #### Preliminary Program
 
