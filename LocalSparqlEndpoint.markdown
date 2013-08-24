@@ -127,11 +127,7 @@ and change the password (standard user = dba, passwd = dba)
 
 `set password `<old password>` `<new password>`;`
 
-Load data from ttl files to the store, e.g., the SymbolicData Peoples knowledge base
-
-`DB.DBA.TTLP_MT (file_to_string_output ('/home/graebe/git/SD/symbolicdata/data/RDFData/People.ttl'), '`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`');`
-
-The first parameter is the path to the file, the second parameter the ontology name. Note that data can be managed also via the Ontowiki attached to that Virtuoso service.
+Load data from ttl files with the vsql/loaddata.pl script. This requires to set the system environment variable SD to the root of your symbolicdata git clone.
 
 For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
 
