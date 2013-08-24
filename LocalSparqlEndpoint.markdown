@@ -109,6 +109,10 @@ and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' 
 
 It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
+Adapt the Perl files in the src/vsql directory for several standard service tasks. E.g., to load the data into your Virtuoso database, call
+
+` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
+
 ### Useful remarks
 
 Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
