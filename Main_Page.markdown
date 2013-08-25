@@ -67,7 +67,7 @@ We manage the following resources:
     -   We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.
     -   [More](Using.Git "wikilink") about the way how we use git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
--   Primary data as [1](http://symbolicdata.org/XMLResources) XML Resources available (e.g.) via HTTP Get.
+-   Primary data as [XML Resources](http://symbolicdata.org/XMLResources) available (e.g.) via HTTP Get.
 -   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
 
   
@@ -83,6 +83,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
+-   A [dump of these RDF data](http://symbolicdata.org/RDFData-Dump) in gzipped ntriple format.
 
 ### Related Activities
 
