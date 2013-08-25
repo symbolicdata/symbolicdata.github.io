@@ -5,7 +5,7 @@ title: Reorganization
 
 ### Proposal for SymbolicData Reorganization towards an Intercommunity Project
 
-During the [December 2012 Workshop](Events.2012-12 "wikilink") in Leipzig we decided to reshape the SymbolicData Project as *intercommunity project*, that address needs of *communities* within Symbolic Computation to profile, test and benchmark implementations, and has strong links to other intercommunity activities as [sagemath](http://sagemath.org/), [lmonade](http://www.lmona.de/), [swmath](http://www.swmath.org/) ond others, see [Andreas' poster](http://symbolicdata.org/Webseiten/overview-poster.pdf) for an overall picture.
+During the [December 2012 Workshop](Events.2012-12 "wikilink") in Leipzig we decided to reshape the SymbolicData Project as *intercommunity project*, that address needs of *communities* within Symbolic Computation to profile, test and benchmark implementations, and has strong links to other intercommunity activities as [sagemath](http://sagemath.org/), [lmonade](http://www.lmona.de/), [swmath](http://www.swmath.org/) ond others, see [Andreas' poster](http://symbolicdata.org/Uploads/overview-poster.pdf) for an overall picture.
 
 But no intercommunity project without vivid roots in the communities. The ongoing efforts of Andreas and [me](User:HGG "wikilink") to place and reshape the SymbolicData Project as an intercommunity project has no value if it is not supported by the communities themselves. SymbolicData canonly be successful as *joined efforts within different CA communities* to establish a common interlinking infrastructure that extends the intra-community infrastructure in a natural way using modern Semantic Web concepts.
 
