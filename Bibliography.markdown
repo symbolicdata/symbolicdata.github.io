@@ -49,8 +49,13 @@ List\_all ?Papers has\_author FranzBeckenbauerTheMathematician .
 For more details see the knowledge bases
 
 -   [Bibliography.ttl](http://symbolicdata.org/RDFData/Bibliography.ttl) for URIs and short description of the bibliographical references used within SymbolicData
--   [Bib-References.ttl](http://symbolicdata.org/RDFData/Bib-References.ttl) (to be compiled) for links of these data to external collections of bibliographical data (citeseer, GB Bibliography and ZBMath for the moment)
+-   [Bib-References.ttl](http://symbolicdata.org/RDFData/Bib-References.ttl) for links of these data to external collections of bibliographical data (citeseer, GB Bibliography and ZBMath for the moment)
 
 #### Ontology
 
 [BIB.Ontology](BIB.Ontology "wikilink") - an informal description of the Ontology developed so far
+
+#### Open Problems
+
+-   Citeseer uses doi attributes that cannot obviously matched with the [Wikipedia DOI description](http://de.wikipedia.org/wiki/Digital_Object_Identifier). Find out more about that.
+
