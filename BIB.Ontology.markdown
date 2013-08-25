@@ -31,12 +31,12 @@ Links to external stores:
 
 #### Changes
 
--   References to external bib databases (Andreas, 2013-07-30, to be aligned and moved from the workbench to rc-1)
+-   References to external bib databases (Andreas, 2013-08-23)
 -   Changed prefix to dct: (HGG, 2013-07-31)
 -   Update to [dcterms](http://dublincore.org/documents/dcmi-terms) ontology (Andreas, 2013-02-25)
 
 To be discussed:
 
--   Which foreign bib reference? Is there any value in [doi's](http://www.doi.org)?
+-   Which foreign bib references to store? Is there any value in [doi's](http://www.doi.org)? How citeseer doi's are related to all that?
 -   What's about [PND](http://de.wikipedia.org/wiki/Personennamendatei)?
 
