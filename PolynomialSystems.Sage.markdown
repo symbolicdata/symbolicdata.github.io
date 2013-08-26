@@ -8,6 +8,30 @@ Polynomial Systems and Sage
 
 ### Prerequisites
 
+Sage obviously is needed, it can be obtained here: <http://www.sagemath.org/> Once downloaded and unzipped, with will be located in a folder \$SAGE\_ROOT. Sage comes with its own Python version. Scripts using the Sage libraries can be run with
+
+`./sage -python script.py`
+
+Another possibility is to install all the Sage modules into your running Python instance. We will not discuss this further here.
+
+Additionally to Sage, the **requests** library is needed, as this library is not installed by default and has to be installed for the Sage Python.
+
+##### Installing new packages into Sage Python
+
+Installing new packaged can easily be done by installing pip. This can be done by invoking a Sage sub-shell:
+
+`./sage -sh`
+
+Next, install pip for Sage Python:
+
+**`(sage-sh)`**` easy_install pip`
+
+In the message that follows, there should be something like "Installing pip script to \$SAGE\_ROOT/local/bin". New libraries can now be installed with pip. However, calling simply pip from the Sage sub-shell might not work (the 'normal' pip was called, not the Sage pip). In this case pip can be called by prefixing the correct path:
+
+**`(sage-sh)`**` $SAGE_ROOT/local/bin/pip install requests`
+
+The Sage sub-shell can be exited by typing 'exit'.
+
 ### Usage
 
 To use the sdsage.py module, it has to be imported into the running python instance of Sage:
