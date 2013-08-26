@@ -80,3 +80,44 @@ The parameter <name> is a string that either can be a complete URI like <http://
 <sdsage.SD_Ideal instance at 0xc88902c>
 
 ### The SD\_Ideal object
+
+SD\_Ideal objects represent a SymbolicData database object. The constructor takes a string which either is a complete URI or a simple name (the latter of which will be prefixed with the 'ideal' value from the sdsage.ini)
+
+Any triple of the form (SUBJ, PRED, OBJ) will yield a field PRED\* for the SD\_Ideal object with the value OBJ, where PRED\* is the ending piece of PRED , i.e. everything before and including the last / or \# is thrown away.
+
+Take for example Buchberger-87, the TTL for this Ideal looks like this:
+
+<http://symbolicdata.org/Data/Ideal/Buchberger-87>
+`    rdf:type sd:Ideal ;`
+`    sd:createdAt "1999-03-26" ;`
+`    sd:createdBy sdp:Graebe_HG ;`
+`    sd:hasDegreeList "2,2,3" ;`
+`    sd:hasDimension "2" ;`
+`    sd:hasLengthsList "2,2,2" ;`
+`    sd:hasVariables "r,t,x,y,z" ;`
+`    sd:relatedPolynomialSystem `<http://symbolicdata.org/Data/IntPS/Buchberger-87>` ;`
+`    rdfs:comment "Origin: Implicitation of (r*t,r*t^2,r^2)" .`
+
+Once loaded by
+
+**`sage:`**` sd_bb87 = sd.get_sd_ideal('Buchberger-87')`
+
+these value can be accessed as follows:
+
+**`sage:`**` sd_bb87.createdAt`
+`u'1999-03-26'`
+**`sage:`**` sd_bb87.createdBy`
+`u'`[`http://symbolicdata.org/Data/Person/Graebe_HG`](http://symbolicdata.org/Data/Person/Graebe_HG)`'`
+**`sage:`**` sd_bb87.type`
+`u'`[`http://symbolicdata.org/Data/Model#Ideal`](http://symbolicdata.org/Data/Model#Ideal)`'`
+**`sage:`**` sd_bb87.hasLengthsList`
+`u'2,2,2'`
+**`sage:`**` sd_bb87.relatedPolynomialSystem`
+`u'`[`http://symbolicdata.org/Data/IntPS/Buchberger-87`](http://symbolicdata.org/Data/IntPS/Buchberger-87)`' ;`
+
+Two things are to be noted:
+
+-   The returned value always is a unicode string, which is shown by the u before the first quote.
+-   The returned value can also be a full URI that points to other resources. To further investigate resources that do not belown to the class sd:Ideal, other tools like the OntoWiki have to be used.
+
+Another important thing is, that the integer polynomial system <http://symbolicdata.org/Data/IntPS/Buchberger-87> is referenced. This is not always the case. We will discuss this in greater detail in the next section.
