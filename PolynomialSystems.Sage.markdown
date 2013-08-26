@@ -121,3 +121,19 @@ Two things are to be noted:
 -   The returned value can also be a full URI that points to other resources. To further investigate resources that do not belown to the class sd:Ideal, other tools like the OntoWiki have to be used.
 
 Another important thing is, that the integer polynomial system <http://symbolicdata.org/Data/IntPS/Buchberger-87> is referenced. This is not always the case. We will discuss this in greater detail in the next section.
+
+Of course the SD\_Ideal objects are more than just an alternative representation of the TTL file. In the case of the Buchberger-87 ideal, also the data from the referenced integer polynomial system is loaded. Most importantly, the expressions that define the basis elements are loaded. With Sage, a Polynomial Ring is constructed (according to the information found in the TTL file) and the aforementioned expressions are interpreted as elements of this Polynomial Ring. These element will form a basis of the ideal and finally, the ideal can be recreated within Sage. Continuing our example from above, this Sage ideal can be retrieved by:
+
+**`sage:`**` sd_bb87.get_ideal()`
+`Ideal (-r*t + x, -r^2 + z, -r*t^2 + y) of Multivariate Polynomial Ring in r, t, x, y, z over Integer Ring`
+
+A short-cut to this function is provided by the **get\_ideal()** function of the SymbolicData object discussed in the previous section.
+
+While some object values from the TTL are other URI that point to other resources, some values are just strings, like for example the LengthsList '2,2,2'. If we only look at the TTL this is the end of the line: no further information can be obtained apart from maybe a datatype. But the semantics (or the meaning) of '2,2,2' is missing. Of course, one can readily explain what the '2,2,2' actually stands for. However, we are looking for a 'formal meaning', something that can be processed by a computer or an algorithm.
+
+So, for the mathematical metadata 'hasDegreeList' and 'hasLengthsList' we provide the Sage/Python functions
+
+-   sage\_hasDegreeList()
+-   sage\_hasLengthsList()
+
+Not only does this allow to check the consistency of the data from the TTL, but it also enables us to calculate metadata for new ideals. In the same manner, additional (mathematical) properties can be defined by a Sage/Python function.
