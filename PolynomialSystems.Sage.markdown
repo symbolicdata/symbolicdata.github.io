@@ -6,7 +6,7 @@ title: PolynomialSystems.Sage
 Polynomial Systems and Sage
 ---------------------------
 
-On this page we explain how a Computer Algebra System like Sage can be used to both enhance and process Linked Data. This serves as a blueprint of a possible method that can be applied to other Linked Mathematical Data.
+On this page we explain how a Computer Algebra System like Sage can be used to both enhance and process Linked Data. This serves as a blueprint of a possible method that can be applied to other Linked Mathematical Data. The content here is mostly written under a technical point of view that allows others to experiment with Sage.
 
 ### Prerequisites
 
