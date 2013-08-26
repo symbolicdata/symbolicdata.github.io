@@ -18,7 +18,7 @@ Another possibility is to install all the Sage modules into your running Python 
 
 Additionally to Sage, the **requests** library is needed, as this library is not installed by default and has to be installed for the Sage Python.
 
-##### Installing new packages into Sage Python
+##### Installing New Packages Into Sage Python
 
 Installing new packaged can easily be done by installing pip. This can be done by invoking a Sage sub-shell:
 
@@ -34,7 +34,7 @@ In the message that follows, there should be something like "Installing pip scri
 
 The Sage sub-shell can be exited by typing 'exit'.
 
-### Usage
+### Basic Usage
 
 To use the sdsage.py module, it has to be imported into the running python instance of Sage:
 
@@ -81,7 +81,7 @@ The parameter <name> is a string that either can be a complete URI like <http://
 **`sage:`**` sd_bb887`
 <sdsage.SD_Ideal instance at 0xc88902c>
 
-### The SD\_Ideal object
+### The SD\_Ideal Object
 
 SD\_Ideal objects represent a SymbolicData database object. The constructor takes a string which either is a complete URI or a simple name (the latter of which will be prefixed with the 'ideal' value from the sdsage.ini)
 
@@ -139,3 +139,36 @@ So, for the mathematical metadata 'hasDegreeList' and 'hasLengthsList' we provid
 -   sage\_hasLengthsList()
 
 Not only does this allow to check the consistency of the data from the TTL, but it also enables us to calculate metadata for new ideals. In the same manner, additional (mathematical) properties can be defined by a Sage/Python function.
+
+### Ideal Reconstruction In Detail
+
+In the previous section we noted, that for Buchberger-87 there is a related Polynomial System, namely <http://symbolicdata.org/Data/IntPS/Buchberger-87>. If we look at other ideals, there often is no related Polynomial System. The question is, where the expressions to generated the ideal are to be found. There are four cases we have to deal with:
+
+-   the ideal is constructed direclty from an IntPS with related XML resource
+-   the ideal is a flat variant of another ideal
+-   the ideal is obtained by homogenizing another ideal
+-   the ideal is obtained by parameterizing another ideal
+
+A more mathematical discussion of these possibilities can be found on the page [PolynomialSystems].
+
+The corresponding predicates/properties are:
+
+-   sd:relatedPolynomialSystem
+-   sd:flatten
+-   sd:homogenize, sd:homogenizedWith
+-   sd:parameterize
+
+Only the first case allows directy construction of the ideal. For all other cases a stack will be built recursively. For instance, for the ideal Czapor-86c.Flat.Homog the information
+
+<http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat.Homog>
+`    sd:homogenizedWith "hv" ;`
+`    sd:homogenize `<http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat>` .`
+
+shows, that at first the ideal Czapor-86c.Flat must be reconstructed (the naming also shows this, but this is just 'syntactic sugar'). So we try to reconstruct this one. We find the following information:
+
+<http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat>
+`    sd:relatedPolynomialSystem `<http://symbolicdata.org/Data/IntPS/Czapor-86c>` .`
+
+Since we arrived at an ideal with a related Polynomial System, reconstruction is possible and so also Czapor-86c.Flat.Homog can be reconstructed. We say that Czapor-86c.Flat provides a *flat entry point*. Note that the chain can also be longer, take for example Czapor-86c.Homog.Flat.Homog.
+
+Along with the hasLengthsList and hasDegreeList from the previous section, we have again used Sage to define the meaning of these predicates by provided code that actually implements them.
