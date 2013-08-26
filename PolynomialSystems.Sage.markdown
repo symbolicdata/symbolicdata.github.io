@@ -172,3 +172,23 @@ shows, that at first the ideal Czapor-86c.Flat must be reconstructed (the naming
 Since we arrived at an ideal with a related Polynomial System, reconstruction is possible and so also Czapor-86c.Flat.Homog can be reconstructed. We say that Czapor-86c.Flat provides a *flat entry point*. Note that the chain can also be longer, take for example Czapor-86c.Homog.Flat.Homog.
 
 Along with the hasLengthsList and hasDegreeList from the previous section, we have again used Sage to define the meaning of these predicates by provided code that actually implements them.
+
+### Usage In Other Scripts
+
+sdsage can also be used as a module in other script. We give a brief example of how the LengthsList properties could be checked:
+
+`import sdsage`
+`sd = sdsage.SymbolicData()`
+`for ideal in sd.get_ideals():`
+`    sd_ideal = sd.get_sd_ideal(ideal)`
+`    print "Now checking: %s" % ideal;`
+`    if sd_ideal.hasLengthsList != sd_ideal.sage_hasLengthsList():`
+`        print "    > LengthsList need to be checked"`
+`        print "    TTL : %s" % sd_ideal.hasLengthList`
+`        print "    Sage: %s" % sd_ideal.FROM_SAGE_hasLengthsList`
+
+For symmetry reasons, once sage\_hasLengthsList() has calculated the LengthsList, it can be obtained as a field FROM\_SAGE\_hasLengthsList (rather than calling a function).
+
+### Outlook
+
+Right now sdsage only provides methods to import data from SymbolicData into Sage. The next step would be to allow updates of the data of the triple store directly from a script.
