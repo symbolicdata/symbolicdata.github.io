@@ -6,6 +6,8 @@ title: PolynomialSystems.Sage
 Polynomial Systems and Sage
 ---------------------------
 
+On this page we explain how a Computer Algebra System like Sage can be used to both enhance and process Linked Data. This serves as a blueprint of a possible method that can be applied to other Linked Mathematical Data.
+
 ### Prerequisites
 
 Sage obviously is needed, it can be obtained here: <http://www.sagemath.org/> Once downloaded and unzipped, with will be located in a folder \$SAGE\_ROOT. Sage comes with its own Python version. Scripts using the Sage libraries can be run with
