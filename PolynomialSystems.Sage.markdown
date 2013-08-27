@@ -191,4 +191,4 @@ For symmetry reasons, once sage\_hasLengthsList() has calculated the LengthsList
 
 ### Outlook
 
-Right now sdsage only provides methods to import data from SymbolicData into Sage. The next step would be to allow updates of the data of the triple store directly from a script.
+Right now sdsage only provides methods to import data from SymbolicData into Sage. The next step would be to allow updates of the data of the triple store directly from a script. One ad-hoc possiblity is to do this by using the isql which Virtuoso provides by simply piping a string to it as described here: [LocalSparqlEndpoint\#Data\_Management](http://symbolicdata.org/wiki/LocalSparqlEndpoint#Data_Management)
