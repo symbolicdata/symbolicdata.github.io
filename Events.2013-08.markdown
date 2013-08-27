@@ -18,7 +18,7 @@ For accommodation we recommend the [Seaside Parkhotel](http://www.parkhotelleipz
 For planning purposes we ask kindly to send an email to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de?Subject=Workshop) if you plan to join the workshop.
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
--   Sebastian Bönisch (?), Wolfram Sperber (ZBl Math Berlin, swMath project)
+-   Ulf Schöneberg, Hagen Chrapary, Wolfram Sperber (ZBl Math Berlin, swMath project)
 
 Cannot join the workshop due to other obligations
 
