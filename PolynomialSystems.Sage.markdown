@@ -16,7 +16,7 @@ Sage obviously is needed, it can be obtained here: <http://www.sagemath.org/> On
 
 Another possibility is to install all the Sage modules into your running Python instance. We will not discuss this further here.
 
-Additionally to Sage, the **requests** library is needed, as this library is not installed by default and has to be installed for the Sage Python.
+Additionally to Sage, the [requests library](http://docs.python-requests.org/) is needed, as this library is not installed by default and has to be installed for the Sage Python.
 
 ##### Installing New Packages Into Sage Python
 
