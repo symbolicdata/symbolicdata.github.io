@@ -20,7 +20,7 @@ The program will address different use cases, efforts and aspects of RDF based c
 
 We use agile concept also planning the program schedule; much will depend on the participants themselves. A workshop ...
 
-Tuesday, August 27, 2013
+**Tuesday, August 27, 2013**
 
 -   9:30-10:30 Welcome
 -   10:30-12 Presentation of the state of the SymbolicData project (Hans-Gert Gräbe)
@@ -31,7 +31,7 @@ Tuesday, August 27, 2013
 -   17-19 Inter project aspects - cooperation with [swmath](http://www.swmath.org)
 -   evening - dinner, Get Together (on your own expenses)
 
-Wednesday, August 28, 2013
+**Wednesday, August 28, 2013**
 
 -   9-13 Discussion about a future cooperation between the swmath project and SymbolicData
 -   13 End of the Workshop
