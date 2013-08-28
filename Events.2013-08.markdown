@@ -46,3 +46,7 @@ Wednesday, August 28, 2013
 -   9-13 Discussion about the future of SymbolicData and other aspects of future cooperation
 -   13 End of the Workshop
 
+Links:
+
+-   <http://lov.okfn.org>
+
