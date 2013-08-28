@@ -7,26 +7,14 @@ title: Events.2013-08
 
 ### 27.-28. August 2013 - Workshop on SymbolicData Design in Leipzig.
 
-We invite for a second Workshop to discuss progress and prospects of the SymbolicData Project and resume the work done within the [E-Science Benchmarking Project](Projects.EScience "wikilink"). Due to little response we decided to shift the workshop to the end of August. Note that we have no financial support for the workshop, hence travel expenses, order and payment of accommodation are to you.
-
-The Workshop will take place in **room P-901** (Paulinum) in the **main building of the Leipzig University, Augustusplatz 10, 04109 Leipzig**.
-
-For accommodation we recommend the [Seaside Parkhotel](http://www.parkhotelleipzig.de). Please make your own booking.
+We invited for a second Workshop to discuss progress and prospects of the SymbolicData Project and to resume the work done within the [E-Science Benchmarking Project](Projects.EScience "wikilink"). The Workshop took place in the main building (Paulinum) of the Leipzig University.
 
 #### Participants
-
-For planning purposes we ask kindly to send an email to [Hans-Gert Gräbe](mailto:graebe@informatik.uni-leipzig.de?Subject=Workshop) if you plan to join the workshop.
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Ulf Schöneberg, Hagen Chrapary, Wolfram Sperber (ZBl Math Berlin, swMath project)
 
-Cannot join the workshop due to other obligations
-
--   Ralf Hemmecke, Linz
--   Max Horn, Gießen, libsing project
--   Andreas Paffenholz, Darmstadt, Fano Polytopes
-
-#### Preliminary Program
+#### Program
 
 The program will address different use cases, efforts and aspects of RDF based concepts of inter community communication along the needs of scientific communities in Symbolic Computing (aka Computer Algebra).
 
@@ -36,14 +24,16 @@ Tuesday, August 27, 2013
 
 -   9:30-10:30 Welcome
 -   10:30-12 Presentation of the state of the SymbolicData project (Hans-Gert Gräbe)
--   12-14 Tutorial - Using RDF, Sparql, Metadata, Virtuoso store. Compiling examples for tests and benchmarks in different areas (Andreas Nareike)
--   14-15 Break
--   15-18 Inter project aspects - cooperation with [swmath](http://www.swmath.org), [lmonade](http://www.lmona.de/), [sage-math](http://www.sagemath.org), [SPP 1489](http://www.computeralgebra.de) Databases (who else)
+-   12-14 Lunch
+-   14-15 Tutorial - Using RDF, Sparql, Metadata, Virtuoso store (Andreas Nareike)
+-   15-16 The projects [E-Science Saxonia](http://www.escience-sachsen.de) and the [Saxonian E-Science Research Platform](https://escience.htwk-leipzig.de/) (Todor Tontchev, HTWK Leipzig)
+-   16-17 Natural Language Processing approaches to discover and understand mathematical formulas in research texts (Ulf Schöneberg)
+-   17-19 Inter project aspects - cooperation with [swmath](http://www.swmath.org)
 -   evening - dinner, Get Together (on your own expenses)
 
 Wednesday, August 28, 2013
 
--   9-13 Discussion about the future of SymbolicData and other aspects of future cooperation
+-   9-13 Discussion about a future cooperation between the swmath project and SymbolicData
 -   13 End of the Workshop
 
 Links:
