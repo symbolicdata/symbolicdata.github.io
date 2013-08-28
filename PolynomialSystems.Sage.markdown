@@ -6,21 +6,21 @@ title: PolynomialSystems.Sage
 Polynomial Systems and Sage
 ---------------------------
 
-On this page we explain how a Computer Algebra System like Sage can be used to both enhance and process Linked Data. This serves as a blueprint of a possible method that can be applied to other Linked Mathematical Data. The content here is mostly written under a technical point of view that allows others to experiment with Sage. The sdsage script can be found here on [Github](https://github.com/hg-graebe/symbolicdata/tree/rc-1/src/sdsage).
+On this page we explain how a Computer Algebra System like Sage can be used to both enhance and process Linked Data. This serves as a blueprint of a possible method that can be applied to other Linked Mathematical Data. The content here is mostly written under a technical point of view that allows others to experiment with Sage. The sdsage script can be found in our [Github Repo](https://github.com/hg-graebe/symbolicdata/tree/rc-1/src/sdsage).
 
 ### Prerequisites
 
-Sage obviously is needed, it can be obtained here: <http://www.sagemath.org/> Once downloaded and unzipped, with will be located in a folder \$SAGE\_ROOT. Sage comes with its own Python version. Scripts using the Sage libraries can be run with
+Obviously, Sage is required. It can be obtained from <http://www.sagemath.org>. Once downloaded and unzipped, it will be located in a folder \$SAGE\_ROOT. Sage comes with its own Python version. Scripts using the Sage libraries can be run with
 
 `./sage -python script.py`
 
 Another possibility is to install all the Sage modules into your running Python instance. We will not discuss this further here.
 
-Additionally to Sage, the [requests library](http://docs.python-requests.org/) is needed, as this library is not installed by default and has to be installed for the Sage Python.
+Additionally to Sage, the [requests library](http://docs.python-requests.org/) is required, as this library is not installed by default and has to be installed for the Sage Python.
 
 ##### Installing New Packages Into Sage Python
 
-Installing new packaged can easily be done by installing pip. This can be done by invoking a Sage sub-shell:
+Installing new packages can easily be done by installing pip. This can be done by invoking a Sage sub-shell:
 
 `./sage -sh`
 
