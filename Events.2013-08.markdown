@@ -25,7 +25,7 @@ We use agile concept also planning the program schedule; much will depend on the
 -   9:30-10:30 Welcome
 -   10:30-12 Presentation of the state of the SymbolicData project (Hans-Gert Gräbe)
 -   12-14 Lunch
--   14-15 Tutorial - Using RDF, Sparql, Metadata, Virtuoso store (Andreas Nareike)
+-   14-15 Tutorial - Using Symbolicdata with Sage via the **sdsage package** (Andreas Nareike)
 -   15-16 The projects [E-Science Saxonia](http://www.escience-sachsen.de) and the [Saxonian E-Science Research Platform](https://escience.htwk-leipzig.de/) (Todor Tontchev, HTWK Leipzig)
 -   16-17 Natural Language Processing approaches to discover and understand mathematical formulas in research texts (Ulf Schöneberg)
 -   17-19 Inter project aspects - cooperation with [swmath](http://www.swmath.org)
@@ -34,6 +34,8 @@ We use agile concept also planning the program schedule; much will depend on the
 **Wednesday, August 28, 2013**
 
 -   9-13 Discussion about a future cooperation between the swmath project and SymbolicData
+    -   [Zeitschriftendatenbank](http://www.dnb.de/EN/Wir/Kooperation/zdb/zdb_node.html) der DNB
+    -   <http://lobid.org> - der Linked-Open-Data-Dienst des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen (hbz)
 -   13 End of the Workshop
 
 Links:
