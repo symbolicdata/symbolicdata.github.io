@@ -9,12 +9,12 @@ title: Events.2013-08
 
 We invited for a second Workshop to discuss progress and prospects of the SymbolicData Project and to resume the work done within the [E-Science Benchmarking Project](Projects.EScience "wikilink"). The Workshop took place in the main building (Paulinum) of the Leipzig University.
 
-#### Participants
+### Participants
 
 -   Hans-Gert Gräbe, Andreas Nareike (Leipzig, local organization)
 -   Ulf Schöneberg, Hagen Chrapary, Wolfram Sperber (ZBl Math Berlin, swMath project)
 
-#### Program
+### Program
 
 The program addressed different use cases, efforts and aspects of RDF based concepts of inter community communication along the needs of scientific communities in Symbolic Computing.
 
@@ -41,4 +41,8 @@ Links:
 -   <http://lov.okfn.org>
 -   <http://msc2010.org/mscwork/>
 
-#### Program
+#### A Short Summary
+
+The workshop was designed as final milestone of the *E-Science Benchmarking Project* promoted for 12 month within the *E-Science Saxony Framework*. Due to the scarce resonance the program finally focused on cross connections between SymbolicData and the swmath project.
+
+In a first talk Hans-Gert Gräbe presented the state of the SymbolicData project.
