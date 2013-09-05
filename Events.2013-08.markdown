@@ -16,9 +16,7 @@ We invited for a second Workshop to discuss progress and prospects of the Symbol
 
 #### Program
 
-The program will address different use cases, efforts and aspects of RDF based concepts of inter community communication along the needs of scientific communities in Symbolic Computing (aka Computer Algebra).
-
-We use agile concept also planning the program schedule; much will depend on the participants themselves. A workshop ...
+The program addressed different use cases, efforts and aspects of RDF based concepts of inter community communication along the needs of scientific communities in Symbolic Computing.
 
 **Tuesday, August 27, 2013**
 
@@ -29,7 +27,7 @@ We use agile concept also planning the program schedule; much will depend on the
 -   15-16 The projects [E-Science Saxonia](http://www.escience-sachsen.de) and the [Saxonian E-Science Research Platform](https://escience.htwk-leipzig.de/) (Todor Tontchev, HTWK Leipzig)
 -   16-17 Natural Language Processing approaches to discover and understand mathematical formulas in research texts (Ulf Schöneberg)
 -   17-19 Inter project aspects - cooperation with [swmath](http://www.swmath.org)
--   evening - dinner, Get Together (on your own expenses)
+-   evening - dinner, Get Together
 
 **Wednesday, August 28, 2013**
 
@@ -43,3 +41,4 @@ Links:
 -   <http://lov.okfn.org>
 -   <http://msc2010.org/mscwork/>
 
+#### Program
