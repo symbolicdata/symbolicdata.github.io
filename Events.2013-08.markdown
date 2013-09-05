@@ -45,4 +45,10 @@ Links:
 
 The workshop was designed as final milestone of the *E-Science Benchmarking Project* promoted for 12 month within the *E-Science Saxony Framework*. Due to the scarce resonance the program finally focused on cross connections between SymbolicData and the swmath project.
 
-In a first talk Hans-Gert Gräbe presented the state of the SymbolicData project.
+In a first talk Hans-Gert Gräbe presented the state of the SymbolicData project. We are close to a first release of version 3, that marks a milestone step across the implementation of semantic techniques with SymbolicData. We strongly use RDF and Linked Data principles in the organisation of the data. These principles are also reflected in the presentation of the data at symbolicdata.org. All resources can be accessed via http/rdf+xml and a Sparql endpoint allows for navigation in the metadata. This can be installed also on a localhost and thus can be integrated into a local benchmarking or profiling infrastructure (best using python as scripting language and a web server at localhost).
+
+Andreas Nareike presented in a second talk his prototypical integration of the Polynomial Systems subproject with sagemath and SymbolicData as a sage package *sdsage* that smoothly integrates both the global SD network infrastructure and a local installation into the sagemath process. One can load data and metadata transparently into sage objects and process them as mathematical objects in the usual way within sage.
+
+Todor Tontchev presented the E-Science Saxony Framework, a centralized platform designed to organize collaborative research. Note that within SymbolicData we favour another approach - an RDF based Distributed Semantic Social Network as developed within the [DSSN project](http://aksw.org/Projects/DSSN.html) of the AKSW group at Leipzig University. First promising experiments show that this is indeed a visionary inter-community approach, but it requires more efforts to implement relevant concepts on top of the already existing communication infrastructure.
+
+Such a DSSN can interrelate management processes (collaborative editing, search) of different RDF based scientific data as, e.g., bibliographical data (swmath, bibsonomy), project data (there exist project ontologies on the level of EU framework programs) or classificational data (the msc2010 is almost RDF ready).
