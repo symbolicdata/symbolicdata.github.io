@@ -7,7 +7,7 @@ title: LocalSparqlEndpoint
 
 To operate SymbolicData on a local site requires access to the data via a web server at localhost and a Sparql endpoint.
 
-On this page we describe how to set up your own Sparql endpoint at <http://localhost:8890/sparql> based on Apache (requires php5 enabled and mod\_rewrite) running under a recent Linux Debian Ubuntu distribution.
+On this page we describe how to set up your own Sparql endpoint at <http://localhost:8890/sparql> based on Apache running under a recent Linux Debian Ubuntu distribution.
 
 -   Tried with Debian GNU/Linux 7.0, Ubuntu 12.04.2 LTS, and Apache/2.2.22 (Debian)
 
@@ -137,7 +137,7 @@ You can shutdown the service from the console with
 
 ### Install Ontowiki (Optional)
 
-Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins. We recommend to deploy one Ontowiki instance per application.
+Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
 
 To operate with Virtuoso the php5-odbc extension has to be installed.
 
@@ -156,6 +156,17 @@ with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
 
   
 hgg, 2013-07-22: I had a problem if the the port is not 1111, OntoWiki was installed under the default port instead of the port given here.
+
+To run Ontowiki requires Apache with php5 and mod\_rewrite enabled. A typical configuration in apache2/sites-enabled looks as follows:
+
+` DocumentRoot /home/web/public_html`
+` `<Directory /home/web/public_html/>
+
+\\tOptions Indexes FollowSymLinks MultiViews \\tAllowOverride All \\tOrder allow,deny \\tAllow from all
+
+` `</Directory>
+
+We recommend to deploy one Ontowiki instance per application.
 
 We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/OntoWiki/wiki/GetOntowikiUsers> for details.
 
