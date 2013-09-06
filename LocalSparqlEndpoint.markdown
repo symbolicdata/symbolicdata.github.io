@@ -161,9 +161,10 @@ To run Ontowiki requires Apache with php5 and mod\_rewrite enabled. A typical co
 
 ` DocumentRoot /home/web/public_html`
 ` `<Directory /home/web/public_html/>
-
-\\tOptions Indexes FollowSymLinks MultiViews \\tAllowOverride All \\tOrder allow,deny \\tAllow from all
-
+`   Options Indexes FollowSymLinks MultiViews`
+`   AllowOverride All `
+`   Order allow,deny`
+`   Allow from all`
 ` `</Directory>
 
 We recommend to deploy one Ontowiki instance per application.
