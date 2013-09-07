@@ -11,8 +11,6 @@ On this page we describe how to set up your own Sparql endpoint at <http://local
 
 -   Tried with Debian GNU/Linux 7.0, Ubuntu 12.04.2 LTS, and Apache/2.2.22 (Debian)
 
-For best practises using a Virtuoso based OntoWiki see our page [Using.Ontowiki](Using.Ontowiki "wikilink").
-
 ### Preliminary Remarks
 
 There are plenty of RDF stores based on MySQL databases. Much of them are well suited for serving SymbolicData Data, too (we successfully used an [arc2 based store](https://github.com/semsol/arc2/wiki)).
@@ -139,11 +137,11 @@ You can shutdown the service from the console with
 
 Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
 
-To operate with Virtuoso the php5-odbc extension has to be installed.
+Ontowiki requires apache with php5 support. To operate with Virtuoso the php5-odbc extension has to be installed.
 
-`sudo apt-get install php5-odbc`
+`sudo apt-get install php5-odbc php5 libapache2-mod-php5`
 
-and the database service has to be be registered with ODBC. Add a section
+The database service has to be be registered with ODBC. Add a section
 
 ` # Symbolicdata OntoWiki dsn start`
 ` [SDOW]`
@@ -187,4 +185,5 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
 -   Direct your browser to <http://localhost/WebDir>
     -   Test if <http://localhost/WebDir/config.ini> is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in /WebDir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
     -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
+-   For best practises using a Virtuoso based OntoWiki see [Using.Ontowiki](Using.Ontowiki "wikilink").
 
