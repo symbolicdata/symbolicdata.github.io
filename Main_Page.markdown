@@ -90,7 +90,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
--   A [dump of these RDF data](http://symbolicdata.org/RDFData-Dump) in gzipped ntriple format.
+-   Dumps according to our [Backup strategy](Backups "wikilink").
 
 ### Related Activities
 
