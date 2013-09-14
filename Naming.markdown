@@ -43,7 +43,7 @@ We use the standard namespaces rdf, rdfs, owl, xsd and the following ontologies:
 
 -   foaf: <http://xmlns.com/foaf/0.1/> (see [People](People "wikilink"))
 -   dct: <http://purl.org/dc/terms/> (see [Bibliography](Bibliography "wikilink"))
--   org: <http://www.w3.org/ns/org#> (see org:Organisation in [People]])
+-   org: <http://www.w3.org/ns/org#> (see org:Organisation in [People](People "wikilink"))
 -   skos: <http://www.w3.org/2004/02/skos/core#> (as superconcept of org: and sd:)
 -   sd: <http://symbolicdata.org/Data/Model#> (our own namespace for concepts)
     -   Note that Virtuoso in its default setting uses sd for another ontology. I fixed that for symbolicdata.org (HGG,2013-08-02)
