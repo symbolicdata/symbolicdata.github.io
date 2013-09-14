@@ -6,7 +6,7 @@ title: Main Page
 The SymbolicData Project Wiki
 -----------------------------
 
-### [Vision](Symbolicdata:About "wikilink")
+### [Vision](Vision "wikilink")
 
 The SymbolicData project is set out
 
