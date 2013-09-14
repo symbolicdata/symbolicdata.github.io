@@ -54,8 +54,9 @@ At the moment the project hosts data from the following communities within Symbo
 
 The project manages additional Data:
 
+-   [Annotations](Annotations "wikilink") - a system of background information on different examples and series of examples
 -   [Bibliography](Bibliography "wikilink") - bibliographical references system (to be aligned with [swmath](http://www.swmath.org))
--   [People](People "wikilink") - different people and groups
+-   [People](People "wikilink") - different people and groups (to be aligned with [swmath](http://www.swmath.org))
 -   [Systems](Systems "wikilink") - list of CA systems (aligned with [swmath](http://www.swmath.org))
 
 Experimental data (work in progress):
