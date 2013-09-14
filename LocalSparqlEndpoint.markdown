@@ -188,14 +188,14 @@ For curious people: Direct your Browser to <http://localhost:8890>. It will show
 
 #### Some useful commands
 
--   Shutdown the service from the console with
+Shutdown the service from the console with
 
 ` SQL> shutdown() ;`
 
--   Clear Data from a given graph:
+Clear Data from a given graph:
 
 ` SQL> sparql clear graph `<http://symbolicdata.org/Data/Annotations/>` ; `
 
--   Graphs are not created automatically. If you have problems to display content in Ontowiki, a command as the following may help to resolve the trouble
+Graphs are not created automatically. If you have problems to display content in Ontowiki, a command as the following may help to resolve the trouble
 
 ` SQL> sparql create silent graph `<http://symbolicdata.org/Data/Bibliography/>` ;`
