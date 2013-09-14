@@ -28,10 +28,13 @@ The project was presented in talks at RWCA-02, ADG-02 and also in the CA-Rundbri
 Since 2005 the Web site `www.SymbolicData.org` was hosted by the GI office in Bonn on behalf of the Fachgruppe Computeralgebra. During the [Special Semester on Groebner Bases](http://www.ricam.oeaw.ac.at/specsem/srs/groeb/index.htm) in March 2006 we tried a relaunch of the project joining forces with the [GB-Bibliography project](http://www.ricam.oeaw.ac.at/Groebner-Bases-Bibliography/index.php) (Bruno Buchberger, Alexander Zapletal) and the GB-Facilities project (Viktor Levandovskyy). But all that was another flash in the pan and the short "rainy season" was followed by another long lasting dry one with only minor activities to keep the data available online.
 
 -   Get the [Version 2 SD Bundle](http://symbolicdata.org/SD-2.tgz) as tgz file.
+-   The [archive of the mailing list](http://symbolicdata.org/Uploads/old-archive.txt), that operated since 2003.
 
 #### SymbolicData Version 3
 
 After 2006 Hans-Gert Gräbe took efforts to refactor the data along standard Semantic Web concepts, operated the symbolicdata mailing list and moved the repo from CVS first to a bitbucket hosted mercurial repo.
+
+To get information on a more regular base in 2008 we switched the mailing list to the [<https://groups.google.com/forum/>\#!forum/symbolicdata Google group symbolicdata].
 
 Within the [Saxonian E-Science Initiative](http://www.escience-sachsen.de) Hans-Gert Gräbe successfully applied for a Project "Benchmarking im Symbolischen Rechnen im Web 3.0.", that started in Sept 2012 for 12 months and aimed at soliciting the developments of the last years. The main work was done by Andreas Nareike (at those times with a position in the project team) and Hans-Gert Gräbe.
 
