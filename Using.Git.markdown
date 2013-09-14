@@ -65,7 +65,7 @@ You can easily extract the scripts by doing
 ` git checkout old-master -- Scripts/perl/Service/transHomog.pl`
 ` git reset`
 
-After that you would have Scripts/perl/Service/transHomog.pl which is not committed in in the develop branch. Modify as you like, run the script, maybe even commit it together with the result after running it. Of course, transHomog.pl was just an example.
+After that you would have Scripts/perl/Service/transHomog.pl which is not committed in the develop branch. Modify as you like, run the script, maybe even commit it together with the result after running it. Of course, transHomog.pl was just an example.
 
 #### What's about commit messages?
 
