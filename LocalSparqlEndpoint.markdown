@@ -166,11 +166,15 @@ and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' 
 
 It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
-### Useful remarks
+### Additional remarks about Virtuoso
+
+#### More on config.ini
 
 Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
 
 **DirsAllowed** contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file symlinks.
+
+#### Change the Password
 
 Open the console
 
@@ -180,10 +184,18 @@ and change the password (standard user = dba, passwd = dba)
 
 `set password `<old password>` `<new password>`;`
 
-Load data from ttl files with the vsql/loaddata.pl script. This requires to set the system environment variable SD to the root of your symbolicdata git clone.
-
 For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
 
-You can shutdown the service from the console with
+#### Some useful commands
 
-` SQL> shutdown();`
+-   Shutdown the service from the console with
+
+` SQL> shutdown() ;`
+
+-   Clear Data from a given graph:
+
+` SQL> sparql clear graph `<http://symbolicdata.org/Data/Annotations/>` ; `
+
+-   Graphs are not created automatically. If you have problems to display content in Ontowiki, a command as the following may help to resolve the trouble
+
+` SQL> sparql create silent graph `<http://symbolicdata.org/Data/Bibliography/>` ;`
