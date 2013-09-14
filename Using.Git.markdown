@@ -12,13 +12,16 @@ We currently (March 2013) changed the way to organize our git repository structu
 -   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
 -   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
 
-Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop'.
+We we run dedicated branches 'master' and 'develop' and follow the **Integration-Manager-Workflow Model**.
 
-**For short, the workflow goes as follows:**
+To **contribute to SymbolicData**
 
--   Start a feature branch from develop on your blessed repo (HGG and Andreas started a branch 'workflow') and prepare work thereon.
--   Merge finalized contributions to the 'develop' branch on your blessed repo and start a pull request to the integration master (Ralf)
--   If accepted, the contribution will be merged into the official repo.
+-   clone the develop public master repo to a private account (best, if also at github),
+-   start a feature branch from develop on your blessed repo
+-   do valuable work,
+-   issue a pull request to the Integration Manager (Ralf Hemmecke).
+-   The Integration Manager starts the integration process to merge your valuable work.
+-   If accepted, the contribution will be merged into the develop branch of the official repo.
 -   Realign your blessed repo with the official one.
 
 #### How the Integration-Manager-Workflow Model works
