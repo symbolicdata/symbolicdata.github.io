@@ -19,8 +19,7 @@ We collected data from Polynomial System Solving and Geometry Theorem Proving, s
 
 Olaf Bachmann left the project for a new job at the end of 2000. Now the main focus moved to Geometry Theorem Proving. Malte Witte (at those times a bachelor student at the Univ. Leipzig) digitized a great part of the 512 geometry theorems considered in [Chou 88] and prepared them for benchmark computations with the [GeoProver package](https://github.com/hg-graebe/GeoProver) of Hans-Gert Gräbe.
 
-  
-Get the [Version 1 SD Bundle](http://symbolicdata.org/SD-1.tgz) as tgz file.
+-   Get the [Version 1 SD Bundle](http://symbolicdata.org/SD-1.tgz) as tgz file.
 
 #### SymbolicData Version 2
 
@@ -28,8 +27,7 @@ The project was presented in talks at RWCA-02, ADG-02 and also in the CA-Rundbri
 
 Since 2005 the Web site `www.SymbolicData.org` was hosted by the GI office in Bonn on behalf of the Fachgruppe Computeralgebra. During the [Special Semester on Groebner Bases](http://www.ricam.oeaw.ac.at/specsem/srs/groeb/index.htm) in March 2006 we tried a relaunch of the project joining forces with the [GB-Bibliography project](http://www.ricam.oeaw.ac.at/Groebner-Bases-Bibliography/index.php) (Bruno Buchberger, Alexander Zapletal) and the GB-Facilities project (Viktor Levandovskyy). But all that was another flash in the pan and the short "rainy season" was followed by another long lasting dry one with only minor activities to keep the data available online.
 
-  
-Get the [Version 2 SD Bundle](http://symbolicdata.org/SD-2.tgz) as tgz file.
+-   Get the [Version 2 SD Bundle](http://symbolicdata.org/SD-2.tgz) as tgz file.
 
 #### SymbolicData Version 3
 
