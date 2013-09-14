@@ -136,7 +136,7 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
 
 ### Data Management
 
-To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata and add the path /YourPathTo/symbolicdata/data to the data part of the distribution to the DirsAllowed
+To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata, add the path /YourPathTo/symbolicdata to the data part of the distribution to the DirsAllowed
 
 `DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata/data`
 
