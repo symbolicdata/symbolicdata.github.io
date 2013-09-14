@@ -136,21 +136,26 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
 
 ### Data Management
 
-To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata, add the path /YourPathTo/symbolicdata to the data part of the distribution to the DirsAllowed
+To load SD data from the files supplied with the git repo directly into the Virtuoso engine the following steps are required:
 
-`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata/data`
+1) Check out the repo to /YourPathTo/symbolicdata, add the path /YourPathTo/symbolicdata to the data part of the distribution to the DirsAllowed
 
-and restart the daemon.
+`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata`
 
-Change to the RDFData directory and load all turtle graphs into the Virtuoso Engine:
+and restart the daemon. Set up the environment variable SD:
 
-` cd /YourPathTo/symbolicdata/data`
-``  export MyDIR=`pwd` ``
-` for f in $(ls RDFData/*.ttl); do `
-`    echo "DB.DBA.TTLP_MT (file_to_string_output('$MyDIR/$f'),'`[`` http://symbolicdata.org/Data/`basename ``](http://symbolicdata.org/Data/`basename)``  $f .ttl`/');"; ``
-` done | isql-vt 1111 dba YourVerySecretPassword`
+` export SD=/YourPathTo/symbolicdata`
 
-Check success from within the console
+2) Load all turtle graphs into the Virtuoso Engine. The perl script at `src/vsql/loaddata.pl` writes the required output to stdout, that contains a number of records like
+
+` sparql create silent graph `<http://symbolicdata.org/Data/People/>` ; `
+` DB.DBA.TTLP_MT (file_to_string_output('/YourPathTo/symbolicdata/data/RDFData/People.ttl'),'`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`'); `
+
+Read that into Virtuoso using the command line tool `isql-vt`:
+
+` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
+
+3) Check success from within the console
 
 ` isql-vt 1111 dba YourVerySecretPassword`
 ` SQL> sparql select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
@@ -160,10 +165,6 @@ and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' 
 ` select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
 
 It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
-
-Adapt the Perl files in the src/vsql directory for several standard service tasks. E.g., to load the data into your Virtuoso database, call
-
-` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
 
 ### Useful remarks
 
