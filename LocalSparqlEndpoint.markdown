@@ -80,60 +80,7 @@ Shut down the service from the console with
 `isql-vt 1112 dba YourVerySecretPassword`
 `SQL> shutdown() ;`
 
-### Data Management
-
-To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata and add the path /YourPathTo/symbolicdata/data to the data part of the distribution to the DirsAllowed
-
-`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata/data`
-
-and restart the daemon.
-
-Change to the RDFData directory and load all turtle graphs into the Virtuoso Engine:
-
-` cd /YourPathTo/symbolicdata/data`
-``  export MyDIR=`pwd` ``
-` for f in $(ls RDFData/*.ttl); do `
-`    echo "DB.DBA.TTLP_MT (file_to_string_output('$MyDIR/$f'),'`[`` http://symbolicdata.org/Data/`basename ``](http://symbolicdata.org/Data/`basename)``  $f .ttl`/');"; ``
-` done | isql-vt 1111 dba YourVerySecretPassword`
-
-Check success from within the console
-
-` isql-vt 1111 dba YourVerySecretPassword`
-` SQL> sparql select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
-
-and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' etc. The command will list you the URIs of all instances in the given graph. Try the same at the Sparql endpoint <http://localhost:8890/sparql> with
-
-` select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
-
-It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
-
-Adapt the Perl files in the src/vsql directory for several standard service tasks. E.g., to load the data into your Virtuoso database, call
-
-` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
-
-### Useful remarks
-
-Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
-
-**DirsAllowed** contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file symlinks.
-
-Open the console
-
-`isql-v `<DBServerPort>` dba `<passwd>
-
-and change the password (standard user = dba, passwd = dba)
-
-`set password `<old password>` `<new password>`;`
-
-Load data from ttl files with the vsql/loaddata.pl script. This requires to set the system environment variable SD to the root of your symbolicdata git clone.
-
-For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
-
-You can shutdown the service from the console with
-
-` SQL> shutdown();`
-
-### Install Ontowiki (Optional)
+### (Optional) Install Ontowiki
 
 Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
 
@@ -187,3 +134,55 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
     -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
 -   For best practises using a Virtuoso based OntoWiki see [Using.Ontowiki](Using.Ontowiki "wikilink").
 
+### Data Management
+
+To load SD data from the files supplied with the git repo, check out the repo to /YourPathTo/symbolicdata and add the path /YourPathTo/symbolicdata/data to the data part of the distribution to the DirsAllowed
+
+`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata/data`
+
+and restart the daemon.
+
+Change to the RDFData directory and load all turtle graphs into the Virtuoso Engine:
+
+` cd /YourPathTo/symbolicdata/data`
+``  export MyDIR=`pwd` ``
+` for f in $(ls RDFData/*.ttl); do `
+`    echo "DB.DBA.TTLP_MT (file_to_string_output('$MyDIR/$f'),'`[`` http://symbolicdata.org/Data/`basename ``](http://symbolicdata.org/Data/`basename)``  $f .ttl`/');"; ``
+` done | isql-vt 1111 dba YourVerySecretPassword`
+
+Check success from within the console
+
+` isql-vt 1111 dba YourVerySecretPassword`
+` SQL> sparql select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
+
+and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' etc. The command will list you the URIs of all instances in the given graph. Try the same at the Sparql endpoint <http://localhost:8890/sparql> with
+
+` select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
+
+It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
+
+Adapt the Perl files in the src/vsql directory for several standard service tasks. E.g., to load the data into your Virtuoso database, call
+
+` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
+
+### Useful remarks
+
+Adapt at least the items ServerPort in the Parameters section (default 1111), the ServerPort in the HTTPSection (default 8890) and the DirsAllowed. **Different databases have to use different ports.**
+
+**DirsAllowed** contains a comma separated list of all directories where the service is allowed to read files. A file location in any subdirectory of the listed directories will be accepted. It is recommended to use absolute path names without file symlinks.
+
+Open the console
+
+`isql-v `<DBServerPort>` dba `<passwd>
+
+and change the password (standard user = dba, passwd = dba)
+
+`set password `<old password>` `<new password>`;`
+
+Load data from ttl files with the vsql/loaddata.pl script. This requires to set the system environment variable SD to the root of your symbolicdata git clone.
+
+For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
+
+You can shutdown the service from the console with
+
+` SQL> shutdown();`
