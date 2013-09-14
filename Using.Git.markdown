@@ -12,7 +12,7 @@ We currently (March 2013) changed the way to organize our git repository structu
 -   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
 -   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
 
-Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop' (and a deprecated branch 'old-master' not connected with the other branches containing legacy material that has yet to transformed into the new framework).
+Following the [git branching development model](http://nvie.com/posts/a-successful-git-branching-model) we run dedicated branches 'master' and 'develop'.
 
 **For short, the workflow goes as follows:**
 
