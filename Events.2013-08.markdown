@@ -41,7 +41,7 @@ Links:
 -   <http://lov.okfn.org>
 -   <http://msc2010.org/mscwork/>
 
-#### A Short Summary
+### A Short Summary
 
 The workshop was designed as final milestone of the *E-Science Benchmarking Project* promoted for 12 month within the *E-Science Saxony Framework*. Due to the scarce resonance the program finally focused on cross connections between SymbolicData and the swmath project.
 
