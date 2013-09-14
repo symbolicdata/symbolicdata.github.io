@@ -102,7 +102,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   [Calculation Tasks](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink")
     -   [Using Sage](Sage "wikilink") for SD computations
--   [Copyright Issues](Symbolicdata:Copyrights "wikilink")
+-   [Copyright Issues](Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Dumps](Dumps "wikilink")
 -   [Events](Events "wikilink")
