@@ -106,6 +106,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
     -   [Using Sage](Sage "wikilink") for SD computations
 -   [Copyright Issues](Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
+-   [Documentation Standards](Documentation "wikilink")
 -   [Events](Events "wikilink")
 -   [GettingStarted](GettingStarted "wikilink")
 -   [History](History "wikilink") of the Symbolic Data Project.
