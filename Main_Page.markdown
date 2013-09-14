@@ -34,7 +34,7 @@ This means that **contributors have to accept those terms** as inavoidable for a
 ### What's new?
 
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
--   There is a [proposal for SymbolicData reorganization](Organization "wikilink") towards an intercommunity project
+-   There is a [Reorganization](Reorganization "wikilink") proposal for SymbolicData towards an intercommunity project
 
 ### Main goals
 
@@ -110,7 +110,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   [GettingStarted](GettingStarted "wikilink")
 -   [History](History "wikilink") of the Symbolic Data Project.
 -   [Local Sparql Endpoint](LocalSparqlEndpoint "wikilink"): How to set up a local Sparql endpoint on a server running debian and apache
--   Thoughts about the [Project Organization](Organisation "wikilink")
+-   Thoughts about the [Project Organization](Organization "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")
