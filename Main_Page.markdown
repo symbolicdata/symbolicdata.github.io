@@ -100,18 +100,18 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 
 ### A Small Guide through this Site
 
+-   [About the Project](Overview "wikilink")
+-   [Backup Strategy](Backups "wikilink")
 -   [Calculation Tasks](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink")
     -   [Using Sage](Sage "wikilink") for SD computations
 -   [Copyright Issues](Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
--   [Dumps](Dumps "wikilink")
 -   [Events](Events "wikilink")
 -   [GettingStarted](GettingStarted "wikilink")
--   More about the [history](History "wikilink") of the Symbolic Data Project.
--   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
+-   [History](History "wikilink") of the Symbolic Data Project.
+-   [Local Sparql Endpoint](LocalSparqlEndpoint "wikilink"): How to set up a local Sparql endpoint on a server running debian and apache
 -   Thoughts about the [Project Organization](Organisation "wikilink")
--   [Overview](Overview "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")
