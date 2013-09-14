@@ -22,13 +22,15 @@ To have human readable URIs they are generated from parts of the data that are *
 
 #### Knowledge bases
 
+-   Annotations.ttl - Annotations
 -   Bibliography.ttl - Bibliographical references
 -   FanoPolytopes.ttl - Examples of Fano polytopes
 -   FreeAlgebras.ttl - Examples of twosided ideals in free algebras
 -   GAlgebras.ttl - Examples of twosided ideals in almost commutative polynomial rings (G-Algebras)
-    -   to be created -- HGG, 2013-07-14
+-   GeoCode.ttl - The GeoCode language specification used for GeoProofSchemes
 -   GeometryProblemFormulations.ttl - Latex-formulated references of geometry problems
--   People.ttl -
+-   GeoProofSchemes.ttl - Examples of Proof Schemes from geometry
+-   People.ttl - People involved in SymbolicData or mentioned in the data
 -   PolynomialSystems.ttl - Examples of polynomial systems and ideals, derived from such systems in different ways
 -   Systems.ttl - List of CA systems
 -   TestSets.ttl - Examples of test sets from Integer Programming
