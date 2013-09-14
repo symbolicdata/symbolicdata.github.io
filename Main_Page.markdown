@@ -100,7 +100,6 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 
 ### A Small Guide through this Site
 
--   [About the Project](Overview "wikilink")
 -   [Backup Strategy](Backups "wikilink")
 -   [Calculation Tasks](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink")
