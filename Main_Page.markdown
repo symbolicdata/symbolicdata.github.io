@@ -21,9 +21,15 @@ SymbolicData is an
 Tools and data are designed to be used both
 
 -   on a local site for special testing and profiling purposes
--   and to manage a central repository at www.symbolicdata.org.
+-   and to manage a central repository at `www.symbolicdata.org`.
 
-SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
+### [Copyright Issues](Copyrights "wikilink")
+
+To operate a common public data project as SymbolicData requires appropriate Copyright settings. SymbolicData tools and data are available for download under the terms of the **GNU Public License**.
+
+This means that **contributors have to accept those terms** as inavoidable for a contribution. If you contribute to SymbolicData we silently assume that you accept to give an unrevocable nonexclusive right to use your contribution under the terms of the GNU GPL and that you are allowed to grant such rights.
+
+-   More about [Copyright Issues](Copyrights "wikilink")
 
 ### What's new?
 
