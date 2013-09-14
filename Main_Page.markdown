@@ -118,4 +118,3 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   [Timing](Timing "wikilink")
 -   Different [Software](Software "wikilink") related to the SymbolicData Project
 
-See <http://symbolicdata.org/Webseiten> for the old Web site of the SymbolicData Project
