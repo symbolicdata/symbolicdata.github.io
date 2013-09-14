@@ -114,6 +114,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")
--   [Timing](Timing "wikilink")
 -   Different [Software](Software "wikilink") related to the SymbolicData Project
+-   [Timing](Timing "wikilink")
+-   [Using.Git](Using.Git "wikilink")
 
