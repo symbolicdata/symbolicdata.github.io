@@ -25,6 +25,7 @@ The SymbolicData collection contains
     -   The URI of the problem is used as reference in different proof schemes of the problem
 -   [GeoCode.ttl](http://symbolicdata.org/RDFData/GeoCode.ttl) - the specification of the **[GeoCode](GeoCode "wikilink") language**, a generic language to describe geometry problems, generate drawings and proof schemes
 -   [GeoProofSchemes](http://symbolicdata.org/XMLResources/GeoProofSchemes) - XML Resources containing formally specified **Proof Schemes** for different problems using the GeoCode language
--   [GeoProofSchemes.ttl](http://symbolicdata.org/RDFData/GeoProofSchemes.ttl) - Metadata about relations between problems, proof schemes and other algebraic data
-    -   Proof schemes of equational type are related to different problems in SymbolicData [PolynomialSystems](PolynomialSystems "wikilink") part.
+-   [GeoProofSchemes.ttl](http://symbolicdata.org/RDFData/GeoProofSchemes.ttl) - Additional information about the algebraization of the geometric proof scheme
+    -   Proof schemes of constructive type do not contain a constraints part. The conclusion translates algebraically to a complicated rational function that has to be shown to vanish generically, i.e., to simplizy to zero.
+    -   Proof schemes of equational type translate into Polynomial Systems Solving tasks and are related to different problems in SymbolicData [PolynomialSystems](PolynomialSystems "wikilink") part.
 
