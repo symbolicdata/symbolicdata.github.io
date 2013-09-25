@@ -22,10 +22,10 @@ Here we describe how to install an RDF infrastructure based on the more powerful
 
 It may be necessary to **adjust the apache settings** in `etc/php5/apache2/php.ini` to be able to upload large knowledge bases:
 
-` post max size = 128M`
-` short open tag = off`
-` memory limit = 1280M`
-` upload max filesize = 128M`
+` post_max_size = 128M`
+` short_open_tag = off`
+` memory_limit = 1280M`
+` upload_max_filesize = 128M`
 
 Moreover, mod\_rewrite has to be activated since OntoWiki heavily uses URI Rewriting to comply with the Linked Open Data Standards.
 
