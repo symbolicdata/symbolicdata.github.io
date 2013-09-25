@@ -20,6 +20,15 @@ Here we describe how to install an RDF infrastructure based on the more powerful
 -   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. We recommend to use the Virtuoso Open Source Distribution (VOS) bundled with Debian.
 -   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at the University of Leipzig. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
 
+It may be necessary to **adjust the apache settings** in `etc/php5/apache2/php.ini` to be able to upload large knowledge bases:
+
+` post max size = 128M`
+` short open tag = off`
+` memory limit = 1280M`
+` upload max filesize = 128M`
+
+Moreover, mod\_rewrite has to be activated since OntoWiki heavily uses URI Rewriting to comply with the Linked Open Data Standards.
+
 ### Install the Virtuoso engine
 
 The virtuoso engine can easily be installed with the single command
