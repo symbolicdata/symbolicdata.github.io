@@ -9,7 +9,7 @@ At the site [computeralgebra.de](http://www.computeralgebra.de/index.php?option=
 
 (contains a database of number fields up to degree 19 created by Jürgen Klüners and Gunter Malle)
 
-Link: [1](http://galoisdb.math.uni-paderborn.de/)
+Link: <http://galoisdb.math.uni-paderborn.de/>
 
 -   **Triples extracted**: 86476
 -   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (`<nowiki><http://symbolicdata.org/Data/TransitiveGroups/Gr8T43></nowiki>`), because there are some problems with names that start with numbers.
@@ -47,7 +47,7 @@ This approach is now favored instead of using (very general) lists. For details 
 
 (by Andreas Paffenholz, most of the data is provided in the polymake format)
 
-Link: [2](http://polymake.org/polytopes/paffenholz/www/fano.html)
+Link: <http://polymake.org/polytopes/paffenholz/www/fano.html>
 
 -   **Triples extracted:** 122038
 
@@ -89,7 +89,7 @@ These void tags were converted to RDF predicates with namespace **sdpt**. (all l
 
 (also by Andreas Paffenholz)
 
-Link: [3](http://polymake.org/polytopes/paffenholz/www/birkhoff.html)
+Link: <http://polymake.org/polytopes/paffenholz/www/birkhoff.html>
 
 -   **Triples extracted:** 56734
 
