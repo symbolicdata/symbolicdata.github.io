@@ -5,8 +5,6 @@ title: Annotations.Ontology
 
 ### Annotations Ontology
 
-An informal description of the Ontology of the Annotations Knowledge Base developed so far.
-
 #### Metadata and Semantics
 
 Annotations are a generic way to express interrelations between different SymbolicData entries of even different types as an *annotated \*-ary relation*.
@@ -14,6 +12,8 @@ Annotations are a generic way to express interrelations between different Symbol
 In particular, annotations are well suited to express the relation between benchmark data and publications. Create an annotation that points (sd:relatesTo) to the paper and the examples discussed within the paper, and add appropriate textual information as sd:note.
 
 Look for the practices we used so far to create (URI and RDF) labels for such annotations.
+
+#### Ontology
 
 Annotation instances belong to the class **sd:Annotation** with predicates
 
