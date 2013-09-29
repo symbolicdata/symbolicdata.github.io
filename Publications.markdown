@@ -11,10 +11,11 @@ title: Publications
 
 #### Publications
 
+-   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf)) In: Computeralgebra-Rundbrief 53 (Oct 2013)
 -   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
     -   Submitted and not accepted by CASC-13
--   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf))
-    -   In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
+-   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 13.–14. December 2012. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-52.pdf)) In: Computeralgebra-Rundbrief 52 (March 2013)
+-   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf)) In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
 -   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
 -   H.-G. Gräbe: The SymbolicData GEO Records - A Public Repository of Geometry Theorem Proof Schemes. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-02.pdf))
     -   Talk at the ADG-02 conference in Linz, Sept 2002.
