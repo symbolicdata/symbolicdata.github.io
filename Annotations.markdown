@@ -7,10 +7,8 @@ title: Annotations
 
 #### About
 
-Annotations are designed to collect additional information about examples and series of examples.
-
-to be added
+Annotations are a generic way to express interrelations between different SymbolicData entries of even different types as an annotated \*-ary relation.
 
 #### Structure of the Data
 
-[Annotations.Ontology](Annotations.Ontology "wikilink") - an informal description of the Annotations Ontology developed so far.
+[Annotations.Ontology](Annotations.Ontology "wikilink") - an informal description of the Annotations Ontology.
