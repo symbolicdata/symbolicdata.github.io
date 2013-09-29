@@ -11,23 +11,61 @@ title: Publications
 
 #### Publications
 
--   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf)) In: Computeralgebra-Rundbrief 53 (Oct 2013)
+-   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
+
+  
+In: Computeralgebra-Rundbrief 53 (Oct 2013)
+
 -   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
-    -   Submitted and not accepted by CASC-13
--   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 13.–14. December 2012. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-52.pdf)) In: Computeralgebra-Rundbrief 52 (March 2013)
--   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf)) In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
--   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
+
+  
+Submitted and not accepted at CASC-13
+
+-   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 13.–14. December 2012. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-52.pdf))
+
+  
+In: Computeralgebra-Rundbrief 52 (March 2013)
+
+-   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-51.pdf))
+
+  
+In: Computeralgebra-Rundbrief 51 (Oct 2012) (in german)
+
+-   H.-G. Gräbe: The SymbolicData Project.
+
+  
+Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
+
 -   H.-G. Gräbe: The SymbolicData GEO Records - A Public Repository of Geometry Theorem Proof Schemes. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-02.pdf))
-    -   Talk at the ADG-02 conference in Linz, Sept 2002.
-    -   In: Automated Deduction in Geometry 2002, ed. F. Winkler, LNAI 2930. Springer, Berlin 2004, p. 67-86.
+
+  
+Talk at the ADG-02 conference in Linz, Sept 2002.
+
+In: Automated Deduction in Geometry 2002, ed. F. Winkler, LNAI 2930. Springer, Berlin 2004, p. 67-86.
+
 -   H.-G. Gräbe: The SymbolicData Geometry Collection and the GeoProver Packages ([pdf](http://symbolicdata.uni-leipzig.de/Papers/rwca-02.pdf))
-    -   Proceedings "8th Rhine Workshop on Computer Algebra" (RWCA-02), March 2002 in Mannheim, p. 173-194. Published by Univ. Mannheim.
+
+  
+Proceedings "8th Rhine Workshop on Computer Algebra" (RWCA-02), March 2002 in Mannheim, p. 173-194. Published by Univ. Mannheim.
+
 -   H.-G. Gräbe: The SymbolicData Benchmark Problems Collection of Polynomial Systems. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/karlsruhe-02.pdf))
-    -   Proceedings "Workshop on Under- and Overdetermined Systems of Algebraic or Differential Equations", March 2002 in Karlsruhe, p. 57-76. Published by IAS, Univ. Karlsruhe
+
+  
+Proceedings "Workshop on Under- and Overdetermined Systems of Algebraic or Differential Equations", March 2002 in Karlsruhe, p. 57-76. Published by IAS, Univ. Karlsruhe
+
 -   H.-G. Gräbe: Neues vom SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-28.pdf))
-    -   In: Computeralgebra-Rundbrief 28 (March 2001) (in german)
+
+  
+In: Computeralgebra-Rundbrief 28 (March 2001) (in german)
+
 -   O. Bachmann, H.-G. Gräbe: The SymbolicData Project - Towards an Electronic Repository of Tools and Data for Benchmarks of Computer Algebra Software. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/issac2000.pdf))
-    -   Reports On Computer Algebra 27 (2000), Centre for Computer Algebra, University of Kaiserslautern.
+
+  
+Reports On Computer Algebra 27 (2000), Centre for Computer Algebra, University of Kaiserslautern.
+
 -   O. Bachmann, H.-G. Gräbe: Das SymbolicData Projekt. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-26.pdf))
-    -   In: Computeralgebra-Rundbrief 26 (March 2000) (in german)
+
+  
+In: Computeralgebra-Rundbrief 26 (March 2000) (in german)
+
 
