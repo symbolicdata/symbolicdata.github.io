@@ -3,7 +3,15 @@ layout: default
 title: CADatabases
 ---
 
-At the site [computeralgebra.de](http://www.computeralgebra.de/index.php?option=com_content&view=article&id=89&Itemid=53) there are listed different databases, some of which were processed into RDF.
+At the site [computeralgebra.de](http://www.computeralgebra.de/index.php?option=com_content&view=article&id=89&Itemid=53) there are listed different databases:
+
+-   A Database for Class Groups and Higher Class Groups (by Maximilian Boy and Gunter Malle)
+-   A Database of Higher Congruences of Modular Forms (by Panagiotis Tsaknias)
+-   A Database for Number Fields (contains a database of number fields up to degree 19 created by Jürgen Klüners and Gunter Malle)
+-   A Database for Polytopes (by Andreas Paffenholz, most of the data is provided in the polymake format)
+-   A Database for Polytropes in TA\^3 (by Michael Joswig and Katja Kulas)
+
+For some of them meta information is available in RDF.
 
 ### Number Fields
 
