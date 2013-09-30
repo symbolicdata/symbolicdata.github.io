@@ -24,7 +24,7 @@ Link: <http://galoisdb.math.uni-paderborn.de/>
 
 -   `:hasURL` ­— a URL that point a web page with more information. This information is right now only partly extracted.
 -   `:hasGenerator` — a permutation, should probably be an `xsd:type`. A group can have more than one generator.
--   `hasProperty` — values can be something like `:cyclic`, `:primitive`, \<`:simple`, `:semiabelian`, `:even`, `:solvable`, `:notSolvable`, `:irreducible`, `:nilpotent`, ...
+-   `hasProperty` — values can be something like `:cyclic`, `:primitive`, `:simple`, `:semiabelian`, `:even`, `:solvable`, `:notSolvable`, `:irreducible`, `:nilpotent`, ...
 
 This should maybe be classes, because those properties are not independent.
 
