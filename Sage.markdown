@@ -5,9 +5,6 @@ title: Sage
 
 ### Using Sage for SD Computations
 
-to be added
+[Sage](http://sagemath.org/) is a free open-source mathematics software system that combines the power of many existing open-source packages into a common Python-based interface.
 
-  
-Assigned to Andreas (HGG, 2013-08-02)
-
-
+The SymbolicData Project provides a [Sage Interface](PolynomialSystems.Sage "wikilink") to the Polynomial Systems collection of our data, developed by Andreas Nareike.
