@@ -143,6 +143,10 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
     -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
 -   For best practises using a Virtuoso based OntoWiki see [Using.Ontowiki](Using.Ontowiki "wikilink").
 
+**Security warning:**
+
+-   In the current default installation (as of 2013-11-09) the precofigured *Admin* account has no password set and the *Anonymous* account has write access to all ontologies. This should be considered for an non local OntoWiki installation.
+
 ### Data Management
 
 To load SD data from the files supplied with the git repo directly into the Virtuoso engine the following steps are required:
