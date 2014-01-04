@@ -5,7 +5,10 @@ title: Bibliography
 
 ### Bibliographical Notes
 
-Note that the concept of Bibliographical Notes is not yet at the end where it should be.
+Note that the concept of Bibliographical Notes is not yet at the end where it should be. In particular, the MSC2000 and MSC2010 RDF versions offer great potential for
+
+-   <http://msc2010.org/mscwork/> - skos and rdf versions of the msc2010.
+-   <http://www.iwi-iuk.org/material/RDF/Schema/Class/Extern/MSC.html> - msc2000 as rdf.
 
 * * * * *
 
