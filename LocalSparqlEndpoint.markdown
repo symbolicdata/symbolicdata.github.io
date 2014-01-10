@@ -97,6 +97,9 @@ Ontowiki requires apache with php5 support. To operate with Virtuoso the php5-od
 
 `sudo apt-get install php5-odbc php5 libapache2-mod-php5`
 
+  
+hgg, 2014-01-09: We get reported for ubuntu 13.10, that 'php-json' is put (by legal restrictions) into a separate package and is required to be installed additionally.
+
 The database service has to be be registered with ODBC. Add a section
 
 ` # Symbolicdata OntoWiki dsn start`
