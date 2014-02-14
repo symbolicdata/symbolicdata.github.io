@@ -9,7 +9,7 @@ We manage a database of announcements of upcoming conferences. See the files *Ta
 
 Used ontologies:
 
--   ical: [Calendar Ontology](http://www.w3.org/2002/12/cal/ical)
+-   ical: [Calendar Ontology](http://lov.okfn.org/dataset/lov/details/vocabulary_cal.html)
 
 Conferences are modeled as sd:Event with predicates
 
