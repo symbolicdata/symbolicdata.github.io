@@ -9,9 +9,9 @@ See the files *People.ttl* and *Groups.ttl* in the repository.
 
 Used ontologies:
 
--   foaf: [FOAF Vocabulary](http://xmlns.com/foaf/spec/)
--   org: [ORG - An organization ontology](http://www.w3.org/TR/vocab-org)
--   skos: [SKOS - Simple Knowledge Organization System](http://www.w3.org/2004/02/skos/)
+-   foaf: [FOAF Vocabulary](http://lov.okfn.org/dataset/lov/details/vocabulary_foaf.html)
+-   org: [ORG - An organization ontology](http://lov.okfn.org/dataset/lov/details/vocabulary_org.html)
+-   skos: [SKOS - Simple Knowledge Organization System](http://lov.okfn.org/dataset/lov/details/vocabulary_skos.html)
 
 #### People
 
