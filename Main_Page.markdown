@@ -35,6 +35,8 @@ This means that **contributors have to accept those terms** as inavoidable for a
 
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   There is a [Reorganization](Reorganization "wikilink") proposal for SymbolicData towards an intercommunity project
+-   An enlarged list of [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) (mainly extracted from the [Computeralgebra Rundbrief](http://www.fachgruppe-computeralgebra.de/rundbrief/)).
+-   A listing of [upcoming Conferences](http://symbolicdata.org/Data/Tagungsankuenigungen/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
 
 ### Main goals
 
@@ -56,6 +58,7 @@ The project manages additional Data:
 
 -   [Annotations](Annotations "wikilink") - a system of background information on different examples and series of examples
 -   [Bibliography](Bibliography "wikilink") - bibliographical references system (to be aligned with [swmath](http://www.swmath.org))
+-   [Conferences](Conferences "wikilink") - data base of upcoming conferences
 -   [People](People "wikilink") - different people and groups (to be aligned with [swmath](http://www.swmath.org))
 -   [Systems](Systems "wikilink") - list of CA systems (aligned with [swmath](http://www.swmath.org))
 
