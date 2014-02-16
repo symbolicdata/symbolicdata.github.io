@@ -36,7 +36,7 @@ This means that **contributors have to accept those terms** as inavoidable for a
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   There is a [Reorganization](Reorganization "wikilink") proposal for SymbolicData towards an intercommunity project
 -   An enlarged list of [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) (mainly extracted from the [Computeralgebra Rundbrief](http://www.fachgruppe-computeralgebra.de/rundbrief/)).
--   A listing of [upcoming Conferences](http://symbolicdata.org/Data/Tagungsankuenigungen/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
+-   A listing of [upcoming Conferences](http://symbolicdata.org/Data/Tagungsankuendigungen/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
 
 ### Main goals
 
