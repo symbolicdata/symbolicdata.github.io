@@ -5,27 +5,27 @@ title: Reorganization
 
 ### Proposal for SymbolicData Reorganization towards an Intercommunity Project
 
-During the [December 2012 Workshop](Events.2012-12 "wikilink") in Leipzig we decided to reshape the SymbolicData Project as *intercommunity project*, that address needs of *communities* within Symbolic Computation to profile, test and benchmark implementations, and has strong links to other intercommunity activities as [sagemath](http://sagemath.org/), [lmonade](http://www.lmona.de/), [swmath](http://www.swmath.org/) ond others, see [Andreas' poster](http://symbolicdata.org/Uploads/overview-poster.pdf) for an overall picture.
+During the [December 2012 Workshop](Events.2012-12 "wikilink") in Leipzig we decided to reshape the SymbolicData Project as *intercommunity project*, that address needs of *subcommunities* within Symbolic Computation community to profile, test and benchmark implementations, and has strong links to other intercommunity activities as [sagemath](http://sagemath.org/), [lmonade](http://www.lmona.de/), [swmath](http://www.swmath.org/) ond others, see [Andreas' poster](http://symbolicdata.org/Uploads/overview-poster.pdf) for an overall picture.
 
-But no intercommunity project without vivid roots in the communities. The ongoing efforts of Andreas and [me](User:HGG "wikilink") to place and reshape the SymbolicData Project as an intercommunity project has no value if it is not supported by the communities themselves. SymbolicData canonly be successful as *joined efforts within different CA communities* to establish a common interlinking infrastructure that extends the intra-community infrastructure in a natural way using modern Semantic Web concepts.
+But no intercommunity project without vivid roots in the communities. The ongoing efforts of Andreas and [me](User:HGG "wikilink") to place and reshape the SymbolicData Project as an intercommunity project has no value if it is not supported by the subcommunities themselves. SymbolicData can only be successful as *joined efforts within different CA subcommunities* to establish a common interlinking infrastructure that extends and technically supports the intra-community infrastructure in a natural way using modern Semantic Web concepts.
 
 There are several such projects (with different scopes) out there with a similar goal (see the "central cloud" in Andreas' poster) and it is due time better to interconnect these efforts.
 
-We understand that efforts require human efforts in first plan. Hence we propose to ask the communities involved so far with different aspects of the SymbolicData Project to specify people who will care about the needs and issues of that CA community. We think that it would be helpful to have **coaches** for the needs of the different communities that are part of that community and altogether constitute the "advisory council" of the SymbolicData Project.
+We understand that efforts require human resources in the first plan to maintain and manage the resources from different subcommunities. The SymbolicData Project went through several 'dry periods' providing the collected information 'as is' in a read only way as digitally accessible reference. If there were maintainers from subcommunities to bring in their power then parts of SymbolicData matured. For the future it would be helpful to have **coaches** for the different topics on a more regular base that are part of a CA subcommunity and altogether constitute the "advisory council" of the SymbolicData Project.
 
-Due to the material collected so far we need coaches for the following parts (I added proposals who this could be):
+We need coaches for the following topics (I added proposals who this could be):
 
--   sdEval (Albert Heinle, no response yet)
--   (Fano) Polytopes (?)
--   GAlgebras (Viktor Levandovskyy, no response yet)
--   FreeAlgebras (Viktor Levandovskyy, no response yet)
+-   sdEval (Albert Heinle, no response)
+-   (Fano and other) Polytopes (?)
+-   GAlgebras (Viktor Levandovskyy, no response)
+-   FreeAlgebras (Viktor Levandovskyy, no response)
 -   PolynomialSystems (?)
 -   TestSets (?)
--   Geometry Problems (Hans-Gert Graebe)
--   Bibliographical aspects - Bibliography.ttl, People.ttl, Systems.ttl (Andreas Nareike)
+-   Geometry Problems (Hans-Gert Gräbe)
+-   Bibliographical aspects - Bibliography.ttl, People.ttl, Groups.ttl, CAFG, Systems.ttl (Hans-Gert Gräbe)
 -   Git Integration Master (Ralf Hemmecke, 50% agreed)
 
-Note that Andreas' position ends at end of august 2013 and he will definitely leave the SymbolicData Project towards another Semantic Web Project started by the Saxonian university libraries. He will keep maintaining our technical infrastructure and remain in contact with intracommunity aspects related to his new project (and there are hopefully a lot).
+Andreas' position ended in 2013 and he left the SymbolicData Project towards another Semantic Web Project started by the Saxonian university libraries.
 
 #### Background
 
