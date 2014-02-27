@@ -72,11 +72,11 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 
 **5)** Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
-`PREFIX sdpol: `<http://symbolicdata.org/Data/PolynomialSystems/>
+`PREFIX sdpol: `<http://symbolicdata.org/Data/Ideal/>
 `SELECT ?p ?o WHERE {`
 `  sdpol:Caprasse ?p ?o`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sdpol:%20%3Chttp://symbolicdata.org/Data/PolynomialSystems/%3E%20SELECT%20?p%20?o%20WHERE{sdpol:Caprasse%20?p%20?o})
+[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sdpol:%20%3Chttp://symbolicdata.org/Data/Ideal/%3E%20SELECT%20?p%20?o%20WHERE{sdpol:Caprasse%20?p%20?o})
 
 You might noticed that there are some values where there the object is quite complex, like for instance the variable list with values like "x,y,z,t". One could also parse these values (e.g. do a regex match on them, all within a SPARQL query). But maybe these values turn out to be so important that you don't want to parse them but rather query them directly. In this case the data could easily be modified (but we're not going into detail here).
 
