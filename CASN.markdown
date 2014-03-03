@@ -5,14 +5,15 @@ title: CASN
 
 ### Towards a Computer Algebra Social Network
 
-The vision is a distributed social network within Open Science supporting the needs of the Computer Algebra Community. The social network will be build upon the [DSSN network stack](http://aksw.org/Projects/DSSN.html) developed and implemented by Sebastian Tramp (U Leipzig).
+The vision is a digitally supported distributed social network within Open Science for the needs of the Computer Algebra Community. A first prototype to technically support such a social network will be build upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig) of the [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig).
 
-For the moment we collect
+For the moment we collect directly within the SD database
 
--   (meta) informations about new publications (unsing the Dublin Core Ontyology)
--   (meta) informations about current conferences, workshops etc. (using the ical Ontology)
+-   [informations about upcoming conferences](http://symbolicdata.org/Data/Tagungsankuendigungen/)
 
-Soonly I will add more information. -- HGG, 20.02.2013
+and plan to collect
+
+-   (meta) informations about new publications (using the Dublin Core Ontology)
 
 * * * * *
 
