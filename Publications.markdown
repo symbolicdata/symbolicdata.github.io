@@ -7,6 +7,7 @@ title: Publications
 
 #### Presentations
 
+-   [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/BadBoll-14.pdf) of the SymbolicData Project at the [SPP 1489](http://www.computeralgebra.de/) Jahrestagung in Bad Boll, March 2014.
 -   [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the [E-Science Workshop](http://www.escience-sachsen.de/?p=1342) in Dresden, June 2013.
 -   The [SymbolicData Poster](http://symbolicdata.uni-leipzig.de/Uploads/overview-poster.pdf) (designed by Andreas Nareike, 2013)
 
