@@ -13,6 +13,11 @@ title: Publications
 
 #### Publications
 
+-   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
+
+  
+To appear in: Computeralgebra-Rundbrief 54 (March 2014)
+
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
 
   
