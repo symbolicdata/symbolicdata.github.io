@@ -5,7 +5,7 @@ title: People
 
 ### People, Groups and Affiliations
 
-See the files *People.ttl* and *Groups.ttl* in the repository.
+See the files *People.ttl* in the repository.
 
 Used ontologies:
 
@@ -20,16 +20,23 @@ People are modeled as **foaf:Person**. The naming scheme is <familyName_initials
 Predicates:
 
 -   foaf:name Literal: Value is of the form "familyName, givenName". Used as label.
--   foaf:mbox Literal: Email address
 -   foaf:homepage URL: Homepage. This is a link to more information about the person in the Linked Data sense.
 
-The instances of that class cover any person, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system.
+The instances of that class cover any person, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system. Note that the provided link is not necessarily up to date.
 
-People involved with SymbolicData have additionally the type **sd:Contributor** with predicates
+  
+2014-03-08 HGG: The field foaf:mbox was removed from the public repo due to privacy reasons.
+
+#### Contributions
+
+Contributions to SymbolicData are acknowledged within a knowledge base *Contributions.ttl*. People involved with SymbolicData have additionally the type **sd:Contributor** with predicates
 
 -   foaf:nick Literal: Nick name within SymbolicData
 -   sd:hasContributed Literal: Record about contributions to SymbolicData
 -   sd:lastModified xsd:date
+
+  
+2014-03-08 HGG: This information was separated to its own knowledge base.
 
 The knowledge base *CAFG-Intern.ttl* contains more detailed information about people and will be available only for internal purposes (not yet realized). Part of that information is used to display the [Board of the German CA-Fachgruppe](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/).
 
