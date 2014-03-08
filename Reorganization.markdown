@@ -29,9 +29,9 @@ We understand that efforts require human resources in the first plan to maintain
 -   FreeAlgebras (loosely assigned to [Viktor Levandovskyy](http://symbolicdata.org/Data/People/Levandovskyy_V))
 -   PolynomialSystems (no coach at the moment)
 -   TestSets (discussed with [Winfried Bruns](http://symbolicdata.org/Data/People/Bruns_W))
--   Geometry Problems ([Hans-Gert Gräbe](http://symbolicdata.org/Data/People/Graebe_HG))
+-   Geometry Problems (coached by [Hans-Gert Gräbe](http://symbolicdata.org/Data/People/Graebe_HG))
 -   Bibliographical aspects - Bibliography.ttl, People.ttl, Systems.ttl, contacs with zbMath and swMath (coached by [Hans-Gert Gräbe](http://symbolicdata.org/Data/People/Graebe_HG))
--   Computer Algebra Social Network - People, Groups, contacts with the German Fachgruppe ([Hans-Gert Gräbe](http://symbolicdata.org/Data/People/Graebe_HG))
+-   Computer Algebra Social Network - People, Groups, contacts with the German Fachgruppe (coached by [Hans-Gert Gräbe](http://symbolicdata.org/Data/People/Graebe_HG))
 -   Git Integration Master ([Ralf Hemmecke](http://symbolicdata.org/Data/People/Hemmecke_Ralf))
 
 Note that the position of Andreas Nareike ended in 2013 and he left the SymbolicData Project towards another Semantic Web Project started by the Saxonian university libraries.
