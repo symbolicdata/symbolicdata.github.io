@@ -9,14 +9,23 @@ The vision is a digitally supported distributed social network within Open Scien
 
 We plan to build a [first prototype](http://symbolicdata.org/CASN) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig) of the [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig).
 
-For the moment we collect directly within the SD database
+For the moment we set up an [xodx instance](http://symbolicdata.org/CASN) served by a second OntoWiki (not yet available by Linked Data standards) running on a second Virtuoso store that contains
 
--   [informations about upcoming conferences](http://symbolicdata.org/Data/Tagungsankuendigungen/)
+-   informations about upcoming conferences
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the CA Fachgruppe
+-   information about German CA working groups
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe
+-   information about articles in the CA-Rundbrief
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the CA Fachgruppe
 
 and plan to collect
 
--   (meta) informations about new publications (using the Dublin Core Ontology)
+-   (meta) informations about new publications (using the Dublin Core Ontology and references to commonly used foreign bibliographical stores)
+
+Here are the links to the currently available infrastructure
+
+-   <http://symbolicdata.org:8891/sparql> - CASN SPARQL Endpoint
+-   <http://symbolicdata.org/CASN-OW> - CASN OntoWiki
 
 * * * * *
 
