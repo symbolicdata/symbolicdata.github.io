@@ -57,15 +57,25 @@ Only the Integration manager needs write access to the blessed repo.
 
 #### How to run certain tasks?
 
-##### Pick a file from old-master to develop
+##### Pick a file from one branch to another
 
-You can easily extract the scripts by doing
+You can easily extract a file from another branch by doing
 
 ` git checkout develop`
-` git checkout old-master -- Scripts/perl/Service/transHomog.pl`
+` git checkout another-branch -- `*`path/to/thisFile`*
 ` git reset`
 
-After that you would have Scripts/perl/Service/transHomog.pl which is not committed in the develop branch. Modify as you like, run the script, maybe even commit it together with the result after running it. Of course, transHomog.pl was just an example.
+After that you would have *path/to/thisFile* from another-branch which is not committed in the develop branch. Modify as you like, use it, maybe even commit it.
+
+##### 'git merge' or 'git rebase'?
+
+<https://www.atlassian.com/git/tutorial/rewriting-git-history>\#!rebase says about that:
+
+  
+Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with git merge results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”
+
+  
+Don’t Rebase Public History! You should never rebase commits that have been pushed to a public repository. The rebase would replace the old commits with new ones, and it would look like that part of your project history abruptly vanished.
 
 #### What's about commit messages?
 
