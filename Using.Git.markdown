@@ -75,7 +75,7 @@ After that you would have *path/to/thisFile* from another-branch which is not co
 Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with git merge results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”
 
   
-Don’t Rebase Public History! You should never rebase commits that have been pushed to a public repository. The rebase would replace the old commits with new ones, and it would look like that part of your project history abruptly vanished.
+**Don’t Rebase Public History!** You should never rebase commits that have been pushed to a public repository. The rebase would replace the old commits with new ones, and it would look like that part of your project history abruptly vanished. Hence use 'git pull --rebase' only to reorder your **local** commits that are **not yet pushed to a remote repo**.
 
 #### What's about commit messages?
 
