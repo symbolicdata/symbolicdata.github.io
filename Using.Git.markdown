@@ -7,22 +7,22 @@ title: Using.Git
 
 #### Repos and Development Model
 
-We currently (March 2013) changed the way to organize our git repository structure. We follow the [Integration-Manager-Workflow Model](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
-
--   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
--   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
-
-We we run dedicated branches 'master' and 'develop' and follow the **Integration-Manager-Workflow Model**.
+We we run dedicated branches 'master' and 'develop' and follow the [Integration-Manager-Workflow Model](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow).
 
 To **contribute to SymbolicData**
 
 -   clone the develop public master repo to a private account (best, if also at github),
 -   start a feature branch from develop on your blessed repo
--   do valuable work,
--   issue a pull request to the Integration Manager (Ralf Hemmecke).
--   The Integration Manager starts the integration process to merge your valuable work.
+-   do valuable work
+-   issue a pull request to the Integration Manager [Ralf Hemmecke](http://symbolicdata.org/Data/Person/Hemmecke_Ralf)
+-   The Integration Manager starts the integration process to merge your work.
 -   If accepted, the contribution will be merged into the develop branch of the official repo.
 -   Realign your blessed repo with the official one.
+
+Some more background:
+
+-   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
+-   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
 
 #### How the Integration-Manager-Workflow Model works
 
