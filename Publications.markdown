@@ -16,7 +16,7 @@ title: Publications
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14.pdf))
 
   
-Subnitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-conference.org/2014)
+Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-conference.org/2014)
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
 
