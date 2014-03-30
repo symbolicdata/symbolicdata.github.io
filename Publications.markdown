@@ -34,10 +34,10 @@ A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) will 
   
 In: Computeralgebra-Rundbrief 53 (Oct 2013)
 
--   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone (Preprint) ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
 
   
-Submitted and not accepted at CASC-13
+Submitted to [CASC-13](http://www14.in.tum.de/CASC2013). Not accepted.
 
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 13.–14. December 2012. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-52.pdf))
 
