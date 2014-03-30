@@ -17,7 +17,7 @@ title: Publications
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf))
 
   
-Submitted to the [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014), the International Conference on Infrastructures and Cooperation in e-Science and e-Humanities] in Leipzig
+Submitted to the [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014), the International Conference on Infrastructures and Cooperation in e-Science and e-Humanities in Leipzig
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14.pdf))
 
