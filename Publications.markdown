@@ -11,10 +11,7 @@ title: Publications
 -   [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/BadBoll-14.pdf) of the SymbolicData Project at the [SPP 1489](http://www.computeralgebra.de/) Jahrestagung in Bad Boll, 2014-03-04.
 -   [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the [E-Science Workshop](http://www.escience-sachsen.de/?p=1342) in Dresden, June 2013.
 -   The [SymbolicData Poster](http://symbolicdata.uni-leipzig.de/Uploads/overview-poster.pdf) (designed by Andreas Nareike, 2013)
--   H.-G. Gräbe: The SymbolicData Project.
-
-  
-Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
+-   H.-G. Gräbe: The SymbolicData Project. Talk given at the Special Semester on Groebner Bases Linz 2006. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/linz-06.pdf))
 
 #### Publications
 
