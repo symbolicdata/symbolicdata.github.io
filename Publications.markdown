@@ -28,7 +28,7 @@ Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-confere
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
 
   
-A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) will appear in: Computeralgebra-Rundbrief 54 (March 2014)
+A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) (so long draft only) will appear in: Computeralgebra-Rundbrief 55 (October 2014)
 
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
 
