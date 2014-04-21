@@ -39,3 +39,5 @@ We recommend:
 -   monitor the activities on your OntoWiki instance on a regular base.
 
 This helps you to restore rights and model descriptions in case of lost of <localhost/OntoWiki/Config/> and also to restore an earlier "valid state" in case of vandalism.
+
+**More about that on the discussion page.**
