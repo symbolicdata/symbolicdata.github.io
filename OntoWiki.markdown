@@ -20,4 +20,4 @@ OntoWiki is under heavy development. It has known flaws in particular within the
 
 #### Security issues
 
-A central design principle of OntoWiki is to store the description of a particular Ontowiki instance as RDF graph
+A central design principle of OntoWiki is to store the description of a particular Ontowiki instance as RDF graph http%3A%2F%2Flocalhost%2FOntoWiki%2FConfig%2F
