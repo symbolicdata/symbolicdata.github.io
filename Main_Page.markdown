@@ -89,7 +89,7 @@ Try out
 to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf/xml format by a simple HTTP Get request to the URI
 
 -   An [instance of OntoWiki](http://symbolicdata.org/Data) to present and maintain these primary RDF Metadata.
-    -   [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
+    -   [OntoWiki](OntoWiki "wikilink") is a tool providing support for agile, distributed knowledge engineering scenarios developed by the [AKSW team](http://aksw.org) at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
