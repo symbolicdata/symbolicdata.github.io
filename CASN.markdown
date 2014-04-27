@@ -9,7 +9,7 @@ The vision is a digitally supported distributed social network within Open Scien
 
 We plan to build a [first prototype](http://symbolicdata.org/CASN) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig) of the [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig).
 
-For the moment we set up an [xodx instance](http://symbolicdata.org/CASN) served by a second OntoWiki (not yet available by Linked Data standards) running on a second Virtuoso store that contains
+For the moment we set up an [xodx instance](http://symbolicdata.org/xodx) served by a [second OntoWiki](http://symbolicdata.org/casn) running on a second Virtuoso store that contains
 
 -   informations about upcoming conferences
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the CA Fachgruppe
@@ -25,7 +25,8 @@ and plan to collect
 Here are the links to the currently available infrastructure
 
 -   <http://symbolicdata.org:8891/sparql> - CASN SPARQL Endpoint
--   <http://symbolicdata.org/CASN-OW> - CASN OntoWiki
+-   <http://symbolicdata.org/xodx> - the CASN xodx node
+-   <http://symbolicdata.org/casn> - the CASN OntoWiki (to be aligned with Linked Data standards)
 
 * * * * *
 
