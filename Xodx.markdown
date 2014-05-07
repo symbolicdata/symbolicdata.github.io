@@ -18,10 +18,6 @@ Places running Xodx nodes:
 -   <http://pcai042.informatik.uni-leipzig.de/~swp14-xodx/xodx>
 -   <http://pcai042.informatik.uni-leipzig.de/~swp14-sf/xodx>
 
-Caveats:
-
--   If logged in into swp14-sf/xodx and calling swp14-xodx/xodx it reports me to be logged in also there
-
 #### Installation
 
 Short summary from <https://github.com/white-gecko/xodx>
@@ -32,4 +28,11 @@ Xodx is a PHP application (requires PHP 5.3.7 or later) best to be run within Ap
 -   To import the initial base ontology for Erfurt you have to allow virtuoso to read the xodx directory (add the dir to the *DirsAllowed* values in your *virtuoso.ini*).
 -   Run *make submodules* to clone Erfurt, lib-dssn-php and Saft.
 -   Run *make zend* to install the Zend framework
+-   Run *make resources* to install the javascript libraries
+
+#### Caveats
+
+-   If logged in into swp14-sf/xodx and calling swp14-xodx/xodx it reports me to be logged in also there, but it doesn't work (of course?)
+-   If debuglog messages are shown, run 'touch xodx.log' in the root dir and chmod to write access for the web server.
+-   If message "'./cache/' dir is missing", create it and chmod to write access for the web server.
 
