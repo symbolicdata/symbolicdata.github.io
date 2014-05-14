@@ -22,13 +22,15 @@ and have an instance of Ontowiki rolled out within your webserver running at loc
 
 #### FAQ
 
-Q: There is a knowledge base (graph) <URI> loaded into Virtuoso but not yet visible in OntoWiki.
+**Q:** There is a knowledge base (graph) <URI> loaded into Virtuoso but not yet visible in OntoWiki.
 
-A: Issue on Virtuoso console the command
+**A:** Issue on Virtuoso console the command
 
   
 sparql create silent graph <URI> ;
 
-Q: The upload of a knowledge base fails with "no curl\_init() found".
+* * * * *
 
-A: Log in as admin and switch off the Pingback Server Plugin (under Extras \> Configure Extensions). This also speeds up the upload process. Pingback is used to broadcast change notifications to interested parties.
+**Q:** The upload of a knowledge base fails with "no curl\_init() found".
+
+**A:** Log in as admin and switch off the Pingback Server Plugin (under Extras \> Configure Extensions). This also speeds up the upload process. Pingback is used to broadcast change notifications to interested parties.
