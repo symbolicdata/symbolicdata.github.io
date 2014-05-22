@@ -11,11 +11,12 @@ We set up a [first prototype](http://symbolicdata.org/xodx) to technically suppo
 
 This [xodx instance](http://symbolicdata.org/xodx) (see [xodx](xodx "wikilink") for a list of remarks how it is configured) runs on a second Virtuoso store that hosts both the xodx communication artefacts (within the namespace <symbolicdata.org/xodx/>) and several other RDF graphs within the namespace <symbolicdata.org/casn/> served by a [second OntoWiki](http://symbolicdata.org/casn), in particular
 
--   informations about upcoming conferences
+-   informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the CA Fachgruppe
--   information about German CA working groups
+-   information about German CA working groups and people - extending the <symbolicdata.org/Data/Person/> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe
--   information about articles in the CA-Rundbrief
+    -   Note that the people are referenced by the <symbolicdata.org/Data/Person/> namespace. There is a second knowledge base <http://symbolicdata.org/casn/CAFG-Intern/> with more detailed information about the people within German CA working groups. This information is considered as more private and not delivered by Linked Data principles but only available by SPARQL query to that special knowledge base.
+-   information about articles in the CA-Rundbrief - <symbolicdata.org/casn/BIB> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the CA Fachgruppe
 
 and plan to collect
