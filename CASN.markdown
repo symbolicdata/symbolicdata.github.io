@@ -16,7 +16,7 @@ This [xodx instance](http://symbolicdata.org/xodx) (see [xodx](xodx "wikilink") 
 -   information about German CA working groups and people - extending the <symbolicdata.org/Data/Person/> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe
     -   Note that the people are referenced by the <symbolicdata.org/Data/Person/> namespace. There is a second knowledge base <http://symbolicdata.org/casn/CAFG-Intern/> with more detailed information about the people within German CA working groups. This information is considered as more private and not delivered by Linked Data principles but only available by SPARQL query to that special knowledge base.
--   information about articles in the CA-Rundbrief - <symbolicdata.org/casn/BIB> namespace
+-   information about articles in the CA-Rundbrief - <symbolicdata.org/casn/BIB/> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the CA Fachgruppe
 
 and plan to collect
