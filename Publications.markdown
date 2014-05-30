@@ -15,15 +15,20 @@ title: Publications
 
 #### Publications
 
+-   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf))
+
+  
+Submitted to the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
+
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf))
 
   
-Submitted to [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014)
+Accepted at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014) for presentation.
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14.pdf))
 
   
-Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-conference.org/2014)
+Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-conference.org/2014). Not accepted.
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
 
@@ -35,7 +40,7 @@ A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) (so l
   
 In: Computeralgebra-Rundbrief 53 (Oct 2013)
 
--   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval-Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
 
   
 Submitted to [CASC-13](http://www14.in.tum.de/CASC2013). Not accepted.
