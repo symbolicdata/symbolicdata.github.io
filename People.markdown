@@ -19,8 +19,10 @@ Predicates:
 
 -   foaf:name Literal: Value is of the form "familyName, givenName". Used as label.
 -   foaf:homepage URL: Homepage. This is a link to more information about the person in the Linked Data sense.
+-   foaf:affiliation Literal. Optional
+-   foaf:country Literal. Optional
 
-The instances of that class cover any person, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system. Note that the provided link is not necessarily up to date.
+The instances of that class cover any person involved with Computeralgebra, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system. Note that the provided information is not necessarily up to date.
 
   
 2014-03-08 HGG: The field foaf:mbox was removed from the public repo due to privacy reasons.
