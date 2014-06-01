@@ -25,6 +25,8 @@ The instances of that class cover any person, in particular authors of papers li
   
 2014-03-08 HGG: The field foaf:mbox was removed from the public repo due to privacy reasons.
 
+2014-06-01 HGG: Person/Dan-Cohen.. and Person/Lange-Hegermann.. changed to Person/DanCohen.. and Person/LangeHegermann..
+
 We plan within the [CASN](CASN "wikilink") extension to offer the people to maintain their own ProfileDocument either within the CA Semantic Network of at another Linked Data aware site of their own choice.
 
 #### Contributions
