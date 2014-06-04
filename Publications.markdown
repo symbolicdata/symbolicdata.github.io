@@ -7,6 +7,7 @@ title: Publications
 
 #### Presentations
 
+-   H.-G. Gräbe: [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/Iceseh-14.pdf) of the SymbolicData Project at the [International Conference on Infrastructures and Cooperation in e-Science and e-Humanities](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014) in Leipzig, 2014-06-05.
 -   H.-G. Gräbe: [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/AKSW-14_3.pdf) of the SymbolicData Project at the [AKSW Colloquium](http://aksw.org/Events.html), 2014-03-17.
 -   H.-G. Gräbe: [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/BadBoll-14.pdf) of the SymbolicData Project at the [SPP 1489](http://www.computeralgebra.de/) Jahrestagung in Bad Boll, 2014-03-04.
 -   A. Nareike: [Presentation](http://symbolicdata.uni-leipzig.de/Presentations/eScience-20130611.pdf) of the SymbolicData Project at the [E-Science Workshop](http://www.escience-sachsen.de/?p=1342) in Dresden, 2013-06-11.
