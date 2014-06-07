@@ -26,7 +26,7 @@ and refers to sources (old TestSets)
 
 resp. to sources (new TestSets)
 
--   sd:hasNormalizPrimaryBase remote URL - URL at <http://www.home.uni-osnabrueck.de/wbruns/normaliz/> to a file that may contain more than one example
+-   sd:hasNormalizPrimaryBase remote URL - URL at [the Normaliz site](http://www.home.uni-osnabrueck.de/wbruns/normaliz/) to a file that may contain more than one example
 -   sd:hasNormalizSDBase URI of OtherResource - URL to a file within the SD collection of OtherResources, that contains exactly that example as Normaliz zip-file.
 
 and (to be added) fingerprints
