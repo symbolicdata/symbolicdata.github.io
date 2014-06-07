@@ -3,7 +3,7 @@ layout: default
 title: TestSets
 ---
 
-### Testsets
+### Test Sets
 
 #### About
 
@@ -22,7 +22,9 @@ HGG, 2014-06-07 - We are discussing to join forces with the Normaliz-Group in Os
 
 See
 
--   the TestSets Knowledge Base [for download](http://symbolicdata.org/RDFData/TestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/TestSets/)
--   the XML Resources of type [TestSets](http://symbolicdata.org/XMLResources/TestSets) in the repository and
+-   the old data [TestSets Knowledge Base](http://symbolicdata.org/RDFData/TestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/TestSets/),
+-   the new data (draft) [TestSets Knowledge Base](http://symbolicdata.org/Drafts/MoreTestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/MoreTestSets/),
+-   the [XML Resources](http://symbolicdata.org/XMLResources/TestSets) of type [TestSets](http://symbolicdata.org/XMLResources/TestSets.xsd) (old format) in the repository,
+-   the [OtherResources](http://symbolicdata.org/OtherResources/TestSets) in Normaliz format (new format) in the repository and
 -   [TestSets.Ontology](TestSets.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
 
