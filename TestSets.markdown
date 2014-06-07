@@ -15,6 +15,9 @@ There is a close relation to Polynomial Systems Solving via different Toric conc
 
 HGG, 2014-06-07 - We are discussing to join forces with the Normaliz-Group in Osnabrück (W. Bruns, Tim Römer)
 
+-   Normaliz homepage: <http://www.home.uni-osnabrueck.de/wbruns/normaliz/>
+-   Normaliz challenges: <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallenge.html>
+
 #### Structure of the Data
 
 See
