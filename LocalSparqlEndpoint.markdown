@@ -27,6 +27,9 @@ It may be necessary to **adjust the apache settings** in `etc/php5/apache2/php.i
 ` memory_limit = 1280M`
 ` upload_max_filesize = 128M`
 
+  
+Caveat: In any case it is a good advice to upload larger RDF graphs via the Virtuoso console (as described below).
+
 Moreover, mod\_rewrite has to be activated since OntoWiki heavily uses URI Rewriting to comply with the Linked Open Data Standards.
 
 ### Install the Virtuoso engine
