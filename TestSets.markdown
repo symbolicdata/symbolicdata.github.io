@@ -11,6 +11,10 @@ title: TestSets
 
 There is a close relation to Polynomial Systems Solving via different Toric concepts.
 
+#### News
+
+HGG, 2014-06-07 - We are discussing to join forces with the Normaliz-Group in Osnabrück (W. Bruns, Tim Römer)
+
 #### Structure of the Data
 
 See
