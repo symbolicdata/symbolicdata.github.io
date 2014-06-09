@@ -77,7 +77,7 @@ We manage the following resources:
     -   We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.
     -   [More](Using.Git "wikilink") about the way how we use git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
--   Primary data as [XML Resources](http://symbolicdata.org/XMLResources) available (e.g.) via HTTP Get.
+-   Primary data as [XML Resources](http://symbolicdata.org/XMLResources) and [other Resources](http://symbolicdata.org/OtherResources) available (e.g.) via HTTP Get.
 -   Primary meta data in RDF format, accessible by [Linked Data](http://linkeddata.org) standards.
 
   
