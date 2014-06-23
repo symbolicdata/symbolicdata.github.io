@@ -21,7 +21,7 @@ title: Publications
   
 Submitted to the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
 
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf))
+-   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf), revised version as of 2014-06-23)
 
   
 Accepted at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014) for presentation.
