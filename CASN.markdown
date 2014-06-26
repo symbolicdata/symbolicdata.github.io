@@ -23,7 +23,7 @@ This [xodx instance](http://symbolicdata.org/xodx) (see [xodx](xodx "wikilink") 
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the CA Fachgruppe
 -   Information about articles in the CA-Rundbrief - <symbolicdata.org/casn/CAR/> namespace
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the CA Fachgruppe
--   [Semantic Annotations](http://symbolicdata.org/casn/News/) to news in the [blog of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/blog/) as instances of RDF type sioc.BlogPost attached to the blog post URL
+-   [Semantic Annotations](http://symbolicdata.org/casn/News/) to news in the [blog of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/blog/) as instances of RDF type **sioc:BlogPost** and **bibo:Document** attached to the blog post URL
 
 and plan to collect
 
