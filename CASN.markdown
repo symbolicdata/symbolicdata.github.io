@@ -13,10 +13,12 @@ This [xodx instance](http://symbolicdata.org/xodx) (see [xodx](xodx "wikilink") 
 
 -   Informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace for instances of RDF type **sd:Event**
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the CA Fachgruppe
--   Information about German CA working groups and people - namespaces <symbolicdata.org/casn/Group/> (for groups - instances of RDF types **sd:WorkingGroup** and **foaf:Group**) and <http://symbolicdata.org/casn/Organization> (for affiliations - instances of RDF type **org:FormalOrganization**) namespaces and extending the <symbolicdata.org/Data/Person/> namespace for instances of RDF type **foaf:Person**
-    -   Groups are related to affiliations by **org:subOrganizationOf**
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe
-    -   Note that the people are referenced by the <symbolicdata.org/Data/Person/> namespace. There is a second knowledge base <http://symbolicdata.org/casn/CAFG-Intern/> with more detailed information about the people within German CA working groups. This information is considered as more private and not delivered by Linked Data principles but only available by SPARQL query to that special knowledge base.
+-   Information about German CA working groups and people
+    -   Namespaces <symbolicdata.org/casn/Group/> (for groups - instances of RDF types **sd:WorkingGroup** and **foaf:Group**) and <symbolicdata.org/casn/Organization> (for affiliations - instances of RDF type **org:FormalOrganization**)
+        -   Groups are related to affiliations by **org:subOrganizationOf**
+        -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe
+    -   Extension of the <symbolicdata.org/Data/Person/> namespace for instances of RDF type **foaf:Person**
+        -   Note that the people are referenced by the <symbolicdata.org/Data/Person/> namespace. There is a second knowledge base <http://symbolicdata.org/casn/CAFG-Intern/> with more detailed information about the people within German CA working groups. This information is considered as more private and not delivered by Linked Data principles but only available by SPARQL query to that special knowledge base.
 -   Information about CA projects within the SPP 1489 working groups and people - <symbolicdata.org/casn/Project/> namespace - to be realigned
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the CA Fachgruppe
 -   Information about articles in the CA-Rundbrief - <symbolicdata.org/casn/CAR/> namespace
