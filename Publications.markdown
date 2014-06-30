@@ -16,10 +16,10 @@ title: Publications
 
 #### Publications
 
--   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf))
+-   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf), final version, to be published at <http://ceur-ws.org/>)
 
   
-Submitted to the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
+Accepted for presentation at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf), revised version as of 2014-06-23)
 
