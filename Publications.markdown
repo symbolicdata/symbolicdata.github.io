@@ -16,6 +16,8 @@ title: Publications
 
 #### Publications
 
+Work in progress:
+
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network.
 
   
@@ -39,6 +41,10 @@ Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-confere
 
   
 A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) (so long draft only) will appear in: Computeralgebra-Rundbrief 55 (October 2014)
+
+* * * * *
+
+Finally published:
 
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
 
