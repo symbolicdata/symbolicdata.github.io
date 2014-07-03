@@ -20,5 +20,8 @@ To estimate the number of participants, please send a mail to graebe@informatik.
 
 ### Program
 
--   10:00 - 16:00 Uhr - to be detailed.
+-   10:00 - 11:30 - Presentation of the current progress in the SymbolicData Project
+-   11:30 - 12:00 - Break for lunch
+-   12:00 - 14:00 - Other presentations
+-   14:00 - 16:00 - Discussion
 
