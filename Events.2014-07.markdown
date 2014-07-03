@@ -11,6 +11,8 @@ We invite for another Workshop to discuss progress and prospects of the Symbolic
 
 The Workshop takes place in room P-702 in the main building (Paulinum) of the Leipzig University, Augustusplatz 10, 04109 Leipzig.
 
+To estimate the number of participants, please send a mail to graebe@informatik.uni-leipzig.de if you plan to join the workshop.
+
 ### Participants
 
 -   Hans-Gert Gräbe, Simon Johanning (Leipzig, local organization)
@@ -18,5 +20,5 @@ The Workshop takes place in room P-702 in the main building (Paulinum) of the Le
 
 ### Program
 
--   10:00 - 16:00 Uhr to be detailed.
+-   10:00 - 16:00 Uhr - to be detailed.
 
