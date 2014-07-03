@@ -9,6 +9,8 @@ title: Projects.EScience
 
 The *E-Science Benchmarking Project* is a project within the [E-Science Network Saxonia](http://www.escience-sachsen.de) framework scheduled within the track [Cluster Projects E-Systems](http://www.escience-sachsen.de/?page_id=353).
 
+#### Basic Project
+
 **Project duration:** 01.09.2012 - 31.08.2013
 
 **Project description:** The main goal of the project is the qualification of practices and existing collections of benchmark data in the area of symbolic computing towards the concepts of the Linked Data Web. We explicitely aim at a transformation of the SymbolicData benchmark collection into an interlinking ready form using meanwhile established data description standards (based on RDF and OWL) and practices. Based on those experiences we plan to include more data collections from different areas of symbolic computing into the SymbolicData framework.
@@ -42,4 +44,21 @@ Different to the SymbolicData practice so far and in accordance with experiences
 -   Complete phase B and the whole project
     -   with another mile stone workshop, where the results of the project are presented, and
     -   another publication that presents the interlinking experience in a systematic way.
+
+#### Project Extension
+
+**Project duration:** 01.03. - 31.07.2014
+
+**Project description:** The goal of the project extension is to complete another work package (C) to consolidate and to further interlink semantically the data collected and structured so far and to trigger and support communication processes between the different CA communities involved so far.
+
+**Project resources:** The project is staffed with 0.5 full assistant scientist position held by **Simon Johanning**.
+
+**Project schedule:** Develop special applications within the general concept of a Computer Algebra Social Network to prove the substantial structural and conceptional work done in phase (B) to be reliable for the e-science requirements of the scientific community of Symolic Computation that has several subcommunities.
+
+**Working plan:**
+
+-   (C.1) Technical preparations, learn more about semantic concepts, present the results obtained so far at the SPP 1489 annual meeting in Bad Boll (3/2014)
+-   (C.2) Set up a CASN environment based on xodx, disseminate information about the CASN environment, establish working contact with distiguished partners in the area of Science Information Systems, Symbolic Computing, analyse requirements (4/2014)
+-   (C.3) Collect, prepare, systematize data, develop presentation concepts within Wordpress, roll out of views in the Wordpress based web site of the German Fachgruppe (5-6/2014)
+-   (C.4) Consolidate material and tools, present result, final milestone workshop (7/2014)
 
