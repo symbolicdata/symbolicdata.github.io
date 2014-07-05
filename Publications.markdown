@@ -18,13 +18,6 @@ title: Publications
 
 Work in progress:
 
--   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network.
-
-  
-[pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf), published in [Workshop and Work in Progress Papers at CICM 2014](http://ceur-ws.org/Vol-1186/#paper-21) in CEUR-WS.org vol. 1186 (2014)
-
-Accepted for presentation at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
-
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project.
 
   
@@ -45,6 +38,13 @@ A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) (so l
 * * * * *
 
 Finally published:
+
+-   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network.
+
+  
+[pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf), published in [Workshop and Work in Progress Papers at CICM 2014](http://ceur-ws.org/Vol-1186/#paper-21) in CEUR-WS.org vol. 1186 (2014)
+
+Accepted for presentation at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
 
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
 
