@@ -75,7 +75,7 @@ The parameter <name> is a string that either can be a complete URI like <http://
 **`sage:`**` bb87h = sd.get_ideal('Buchberger-87.Homog')`
 **`sage:`**` bb87h`
 `Ideal (-r*t + x*hv, -r^2 + z*hv, -r*t^2 + y*hv^2) of Multivariate Polynomial Ring in r, t, x, y, z, hv over Integer Ring`
-**`sage:`**` bb87h.groeber_basis()`
+**`sage:`**` bb87h.groebner_basis()`
 `[t^2*z*hv - r*y*hv^2, x^2*hv^2 - r*y*hv^2, r*x*hv - t*z*hv, t*x*hv - y*hv^2, r^2 - z*hv, r*t - x*hv]`
 **`sage:`**` sd_bb87h = sd.get_sd_ideal('Buchberger-87.Homog')`
 **`sage:`**` sd_bb887`
