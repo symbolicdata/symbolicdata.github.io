@@ -21,7 +21,7 @@ Work in progress:
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network.
 
   
-[pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf), final version, to be published at <http://ceur-ws.org/>
+[pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf), published in [Workshop and Work in Progress Papers at CICM 2014](http://ceur-ws.org/Vol-1186/#paper-21) in CEUR-WS.org vol. 1186 (2014)
 
 Accepted for presentation at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
 
