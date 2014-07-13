@@ -19,15 +19,17 @@ Predicates:
 
 -   foaf:name Literal: Value is of the form "familyName, givenName". Used as label.
 -   foaf:homepage URL: Homepage. This is a link to more information about the person in the Linked Data sense.
--   foaf:affiliation Literal. Optional
--   foaf:country Literal. Optional
+-   sd:affiliation Literal. Optional
+-   sd:country dbpedia country URI. Optional
 
 The instances of that class cover any person involved with Computeralgebra, in particular authors of papers listed in the SymbolicData [Bibliography](Bibliography "wikilink") references system. Note that the provided information is not necessarily up to date.
 
   
-2014-03-08 HGG: The field foaf:mbox was removed from the public repo due to privacy reasons.
+2014-07-13 HGG: foaf:affiliation and foaf:country were renamed to sd:.. since these keys are SD-specific so far. sd:country values were changed to dbpedia country URIs.
 
 2014-06-01 HGG: Person/Dan-Cohen.. and Person/Lange-Hegermann.. changed to Person/DanCohen.. and Person/LangeHegermann..
+
+2014-03-08 HGG: The field foaf:mbox was removed from the public repo due to privacy reasons.
 
 We plan within the [CASN](CASN "wikilink") extension to offer the people to maintain their own ProfileDocument either within the CA Semantic Network of at another Linked Data aware site of their own choice.
 
