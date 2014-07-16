@@ -19,10 +19,10 @@ title: Publications
 
 Work in progress:
 
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project.
+-   H.-G. Gräbe, A. Nareike: The SymbolicData Project. [pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf)
 
   
-[pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf), revised version as of 2014-06-23, to appear in the conference proceedings (yet under review)
+Revised version as of 2014-06-23, to appear in the conference proceedings (yet under review)
 
 Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
 
