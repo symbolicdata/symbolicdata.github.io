@@ -16,11 +16,12 @@ To estimate the number of participants, please send a mail to graebe@informatik.
 ### Participants
 
 -   Hans-Gert Gräbe, Simon Johanning (Leipzig, local organization)
--   Wolfram Sperber (ZBl Math Berlin, swMath project)
+-   Wolfram Sperber, Uwe Schoenenberg (ZBl Math Berlin, swMath project)
 
 ### Program
 
--   10:00 - 11:30 - Presentation of the current progress in the SymbolicData Project
+-   09:45 - 11:30 - Presentation and discussion of the current progress in the SymbolicData Project
+    -   In particular we present the advances towards a Computer Algebra Social Network
 -   11:30 - 12:00 - Break for lunch
 -   12:00 - 14:00 - Other presentations
 -   14:00 - 16:00 - Discussion
