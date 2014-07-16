@@ -16,7 +16,7 @@ To estimate the number of participants, please send a mail to graebe@informatik.
 ### Participants
 
 -   Hans-Gert Gräbe, Simon Johanning (Leipzig, local organization)
--   Wolfram Sperber, Uwe Schoenenberg (ZBl Math Berlin, swMath project)
+-   Wolfram Sperber, Uwe Schöneberg (Zentralblatt Mathematik Berlin, swMath project)
 
 ### Program
 
