@@ -24,12 +24,7 @@ Work in progress:
   
 [pdf](http://symbolicdata.uni-leipzig.de/Papers/ic-14.pdf), revised version as of 2014-06-23, to appear in the conference proceedings (yet under review)
 
-Accepted at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014) for presentation.
-
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14.pdf))
-
-  
-Submitted to track D "Systems and Projects" of [CICM-14](http://www.cicm-conference.org/2014). Not accepted.
+Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
 
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
 
@@ -45,7 +40,7 @@ Finally published:
   
 Published in [Workshop and Work in Progress Papers at CICM 2014](http://ceur-ws.org/Vol-1186/#paper-21) in CEUR-WS.org vol. 1186 (2014)
 
-Accepted for presentation at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014)
+Presented at the "Work in Progress" section of [CICM-14](http://www.cicm-conference.org/2014).
 
 -   H.-G. Gräbe: Workshop on SymbolicData Design. Leipzig, 27.–28. August 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-53.pdf))
 
