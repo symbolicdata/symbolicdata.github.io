@@ -34,9 +34,11 @@ This means that **contributors have to accept those terms** as inavoidable for a
 ### What's new?
 
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
--   There is a [Reorganization](Reorganization "wikilink") proposal for SymbolicData towards an intercommunity project
--   An enlarged list of (247 as of 2014-03-08) [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) extracted from different resources ([CA-Rundbrief](http://fachgruppe-computeralgebra.de/rundbrief/) of the German Fachgruppe, Conference Announcements, Attendee list of the [SPP 1489](http://www.computeralgebra.de/) annual meeting in 2014 etc.).
--   A listing of [upcoming Conferences](http://symbolicdata.org/Data/Tagungsankuendigungen/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
+-   An enlarged list of (678 as of 2014-08-08) [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) extracted from different resources.
+-   A listing of [upcoming Conferences](http://symbolicdata.org/casn/UpcomingConferences/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
+-   A first approach to [Detailed Conference Reports](http://symbolicdata.org/Drafts/Conferences/) - one RDF file per conference - with information about the conference organization (venue, web sites, tracks, PC members), the papers, people and talks (in [dcterms](http://dublincore.org/documents/dcmi-terms/) notation, author alignment with the SD people database).
+    -   The conference paper and talk records are available also as [special RDF graph](http://symbolicdata.org/Data/ConferencePapersAndTalks/) in the SD database.
+-   A [first alignment](http://symbolicdata.org/Data/ZBMathPeople/) of the SD people database with the ZBMath author database (348 matchings out of 678 persons).
 
 ### Main goals
 
