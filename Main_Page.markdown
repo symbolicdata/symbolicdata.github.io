@@ -35,7 +35,8 @@ This means that **contributors have to accept those terms** as inavoidable for a
 
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   An enlarged list of (692 as of 2014-08-31) [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) extracted from different sources.
-    -   This list is steadily enlarged and used as URI reference for reports about different activities (invited speakres, conference organizers etc.)
+    -   As standard information we provide personal information as instance of foaf:Person with (as subset of) keys foaf:name , foaf:homepage, sd:affiliation (a literal), sd:country (as dbpedia URI). Due to privacy reasons we do not provide foaf:mbox (email) values.
+    -   This list is steadily enlarged and used as URI reference for reports about different activities (invited speakers, conference organizers etc.)
     -   2014-08-31: foaf:name standard changed from "lastName, firstName" to "firstName lastName".
 -   A listing of [upcoming Conferences](http://symbolicdata.org/casn/UpcomingConferences/) with a [brief listing](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) at the Website of the German CA-Fachgruppe.
 -   A first approach to [Detailed Conference Reports](http://symbolicdata.org/Drafts/Conferences/) - one RDF file per conference - with information about the conference organization (venue, web sites, tracks, PC members), the papers, people and talks (in [dcterms](http://dublincore.org/documents/dcmi-terms/) notation, author alignment with the SD people database).
