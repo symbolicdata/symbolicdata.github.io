@@ -32,7 +32,7 @@ Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-esci
   
 To appear in: Computeralgebra-Rundbrief 55 (October 2014)
 
-There exists a preliminary [extended version](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf) as of March 2014.
+There exists a [extended preliminary version](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf) as of March 2014.
 
 * * * * *
 
