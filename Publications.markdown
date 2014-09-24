@@ -27,10 +27,12 @@ Revised version as of 2014-06-23, to appear in the conference proceedings (2014-
 
 Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
 
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf))
+-   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
 
   
-A [shorter version](http://symbolicdata.uni-leipzig.de/Papers/car-54b.pdf) (so long draft only) will appear in: Computeralgebra-Rundbrief 55 (October 2014)
+To appear in: Computeralgebra-Rundbrief 55 (October 2014)
+
+There exists a preliminary [extended version](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf) as of March 2014.
 
 * * * * *
 
