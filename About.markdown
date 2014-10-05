@@ -6,7 +6,7 @@ title: About
 About the SymbolicData Project
 ------------------------------
 
-### [Vision](Vision "wikilink")
+### Vision
 
 The SymbolicData project is set out
 
