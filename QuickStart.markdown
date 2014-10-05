@@ -45,10 +45,10 @@ This will extract the predicate of all triples. Since a given predicate usually 
 
 *NB:* This list does not contain a lot information. Usually additional information is given in a documentation. For the polynomial systems you can find it here: <http://symbolicdata.org/wiki/PolynomialSystems.Ontology>
 
-**2)** To retrieve all possible values ('objects') to a given predicate PRED:
+**2)** To retrieve all possible values ('objects') to a given predicate <pred>:
 
 `SELECT DISTINCT ?v WHERE {`
-`  ?s PRED ?v`
+`  ?s `<pred>` ?v`
 `}`
 
 These values could be used to fill a pull down menu using PHP, but depending on the the number of values this might be useful or not.
@@ -59,7 +59,7 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 `SELECT ?s WHERE {`
 `  ?s a sd:Ideal`
 `}`
-[<span style="color:red; text-shadow:black 3px 2px; font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
+[<span style="color:red; font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
 
 **4)** Display all Integer Polynomial Systems of degree 20
 
