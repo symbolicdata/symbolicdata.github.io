@@ -16,9 +16,16 @@ The SymbolicData Project Wiki
 -   [Towards a Computer Algebra Social Network](CASN "wikilink")
 -   [What's new?](New "wikilink")
 
-  
-Don't hesitate to **post all questions about using SymbolicData Tools and Data** on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List].
+<center>
+<table border="1" cellpadding="7" width="70%">
+<tr>
+<td>
+Don't hesitate to **post all questions about using SymbolicData Tools and Data** on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List] to help us to improve our presentation.
 
+</td>
+</tr>
+</table>
+</center>
 ### Main goals
 
 The SymbolicData Project aims at two main goals:
