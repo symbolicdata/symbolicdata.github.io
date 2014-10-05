@@ -59,7 +59,7 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 `SELECT ?s WHERE {`
 `  ?s a sd:Ideal`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
+[<span style="color:red; text-shadow:black 3px 2px; font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
 
 **4)** Display all Integer Polynomial Systems of degree 20
 
@@ -68,7 +68,7 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 `  ?s a sd:Ideal .`
 `  ?s sd:hasDegree "20"^^xsd:integer .`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20%2220%22^^xsd:integer} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
 
 **5)** Maybe we already have a polynomial system, say Caprasse and just want all sentences (triples) about this polynomial system:
 
@@ -76,7 +76,7 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 `SELECT ?p ?o WHERE {`
 `  sdpol:Caprasse ?p ?o`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sdpol:%20%3Chttp://symbolicdata.org/Data/Ideal/%3E%20SELECT%20?p%20?o%20WHERE{sdpol:Caprasse%20?p%20?o})
+[<span style="color:red;  font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sdpol:%20%3Chttp://symbolicdata.org/Data/Ideal/%3E%20SELECT%20?p%20?o%20WHERE{sdpol:Caprasse%20?p%20?o})
 
 You might noticed that there are some values where there the object is quite complex, like for instance the variable list with values like "x,y,z,t". One could also parse these values (e.g. do a regex match on them, all within a SPARQL query). But maybe these values turn out to be so important that you don't want to parse them but rather query them directly. In this case the data could easily be modified (but we're not going into detail here).
 
@@ -89,7 +89,7 @@ You might noticed that there are some values where there the object is quite com
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll`
 `}`
-[`Run` `this` `query`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE{?a%20a%20sd:Ideal%20.%20?a%20sd:hasDimension%20?dim%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll})
+[<span style="color:red;  font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE{?a%20a%20sd:Ideal%20.%20?a%20sd:hasDimension%20?dim%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll})
 
 This query could be send as HTTP request and then rendered into a HTML table by a quite simple PHP script. (Details on this will be included later)
 
@@ -104,7 +104,7 @@ For some polynomial systems there is no dimension specified. The previous query 
 `  ?a sd:hasDegree ?deg .`
 `  ?a sd:hasLengthsList ?ll`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
 
 Now suppose we want to work with precisely the polynomial system that are missing a dimension. Here we could filter the result:
 
@@ -116,7 +116,7 @@ Now suppose we want to work with precisely the polynomial system that are missin
 `  ?a sd:hasLengthsList ?ll .`
 `  FILTER(!BOUND(?dim))`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER(!BOUND(?dim))} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?a%20?dim%20?deg%20?ll%20WHERE)`{?a%20a%20sd:Ideal%20.%20OPTIONAL{?a%20sd:hasDimension%20?dim}%20.%20?a%20sd:hasDegree%20?deg%20.%20?a%20sd:hasLengthsList%20?ll%20.%20FILTER(!BOUND(?dim))} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
 
 If we want not just degree 20 but a degree within a certain range, it is useful to introduce a variable ?d for the degree and include another condition for the variable ?d.
 
@@ -126,4 +126,4 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `  ?s sd:hasDegree ?d .`
 `  FILTER(xsd:integer(?d) <= 20)`
 `}`
-`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} Run this query]`
+`[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
