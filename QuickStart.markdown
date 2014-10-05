@@ -5,6 +5,9 @@ title: QuickStart
 
 On this page we give a brief overview over SPARQL and demonstrate a very simple use case of Symbolic Data.
 
+  
+Please **post all questions about using SymbolicData Tools and Data** on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List]
+
 To better understand the query on this page it helps to know that the data is stored as so called triples. A triple consist of a subject, a predicate and an object. Note that these terms are used rather loosely and not adhering to natural language grammar rules. Examples are:
 
 -   PS10 ­— is a — Polynomial System
@@ -127,5 +130,3 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `  FILTER(xsd:integer(?d) <= 20)`
 `}`
 `[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
-
-Please pose all questions about using SymbolicData Tools and Data on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List]
