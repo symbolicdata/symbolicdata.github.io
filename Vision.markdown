@@ -5,7 +5,20 @@ title: Vision
 
 ### Vision
 
-The SymbolicData project is set out to develop concepts and tools for testing Computer Algebra Software (CAS) and to collect relevant data from different areas of Computer Algebra. Tools and data are designed to be used both on a local site for special testing purposes and to manage a central repository at `www.symbolicdata.org`.
+The SymbolicData project is set out
+
+-   to develop concepts and tools for profiling, testing and benchmarking Computer Algebra Software (CAS) and
+-   to collect and interlink relevant data and activities from different Computer Algebra Communities.
+
+SymbolicData is an
+
+-   *inter-community project* that has its roots in the activities of different Computer Algebra Communities and
+-   aims at interlinking these activities using *modern Semantic Web concepts*.
+
+Tools and data are designed to be used both
+
+-   on a local site for special testing and profiling purposes
+-   and to manage a central repository at `www.symbolicdata.org`.
 
 SymbolicData tools and data are available for download [under the terms of the **GNU Public License**](Copyrights "wikilink"). Any contribution to SymbolicData presupposes (silently) that you agree (and are allowed) to put your contribution under these terms.
 
