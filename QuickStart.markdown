@@ -61,7 +61,7 @@ These values could be used to fill a pull down menu using PHP, but depending on 
 `}`
 [<span style="color:red; font-size:16pt"> `Run` `this` `query`</span>](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3ESELECT%20?s%20WHERE%20{?s%20a%20sd:Ideal})
 
-**4)** Display all Integer Polynomial Systems of degree 20
+**4)** Display all Integer Polynomial Systems of degree 20 ('\^\^xsd:integer' ist eine Typergänzung für das Literal "20" und sagt SPARQL, dass dieser String als Integer zu interpretieren ist)
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?s WHERE {`
