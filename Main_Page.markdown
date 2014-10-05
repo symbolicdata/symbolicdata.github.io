@@ -7,7 +7,7 @@ The SymbolicData Project Wiki
 -----------------------------
 
 -   [About the SymbolicData Project](About "wikilink")
--   [[Vision|Our Vision]
+-   [Our Vision](Vision "wikilink")
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
 -   [A Guide through the SD Resources](Resources "wikilink")
