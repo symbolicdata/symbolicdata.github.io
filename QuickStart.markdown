@@ -127,3 +127,5 @@ If we want not just degree 20 but a degree within a certain range, it is useful 
 `  FILTER(xsd:integer(?d) <= 20)`
 `}`
 `[`[`http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE`](http://symbolicdata.org:8890/sparql?format=text%2Fhtml&query=PREFIX%20sd:%20%3Chttp://symbolicdata.org/Data/Model%23%3E%20SELECT%20?s%20?d%20WHERE)`{?s%20a%20sd:Ideal%20.%20?s%20sd:hasDegree%20?d%20.%20FILTER(xsd:integer(?d)%20%3C=%2020)} `<span style="color:red;  font-size:16pt">` Run this query`</span>`]`
+
+Please pose all questions about using SymbolicData Tools and Data on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List]
