@@ -10,6 +10,7 @@ The SymbolicData Project Wiki
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
 -   [A Guide through the SD Resources](Resources "wikilink")
+-   [Events](Events "wikilink")
 -   [Presentations and Publications](Publications "wikilink")
 -   [Frequently asked Questions](FAQ "wikilink")
 -   [Towards a Computer Algebra Social Network](CASN "wikilink")
