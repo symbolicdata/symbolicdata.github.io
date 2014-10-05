@@ -53,7 +53,7 @@ This will extract the predicate of all triples. Since a given predicate usually 
 
 These values could be used to fill a pull down menu using PHP, but depending on the the number of values this might be useful or not.
 
-**3)** Display Integer Polynomial Systems
+**3)** Display Integer Polynomial Systems ('a' is a shortcut for the predicate 'rdf:type')
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `SELECT ?s WHERE {`
