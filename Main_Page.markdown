@@ -11,6 +11,7 @@ The SymbolicData Project Wiki
 -   [A Guide through this Site](Guide "wikilink")
 -   [A Guide through the SD Resources](Resources "wikilink")
 -   [Frequently asked Questions](FAQ "wikilink")
+-   [Towards a Computer Algebra Social Network](CASN "wikilink")
 -   [What's new?](New "wikilink")
 
 ### Main goals
