@@ -10,6 +10,7 @@ The SymbolicData Project Wiki
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
 -   [A Guide through the SD Resources](Resources "wikilink")
+-   [Frequently asked Questions](FAQ "wikilink")
 -   [What's new?](New "wikilink")
 
 ### Main goals
