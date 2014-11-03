@@ -6,6 +6,16 @@ title: Main Page
 The SymbolicData Project Wiki
 -----------------------------
 
+<center>
+<table border="1" cellpadding="7" width="70%">
+<tr>
+<td>
+The domain symbolicdata.org was accidentally included by GI authorities into a bundle of domains to be released and meanwhile taken over by third party. We asked the authorities to try hardly to get the domain back. For the moment all services are delivered from the base domain symbolicdata.uni-leipzig.de.
+
+</td>
+</tr>
+</table>
+</center>
 -   [About the SymbolicData Project](About "wikilink")
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
