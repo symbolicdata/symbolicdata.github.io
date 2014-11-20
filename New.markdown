@@ -5,11 +5,8 @@ title: New
 
 ### What's new?
 
--   The domain symbolicdata.org was accidentally included by GI authorities into a bundle of domains to be released and meanwhile taken over by third party. We asked the authorities to try hardly to get the domain back. For the moment all services are delivered from the base domain symbolicdata.uni-leipzig.de, i.e.
-    -   <http://symbolicdata.uni-leipzig.de/Data> - the Ontowiki based RDF Store
-    -   <http://wiki.symbolicdata.uni-leipzig.de> - this Wiki
-    -   <http://symbolicdata.uni-leipzig.de:8890/sparql> - the SD Sparql endpoint
-    -   <http://symbolicdata.uni-leipzig.de:8892/sparql> - the CASN Sparql endpoint
+-   (2014-11-20) symbolicdata.org is again up and running.
+-   (2014-10-30) The domain symbolicdata.org was accidentally included by GI authorities into a bundle of domains to be released and meanwhile taken over by third party. We asked the authorities to try hardly to get the domain back.
 -   (2014-10-05) We started experimentally a [very first pre alpha presentation](http://symbolicdata.org/info/?s=index.html) of our [CASN](CASN "wikilink") Data based on the [angular-js](https://angularjs.org/) framework.
 -   An enlarged list of (692 as of 2014-08-31) [people involved with Computer Algebra](http://symbolicdata.org/Data/People/) extracted from different sources.
     -   As standard information we provide personal information as instance of foaf:Person with (as subset of) keys foaf:name , foaf:homepage, sd:affiliation (a literal), sd:country (as dbpedia URI). Due to privacy reasons we do not provide foaf:mbox (email) values.
