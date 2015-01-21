@@ -31,7 +31,7 @@ Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-esci
 
 Finally published:
 
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
+-   H.-G. Gräbe, S. Johanning, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
 
   
 Computeralgebra-Rundbrief 55 (October 2014)
