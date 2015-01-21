@@ -20,7 +20,7 @@ title: Publications
 
 Work in progress:
 
--   H.-G. Gräbe, S. Johanning, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/iceseh-14.pdf))
+-   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/iceseh-14.pdf))
 
   
 Revised version as of 2014-06-23, to appear in the conference proceedings (2015-01-13: yet under review)
