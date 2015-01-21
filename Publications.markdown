@@ -23,20 +23,18 @@ Work in progress:
 -   H.-G. Gräbe, A. Nareike: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/iceseh-14.pdf))
 
   
-Revised version as of 2014-06-23, to appear in the conference proceedings (2014-09-13: yet under review)
+Revised version as of 2014-06-23, to appear in the conference proceedings (2015-01-13: yet under review)
 
 Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
-
--   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
-
-  
-To appear in: Computeralgebra-Rundbrief 55 (October 2014)
-
-There exists an [extended preliminary version](http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf) as of March 2014.
 
 * * * * *
 
 Finally published:
+
+-   H.-G. Gräbe, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
+
+  
+Computeralgebra-Rundbrief 55 (October 2014)
 
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project – Towards a Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/cicm-14-wip.pdf))
 
