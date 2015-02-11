@@ -11,7 +11,7 @@ We we run dedicated branches 'master' and 'develop' and follow the [Integration-
 
 To **contribute to SymbolicData**
 
--   clone the develop public master repo to a private account (best, if also at github),
+-   clone the develop branch of the public master repo to a private account (best, if also at github),
 -   start a feature branch from develop on your blessed repo
 -   do valuable work
 -   issue a pull request to the Integration Manager [Ralf Hemmecke](http://symbolicdata.org/Data/Person/Hemmecke_Ralf)
