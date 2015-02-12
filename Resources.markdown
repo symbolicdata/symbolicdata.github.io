@@ -36,7 +36,9 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 
 #### [CASN](CASN "wikilink") - Towards a Computer Algebra Social Network
 
-The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community. For first steps in such a direction we
+The vision is a digitally supported [distributed social semantic network](CASN "wikilink") within Open Science for the needs of the Computer Algebra Community.
+
+For first steps in such a direction we
 
 -   started the *CASN SD subproject*,
 -   set up a *non public git repo* (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,
