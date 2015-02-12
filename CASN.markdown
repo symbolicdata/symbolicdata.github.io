@@ -12,7 +12,9 @@ Links to the currently available infrastructure
 -   <http://symbolicdata.org/casn> - the CASN OntoWiki (aligned with Linked Data standards)
 -   <http://symbolicdata.org/info> - different views on the CASN data (in progress)
 
-The vision is a digitally supported distributed social network within Open Science for the needs of the Computer Algebra Community.
+#### Vision
+
+The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community.
 
 For the first steps in such a direction we
 
@@ -21,28 +23,30 @@ For the first steps in such a direction we
 -   operate another *Virtuoso based RDF data store* and a *[second OntoWiki](http://symbolicdata.org/casn) instance* to display the public part of our CASN data
 -   and a *[second SPARQL Endpoint](http://symbolicdata.org:8891/sparql)* to explore that data.
 
+#### Current State
+
 For the moment the CASN data base contains different RDF graphs within the namespace <symbolicdata.org/casn/>, in particular
 
 -   the RDF Graph <http://symbolicdata.org/casn/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace for instances of RDF type **sd:UpcomingConference**
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the CA Fachgruppe.
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Past conferences are moved in a slightly edited form to the RDF Graph <http://symbolicdata.org/casn/PastConferences/> for reference.
 -   the RDF Graph <http://symbolicdata.org/casn/WorkingGroups/> with information about German CA working groups and related people
     -   Namespaces <symbolicdata.org/casn/Group/> (for groups - instances of RDF types **sd:WorkingGroup** and **foaf:Group**) and <symbolicdata.org/casn/Organization> (for affiliations - instances of RDF type **org:FormalOrganization**)
     -   Groups are related to affiliations by **org:subOrganizationOf**.
     -   People are referenced as <symbolicdata.org/Data/Person/> to the main SD People RDF graph by **org:hasMember**.
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the CA Fachgruppe.
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/SPP-Projekte/> with information about CA projects within the SPP 1489
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the CA Fachgruppe.
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/CAR-Beitraege/> with information about articles in the CA-Rundbrief
     -   Entries of type sd:Reference are composed based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/) and have URIs within the <symbolicdata.org/casn/CAR/> namespace.
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the CA Fachgruppe.
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format
 
 and plan to collect
 
 -   Information about new publications (using the Dublin Core Ontology and references to commonly used foreign bibliographical stores)
 
-### CASN and CA People
+#### CASN and CA People
 
 The main challenge to get a Social Network running is to "turn passive users into active ones". For the moment a very small number of active people maintains the information available within the CASN. We maintain personal information about SD People, in prticular *passive users*, in the RDF Graph <http://symbolicdata.org/data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/data/Person/LastName_Initials> and predicates
 
@@ -57,11 +61,15 @@ The RDF Graph <http://symbolicdata.org/casn/PersonalProfileDocuments/> contains 
 
 -   foaf:primaryTopic - the URI of the local FOAF profile as foaf:Person instance
 -   foaf:maker - the URI of the maker of the PersonalProfileDocument
--   rdfs:seeAlso - the URI of the same person in the <symbolicdata.org/data/People/> data base
+-   rdfs:seeAlso - the URI of the same person in the <symbolicdata.org/data/People/> data base.
 
--   -   Note that the people are referenced by the <symbolicdata.org/Data/Person/> namespace. There is a second knowledge base <http://symbolicdata.org/casn/CAFG-Intern/> with more detailed information about the people within German CA working groups. This information is considered as more private and not delivered by Linked Data principles but only available by SPARQL query to that special knowledge base.
+For the moment we operate another RDF graph <http://symbolicdata.org/casn/FOAF-Profiles/> with (centrally managed) FOAF profiles of (current and former) members of the board of the German CA Fachgruppe as proof of the concept. This information is used to display the web page about the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German CA Fachgruppe. The display is collected by the following workflow:
 
-### Some more thoughts about bootstrapping CASN
+-   extract the SD Person list of the board from the RDF graph <http://symbolicdata.org/casn/Groups/>,
+-   for each SD Person get the required FOAF profiles from the PersonalProfileDocument
+-   display the information
+
+#### Some more thoughts about bootstrapping CASN
 
 The bootstrap process assumes that in the beginning there will be a very (!) small group of educated people who manages the CASN data both in the <symbolicdata.org/casn/> namespace via usual OntoWiki supported RDF techniques (a greater amount of data) and via the xodx mechanisms. This has to be clarified.
 
