@@ -16,36 +16,38 @@ Links to the currently available infrastructure
 
 The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community.
 
-For the first steps in such a direction we
+At longer run we plan to use the concepts of a [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig). A first implementation of these concepts is under dervelopment within the [Xodx project](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
+
+#### Current State
+
+For first steps in such a direction we
 
 -   started the *CASN SD subproject*,
 -   set up a *non public git repo* (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,
 -   operate another *Virtuoso based RDF data store* and a *[second OntoWiki](http://symbolicdata.org/casn) instance* to display the public part of our CASN data
 -   and a *[second SPARQL Endpoint](http://symbolicdata.org:8891/sparql)* to explore that data.
 
-#### Current State
-
 For the moment the CASN data base contains different RDF graphs within the namespace <symbolicdata.org/casn/>, in particular
 
--   the RDF Graph <http://symbolicdata.org/casn/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace for instances of RDF type **sd:UpcomingConference**
+-   the RDF Graph <http://symbolicdata.org/casn/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace with **sd:UpcomingConference** instances
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Past conferences are moved in a slightly edited form to the RDF Graph <http://symbolicdata.org/casn/PastConferences/> for reference.
 -   the RDF Graph <http://symbolicdata.org/casn/CAR-Beitraege/> with information about articles in the CA-Rundbrief
     -   Entries of type sd:Reference are composed based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/) and have URIs within the <symbolicdata.org/casn/CAR/> namespace.
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/WorkingGroups/> with information about German CA working groups and related people
-    -   Namespaces <symbolicdata.org/casn/Group/> (for groups - instances of RDF types **sd:WorkingGroup** and **foaf:Group**) and <symbolicdata.org/casn/Organization> (for affiliations - instances of RDF type **org:FormalOrganization**)
-    -   Groups are related to affiliations by **org:subOrganizationOf**.
-    -   People are referenced as <symbolicdata.org/Data/Person/> to the main SD People RDF graph by **org:hasMember**.
+    -   Namespaces <symbolicdata.org/casn/Group/> (for groups - instances of **sd:WorkingGroup** and **foaf:Group**) and <symbolicdata.org/casn/Organization> (for affiliations - instances of **org:FormalOrganization**)
+    -   Groups are related to affiliations by predicate **org:subOrganizationOf**.
+    -   People are referenced as <symbolicdata.org/Data/Person/> instances by predicate **org:hasMember**.
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/SPP-Projekte/> with information about CA projects within the SPP 1489
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Conference/> namespace for **bibo:Thesis** instances.
+-   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Conference/> namespace with **bibo:Thesis** instances.
     -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
     -   more predicates: sd:hasSupervisor (value: URI in SD-Person), sd:hasReviewer (value: URI in SD-Person), sd:affiliates (value: URI in <symbolicdata.org/casn/Organization/>)
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/ConferenceReports/> with conference reports as published in the CA Rundbrief (in progress)
--   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format
+-   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format.
 
 #### CASN and CA People
 
@@ -70,10 +72,9 @@ For the moment we operate another RDF graph <http://symbolicdata.org/casn/FOAF-P
 -   for each SD Person get the required FOAF profiles from the PersonalProfileDocument
 -   display the information
 
-#### Some more thoughts about bootstrapping CASN
+#### Some more thoughts about bootstrapping a distributed CASN
 
-The bootstrap process assumes that in the beginning there will be a very (!) small group of educated people who manages the CASN data both in the <symbolicdata.org/casn/> namespace via usual OntoWiki supported RDF techniques (a greater amount of data) and via the xodx mechanisms. This has to be clarified.
+We set up a [first prototype](http://symbolicdata.org/xodx) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
 
-We set up a [first prototype](http://symbolicdata.org/xodx) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig) of the [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig).
+-   A registered person has a **foaf:Person** FOAF Profile and a **sioc:UserAccount** instance not yet aligned with the remaining infrastructure. This has further to be discussed.
 
-This [xodx instance](http://symbolicdata.org/xodx) (see [xodx](xodx "wikilink") for a list of remarks how it is configured) runs on a second Virtuoso store that hosts both the xodx communication artefacts (within the namespace <symbolicdata.org/xodx/>) and several other RDF graphs within the namespace <symbolicdata.org/casn/> served by a [second OntoWiki](http://symbolicdata.org/casn), in particular
