@@ -30,6 +30,9 @@ For the moment the CASN data base contains different RDF graphs within the names
 -   the RDF Graph <http://symbolicdata.org/casn/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace for instances of RDF type **sd:UpcomingConference**
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Past conferences are moved in a slightly edited form to the RDF Graph <http://symbolicdata.org/casn/PastConferences/> for reference.
+-   the RDF Graph <http://symbolicdata.org/casn/CAR-Beitraege/> with information about articles in the CA-Rundbrief
+    -   Entries of type sd:Reference are composed based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/) and have URIs within the <symbolicdata.org/casn/CAR/> namespace.
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/WorkingGroups/> with information about German CA working groups and related people
     -   Namespaces <symbolicdata.org/casn/Group/> (for groups - instances of RDF types **sd:WorkingGroup** and **foaf:Group**) and <symbolicdata.org/casn/Organization> (for affiliations - instances of RDF type **org:FormalOrganization**)
     -   Groups are related to affiliations by **org:subOrganizationOf**.
@@ -37,14 +40,12 @@ For the moment the CASN data base contains different RDF graphs within the names
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/SPP-Projekte/> with information about CA projects within the SPP 1489
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/CAR-Beitraege/> with information about articles in the CA-Rundbrief
-    -   Entries of type sd:Reference are composed based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/) and have URIs within the <symbolicdata.org/casn/CAR/> namespace.
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
+-   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Conference/> namespace for **bibo:Thesis** instances.
+    -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
+    -   more predicates: sd:hasSupervisor (value: URI in SD-Person), sd:hasReviewer (value: URI in SD-Person), sd:affiliates (value: URI in <symbolicdata.org/casn/Organization/>)
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
+-   the RDF Graph <http://symbolicdata.org/casn/ConferenceReports/> with conference reports as published in the CA Rundbrief (in progress)
 -   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format
-
-and plan to collect
-
--   Information about new publications (using the Dublin Core Ontology and references to commonly used foreign bibliographical stores)
 
 #### CASN and CA People
 
