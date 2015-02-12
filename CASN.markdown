@@ -42,7 +42,7 @@ For the moment the CASN data base contains different RDF graphs within the names
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://symbolicdata.org/casn/SPP-Projekte/> with information about CA projects within the SPP 1489
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Conference/> namespace with **bibo:Thesis** instances.
+-   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Dissertation/> namespace with **bibo:Thesis** instances.
     -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
     -   more predicates: sd:hasSupervisor (value: URI in SD-Person), sd:hasReviewer (value: URI in SD-Person), sd:affiliates (value: URI in <symbolicdata.org/casn/Organization/>)
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
