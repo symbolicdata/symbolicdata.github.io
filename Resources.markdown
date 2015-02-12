@@ -7,7 +7,7 @@ title: Resources
 
 #### Main project
 
-We manage the following resources:
+Within the main project we manage the following resources:
 
 -   This Web site for background information and informal descriptions
     -   A [poster](http://symbolicdata.org/Uploads/overview-poster.pdf) displays the overall structure and embedding of the project
