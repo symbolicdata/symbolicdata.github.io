@@ -34,7 +34,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
 -   Dumps according to our [Backup strategy](Backups "wikilink").
 
-#### [CASN](CASN "wikilink") - Towards a Computer Algebra Social Network
+#### CASN - Towards a *Computer Algebra Social Network*
 
 The vision is a digitally supported [distributed social semantic network](CASN "wikilink") within Open Science for the needs of the Computer Algebra Community.
 
