@@ -5,6 +5,8 @@ title: Resources
 
 ### Resources
 
+#### Main project
+
 We manage the following resources:
 
 -   This Web site for background information and informal descriptions
@@ -31,4 +33,20 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
 -   Dumps according to our [Backup strategy](Backups "wikilink").
+
+#### [CASN](CASN "wikilink") - Towards a Computer Algebra Social Network
+
+The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community. For first steps in such a direction we
+
+-   started the *CASN SD subproject*,
+-   set up a *non public git repo* (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,
+-   operate another *Virtuoso based RDF data store* and a *[second OntoWiki](http://symbolicdata.org/casn) instance* to display the public part of our CASN data
+-   and a *[second SPARQL Endpoint](http://symbolicdata.org:8891/sparql)* to explore that data.
+
+Links to the currently available infrastructure
+
+-   <http://symbolicdata.org:8891/sparql> - CASN SPARQL Endpoint
+-   <http://symbolicdata.org/xodx> - the CASN xodx node (very experimental yet)
+-   <http://symbolicdata.org/casn> - the CASN OntoWiki (aligned with Linked Data standards)
+-   <http://symbolicdata.org/info> - different views on the CASN data (in progress)
 
