@@ -13,6 +13,8 @@ Due to the philosophy of a Distributed VCS as git no measures for backup are req
 
 We provide regular backups of the Data on two lines - a [weekly dump](http://symbolicdata.org/Backups/RDFDataDump) of the Data in the Virtuoso database and [monthly dumps](http://symbolicdata.org/Backups/Data) of the latest development versions of the RDFData and XMLResources parts as maintained by the SD project group (note that due to our [Git development process](Using.Git "wikilink") those data may not live on the master repo).
 
+-   Currently the monthly (archived) dumps of both the RDF and XML Data are collected from a copy of the develop branch of <https://github.com/hg-graebe/symbolicdata>.
+
 You can extract Data also directly from our [Ontowiki](http://symbolicdata.org/Data/) or via the [Sparql Endpoint](http://symbolicdata.org:8890/sparql).
 
 #### SymbolicData Wiki XML-Dump
