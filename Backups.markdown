@@ -17,4 +17,4 @@ You can extract Data also directly from our [Ontowiki](http://symbolicdata.org/D
 
 #### SymbolicData Wiki XML-Dump
 
-We provide [XML Dumps](http://symbolicdata.org/Backups/Wiki) of our Wiki, that are monthly created with the command 'maintenatce/dumpBackup.php --current'. They can be analyzed with XML tools and also imported into another Mediawiki with the 'importDump.php' command. For details see <http://www.mediawiki.org/wiki/Manual:Backing_up_a_wiki> (XML dumps)
+We provide [XML Dumps](http://symbolicdata.org/Backups/Wiki) of our Wiki, that are monthly created with the command 'maintenance/dumpBackup.php --current'. They can be analyzed with XML tools and also imported into another Mediawiki with the 'importDump.php' command. For details see <http://www.mediawiki.org/wiki/Manual:Backing_up_a_wiki> (XML dumps)
