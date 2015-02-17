@@ -38,7 +38,7 @@ The SymbolicData Project aims at two main goals:
 ### Tools
 
 -   [The SDEval Framework](SDEval "wikilink") developed by Albert Heinle.
--   [Interface to SageMath](Sage "wikilink")
+-   [The Interface to SageMath](Sage "wikilink") developed by Andreas Nareike.
 
 ### Data
 
