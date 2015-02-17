@@ -10,6 +10,6 @@ Albert Heinle presented at the [Workshop](Events.2012-12 "wikilink") a framework
 For a detailed documentation see the [SD Docu Project](http://symbolicdata.readthedocs.org/en/latest).
 
   
-Note that a **new version of SDEval** is to be released soonly.
+Note that a **new version of SDEval** is to be released soonly. See <https://github.com/ioah86/symbolicdata> for a preview. -- HGG, 2015-02-17
 
 A tutorial for interested users can be viewed at <https://www.youtube.com/watch?v=CctmrfisZso>.
