@@ -9,7 +9,9 @@ The SymbolicData Project Wiki
 -   [About the SymbolicData Project](About "wikilink")
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
--   [A Guide through the SD Resources](Resources "wikilink")
+    -   [Tools](Main_Page "wikilink")
+    -   [Data](Main_Page "wikilink")
+-   [A Guide through the SD Infrastructure](Resources "wikilink")
 -   [Events](Events "wikilink")
 -   [Presentations and Publications](Publications "wikilink")
 -   [Frequently asked Questions](FAQ "wikilink")
@@ -32,6 +34,13 @@ The SymbolicData Project aims at two main goals:
 
 -   to unify efforts to collect digital data for profiling, testing and benchmarking Computer Algebra Software from various Symbolic Computation Communities together with concepts, tools and experience for their management both globally and also for special profiling, testing and benchmarking purposes at a local site.
 -   to promote a network of repositories of Symbolic Computation digital data and related information from different areas of Computer Algebra that can evolve to a digitally supported [Distributed Computer Algebra Social Network](CASN "wikilink").
+
+### Tools
+
+-   [The SDEval Framework](SDEval "wikilink") developed by Albert Heinle.
+-   [Interface to SageMath](Sage "wikilink")
+
+### Data
 
 At the moment the project hosts data from the following communities within Symbolic Computing
 
