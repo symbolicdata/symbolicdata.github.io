@@ -7,8 +7,8 @@ title: Guide
 
 -   [Backup Strategy](Backups "wikilink")
 -   [Calculation Tasks](Benchmarks "wikilink")
-    -   [The SDEval Framework](SDEval "wikilink")
-    -   [Using Sage](Sage "wikilink") for SD computations
+    -   [The SDEval Framework](SDEval "wikilink") developed by Albert Heinle.
+    -   [The Interface to SageMath](Sage "wikilink") developed by Andreas Nareike.
 -   [Copyright Issues](Copyrights "wikilink")
 -   [Design Issues](Design "wikilink")
 -   [Documentation Standards](Documentation "wikilink")
@@ -18,8 +18,6 @@ title: Guide
 -   [Local Sparql Endpoint](LocalSparqlEndpoint "wikilink"): How to set up a local Sparql endpoint on a server running debian and apache
 -   Thoughts about the [Project Organization](Organization "wikilink")
 -   [Overview on the Tools](Main_Page#Tools "wikilink")
-    -   [The SDEval Framework](SDEval "wikilink") developed by Albert Heinle.
-    -   [The Interface to SageMath](Sage "wikilink") developed by Andreas Nareike.
 -   [Overview on the Data](Main_Page#Data "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
