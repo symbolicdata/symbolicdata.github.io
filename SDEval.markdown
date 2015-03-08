@@ -4,7 +4,7 @@ title: SDEval
 ---
 
 <center>
-` `<img src="http:symbolicdata.org/Uploads/images/sdeval_logo.svg"/>
+//<img src="http://symbolicdata.org/Uploads/images/sdeval_logo.svg"/>//
 
 </center>
 ### Benchmarking for Computer Algebra
