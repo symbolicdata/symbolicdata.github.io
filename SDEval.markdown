@@ -3,12 +3,18 @@ layout: default
 title: SDEval
 ---
 
-<center>
-//<img src="http://symbolicdata.org/Uploads/images/sdeval_logo.svg"/>//
+<table width="90%">
+<tr align="center">
+<td width="70%" style="font-size:20pt;">
+Benchmarking for Computer Algebra
 
-</center>
-### Benchmarking for Computer Algebra
+</td>
+<td width="30%" >
+<img width="70%" src="http://symbolicdata.org/Uploads/images/sdeval_logo.svg"/>
 
+</td>
+</tr>
+</table>
 (Author Albert Heinle <aheinle@uwaterloo.ca>, 2015-02-19)
 
 `SDEval` is a benchmarking toolbox built on top of the Symbolic Data database. Some of its main goals are
@@ -17,7 +23,7 @@ title: SDEval
 2.  providing a feasible way of trustfully reproducing computation results from current research papers and
 3.  meeting the particularities of benchmarking in the field of computer algebra and flexibility in order to be applicable across different communities.
 
-#### Motivations for developing `SDEval`
+### Motivations for developing `SDEval`
 
 Benchmarking of software – i.e. measuring the quality of results and the time resp. memory consumption for a given, standardized set of examples as input – is a common way of evaluating implementations of algorithms in many areas of industry and academia. Unfortunately, for the computer algebra community there are no standards for benchmarking of software yet, and often it is hard to reproduce certain timings and computation results coming from the literature. With `SDEval`, we aimed to change this, and provide an easy and flexible way to create benchmarks, which can be reproduced and extended by anyone.
 
@@ -32,7 +38,7 @@ We tried to address these challenges as much as possible when designing our tool
 
 Item (1) is something that differs the creation of benchmarks for computer algebra problems from most other fields of studies. Item (3) leads to the conclusion to provide the maximum flexibility possible. Item (4) also encapsulates another big problem: It is a fair assumption that most researchers know how to operate only a small number of computer algebra systems effectively. Trying to use a different computer algebra system for a specific example – which might work better – involves a learning curve for the user, and one can assume that many refrain from taking this curve. In this circumstance, having a possibility to translate certain examples into executable code for these computer algebra systems would be helpful.
 
-#### Current Features
+### Current Features
 
 `SDEval` currently contains the following features.
 
@@ -52,11 +58,11 @@ Item (1) is something that differs the creation of benchmarks for computer algeb
 -   Easy adjusting of the settings due to use of human-readable XML-files for the settings.
 -   Customized output interpretation scripts possible.
 
-#### How to obtain `SDEval`
+### How to obtain `SDEval`
 
 `SDEval` is part of the Symbolic Data distribution on [GitHub](https://github.com/symbolicdata/symbolicdata). The latest developments can be obtained from [Albert's fork](https://github.com/ioah86/symbolicdata) of the main repo.
 
-#### Documentations/Manuals/Tutorials
+### Documentations/Manuals/Tutorials
 
 A quick manual, some clarifications of certain terms used for Symbolic Data and FAQ's can be found on the [SD Doku project](http://symbolicdata.readthedocs.org/en/latest).
 
@@ -66,7 +72,7 @@ There is also a [video tutorial/introduction for `SDEval`](https://www.youtube.c
 
 -   to be added
 
-#### News and History
+### News and History
 
 -   2015-02-17, Albert: A tutorial for interested users can be viewed at <https://www.youtube.com/watch?v=CctmrfisZso>.
 -   2015-02-04, Albert on the [sd mailing list](https://groups.google.com/d/msg/symbolicdata/2rZXK_j8Afk/Ktztshg3OqMJ): A **new version of SDEval** is to be released soonly. See <https://github.com/ioah86/symbolicdata> for a preview.
