@@ -70,7 +70,7 @@ There is also a [video tutorial/introduction for `SDEval`](https://www.youtube.c
 
 **Papers and Presentations:**
 
--   to be added
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf)). Preprint, 2013.
 
 ### News and History
 
