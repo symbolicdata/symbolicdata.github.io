@@ -10,7 +10,7 @@ Benchmarking for Computer Algebra
 
 </td>
 <td width="30%" >
-<img width="70%" src="http://symbolicdata.org/Uploads/images/sdeval_logo.svg"/>
+<img width="70%" src="http://symbolicdata.org/Uploads/images/sdeval_logo.png"/>
 
 </td>
 </tr>
