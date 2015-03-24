@@ -30,26 +30,28 @@ Here is a more detailed explanation about the workflow.
 
 Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These are the repositories at github (GH) and local (LOC) repositories for the developers HGG and RH. Each one has only write access to his own repos. Everyone has read-access to the github repo, but not to the local repository of the other person.
 
-`HGG$ git clone git@github.com:hg-graebe/symbolicdata.git`
-`HGG$ git remote add ralf `[`git://github.com/hemmecke/symbolicdata.git`](git://github.com/hemmecke/symbolicdata.git)
+Here are typical sessions at LOC-HGG and LOC-RH:
+
+`HGG$ git clone git@github.com:hg-graebe/symbolicdata.git `
+`HGG$ git remote add ralf `[`git://github.com/hemmecke/symbolicdata.git`](git://github.com/hemmecke/symbolicdata.git)` `
 `HGG$ git fetch ralf`
 `HGG$ git merge ralf/master   # or maybe "git rebase ralf/master"`
+`HGG$ git push                # put the merged commits to GH-HGG`
 `RH$ git clone git@github.com:hemmecke/symbolicdata.git`
 `RH$ git remote add hgg `[`git://github.com/hg-graebe/symbolicdata.git`](git://github.com/hg-graebe/symbolicdata.git)
 `RH$ git fetch hgg`
-`RH$ git merge hgg/master   # or maybe "git rebase hgg/master"`
+`RH$ git merge hgg/master     # or maybe "git rebase hgg/master"`
+`RH$ git push                 # put the merged commits to GH-RH`
 `HGG$ edit, edit, edit`
 `HGG$ git add ...`
 `HGG$ git commit`
-`HGG$ push origin master # this pushes to github`
+`HGG$ push origin master      # this pushes changes to GH-HGG`
 `RH$ edit edit edit`
 `RH$ git add ...`
 `RH$ git commit`
-`RH$ git fetch hgg`
-`RH$ git rebase hgg/master`
-`   # this will put my previous commit on top of hgg/master.`
-`HGG$ git pull ralf master`
-`   # merges in the latest changes from ralf`
+`RH$ git fetch hgg            # this fetches GH-HGG changes to LOC-RH`
+`RH$ git rebase hgg/master    # this puts LOC-RH commit on top of hgg/master.`
+`HGG$ git pull ralf master    # merges in the latest changes from GH-RH`
 
 I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/symbolicdata.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/symbolicdata.git.
 
