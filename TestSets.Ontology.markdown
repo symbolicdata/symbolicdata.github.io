@@ -22,7 +22,7 @@ A TestSet instance has
 -   standard predicates rdfs:comment, rdfs:label, sd:hasOrigin
 -   pointers to the related resource
     -   sd:hasNormalizSDBase URI - input file in Normaliz format stored at <http://symbolicdata.org/data/OtherResources/TestSets/>
-    -   sd:hasNormalizPrimaryBase URI - (optional) result file stored at <http://www.home.uni-osnabrueck.de/wbruns/normaliz> /InterChallenge.html. Such a file may contain more than one example.
+    -   sd:hasNormalizPrimaryBase URI - (optional) result file stored at <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallenge.html>. Such a file may contain more than one example.
 -   fingerprint predicates (meaning has to be clarified)
     -   sd:hasDimension xsd:integer
     -   sd:hasNumberExtremePoints xsd:integer
