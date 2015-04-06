@@ -24,9 +24,7 @@ There is a close relation to Polynomial Systems Solving via different Toric conc
 
 See
 
--   the old data [TestSets Knowledge Base](http://symbolicdata.org/RDFData/TestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/TestSets/),
--   the new data (draft) [TestSets Knowledge Base](http://symbolicdata.org/Drafts/MoreTestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/MoreTestSets/),
--   the [XML Resources](http://symbolicdata.org/XMLResources/TestSets) of type [TestSets](http://symbolicdata.org/XMLResources/TestSets.xsd) (old format) in the repository,
+-   the (new) data [TestSets Knowledge Base](http://symbolicdata.org/RDFData/TestSets.ttl) and as [Linked Data](http://symbolicdata.org/Data/TestSets/),
 -   the [OtherResources](http://symbolicdata.org/OtherResources/TestSets) in Normaliz format (new format) in the repository and
--   [TestSets.Ontology](TestSets.Ontology "wikilink") - an informal description of the Ontology of the Free Algebra Knowledge Base developed so far.
+-   [TestSets.Ontology](TestSets.Ontology "wikilink") - an informal description of the (new) Ontology of the TestSets Knowledge Base developed so far.
 
