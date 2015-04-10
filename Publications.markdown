@@ -18,6 +18,7 @@ title: Publications
 
 #### Publications
 
+-   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10.
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/iceseh-14.pdf))
 
   
