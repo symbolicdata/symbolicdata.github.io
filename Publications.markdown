@@ -18,18 +18,12 @@ title: Publications
 
 #### Publications
 
-Work in progress:
-
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/iceseh-14.pdf))
 
   
-Revised version as of 2014-06-23, to appear in the conference proceedings (2015-01-13: yet under review)
+Revised version as of 2014-06-23, not accepted for the conference proceedings.
 
 Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
-
-* * * * *
-
-Finally published:
 
 -   H.-G. Gräbe, S. Johanning, A. Nareike: The SymbolicData Project - from Data Store to Computer Algebra Social Network. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf))
 
@@ -48,7 +42,7 @@ Presented at the "Work in Progress" section of [CICM-14](http://www.cicm-confere
   
 In: Computeralgebra-Rundbrief 53 (Oct 2013)
 
--   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone. Preprint, April 2013. ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf))
 
   
 Submitted to [CASC-13](http://www14.in.tum.de/CASC2013). Not accepted.
