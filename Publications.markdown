@@ -18,6 +18,15 @@ title: Publications
 
 #### Publications
 
+Work in progress:
+
+-   H.-G. Gräbe, A. Heinle, S. Johanning: SymbolicData, Computer Algebra and Web 2.0. ([pdf](http://symbolicdata.org/Papers/aca15-abstract.pdf))
+
+  
+Abstract submitted to the [ACA 2015 special session *Human-Computer Algebra Interaction*](http://minimair.org/hcai2015/).
+
+* * * * *
+
 -   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10.
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
 
