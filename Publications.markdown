@@ -52,7 +52,7 @@ Presented at the "Work in Progress" section of [CICM-14](http://www.cicm-confere
   
 In: Computeralgebra-Rundbrief 53 (Oct 2013)
 
--   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone. Preprint, April 2013. ([pdf](http://symbolicdata.org/Papers/casc2013-preprint.pdf))
+-   A. Heinle, V. Levandovskyy, A. Nareike: SymbolicData:SDEval – Benchmarks for Everyone. Preprint, April 2013. ([pdf](http://symbolicdata.org/Papers/casc2013-preprint.pdf))
 
   
 Submitted to [CASC-13](http://www14.in.tum.de/CASC2013). Not accepted.
