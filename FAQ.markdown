@@ -38,3 +38,9 @@ All that is available for download not only from our web site but also can be cl
 **Question:** How do you link resources and resource descriptions?
 
 **Answer:** Through *fingerprints*, a concept explained in more detail in our [paper](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf) in Computeralgebra-Rundbrief 55 (October 2014)
+
+* * * * *
+
+**Question:** How to set up a Local Sparql Endpoint?
+
+**Answer:** Look at our wiki page [LocalSparqlEndpoint](LocalSparqlEndpoint "wikilink").
