@@ -79,7 +79,7 @@ At <http://symbolicdata.org/Data/PersonalProfiles/> we maintain an RDF graph tha
 
 As proof of the concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe. This view is collected by the following workflow:
 
--   Use the SD Person list of the boards as local RDF graph <http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards.rdf>,
+-   Use the SD Person list of the boards as local RDF graph <http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/FGL.rdf>,
 -   for each SD Person get the corresponding FOAF profile from the SD Personal Profile Links
 -   display selected information from the FOAF profile
 
