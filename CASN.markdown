@@ -14,7 +14,7 @@ Links to the currently available infrastructure
 
 #### Vision
 
-The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community.
+The vision is a digitally supported Distributed Social Semantic Network within Open Science for the needs of the Computer Algebra Community.
 
 The general architecture of such a network rests on three pilars:
 
