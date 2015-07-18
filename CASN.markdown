@@ -75,7 +75,7 @@ In a first step we try to identify communities (including "one person communitie
 
 Such FOAF Profiles are compiled by the German Fachgruppe for their (current and former) board members at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles>.
 
-At <http://symbolicdata.org/Data/PersonalProfileLinks/> we maintain an RDF graph that provides links between sd:Person instances and known FOAF profiles.
+At <http://symbolicdata.org/Data/PersonalProfiles/> we maintain an RDF graph that provides links between sd:Person instances and known FOAF profiles.
 
 As proof of the concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe. This view is collected by the following workflow:
 
