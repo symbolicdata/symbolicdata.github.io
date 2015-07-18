@@ -66,6 +66,8 @@ We maintain personal information about SD People, i.e., potentially active users
 -   sd:affiliation - a string "Organization, Location" (optional)
 -   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
 
+as a central resource of people URIs with activities in the CA area.
+
 In a first step we try to identify communities (including "one person communities") that provide and maintain FOAF based personal profiles about some aspects of their research activities. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
 
 -   See, e.g., how the [AKSW Working Group](http://aksw.org) has organized information about their research activities in such a way.
