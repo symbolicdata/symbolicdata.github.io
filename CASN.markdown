@@ -57,16 +57,16 @@ For the moment the CASN data base contains different RDF graphs within the names
 
 #### CASN and CA People - Local FOAF User Profiles
 
-The main challenge to get a Social Network running is to "turn passive users into active ones".
+The main challenge to get a Social Network running is to get a sufficient number of stakeholders interested in the project.
 
-We maintain personal information about SD People, i.e., potentially active users, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/Data/Person/LastName_Initials> and predicates
+As a first step we identify people involved with Computer Algebra. We maintain personal information about such people, i.e., potentially active users, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/Data/Person/LastName_Initials> and predicates
 
 -   foaf:name - a string "FirstName LastName" (required)
 -   foaf:homepage - a link to the homepage (optional)
 -   sd:affiliation - a string "Organization, Location" (optional)
 -   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
 
-as a central resource of people URIs with activities in the CA area. Such information was extracted from public sources, in particular conference announcements. Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles.
+as a central resource of people URIs. This information was extracted from public sources, in particular conference announcements. Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles.
 
 In a first step we try to identify communities (including "one person communities") that provide and maintain such FOAF based personal profiles about some aspects of their research activities. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
 
