@@ -59,7 +59,7 @@ For the moment the CASN data base contains different RDF graphs within the names
 
 The main challenge to get a Social Network running is to "turn passive users into active ones".
 
-We maintain personal information about SD People, in particular *passive users*, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/data/Person/LastName_Initials> and predicates
+We maintain personal information about SD People, i.e., potentially active users, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/Data/Person/LastName_Initials> and predicates
 
 -   foaf:name - a string "FirstName LastName" (required)
 -   foaf:homepage - a link to the homepage (optional)
