@@ -36,8 +36,8 @@ The different subclasses provide different additional information:
     -   sd:hasRank xsd:integer
 
 -   sd:Polytope
-    -   sd:hasSupportingHyperplanes
-    -   sd:hasDimension xsd:integer
+    -   sd:hasSupportingHyperplanes xsd:integer - number of supporting hyperplanes
+    -   sd:hasDimension xsd:integer - dimension within the ambient space
     -   sd:hasNumberOfLatticePoints xsd:integer
     -   sd:hasNumberExtremePoints xsd:integer
 
