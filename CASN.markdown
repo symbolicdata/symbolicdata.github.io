@@ -16,7 +16,13 @@ Links to the currently available infrastructure
 
 The vision is a digitally supported distributed social semantic network within Open Science for the needs of the Computer Algebra Community.
 
-At longer run we plan to use the concepts of a [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp (U Leipzig). A first implementation of these concepts is under dervelopment within the [Xodx project](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
+The general architecture of such a network rests on three pilars:
+
+-   A *common global database*, i.e., a distributed network of nodes that provide local information based on Linked Data principles,
+-   *Channels* to harvest and maintain such local information on special topics, and
+-   *Views* to integrate such harvested information into your favourite web site.
+
+At the long run we plan to build up such a CASN using the architectural concepts of a [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp and Natanael Arndt (U Leipzig). A first implementation of these concepts is under development within the [Xodx project](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
 
 #### Current State
 
@@ -49,32 +55,38 @@ For the moment the CASN data base contains different RDF graphs within the names
 -   the RDF Graph <http://symbolicdata.org/casn/ConferenceReports/> with conference reports as published in the CA Rundbrief (in progress)
 -   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format.
 
-#### CASN and CA People
+#### CASN and CA People - Local FOAF User Profiles
 
-The main challenge to get a Social Network running is to "turn passive users into active ones". For the moment a very small number of active people maintains the information available within the CASN. We maintain personal information about SD People, in prticular *passive users*, in the RDF Graph <http://symbolicdata.org/data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/data/Person/LastName_Initials> and predicates
+The main challenge to get a Social Network running is to "turn passive users into active ones".
+
+We maintain personal information about SD People, in particular *passive users*, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/data/Person/LastName_Initials> and predicates
 
 -   foaf:name - a string "FirstName LastName" (required)
 -   foaf:homepage - a link to the homepage (optional)
 -   sd:affiliation - a string "Organization, Location" (optional)
 -   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
 
-A first step towards a *distributed* CASN are local FOAF profiles of users. [FOAF](http://www.foaf-project.org/) is a standard how to display a *personal profile page* (see, e.g., <http://aksw.org/AndreasNareike.rdf>) at a local website in RDF format. To maintain a collection of such references FOAF suggests to have a centrally managed **foaf:PersonalProfileDocument** instance for each such FOAF profile.
+In a first step we try to identify communities (including "one person communities") that provide and maintain FOAF based personal profiles about some aspects of their research activities. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
 
-The RDF Graph <http://symbolicdata.org/casn/PersonalProfileDocuments/> contains a list of such foaf:PersonalProfileDocument instances with URI structure <symbolicdata.org/casn/ProfileDocument/FirstnameLastname> and predicates
+-   See, e.g., how the [AKSW Working Group](http://aksw.org) has organized information about their research activities in such a way.
+-   In particular AKSW provides RDF based information about personal activities, see, e.g., <http://aksw.org/AndreasNareike.rdf>.
 
--   foaf:primaryTopic - the URI of the local FOAF profile as foaf:Person instance
--   foaf:maker - the URI of the maker of the PersonalProfileDocument
--   rdfs:seeAlso - the URI of the same person in the <symbolicdata.org/data/People/> data base.
+Such FOAF Profiles are compiled by the German Fachgruppe for their (current and former) board members at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles>.
 
-For the moment we operate another RDF graph <http://symbolicdata.org/casn/FOAF-Profiles/> with (centrally managed) FOAF profiles of (current and former) members of the board of the German CA Fachgruppe as proof of the concept. This information is used to display the web page about the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German CA Fachgruppe. The display is collected by the following workflow:
+At <http://symbolicdata.org/Data/PersonalProfileLinks/> we maintain an RDF graph that provides links between sd:Person instances and known FOAF profiles.
 
--   extract the SD Person list of the board from the RDF graph <http://symbolicdata.org/casn/Groups/>,
--   for each SD Person get the required FOAF profiles from the PersonalProfileDocument
--   display the information
+As proof of the concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe. This view is collected by the following workflow:
+
+-   Use the SD Person list of the boards as local RDF graph <http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards.rdf>,
+-   for each SD Person get the corresponding FOAF profile from the SD Personal Profile Links
+-   display selected information from the FOAF profile
+
+and cached at the local web site.
 
 #### Some more thoughts about bootstrapping a distributed CASN
 
 We set up a [first prototype](http://symbolicdata.org/xodx) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
 
--   A registered person has a **foaf:Person** FOAF Profile and a **sioc:UserAccount** instance not yet aligned with the remaining infrastructure. This has further to be discussed.
+-   A registered person has a **foaf:Person** FOAF Profile and a **sioc:UserAccount** instance not yet aligned with the remaining infrastructure.
 
+This has further to be discussed and is not actively maintained at the moment.
