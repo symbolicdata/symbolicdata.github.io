@@ -83,7 +83,7 @@ As proof of the concept this information is used to display the [members of the 
 -   for each SD Person get the corresponding FOAF profile from the SD Personal Profile Links
 -   display selected information from the FOAF profile
 
-and cached at the local web site.
+and [cached at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
 
 #### Some more thoughts about bootstrapping a distributed CASN
 
