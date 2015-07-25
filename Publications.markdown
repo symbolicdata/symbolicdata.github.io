@@ -7,8 +7,17 @@ title: Publications
 
 #### Presentations
 
--   H.-G. Gräbe: [SymbolicData, Computer Algebra and Web 2.0.](http://symbolicdata.org/Presentations/ACA-15.pdf) Presentation at [ACA 2015](http://www.singacom.uva.es/ACA2015/) in Kalamata (Greece), 2015-07-20.
-    -   Hands on session: [Commented Commands](http://symbolicdata.org/Presentations/ACA-15.txt).
+-   H.-G. Gräbe, A. Heinle, V. Levandovskyy: SDEval – A Benchmarking Toolkit for Computer Algebra. ([pdf](http://symbolicdata.org/Papers/aca15-heinle-abstract.pdf), see also the [ACA-15 Abstracts Booklet](http://www.singacom.uva.es/ACA2015/latex/ACAproc.pdf))
+
+  
+Abstract for the [ACA 2015 poster session](http://www.singacom.uva.es/ACA2015/index.html).
+
+-   SymbolicData at at [ACA 2015](http://www.singacom.uva.es/ACA2015/) in Kalamata (Greece), 2015-07-20.
+    -   H.-G. Gräbe: [SymbolicData, Computer Algebra and Web 2.0.](http://symbolicdata.org/Presentations/ACA-15.pdf) Presentation in the session ["Human-Computer Algebra Interaction"](http://minimair.org/hcai2015/).
+    -   [Abstract](http://symbolicdata.org/Papers/aca15-graebe-abstract.pdf) of the talk.
+    -   Hands on session: [Material](http://symbolicdata.org/Presentations/ACA-15.txt).
+    -   H.-G. Gräbe, A. Heinle, V. Levandovskyy: SDEval – A Benchmarking Toolkit for Computer Algebra. Contribution to the poster session.
+    -   [Abstract](http://symbolicdata.org/Papers/aca15-heinle-abstract.pdf) of the poster.
 -   H.-G. Gräbe: [Presentation](http://symbolicdata.org/Presentations/dmv-14.pdf) of the SymbolicData Project at the [DMV-PTM joint meeting 2014](http://dmv.ptm.org.pl/) in Poznań (Poland), 2014-09-18.
 -   H.-G. Gräbe: [Presentation](http://symbolicdata.org/Presentations/cicm-14.pdf) of the SymbolicData Project at the [Conferences on Intelligent Computer Mathematics 2014](http://cicm-conference.org/2014/cicm.php) in Coimbra (Portugal), 2014-07-07.
 -   H.-G. Gräbe: [Presentation](http://symbolicdata.org/Presentations/Iceseh-14.pdf) of the SymbolicData Project at the [International Conference on Infrastructures and Cooperation in e-Science and e-Humanities](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014) in Leipzig, 2014-06-05.
@@ -23,16 +32,6 @@ title: Publications
 Work in progress: none at the moment
 
 * * * * *
-
--   H.-G. Gräbe, A. Heinle, V. Levandovskyy: SDEval – A Benchmarking Toolkit for Computer Algebra. ([pdf](http://symbolicdata.org/Papers/aca15-heinle-abstract.pdf), see also the [ACA-15 Abstracts Booklet](http://www.singacom.uva.es/ACA2015/latex/ACAproc.pdf))
-
-  
-Abstract for the [ACA 2015 poster session](http://www.singacom.uva.es/ACA2015/index.html).
-
--   H.-G. Gräbe, A. Heinle, S. Johanning: SymbolicData, Computer Algebra and Web 2.0. ([pdf](http://symbolicdata.org/Papers/aca15-graebe-abstract.pdf), see also the [ACA-15 Abstracts Booklet](http://www.singacom.uva.es/ACA2015/latex/ACAproc.pdf))
-
-  
-Abstract for the [ACA 2015 special session *Human-Computer Algebra Interaction*](http://minimair.org/hcai2015/).
 
 -   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10.
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
