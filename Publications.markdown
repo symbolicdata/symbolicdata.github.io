@@ -7,11 +7,6 @@ title: Publications
 
 #### Presentations
 
--   H.-G. Gräbe, A. Heinle, V. Levandovskyy: SDEval – A Benchmarking Toolkit for Computer Algebra. ([pdf](http://symbolicdata.org/Papers/aca15-heinle-abstract.pdf), see also the [ACA-15 Abstracts Booklet](http://www.singacom.uva.es/ACA2015/latex/ACAproc.pdf))
-
-  
-Abstract for the [ACA 2015 poster session](http://www.singacom.uva.es/ACA2015/index.html).
-
 -   SymbolicData at at [ACA 2015](http://www.singacom.uva.es/ACA2015/) in Kalamata (Greece), 2015-07-20.
     -   H.-G. Gräbe: [SymbolicData, Computer Algebra and Web 2.0.](http://symbolicdata.org/Presentations/ACA-15.pdf) Presentation in the session ["Human-Computer Algebra Interaction"](http://minimair.org/hcai2015/).
     -   [Abstract](http://symbolicdata.org/Papers/aca15-graebe-abstract.pdf) of the talk.
