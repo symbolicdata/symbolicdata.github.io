@@ -43,7 +43,7 @@ At the moment the project hosts data from the following communities within Symbo
 -   [G-Algebras](GAlgebras "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 -   [Polynomial Systems](PolynomialSystems "wikilink")
--   [Test Sets](TestSets "wikilink")
+-   [Test Sets from Integer Programming](TestSets "wikilink")
 
 The project manages additional Data:
 
