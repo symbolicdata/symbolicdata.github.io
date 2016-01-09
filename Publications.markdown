@@ -7,7 +7,7 @@ title: Publications
 
 #### Presentations
 
--   SymbolicData at at [ACA 2015](http://www.singacom.uva.es/ACA2015/) in Kalamata (Greece), July 2015.
+-   SymbolicData at [ACA 2015](http://www.singacom.uva.es/ACA2015/) in Kalamata (Greece), July 2015.
     -   H.-G. Gräbe: [SymbolicData, Computer Algebra and Web 2.0.](http://symbolicdata.org/Presentations/ACA-15.pdf)
          Presentation in the session ["Human-Computer Algebra Interaction"](http://minimair.org/hcai2015/), 2015-07-20.
         [Submitted Abstract](http://symbolicdata.org/Papers/aca15-graebe-abstract.pdf).
