@@ -54,11 +54,19 @@ The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in part
 
 The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/) provides this data:
 
--   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief
-
-- <www.fachgruppe-computeralgebra.de/rdf/CAR/> namespace with instances of type sd:Reference based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
-
--   -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
+-   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief - <www.fachgruppe-computeralgebra.de/rdf/CAR/> namespace with instances of type sd:Reference based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
+    -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
+-   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/WorkingGroups.rdf> with information about German CA working groups and related people
+    -   Groups - <www.fachgruppe-computeralgebra.de/rdf/Group/> namespace with instances of **sd:WorkingGroup** and **foaf:Group** - are related to affiliations - <www.fachgruppe-computeralgebra.de/rdf/Organization/> namespace with instances of **org:FormalOrganization** - by the predicate **org:subOrganizationOf**.
+    -   People are referenced as sd:Person instances in the main SymbolicData RDF store by the predicate **org:hasMember**.
+    -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
+-   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/SPP-Projekte.rdf> with information about CA projects within the SPP 1489
+    -   The projects - <www.fachgruppe-computeralgebra.de/rdf/Project/> namespace with instances of **sd:Project** - were extracted from the projects' section at <http://www.computeralgebra.de>
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
+-   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/Dissertationen.rdf> with informations about dissertations in CA - <www.fachgruppe-computeralgebra.de/rdf/Dissertation> namespace with **bibo:Thesis** instances.
+    -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
+    -   more predicates: sd:hasSupervisor, sd:hasReviewer (value: URI in SD-Person)
+    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
 
 #### CASN and CA People - Local FOAF User Profiles
 
