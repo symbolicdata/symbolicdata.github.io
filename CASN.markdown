@@ -40,30 +40,33 @@ The *current CASN data base* contains different RDF graphs within the namespace 
 
 The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
 
--   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/Data/Conference/> namespace with **sd:UpcomingConference** instances
+-   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences
+    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:UpcomingConference** instances
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Learn more about that code from the *casn-plugin* directory in our *github web repo* at <https://github.com/symbolicdata/web>
--   Past conferences are provided in the RDF Graph <http://symbolicdata.org/Data/PastConferences/> for reference - <symbolicdata.org/Data/Conference/> namespace with **sd:PastConference** instances
+-   Past conferences are provided in the RDF Graph <http://symbolicdata.org/Data/PastConferences/> for reference
+    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:PastConference** instances
     -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 -   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
-    -   the RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **sd:Person** instances
-    -   the RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
-    -   the RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person. This information is maintained either by the person itself or by the maintainer of one of the local CASN nodes.
+    -   The RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **sd:Person** instances
+    -   The RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
+    -   The RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person. This information is maintained either by the person itself or by the maintainer of one of the local CASN nodes.
     -   All to be added to the [SymbolicData CASN demo site](http://symbolicdata.org/info)
 
 The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/) provides this data:
 
--   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief - <www.fachgruppe-computeralgebra.de/rdf/CAR/> namespace with instances of type sd:Reference based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
+-   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief
+    -   <www.fachgruppe-computeralgebra.de/rdf/CAR/> namespace with instances of type sd:Reference based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
     -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/WorkingGroups.rdf> with information about German CA working groups and related people
+-   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/WorkingGroups.rdf> with information about German CA working groups and related people
     -   Groups - <www.fachgruppe-computeralgebra.de/rdf/Group/> namespace with instances of **sd:WorkingGroup** and **foaf:Group** - are related to affiliations - <www.fachgruppe-computeralgebra.de/rdf/Organization/> namespace with instances of **org:FormalOrganization** - by the predicate **org:subOrganizationOf**.
     -   People are referenced as sd:Person instances in the main SymbolicData RDF store by the predicate **org:hasMember**.
     -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
 -   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/SPP-Projekte.rdf> with information about CA projects within the SPP 1489
     -   The projects - <www.fachgruppe-computeralgebra.de/rdf/Project/> namespace with instances of **sd:Project** - were extracted from the projects' section at <http://www.computeralgebra.de>
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/Dissertationen.rdf> with informations about dissertations in CA - <www.fachgruppe-computeralgebra.de/rdf/Dissertation> namespace with **bibo:Thesis** instances.
+-   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/Dissertationen.rdf> with informations about dissertations in CA - <www.fachgruppe-computeralgebra.de/rdf/Dissertation> namespace with **bibo:Thesis** instances.
     -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
     -   more predicates: sd:hasSupervisor, sd:hasReviewer (value: URI in SD-Person)
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
