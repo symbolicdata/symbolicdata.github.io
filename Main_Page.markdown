@@ -16,6 +16,7 @@ The SymbolicData Project Wiki
 -   [Presentations and Publications](Publications "wikilink")
 -   [Frequently asked Questions](FAQ "wikilink")
 -   [Towards a Computer Algebra Social Network](CASN "wikilink")
+    -   The [CASN Demonstration Site](http://symbolicdata.org/info)
 -   [What's new?](New "wikilink")
 
 <center>
