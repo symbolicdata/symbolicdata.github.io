@@ -7,11 +7,14 @@ title: CASN
 
 Links to the currently available infrastructure
 
--   <http://symbolicdata.org:8891/sparql> - CASN SPARQL Endpoint
--   <http://symbolicdata.org/xodx> - the CASN xodx node (very experimental yet)
--   <http://symbolicdata.org/casn> - the CASN OntoWiki (aligned with Linked Data standards)
--   <http://www.fachgruppe-computeralgebra.de/rdf/> - the CASN node of the German CA Fachgruppe (no RDF store, hence also no Linked Data)
--   <http://symbolicdata.org/info> - different views on the CASN data (in progress)
+-   The SymbolicData RDF Store (aligned with Linked Data standards)
+    -   <http://symbolicdata.org:8890/sparql> - SPARQL Endpoint
+    -   <http://symbolicdata.org/Data> - the OntoWiki based browser frontend
+-   CASN nodes: At such nodes different parties maintain RDF based information and provide it to the public that can be harvested and included into remote applications (no RDF store, hence also no Linked Data)
+    -   <http://www.fachgruppe-computeralgebra.de/rdf/> - the CASN node of the German CA Fachgruppe
+    -   <http://symbolicdata.org/rdf> - the CASN node of the SymbolicData Project
+-   <http://symbolicdata.org/info> - different views on the CASN data
+    -   Learn more about such applications from the code in our *github web repo* at <https://github.com/symbolicdata/web>
 
 #### Vision
 
@@ -19,41 +22,43 @@ The vision is a digitally supported Distributed Social Semantic Network within O
 
 The general architecture of such a network rests on three pilars:
 
--   A *common global database*, i.e., a distributed network of nodes that provide local information based on Linked Data principles,
+-   A *common global database*, i.e., a distributed network of nodes that provide local information based, best served at [Linked Data standards](https://en.wikipedia.org/wiki/Linked_data),
 -   *Channels* to harvest and maintain such local information on special topics, and
 -   *Views* to integrate such harvested information into your favourite web site.
 
-At the long run we plan to build up such a CASN using the architectural concepts of a [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by Sebastian Tramp and Natanael Arndt (U Leipzig). A first implementation of these concepts is under development within the [Xodx project](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
+At the long run we plan to build up such a CASN using the architectural concepts of a [DSSN network stack](http://aksw.org/Projects/DSSN.html) designed and developed by the [AKSW group](http://aksw.org) at U Leipzig. A first implementation of these concepts is under development within the [Xodx project](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
 
 #### Current State
 
-For first steps in such a direction we
+With SymbolicData Release 3.1 (Jan 2016) we reorganized the experimental CASN structure and shut down the separate RDF store and SPARQL endpoint for the CASN structure.
 
--   started the *CASN SD subproject*,
--   set up a *non public git repo* (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,
--   operate another *Virtuoso based RDF data store* and a *[second OntoWiki](http://symbolicdata.org/casn) instance* to display the public part of our CASN data
--   and a *[second SPARQL Endpoint](http://symbolicdata.org:8891/sparql)* to explore that data.
+-   Part of that RDF store (past and upcoming conferences) was included into our [main SymbolicData RDF store](http://symbolicdata.org/Data) and this are available at Linked Data standards.
+-   Several applications specific to the German Fachgruppe use RDF data at the [CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/). Additionally this data is publicly available for remote applications but there is no RDF store, hence also no Linked Data.
+-   Additional RDF data at the [CASN node of the SymbolicData Project](http://symbolicdata.org/rdf). This data is publicly available for remote applications but not yet used in applications.
 
-For the moment the CASN data base contains different RDF graphs within the namespace <symbolicdata.org/casn/>, in particular
+The *current CASN data base* contains different RDF graphs within the namespace <symbolicdata.org/Data/> that are available at Linked Data standards from our central RDF store <http://symbolicdata.org/Data> and also as files from our [RDF upload area](http://symbolicdata.org/RDFData/). Additional data are supplied by different partners that run CASN nodes to provide own publicly available RDF based data for remote applications without running an RDF store, hence also no Linked Data.
 
--   the RDF Graph <http://symbolicdata.org/casn/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/casn/Conference/> namespace with **sd:UpcomingConference** instances
+The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
+
+-   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences - <symbolicdata.org/Data/Conference/> namespace with **sd:UpcomingConference** instances
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
-    -   Past conferences are moved in a slightly edited form to the RDF Graph <http://symbolicdata.org/casn/PastConferences/> for reference.
--   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief
-    -   Entries of type sd:Reference are composed based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
-    -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <hhttp://www.fachgruppe-computeralgebra.de/rdf/WorkingGroups.rdf> with information about German CA working groups and related people
-    -   Groups - instances of **sd:WorkingGroup** and **foaf:Group** - are related to affiliations - instances of **org:FormalOrganization** - by the predicate **org:subOrganizationOf**.
-    -   People are referenced as <symbolicdata.org/Data/Person/> instances by predicate **org:hasMember**.
-    -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/SPP-Projekte/> with information about CA projects within the SPP 1489
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/Dissertationen/> with informations about dissertations in CA - <symbolicdata.org/casn/Dissertation/> namespace with **bibo:Thesis** instances.
-    -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
-    -   more predicates: sd:hasSupervisor, sd:hasReviewer(value: URI in SD-Person)
-    -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
--   the RDF Graph <http://symbolicdata.org/casn/ConferenceReports/> with conference reports as published in the CA Rundbrief (in progress)
--   the RDF Graph <http://symbolicdata.org/casn/News/> with (few so far) Semantic Annotations to news from different online resources in the **sioc:BlogPost** format.
+    -   Learn more about that code from the *casn-plugin* directory in our *github web repo* at <https://github.com/symbolicdata/web>
+-   Past conferences are provided in the RDF Graph <http://symbolicdata.org/Data/PastConferences/> for reference - <symbolicdata.org/Data/Conference/> namespace with **sd:PastConference** instances
+    -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
+    -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
+-   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
+    -   the RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **sd:Person** instances
+    -   the RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
+    -   the RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person. This information is maintained either by the person itself or by the maintainer of one of the local CASN nodes.
+    -   All to be added to the [SymbolicData CASN demo site](http://symbolicdata.org/info)
+
+The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/) provides this data:
+
+-   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief
+
+- <www.fachgruppe-computeralgebra.de/rdf/CAR/> namespace with instances of type sd:Reference based on the [dcterms ontology](http://dublincore.org/documents/dcmi-terms/).
+
+-   -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/rundbrief-beitraege/) in the Wordpress based site of the German CA Fachgruppe.
 
 #### CASN and CA People - Local FOAF User Profiles
 
@@ -66,16 +71,14 @@ As a first step we identify people involved with Computer Algebra. We maintain p
 -   sd:affiliation - a string "Organization, Location" (optional)
 -   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
 
-as a central resource of people URIs. This information was extracted from public sources, in particular conference announcements. Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles.
+as a central resource of people URIs. This information was extracted from public sources, in particular conference announcements.
 
-In a first step we try to identify communities (including "one person communities") that are interested to provide and maintain such FOAF based personal profiles about some aspects of their research activities. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
+Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
 
 -   See, e.g., how the [AKSW Working Group](http://aksw.org) has organized information about their research activities in such a way.
 -   In particular AKSW provides RDF based information about personal activities, see, e.g., <http://aksw.org/AndreasNareike.rdf>.
 
-Such FOAF Profiles are compiled by the German Fachgruppe for their (current and former) board members at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles>.
-
-At <http://symbolicdata.org/Data/PersonalProfiles/> we maintain an RDF graph that provides links between sd:Person instances and known FOAF profiles.
+The RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person demonstrates how such information should be included into the system that is maintained either by the person itself or by the maintainer of one of the local CASN nodes. These FOAF Profiles are compiled at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles> by the German Fachgruppe about their (current and former) board members.
 
 As proof of the concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe. This view is collected by the following workflow:
 
@@ -83,7 +86,7 @@ As proof of the concept this information is used to display the [members of the 
 -   for each SD Person get the corresponding FOAF profile from the SD Personal Profile Links
 -   display selected information from the FOAF profile
 
-and [cached at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
+and [cache it at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
 
 #### Some more thoughts about bootstrapping a distributed CASN
 
