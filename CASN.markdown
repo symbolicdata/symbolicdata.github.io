@@ -38,6 +38,34 @@ With SymbolicData Release 3.1 (Jan 2016) we reorganized the experimental CASN st
 
 The *current CASN data base* contains different RDF graphs within the namespace <symbolicdata.org/Data/> that are available at Linked Data standards from our central RDF store <http://symbolicdata.org/Data> and also as files from our [RDF upload area](http://symbolicdata.org/RDFData/). Additional data are supplied by different partners that run CASN nodes to provide own publicly available RDF based data for remote applications without running an RDF store, hence also no Linked Data.
 
+#### CASN and CA People
+
+The main challenge to get a Social Network running is to get a sufficient number of stakeholders interested in the project.
+
+We permanently identify people involved with Computer Algebra and maintain personal information about such people, i.e., potentially active users, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/Data/Person/LastName_Initials> and predicates
+
+-   foaf:name - a string "FirstName LastName" (required)
+-   foaf:homepage - a link to the homepage (optional)
+-   sd:affiliation - a string "Organization, Location" (optional)
+-   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
+
+as a central resource of people URIs. This information is permanently extracted from public sources, in particular conference announcements.
+
+Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
+
+-   See, e.g., how the [AKSW Working Group](http://aksw.org) has organized information about their research activities in such a way.
+-   In particular AKSW provides RDF based information about personal activities, see, e.g., <http://aksw.org/AndreasNareike.rdf>.
+
+The RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person demonstrates how such information should be included into the system that is best maintained at a local CASN node. E.g., the German Fachgruppe provides at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles> such FOAF Profiles of their (current and former) board members.
+
+As proof of concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe at their website. This view is collected by the following workflow:
+
+-   Use the SD Person list of the boards as [local RDF graph](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/FGL.rdf),
+-   For each SD Person get the corresponding FOAF profile from the [SD Personal Profile Links](http://symbolicdata.org/Data/PersonalProfiles/),
+-   Display selected information from the FOAF profile
+
+and [cache it at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
+
 #### Data at the main SymbolicData RDF store
 
 The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
@@ -78,33 +106,7 @@ The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computer
 
 #### Additional data at the CASN node of the SymbolicData Team
 
-#### CASN and CA People - Local FOAF User Profiles
-
-The main challenge to get a Social Network running is to get a sufficient number of stakeholders interested in the project.
-
-As a first step we identify people involved with Computer Algebra. We maintain personal information about such people, i.e., potentially active users, in the RDF Graph <http://symbolicdata.org/Data/People/> as **foaf:Person** instances with URI structure <symbolicdata.org/Data/Person/LastName_Initials> and predicates
-
--   foaf:name - a string "FirstName LastName" (required)
--   foaf:homepage - a link to the homepage (optional)
--   sd:affiliation - a string "Organization, Location" (optional)
--   sd:country - a [dbpedia](http://dbpedia.org) URI (optional)
-
-as a central resource of people URIs. This information was extracted from public sources, in particular conference announcements.
-
-Such an URI provides a "hook" for more information, that should be provided by the users or user communities themselves along the FOAF principles. The [FOAF Project](http://www.foaf-project.org/) (FOAF = "friends of a friend") is a widely recognized and used standard to build up distributed networks of people with common interests.
-
--   See, e.g., how the [AKSW Working Group](http://aksw.org) has organized information about their research activities in such a way.
--   In particular AKSW provides RDF based information about personal activities, see, e.g., <http://aksw.org/AndreasNareike.rdf>.
-
-The RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person demonstrates how such information should be included into the system that is maintained either by the person itself or by the maintainer of one of the local CASN nodes. These FOAF Profiles are compiled at <http://www.fachgruppe-computeralgebra.de/rdf/FOAF-Profiles> by the German Fachgruppe about their (current and former) board members.
-
-As proof of the concept this information is used to display the [members of the board](http://www.fachgruppe-computeralgebra.de/fachgruppenleitung/) of the German Fachgruppe. This view is collected by the following workflow:
-
--   Use the SD Person list of the boards as local RDF graph <http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/FGL.rdf>,
--   for each SD Person get the corresponding FOAF profile from the SD Personal Profile Links
--   display selected information from the FOAF profile
-
-and [cache it at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
+to be added
 
 #### Some more thoughts about bootstrapping a distributed CASN
 
