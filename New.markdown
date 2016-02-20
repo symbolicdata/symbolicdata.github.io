@@ -25,7 +25,7 @@ title: New
 
 * * * * *
 
--   (2015-04-07) A. Heinles paper "The SDEval Benchmarking Toolkit" appeared in the March 2015 issue of the SIGSAM Communications in Computer Algebra.
+-   (2015-04-07) Albert Heinles paper "The SDEval Benchmarking Toolkit" appeared in the March 2015 issue of the SIGSAM Communications in Computer Algebra.
 
 * * * * *
 
