@@ -5,10 +5,26 @@ title: New
 
 ### What's new?
 
--   (2015-11-11) Start of the [mailing list sd-announce](http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce) as a common channel for news within the CA community beyond conference announcements.
-    -   Conference announcements are collected within the [CASN Upcoming Conferences subproject](CASN "wikilink").
+-   Preparation of SD Release 3.1
+    -   (2015-10-16) Ralf Hemmecke managed to switch <https://github.com/symbolicdata> to an organizational account to maintain code directly within that account (no more forks, at least within the central team).
+    -   (2015-11-11) Start of the [mailing list sd-announce](http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce) as a common channel for news within the CA community beyond conference announcements. Conference announcements are collected within the [CASN Upcoming Conferences subproject](CASN "wikilink").
+    -   (2015-12-26) Set up of several repos with different maintenance rules - *data* (data repo with a single master branch mainly to backup recent versions of data, no versioning), *code* (code directory with master and develop branches, under versioning), *publications* (as a backup store of the LaTeX sources of SD publications, only master branch, no versioning). The new repos were synced with the most propagated SD version at hg-graebe/symbolicdata/tree/develop and also with the src/sdeval dir of ioah86/symbolicdata/tree/develop.
+        -   develop branch of *code* not yet created.
+        -   The old repo <https://github.com/symbolicdata/symbolicdata> is deprecated and will be switched off in a near future.
+-   Reorganization of the formerly separate CASN part
+    -   (2016-01-03) The redesign of the CASN stuff of the German Fachgruppe was finished. Now it uses data from a local store at <http://www.fachgruppe-computeralgebra.de/rdf/> and shortcode defined in a special Wordpress plugin (both backed up in a git repo private to the Fachgruppe).
+        -   The availiable features are listed in a separate menu point <http://www.fachgruppe-computeralgebra.de/symbolicdata/>, the Wordpress plugin code is mirrored in our public repo at <https://github.com/symbolicdata/web/tree/master/casn-plugin>
+
+* * * * *
+
+-   (2015-07-26) The first tabs of [our new info site](http://symbolicdata.org/info) go online. It is used to demonstrate the power of our CASN concepts in a standalone fashion, i.e., not bound to the Wordpress environment of the [website of the German Fachgruppe](http://www.fachgruppe-computeralgebra.de/symbolicdata/).
+
+* * * * *
 
 -   (2015-07-20) [Presentation of SymbolicData](Publications "wikilink") at ACA 2015 in Kalamata, Greece.
+
+* * * * *
+
 -   (2015-04-07) In the current issue of the SIGSAM Communications in Computer Algebra an article on the SDEval Toolkit appeared ("The SDEval Benchmarking Toolkit").
 
 * * * * *
@@ -24,10 +40,6 @@ title: New
 
 -   (2014-11-20) symbolicdata.org is again up and running.
 -   (2014-10-30) The domain symbolicdata.org was accidentally included by GI authorities into a bundle of domains to be released and meanwhile taken over by third party. We asked the authorities to try hardly to get the domain back.
-
-* * * * *
-
--   (2014-10-05) We started experimentally a [very first pre alpha presentation](http://symbolicdata.org/info) of our [CASN](CASN "wikilink") Data based on the [angular-js](https://angularjs.org/) framework.
 
 * * * * *
 
