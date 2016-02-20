@@ -13,10 +13,10 @@ title: New
         -   The old repo <https://github.com/symbolicdata/symbolicdata> is deprecated and will be switched off in a near future.
 -   Reorganization of the formerly separate CASN part
     -   (2015-07-26) The first tabs of [our new info site](http://symbolicdata.org/info) go online. It is used to demonstrate the power of our CASN concepts in a standalone fashion, i.e., not bound to the Wordpress environment of the [website of the German Fachgruppe](http://www.fachgruppe-computeralgebra.de/symbolicdata/).
-    -   (2015-12-30) The RDF Graphs *PersonalProfiles*, *ZBMathPeople*, *UpcomingConferences* and *PastConferences* were moved from to the main RDF Store and the corresponding scripts were adjusted.
+    -   (2015-12-30) The RDF Graphs *News*, *PersonalProfiles*, *ZBMathPeople*, *UpcomingConferences* and *PastConferences* were moved from to the main RDF Store and the corresponding scripts were adjusted.
     -   (2016-01-03) The redesign of the CASN stuff of the German Fachgruppe was finished. Now it uses data from a [local store](http://www.fachgruppe-computeralgebra.de/rdf/) at the website of the German Fachgruppe and shortcode defined in a special Wordpress plugin (both backed up in a git repo private to the German Fachgruppe).
         -   The available features are listed in a [separate menu point](http://www.fachgruppe-computeralgebra.de/symbolicdata/) at the website of the German Fachgruppe, the Wordpress plugin code is [mirrored in our public repo](https://github.com/symbolicdata/web/tree/master/casn-plugin).
-    -   (2016-02-20) Another tabs to explore the SD people list was added to [our new info site](http://symbolicdata.org/info). The [SD people list](http://symbolicdata.org/Data/People/) contains 1036 entries of people involved with Computer Algebra. The sd:country property was removed, country is now listed as part of the affiliation.
+    -   (2016-02-20) Another tab to explore the SD people list was added to [our new info site](http://symbolicdata.org/info). The [SD people list](http://symbolicdata.org/Data/People/) contains 1036 entries of people involved with Computer Algebra. The sd:country property was removed, country is now listed as part of the affiliation.
 
 * * * * *
 
