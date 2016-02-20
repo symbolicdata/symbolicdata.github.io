@@ -49,10 +49,11 @@ The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in part
     -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 -   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
-    -   The RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **sd:Person** instances
+    -   The RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **foaf:Person** instances
     -   The RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
     -   The RDF Graph <http://symbolicdata.org/Data/PersonalProfiles/> with links to personal FOAF profiles with more information about the person. This information is maintained either by the person itself or by the maintainer of one of the local CASN nodes.
-    -   All to be added to the [SymbolicData CASN demo site](http://symbolicdata.org/info)
+    -   A demo is includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
+    -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 
 The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/) provides this data:
 
