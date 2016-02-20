@@ -45,7 +45,7 @@ The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in part
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Learn more about that code from the *casn-plugin* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 -   Past conferences are provided in the RDF Graph <http://symbolicdata.org/Data/PastConferences/> for reference
-    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:PastConference** instances
+    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:Event** instances
     -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 -   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
