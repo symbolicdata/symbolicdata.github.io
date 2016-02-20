@@ -30,7 +30,7 @@ Work in progress: none at the moment
 
 * * * * *
 
--   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10.
+-   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10. ([pdf](http://symbolicdata.org/Papers/cca-15.pdf))
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
 
   
