@@ -25,7 +25,7 @@ title: New
 
 * * * * *
 
--   (2015-04-07) In the current issue of the SIGSAM Communications in Computer Algebra an article on the SDEval Toolkit appeared ("The SDEval Benchmarking Toolkit").
+-   (2015-04-07) A. Heinles paper "The SDEval Benchmarking Toolkit" appeared in the March 2015 issue of the SIGSAM Communications in Computer Algebra.
 
 * * * * *
 
