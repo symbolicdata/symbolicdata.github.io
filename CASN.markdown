@@ -38,6 +38,8 @@ With SymbolicData Release 3.1 (Jan 2016) we reorganized the experimental CASN st
 
 The *current CASN data base* contains different RDF graphs within the namespace <symbolicdata.org/Data/> that are available at Linked Data standards from our central RDF store <http://symbolicdata.org/Data> and also as files from our [RDF upload area](http://symbolicdata.org/RDFData/). Additional data are supplied by different partners that run CASN nodes to provide own publicly available RDF based data for remote applications without running an RDF store, hence also no Linked Data.
 
+#### Data at the main SymbolicData RDF store
+
 The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
 
 -   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences
@@ -55,6 +57,8 @@ The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in part
     -   A demo is includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 
+#### Data at the local CASN node of the German CA Fachgruppe
+
 The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/) provides this data:
 
 -   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/CAR-Beitraege.rdf> with information about articles in the CA-Rundbrief
@@ -71,6 +75,8 @@ The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computer
     -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
     -   more predicates: sd:hasSupervisor, sd:hasReviewer (value: URI in SD-Person)
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
+
+#### Additional data at the CASN node of the SymbolicData Team
 
 #### CASN and CA People - Local FOAF User Profiles
 
