@@ -20,7 +20,7 @@ For both points (structure and semantics of the knowledge base, calcution of met
 
 #### Data Extraction
 
-The Fano Polytope fingerprints were compiled by **Andreas Nareike** in May 2013 along the following road map:
+The Fano Polytope fingerprints were compiled by **Andreas Nareike** in 2013 along the following road map:
 
 -   Once unzipped, each Fano Polytope is given as XML file in *polymake* format that contains the points that define the Fano Polytope in question. Additionally, some files contain precomputed metadata.
 -   Parsing these files is really straight-forward.
