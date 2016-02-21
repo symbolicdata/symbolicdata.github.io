@@ -5,6 +5,8 @@ title: Using.Git
 
 ### More about the way we organize our Repos
 
+#### About the new (as of Oct 2015) repo structure
+
 In October 2015 we converted our **main git repo** at <https://github.com/symbolicdata> to an organizational account and set up several new repos with different maintenance rules
 
 -   *data* - the data repo with a single master branch mainly to backup recent versions of data, no versioning,
