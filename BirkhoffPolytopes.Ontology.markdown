@@ -28,7 +28,8 @@ A list of all predicates with number of occurences can be generated with a SPARQ
 We list all properties with some comments:
 
 -   sd:f-vector - a list of integers, e.g., "(16,40,44,26,8)"
--   sd:hasCombinatorialType - some of sd:wed, sd:prod, sd:pyr, sd:join, sd:pyrb
+-   sd:hasCombinatorialType - some of sd:wed, sd:prod, sd:pyr, sd:join, sd:pyrb.
+    -   The deeper semantics has to be explained.
 -   sd:hasDescription - a description of the polytope, e.g., "wedge(join(edge,square))"
 -   sd:hasDimension integer - the dimension of the polytope, values within 2..8
 -   sd:hasNodes integer - values within 3..16
