@@ -20,10 +20,12 @@ The name of the ZIP files gives rise to a property
 
 #### Predicates for sd:FanoPolytope
 
-A list of all predicates can be generated with a SPARQL-Query:
+A list of all predicates with number of occurences can be generated with a SPARQL-Query:
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model#>
-`select distinct ?p where { ?s a sd:FanoPolytope . ?s ?p ?o .}`
+`select distinct ?p count(?s)`
+`where { ?s a sd:FanoPolytope . ?s ?p ?o .}`
+`order by ?p`
 
 We list all properties with some comments:
 
@@ -31,24 +33,24 @@ We list all properties with some comments:
 
 These should probably be modeled as classes (along with the other "boolean" properties). Some additional input from the polytopes community is needed here.
 
--   sd:canonical (only used for F.5D.0040.poly)
+-   sd:canonical - (only F.5D.0040)
 -   sd:centered
 -   sd:cone\_ambient\_dim
 -   sd:feasible
--   sd:gorenstein
+-   sd:gorenstein - (only F.3D.0014)
 -   sd:lattice
 -   sd:normal
 -   sd:pointed
--   sd:reflexive
--   sd:simple
--   sd:simple\_polyhedron
--   sd:smooth
+-   sd:reflexive - only 4 instances
+-   sd:simple - only 4 instances
+-   sd:simple\_polyhedron - only 2 instances
+-   sd:smooth- only 3 instances
 -   sd:weakly\_centered
 
 ##### Only "false" or not set
 
--   sd:compressed
--   sd:terminal
+-   sd:compressed - only 11 instances
+-   sd:terminal - only 1 instance
 
 ##### Can be "true" or "false"
 
@@ -56,25 +58,20 @@ These should probably be modeled as classes (along with the other "boolean" prop
 
 ##### Either "1" or not set
 
--   sd:gorenstein\_index
--   sd:n\_interior\_lattice\_points
+-   sd:gorenstein\_index - (only F.3D.0014)
+-   sd:n\_interior\_lattice\_points - only 8 instances
 
 ##### Integer values
 
 -   sd:cone\_dim
 -   sd:facet\_width
--   sd:n\_lattice\_points
 -   sd:lattice\_volume
--   sd:n\_boundary\_lattice\_points
+-   sd:lineality\_dim - only 18 instances (all values 0 - might be wrong?)
+-   sd:n\_boundary\_lattice\_points - only 7 instances
 -   sd:n\_edges
 -   sd:n\_facets
+-   sd:n\_lattice\_points
 -   sd:n\_vertices
-
-##### Always "0"
-
-Might be wrong?
-
--   sd:lineality\_dim
 
 ##### Fractions values (e.g. "123/435")
 
