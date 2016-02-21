@@ -13,7 +13,8 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 -   sd:inZIPFile URI - the Resource zip file with a bundle of polytopes
 -   sd:hasFileName String - the file name
--   sd:hasDimension - the dimension of the polytope
+
+that point to the remote resource.
 
 #### Predicates for sd:FanoPolytope
 
@@ -25,6 +26,23 @@ A list of all predicates with number of occurences can be generated with a SPARQ
 `order by ?p`
 
 We list all properties with some comments:
+
+##### Integer value
+
+-   sd:cone\_dim
+-   sd:facet\_width
+-   sd:hasDimension - the dimension of the polytope
+-   sd:lattice\_volume
+-   sd:lineality\_dim - only 18 instances (all values 0 - might be wrong?)
+-   sd:n\_boundary\_lattice\_points - only 7 instances
+-   sd:n\_edges
+-   sd:n\_facets
+-   sd:n\_lattice\_points
+-   sd:n\_vertices
+
+##### Ratonal value (e.g. "123/435")
+
+-   sd:volume
 
 ##### Only "true" or not set
 
@@ -57,20 +75,4 @@ These should probably be modeled as classes (along with the other "boolean" prop
 
 -   sd:gorenstein\_index - (only F.3D.0014)
 -   sd:n\_interior\_lattice\_points - only 8 instances
-
-##### Integer values
-
--   sd:cone\_dim
--   sd:facet\_width
--   sd:lattice\_volume
--   sd:lineality\_dim - only 18 instances (all values 0 - might be wrong?)
--   sd:n\_boundary\_lattice\_points - only 7 instances
--   sd:n\_edges
--   sd:n\_facets
--   sd:n\_lattice\_points
--   sd:n\_vertices
-
-##### Fractions values (e.g. "123/435")
-
--   sd:volume
 
