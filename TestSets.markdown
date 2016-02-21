@@ -13,7 +13,7 @@ There is a close relation to Polynomial Systems Solving via different Toric conc
 
 #### News
 
--   2015-04-06, Hans-Gert Gräbe replaced the old TestSets format completely by the new one, removed the old data, uploaded the new data to the RDF store at <http://symbolicdata.org/Data> and removed the old [XMLResources/TestSets](http://symbolicdata.org/XMLResources) directory, since it is superseded by the new [OtherResources/TestSets](http://symbolicdata.org/OtherResources) data.
+-   2015-04-06, Hans-Gert Gräbe replaced the old TestSets format completely by the new one, removed the old data, uploaded the new data to the RDF store at <http://symbolicdata.org/Data> and removed the old TestSets from the [XMLResources](http://symbolicdata.org/XMLResources) directory, since it is superseded by the new TestSets data in the [OtherResources](http://symbolicdata.org/OtherResources) directory.
 -   2015-03-23, Tim Römer translated the old examples from the old to the new Testset format and added corresponding zip-files to the OtherResources/TestSets data base.
 -   2015-03-13, Tim Römer supplied a first version of **More Test Sets** from the Normaliz Database
 -   2014-06-07, We are discussing to join forces with the Normaliz-Group in Osnabrück (W. Bruns, Tim Römer)
