@@ -9,7 +9,9 @@ title: TransitiveGroups
 
 These data refer to classificational data of groups collected in the [Database for Number Fields](http://galoisdb.math.uni-paderborn.de) of Jürgen Klüners & Gunter Malle. This transformation is a very first attempt to compile fingerprints from this collection of transitive groups.
 
-The fingerprints were compiled by **Andreas Nareike** in March 2013. The transformation code is available from our [maintenance repo](https://github.com/symbolicdata/maintenance).
+The fingerprints were directly compiled from the corresponding URL in the [Database for Number Fields](http://galoisdb.math.uni-paderborn.de) by **Andreas Nareike** in March 2013.
+
+The transformation code is available from our [maintenance repo](https://github.com/symbolicdata/maintenance).
 
 #### Structure of the Data
 
