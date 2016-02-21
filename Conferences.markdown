@@ -10,6 +10,7 @@ We manage records of announcements of [upcoming conferences](http://symbolicdata
 Used ontologies:
 
 -   ical: [Calendar Ontology](http://lov.okfn.org/dataset/lov/details/vocabulary_cal.html)
+-   swc: [<http://data.semanticweb.org/ns/swc/ontology>\# Semantic Web Conference Ontology] (for detailed conference reports)
 
 Conferences are modeled as **sd:Event** resp. **sd:UpcomingConference** with predicates
 
@@ -37,5 +38,11 @@ People involved with the conference
 -   sd:hasProgramChair sd:Person
 -   sd:hasProgramCommittee sd:Person
 -   sd:invitedSpeakers sd:Person
+
+Additional information about past conferences
+
+-   sd:hasCARReport Literal - reference to a conference report in the CA Rundbrief of the German Fachgruppe
+-   sd:hasDetailedRecord URI - a detailed record about the conference using the swc ontology
+    -   see, e.g., <http://symbolicdata.org/rdf/Conferences/CICM-15.rdf>
 
 We use <symbolicdata.org/Data/Conference> as namespace prefix followed by a well established shortcut of the conference as naming scheme.
