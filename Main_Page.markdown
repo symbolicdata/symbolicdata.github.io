@@ -45,24 +45,31 @@ The SymbolicData Project aims at two main goals:
 
 At the moment the project hosts data from the following communities within Symbolic Computing
 
+-   [Birkhoff Polytopes](BirkhoffPolytopes "wikilink")
 -   [Fano Polytopes](FanoPolytopes "wikilink")
 -   [Free Algebras](FreeAlgebras "wikilink")
 -   [G-Algebras](GAlgebras "wikilink")
 -   [Geometry Theorem Proving](Geo "wikilink")
 -   [Polynomial Systems](PolynomialSystems "wikilink")
 -   [Test Sets](TestSets "wikilink")
+-   [Transitive Groups](TransitiveGroups "wikilink")
 
 The project manages additional Data:
 
 -   [Annotations](Annotations "wikilink") - a system of background information on different examples and series of examples
 -   [Bibliography](Bibliography "wikilink") - bibliographical references system (to be aligned with [swmath](http://www.swmath.org))
--   [Conferences](Conferences "wikilink") - data base of upcoming conferences
--   [People](People "wikilink") - different people and groups (to be aligned with [swmath](http://www.swmath.org))
 -   [Systems](Systems "wikilink") - list of CA systems (aligned with [swmath](http://www.swmath.org))
 
 Experimental data (work in progress):
 
 -   [Computeralgebra Databases](CADatabases "wikilink")
+
+### [CASN](CASN "wikilink") - Computer Algebra Social Network
+
+-   [Conferences](Conferences "wikilink") - data bases of upcoming and past conferences
+-   Mailing lists [symbolicdata](https://groups.google.com/group/symbolicdata) (news within the SymbolicData project) and [sd-announce](http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce) (retweet of announcements to reference them in RDF [News](News "wikilink") from the public archive of the list)
+-   [News](News "wikilink") - CA News
+-   [People](People "wikilink") - People working in the CA area (mainly extracted from conference announcements and conference reports).
 
 ### Related Activities
 
