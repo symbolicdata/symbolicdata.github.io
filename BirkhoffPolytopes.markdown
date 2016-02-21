@@ -13,7 +13,11 @@ The polymake project is maintained by Michael Joswig and Ewgenij Gawrilow.
 
 The data for the Birkhoff Polytopes Knowledge Base (Birkhoff Polytope fingerprints, Febr 2016: 5399 instances) is extracted from the files from [Andreas Paffenholz's site](http://polymake.org/polytopes/paffenholz/www/birkhoff.html). Note that the collection is only a draft version since for structure and semantics of the knowledge base and calculation of metadata some more input from the community is required.
 
-The Birkhoff Polytope fingerprints were compiled by **Andreas Nareike** in March 2013. The transformation code is available from our [maintenance repo](https://github.com/symbolicdata/maintenance).
+### Transformation
+
+The [source](http://polymake.org/polytopes/paffenholz/www/birkhoff.html) consists of seven tables which were compiled into Birkhoff Polytope RDF fingerprints by **Andreas Nareike** in March 2013.
+
+The transformation code is available from our [maintenance repo](https://github.com/symbolicdata/maintenance).
 
 #### Structure of the Data
 
