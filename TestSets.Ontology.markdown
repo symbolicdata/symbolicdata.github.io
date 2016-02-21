@@ -5,7 +5,7 @@ title: TestSets.Ontology
 
 ### Test Sets Ontology
 
-All TestSets are converted to the new format according to notational conventions of the [Normaliz group](http://www.home.uni-osnabrueck.de/wbruns/normaliz/) that provides a tool for computations in affine monoids, vector configurations, lattice polytopes, and rational cones. They are represented by a list of integer vectors (of length m = number of rows) in an ambient affine space (of dimension n = number of columns).
+All TestSets are stored according to notational conventions of the [Normaliz group](http://www.home.uni-osnabrueck.de/wbruns/normaliz/) that provides a tool for computations in affine monoids, vector configurations, lattice polytopes, and rational cones. They are represented by a list of integer vectors (of length m = number of rows) in an ambient affine space (of dimension n = number of columns).
 
 The Test Sets Ontology is based upon the [Normaliz model conventions](http://www.home.uni-osnabrueck.de/wbruns/normaliz/):
 
@@ -43,4 +43,4 @@ The different subclasses provide different additional information:
 
 #### TestSets Resources
 
-TestSets resources are provides as zip-files according to the [Normaliz conventions](http://www.home.uni-osnabrueck.de/wbruns/normaliz/).
+[TestSets resources](http://symbolicdata.org/OtherResources/TestSets/) are provides as zip-files according to the [Normaliz conventions](http://www.home.uni-osnabrueck.de/wbruns/normaliz/).
