@@ -11,9 +11,7 @@ An informal description of the Ontology of the Transitive Groups Knowledge Base 
 
 All Transitive Group instances belong to the owl:Class **sd:TransitiveGroup** with predicates
 
--   sd:hasURL URI - a URL that points to a web page with more information
-
-that point to the remote resource.
+-   sd:hasURL URI - a URL that points to a remote web page in the [Database for Number Fields](http://galoisdb.math.uni-paderborn.de) with more information.
 
 #### The Transformation Process
 
@@ -55,18 +53,19 @@ A list of all predicates with number of occurences can be generated with a SPARQ
 
 `PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `select distinct ?p count(?s)`
-`where { ?s a sd:BirkhoffPolytope . ?s ?p ?o .}`
+`where { ?s a sd:TransitiveGroup . ?s ?p ?o .}`
 `order by ?p`
 
 We list all properties with some comments:
 
--   sd:f-vector - a list of integers, e.g., "(16,40,44,26,8)"
--   sd:hasCombinatorialType - some of sd:wed, sd:prod, sd:pyr, sd:join, sd:pyrb.
-    -   The deeper semantics has to be explained.
--   sd:hasDescription - a description of the polytope, e.g., "wedge(join(edge,square))"
--   sd:hasDimension integer - the dimension of the polytope, values within 2..8
--   sd:hasNodes integer - values within 3..16
--   sd:hasVertices integer - values within 3..256
--   sd:hiCube integer - values within 1..8
--   sd:simpl integer - values within 1..7
+-   sd:hasGenerator String - multiple permutations, e.g., "(1,3,9,7)(2,4,8,6)", "(1,6,9,4)(2,3,8,7)(5,10)", "(2,4,6,8,10)" that generate the group
+-   sd:hasName String - e.g., "[52:42]22" \\t
+-   sd:hasOrder Integer - order of the group
+-   sd:hasOrderFactorization String - e.g., "2\^3 \* 5\^2"
+-   sd:hasProperty URI - multiple of sd:abelian, sd:cyclic, sd:even, sd:irreducible, sd:nilpotent, sd:notSolvable, sd:primitive, sd:semiabelian, sd:simple, sd:solvable
+-   sd:isDirectProductOf blank node
+-   sd:isQuotientOfWreathProductOf \\t blank node
+-   sd:isWreathProductOf \\t blank node
+-   sd:numberOfFieldsInDatabase Integer
+-   sd:OrderOfCenter Integer - order of the center of the group
 
