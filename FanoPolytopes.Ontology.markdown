@@ -13,9 +13,6 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 -   sd:inZIPFile URI - the Resource zip file with a bundle of polytopes
 -   sd:hasFileName String - the file name
-
-The name of the ZIP files gives rise to a property
-
 -   sd:hasDimension - the dimension of the polytope
 
 #### Predicates for sd:FanoPolytope
