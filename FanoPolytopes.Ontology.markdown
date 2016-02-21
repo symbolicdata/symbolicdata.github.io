@@ -16,9 +16,7 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 The name of the ZIP files gives rise to a property
 
--   sd:hasDimension
-
-that is not explicitely stated in the resource files (also see [the comment before the ZIP files](http://polymake.org/polytopes/paffenholz/www/fano.html))
+-   sd:hasDimension - the dimension of the polytope
 
 #### Predicates for sd:FanoPolytope
 
@@ -27,7 +25,7 @@ A list of all predicates can be generated with a SPARQL-Query:
 `PREFIX sd: `<http://symbolicdata.org/Data/Model#>
 `select distinct ?p where { ?s a sd:FanoPolytope . ?s ?p ?o .}`
 
-We all properties with some comments:
+We list all properties with some comments:
 
 ##### Only "true" or not set
 
@@ -82,6 +80,3 @@ Might be wrong?
 
 -   sd:volume
 
-#### Resources
-
-Some information about the organization of the resources has to be added.
