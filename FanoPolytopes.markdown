@@ -20,11 +20,16 @@ For both points (structure and semantics of the knowledge base, calcution of met
 
 #### Data Extraction
 
-Once unzipped, each Fano Polytopes corresponds to a Polymake file. These files are XML files that contain firstly the points that define the Fano Polytope in question. Additionally, in some files there also is some metadata contained. Parsing theses files is really straight-forward. By translating the metadata into RDF and uploading it onto our Virtuoso server, we can give a first impression of the power of RDF+SPARQL.
+The Fano Polytope fingerprints were compiled by **Andreas Nareike** in May 2013 along the following road map:
+
+-   Once unzipped, each Fano Polytope is given as XML file in *polymake* format that contains the points that define the Fano Polytope in question. Additionally, some files contain precomputed metadata.
+-   Parsing these files is really straight-forward.
+
+The search capabilities of SPARQL queries in these fingerprint data give a first impression of the power of RDF+SPARQL.
 
 #### Structure of the Data
 
--   The Fano Polytopes Knowledge Base [for download](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) (5.2 MB) and as [Linked Data](http://symbolicdata.org/Data/FanoPolytopes/)
+-   The Fano Polytopes Knowledge Base [for download](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) and as [Linked Data](http://symbolicdata.org/Data/FanoPolytopes/)
 -   The Resources are available as zip files directly from the polymake servers
 -   [FanoPolytopes.Ontology](FanoPolytopes.Ontology "wikilink") - an informal description of the Ontology of the Fano Polytopes Knowledge Base developed so far.
 
