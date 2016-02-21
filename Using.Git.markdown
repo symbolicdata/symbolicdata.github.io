@@ -5,24 +5,41 @@ title: Using.Git
 
 ### More about the way we organize our Repos
 
+In October 2015 we converted our **main git repo** at <https://github.com/symbolicdata> to an organizational account and set up several new repos with different maintenance rules
+
+-   *data* - the data repo with a single master branch mainly to backup recent versions of data, no versioning,
+-   *code* - code directory with master and develop branches, under versioning,
+-   *maintenance* - code chunks from different tasks and demos how to work with RDF based data, no versioning,
+-   *publications* - as a backup store of the LaTeX sources of SD publications, only master branch, no versioning,
+-   *web* - as an extended backup store of the SD web site that provides useful code to learn how RDF based data can be presented
+
+Note that the former repo *symbolicdata* is deprecated and will be deleted in a near future.
+
+The main development will be coordinated within the **SD Core Team** (Hans-Gert Gräbe, Ralf Hemmecke, Albert Heinle) with direct access to the organizational account.
+
+The repos *maintenance* and *web* are intended to show best practice code for using the RDF based data of the SymbolicData project. To use the code you may fork the repo but there is almost no reason to pull back code. If you have a valuable contribution please contact the Core Team to discuss how that contribution can be added to the project.
+
+The repo *data* is mainly for backup purposes. If you plan to add valuable data to the project please contact the Core Team to discuss how that contribution can be added. We provide you help to put the data in an appropriate Linked Open Data format.
+
+The repo *publications* is mainly for reference and not intended for public additions. We provide LaTeX sources of our papers and slides and also information about reviews of our work.
+
+The repo *code* contains several coding subprojects and is the only repo with a versioning strategy described below.
+
 #### Repos and Development Model
 
-We we run dedicated branches 'master' and 'develop' and follow the [Integration-Manager-Workflow Model](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow).
+On the *code* repo we run dedicated branches 'master' and 'develop' and follow the [Integration-Manager-Workflow Model](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow).
 
-To **contribute to SymbolicData**
+To **contribute to the code repo**
 
--   clone the develop branch of the public master repo to a private account (best, if also at github),
--   start a feature branch from develop on your blessed repo
--   do valuable work
--   issue a pull request to the Integration Manager [Ralf Hemmecke](http://symbolicdata.org/Data/Person/Hemmecke_Ralf)
+-   Clone the develop branch of the public master to a private account (best, if also at github).
+-   Start a feature branch from develop on your blessed repo.
+-   Do valuable work.
+-   Issue a pull request to the Integration Manager [Ralf Hemmecke](http://symbolicdata.org/Data/Person/Hemmecke_Ralf).
 -   The Integration Manager starts the integration process to merge your work.
 -   If accepted, the contribution will be merged into the develop branch of the official repo.
 -   Realign your blessed repo with the official one.
 
-Some more background:
-
--   [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
--   [List of Member Repos](https://github.com/symbolicdata/symbolicdata/network/members)
+Some more background: [Notes for Authors](http://symbolicdata.readthedocs.org/en/latest/authornotes.html) at <http://symbolicdata.readthedocs.org> how to get involved.
 
 #### How the Integration-Manager-Workflow Model works
 
@@ -32,13 +49,13 @@ Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These a
 
 Here are typical sessions at LOC-HGG and LOC-RH:
 
-`HGG$ git clone git@github.com:hg-graebe/symbolicdata.git `
-`HGG$ git remote add ralf `[`git://github.com/hemmecke/symbolicdata.git`](git://github.com/hemmecke/symbolicdata.git)` `
+`HGG$ git clone git@github.com:hg-graebe/code.git `
+`HGG$ git remote add ralf `[`git://github.com/hemmecke/code.git`](git://github.com/hemmecke/code.git)` `
 `HGG$ git fetch ralf`
 `HGG$ git merge ralf/master   # or maybe "git rebase ralf/master"`
 `HGG$ git push                # put the merged commits to GH-HGG`
-`RH$ git clone git@github.com:hemmecke/symbolicdata.git`
-`RH$ git remote add hgg `[`git://github.com/hg-graebe/symbolicdata.git`](git://github.com/hg-graebe/symbolicdata.git)
+`RH$ git clone git@github.com:hemmecke/code.git`
+`RH$ git remote add hgg `[`git://github.com/hg-graebe/code.git`](git://github.com/hg-graebe/code.git)
 `RH$ git fetch hgg`
 `RH$ git merge hgg/master     # or maybe "git rebase hgg/master"`
 `RH$ git push                 # put the merged commits to GH-RH`
@@ -53,7 +70,7 @@ Here are typical sessions at LOC-HGG and LOC-RH:
 `RH$ git rebase hgg/master    # this puts LOC-RH commit on top of hgg/master.`
 `HGG$ git pull ralf master    # merges in the latest changes from GH-RH`
 
-I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/symbolicdata.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/symbolicdata.git.
+I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/code.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/code.git.
 
 Only the Integration manager needs write access to the blessed repo.
 
@@ -105,8 +122,8 @@ Some remarks from Ralf Hemmecke's mails:
 
 When I do the following:
 
-`git clone git@github.com:hemmecke/symbolicdata.git`
-`git remote add upstream `[`git://github.com/symbolicdata/symbolicdata.git`](git://github.com/symbolicdata/symbolicdata.git)
+`git clone git@github.com:hemmecke/code.git`
+`git remote add upstream `[`git://github.com/symbolicdata/code.git`](git://github.com/symbolicdata/code.git)
 
 I'll have two "remotes". One is called "origin" and the other "upstream". At that moment I only have a copy of the data from "origin" on my local machine. After
 
@@ -115,17 +132,6 @@ I'll have two "remotes". One is called "origin" and the other "upstream". At tha
 I'll have also the data from "upstream". And all these branches are different since they will be called "upstream/master", "upstream/...". The command "git branch -av" give you a list of all your branches including the "remotes". So you will see remotes/upstream/master, remotes/upstream/old-master, etc.
 
 In other words, renaming branches is a local business, i.e. no problem at all.
-
-7) In git, each commit has an "author" and a "committer". Usually the same, but look (with "gitk --all") into the repository and search for bc13d7a83ec4470de71faf13faa5cd40e862316c or look at <https://github.com/hemmecke/symbolicdata/commit/bc13d7a83ec4470de71faf13faa5cd40e862316c>. It says
-
-`hg-graebe authored February 17, 2013`
-`hemmecke committed February 22, 2013`
-
-Any you also should realize the sha1 is different from your original one: <https://github.com/hg-graebe/symbolicdata/commit/e6f59b7bd8f178b0ed80b4abb73507a2d4dc3c37>
-
-And exactly this difference is where the problems start. A check if two repositories have exactly the same content can be done in git by just checking whether the corresponding sha1's are identical. If they are not, there's something different (even if it is only a different committer or a different commit time).
-
-8) Git allows rewriting history (and that is what I have done with Albert's commits (I've taken out the html and pdf files). If the history has been published, one must find *everyone* who cloned the old history and ask him/her to remove it. Otherwise it will come back in.
 
 * * * * *
 
