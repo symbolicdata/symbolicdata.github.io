@@ -11,7 +11,7 @@ These data refer to polytope classificational data collected within the [polymak
 
 The polymake project is maintained by Michael Joswig and Ewgenij Gawrilow.
 
-The data for the Fano Polytopes Knowledge Base (Fano Polytope fingerprints) is extracted from (some of) the ZIP files from [Andreas Paffenholz's site](http://polymake.org/polytopes/paffenholz/www/fano.html). Right now we only extracted the data for dimensions 3 through 6, which has mainly two reasons:
+The data for the Fano Polytopes Knowledge Base (Fano Polytope fingerprints, Febr 2016: 8630 instances) is extracted from (some of) the ZIP files from [Andreas Paffenholz's site](http://polymake.org/polytopes/paffenholz/www/fano.html). Right now we only extracted the data for dimensions 3 through 6, which has mainly two reasons:
 
 -   the Fano Polytopes Knowledge Base is still in its experimental stage
 -   for higher dimensions, metadata would have to be calculated (it's not in the resource files)
