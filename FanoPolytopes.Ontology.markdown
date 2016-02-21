@@ -16,7 +16,7 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 that point to the remote resource.
 
-#### Predicates for sd:FanoPolytope
+#### The Fano Polytope Fingerprint
 
 A list of all predicates with number of occurences can be generated with a SPARQL-Query:
 
