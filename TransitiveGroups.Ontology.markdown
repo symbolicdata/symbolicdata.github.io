@@ -15,37 +15,26 @@ All Transitive Group instances belong to the owl:Class **sd:TransitiveGroup** wi
 
 #### The Transformation Process
 
-Naming scheme
+**Naming scheme**
 
 -   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (`<nowiki><http://symbolicdata.org/Data/TransitiveGroups/Gr8T43></nowiki>`), because there are some RDF problems with names starting with numbers.
 
--   `:hasGenerator` — a permutation, should probably be an `xsd:type`. A group can have more than one generator.
--   `hasProperty` — values can be something like `:cyclic`, `:primitive`, `:simple`, `:semiabelian`, `:even`, `:solvable`, `:notSolvable`, `:irreducible`, `:nilpotent`, ...
+**Products**
 
-This should maybe be classes, because those properties are not independent.
+-   Groups can be represented as different kind of products. We have the following:
+    -   `sd:isDirectProductOf`
+    -   `sd:isWreathProductOf`
+    -   `sd:isQuotientOfWreathProductOf`
 
--   `:hasName` — can have values like "L(8):2=PGL(2,7)", so it's a bit of a dump predicate which could be further analyzed.
--   `:hasOrder` — integer, self explaining
--   `:OrderOfCenter` — integer, self explaining
--   `:hasOrderFactorization` — A prime factorization as a string (i.e. "2\^7 \* 3\^2 \* 5 \* 7"). Should be an `xsd:type`, probably without the spaces.
--   `:numberOfFieldsInDatabase` ­— An integer number with has no real mathematical meaning but is related to the database.
+Each of them is a [wreath product](https://en.wikipedia.org/wiki/Wreath_product) of two groups. We represent taht in RDF as, e.g.,
 
-#### Products
+<URI>` sd:left sdtg:Gr3T1 ; sd:right sdtg:Gr3T1 .`
 
-Group can be represented as different product. We have the following:
+In a first version we used blank nodes to store that information, but due to scoping issues blank nodes are not well supported by different RDF tools.
 
--   `:isDirectProductOf`
--   `:isWreathProductOf`
--   `:isQuotientOfWreathProductOf`
+-   (2016-02-21) Hans-Gert Gräbe translated the data to a notion with named nodes as, e.g.,
 
-All three list the argument with blank nodes, in Turtle this look like this:
-
-`sdtg:Gr9T2 sdtg:isDirectProductOf [ sdtg:left sdtg:Gr3T1 ; sdtg:right sdtg:Gr3T1 ] ;`
-
-This approach is now favored instead of using (very general) lists. For details on blank nodes see also:
-
--   [RDF/XML Syntax Specification (Revised)](http://www.w3.org/TR/rdf-syntax-grammar/)
--   [example on StackoverFlow](http://stackoverflow.com/questions/9833008/a-pair-of-attributes-in-rdf)
+`sdtg:Gr3T1_Gr3T1 sd:left sdtg:Gr3T1 ; sd:right sdtg:Gr3T1 .`
 
 #### The Transitive Group Fingerprint
 
@@ -59,13 +48,15 @@ A list of all predicates with number of occurences can be generated with a SPARQ
 We list all properties with some comments:
 
 -   sd:hasGenerator String - multiple permutations, e.g., "(1,3,9,7)(2,4,8,6)", "(1,6,9,4)(2,3,8,7)(5,10)", "(2,4,6,8,10)" that generate the group
--   sd:hasName String - e.g., "[52:42]22" \\t
+-   sd:hasName String - e.g., "[52:42]22"
+    -   What's the rule for such a naming?
 -   sd:hasOrder Integer - order of the group
 -   sd:hasOrderFactorization String - e.g., "2\^3 \* 5\^2"
 -   sd:hasProperty URI - multiple of sd:abelian, sd:cyclic, sd:even, sd:irreducible, sd:nilpotent, sd:notSolvable, sd:primitive, sd:semiabelian, sd:simple, sd:solvable
--   sd:isDirectProductOf blank node
--   sd:isQuotientOfWreathProductOf \\t blank node
--   sd:isWreathProductOf \\t blank node
+    -   At the moment merely an URI. To be extended to skos:Concept.
+-   sd:isDirectProductOf sd:WreathProduct
+-   sd:isQuotientOfWreathProductOf sd:WreathProduct
+-   sd:isWreathProductOf sd:WreathProduct
 -   sd:numberOfFieldsInDatabase Integer
 -   sd:OrderOfCenter Integer - order of the center of the group
 
