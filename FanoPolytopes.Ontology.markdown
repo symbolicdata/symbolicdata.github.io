@@ -16,7 +16,7 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 that point to the remote resource.
 
-#### The transformation process
+#### The Transformation Process
 
 The polymake files are in XML and there are some void tags for simple properties. These are listed here, with some (or even all) possible values (where … indicates that there are more values that are not listed):
 
