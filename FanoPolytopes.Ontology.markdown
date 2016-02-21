@@ -16,6 +16,40 @@ All Fano Polytope instances belong to the owl:Class **sd:FanoPolytope** with pre
 
 that point to the remote resource.
 
+#### The transformation process
+
+The polymake files are in XML and there are some void tags for simple properties. These are listed here, with some (or even all) possible values (where … indicates that there are more values that are not listed):
+
+`REFLEXIVE : true `
+`LINEALITY_DIM : 0 `
+`CONE_DIM : 6, 4, 5 `
+`N_INTERIOR_LATTICE_POINTS : 1 `
+`TERMINAL : false `
+`SMOOTH : true `
+`N_LATTICE_POINTS : 276, 90, 206, 71, 102, 331, 358, 55, 84, 233, 194, 259, 458,… `
+`LATTICE : true `
+`COMPRESSED : false `
+`N_VERTICES : 32, 21, 26, 17, 18, 72, 30, 16, 44, 25, 28, 40, 14, 20, 24, … `
+`CONE_AMBIENT_DIM : 6, 4, 5 `
+`N_EDGES : 35, 33, 32, 26, 48, 18, 30, 23, 29, 25, 27, 40, 41, 14, 20, … `
+`SIMPLE : true `
+`LATTICE_VOLUME : 10882, 4544, 5006, 331, 3606, 560, 5284, 7290, 2830, 5936, 6… `
+`NORMAL : true `
+`ESSENTIALLY_GENERIC : false, true `
+`N_BOUNDARY_LATTICE_POINTS : 25, 27, 33, 30, 24, 29 `
+`GORENSTEIN_INDEX : 1 `
+`N_FACETS : 6, 11, 7, 9, 12, 14, 8, 4, 13, 10, 5 `
+`POINTED : true `
+`VOLUME : 433/12, 1339/30, 32, 751/30, 185/6, 143/4, 99/4, 1169/30, 23… `
+`FEASIBLE : true `
+`CENTERED : true `
+`SIMPLE_POLYHEDRON : true `
+`CANONICAL : true `
+`FACET_WIDTH : 4, 3, 7, 2, 5 `
+`GORENSTEIN : true`
+
+These void tags were converted to RDF predicates with namespace **sdpt**. (all lowercase like so "sdpt:gorenstein\_index"). It is not clear yet if "pointed", "feasible", "centered", etc... (those with "true" as only value) should be better modelled by introducing new (sub) classes. On the other hand there are also boolean properties that have "false" has value. If the class representation is chosen here, this would have to be modelled with a negative assertion.
+
 #### The Fano Polytope Fingerprint
 
 A list of all predicates with number of occurences can be generated with a SPARQL-Query:
