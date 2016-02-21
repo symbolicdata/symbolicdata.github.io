@@ -27,6 +27,8 @@ The Fano Polytope fingerprints were compiled by **Andreas Nareike** in 2013 alon
 
 The search capabilities of SPARQL queries in these fingerprint data give a first impression of the power of RDF+SPARQL.
 
+The transformation code is available from our [maintenance repo](https://github.com/symbolicdata/maintenance).
+
 #### Structure of the Data
 
 -   The Fano Polytopes Knowledge Base [for download](http://symbolicdata.org/RDFData/FanoPolytopes.ttl) and as [Linked Data](http://symbolicdata.org/Data/FanoPolytopes/)
