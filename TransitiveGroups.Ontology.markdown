@@ -26,7 +26,7 @@ All Transitive Group instances belong to the owl:Class **sd:TransitiveGroup** wi
     -   `sd:isWreathProductOf`
     -   `sd:isQuotientOfWreathProductOf`
 
-Each of them is a [wreath product](https://en.wikipedia.org/wiki/Wreath_product) of two groups. We represent taht in RDF as, e.g.,
+Each of them is a [wreath product](https://en.wikipedia.org/wiki/Wreath_product) of two groups. We represent that in RDF as, e.g.,
 
 <URI>` sd:left sdtg:Gr3T1 ; sd:right sdtg:Gr3T1 .`
 
