@@ -21,7 +21,7 @@ title: New
         -   The available features are listed in a [separate menu point](http://www.fachgruppe-computeralgebra.de/symbolicdata/) at the website of the German Fachgruppe, the Wordpress plugin code is [mirrored in our public repo](https://github.com/symbolicdata/web/tree/master/casn-plugin).
         -   Now the separate CASN RDF store operates only some experimental stuff.
     -   (2016-02-20) Hans-Gert Gräbe added another tab to explore the SD people list to [our new info site](http://symbolicdata.org/info). The [SD people list](http://symbolicdata.org/Data/People/) contains 1036 entries of people involved with Computer Algebra. The sd:country property was removed, country is now listed as part of the affiliation.
-    -   (2016-02-20) Hans-Gert Gräbe moved the [RDF Graph *News*](http://symbolicdata.org/Data/News/) to the main RDF Store and added some more news to the sd-announce list. This RDF Graph is intended to feed a news channel (to be added).
+    -   (2016-02-20) Hans-Gert Gräbe moved the [RDF Graph *News*](http://symbolicdata.org/Data/News/) to the main RDF Store and added some more news to the sd-announce list. This RDF Graph is intended to feed a [news channel](News "wikilink").
         -   The separate CASN RDF store can be closed down.
     -   (2016-02-20) Hans-Gert Gräbe added conference reports of Bad Boll 2014, CICM 2012, CICM 2013, CICM 2014, CICM 2015 to the [SymbolicData CASN node](http://symbolicdata.org/rdf) and linked that with the *PastConferences* data.
 
