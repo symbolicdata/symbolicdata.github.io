@@ -66,7 +66,7 @@ As proof of concept this information is used to display the [members of the boar
 
 and [cache it at the local web site](http://www.fachgruppe-computeralgebra.de/rdf/FGL-Boards/).
 
-#### Data at the main SymbolicData RDF store
+#### CASN Data at the main SymbolicData RDF store
 
 The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
 
@@ -78,6 +78,7 @@ The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in part
     -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:Event** instances
     -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
+-   The [CASN News Channel](News "wikilink")
 -   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
     -   The RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **foaf:Person** instances
     -   The RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
