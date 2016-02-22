@@ -68,7 +68,7 @@ Experimental data (work in progress):
 
 -   [Conferences](Conferences "wikilink") - data bases of upcoming and past conferences
 -   Mailing lists [symbolicdata](https://groups.google.com/group/symbolicdata) (news within the SymbolicData project) and [sd-announce](http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce) (retweet of announcements to reference them in RDF [News](News "wikilink") from the public archive of the list)
--   [News](News "wikilink") - CA News
+-   [News](News "wikilink") - The CA News Channel
 -   [People](People "wikilink") - People working in the CA area (mainly extracted from conference announcements and conference reports).
 
 ### Related Activities
