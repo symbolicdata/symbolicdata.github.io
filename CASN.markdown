@@ -107,7 +107,9 @@ The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computer
 
 #### Additional data at the CASN node of the SymbolicData Team
 
-to be added
+The [local CASN node of the SymbolicData Team](http://symbolicdata.org/rdf/) provides this data:
+
+-   [Detailed conference reports](http://symbolicdata.org/rdf/Conferences) using the [<http://data.semanticweb.org/ns/swc/ontology>\# Semantic Web Conference Ontology]
 
 #### Some more thoughts about bootstrapping a distributed CASN
 
