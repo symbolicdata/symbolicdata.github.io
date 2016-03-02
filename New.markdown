@@ -24,6 +24,7 @@ title: New
     -   (2016-02-20) Hans-Gert Gräbe moved the [RDF Graph *News*](http://symbolicdata.org/Data/News/) to the main RDF Store and added some more news to the sd-announce list. This RDF Graph is intended to feed a [news channel](News "wikilink").
         -   The separate CASN RDF store can be closed down.
     -   (2016-02-20) Hans-Gert Gräbe added conference reports of Bad Boll 2014, CICM 2012, CICM 2013, CICM 2014, CICM 2015 to the [SymbolicData CASN node](http://symbolicdata.org/rdf) and linked that with the *PastConferences* data.
+    -   (2016-03-01) Hans-Gert Gräbe fixed some flaws in the TransitiveGroups data, removed the deprecated repo 'symbolicdata' and tagged the remaining git repos *code*, *data*, *maintenance*, *publications* and *web* with tag v3.1 as snapshot of SD Version 3.1.
 
 * * * * *
 
