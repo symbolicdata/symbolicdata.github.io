@@ -26,7 +26,12 @@ title: Publications
 
 #### Publications
 
-Work in progress: none at the moment
+Work in progress:
+
+-   H.-G. Gräbe: The SymbolicData Project in a Computer Algebra Social Network Perspective. Some Architectural Considerations ([pdf](http://symbolicdata.org/Papers/cicm-16.pdf))
+
+  
+Submitted to the *Projects and Surveys* section of [CICM-16](http://www.cicm-conference.org/2016).
 
 * * * * *
 
