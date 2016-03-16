@@ -5,6 +5,10 @@ title: New
 
 ### What's new?
 
+-   (2016-03-15) Hans-Gert Gräbe submitted a [paper](Publications "wikilink") to CICM'16 in Bialystok, Poland.
+
+* * * * *
+
 -   SD Release 3.1
     -   (2015-10-16) Ralf Hemmecke managed to switch <https://github.com/symbolicdata> to an organizational account to maintain code directly within that account (no more forks, at least within the central team).
     -   (2015-11-11) Hans-Gert Gräbe set up the [mailing list sd-announce](http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce) as a common channel for news within the CA community beyond conference announcements. Conference announcements are collected within the [CASN Conferences subproject](Conferences "wikilink").
