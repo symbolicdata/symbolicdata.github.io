@@ -38,7 +38,7 @@ Submitted to the [ICMS 2016 Session: Information Services for Mathematics: Softw
 -   H.-G. Gräbe: The SymbolicData Project in a Computer Algebra Social Network Perspective. Some Architectural Considerations. ([pdf](http://symbolicdata.org/Papers/cicm-16.pdf))
 
   
-Not accepted for the [Projects and Surveys section of CICM-16](http://cicm-conference.org/2016/cicm.php?event=surveys&menu=general).
+Version as of 2016-03-19, not accepted for the [Projects and Surveys section of CICM-16](http://cicm-conference.org/2016/cicm.php?event=surveys&menu=general).
 
 -   A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10. ([pdf](http://symbolicdata.org/Papers/cca-15.pdf))
 -   H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
