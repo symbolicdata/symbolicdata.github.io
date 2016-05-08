@@ -5,7 +5,12 @@ title: New
 
 ### What's new?
 
--   (2016-03-15) Hans-Gert Gräbe submitted a [paper](Publications "wikilink") to CICM'16 in Bialystok, Poland.
+-   (2016-05-08) Hans-Gert Gräbe submitted an [extended abstract](Publications "wikilink") for a presentation at the [ICMS 2016 Session: Information Services for Mathematics: Software, Services, Models, and Data](http://www.emis.de/data/community/icms_s14.html) in Berlin, Germany
+
+* * * * *
+
+-   (2016-03-15) Hans-Gert Gräbe submitted a [paper](Publications "wikilink") to the ["Projects and Surveys" track of CICM'16](http://cicm-conference.org/2016/cicm.php?event=surveys) in Bialystok, Poland.
+-   (2016-05-06) The paper was not accepted for presentation.
 
 * * * * *
 
