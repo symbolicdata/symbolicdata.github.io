@@ -28,14 +28,14 @@ title: Publications
 
 Work in progress:
 
--   H.-G. Gräbe: Semantic-aware Fingerprints of Symbolic Research Data ([pdf](http://symbolicdata.org/Papers/icms-16.pdf))
+-   H.-G. Gräbe: Semantic-aware Fingerprints of Symbolic Research Data. ([pdf](http://symbolicdata.org/Papers/icms-16.pdf))
 
   
 Submitted to the [ICMS 2016 Session: Information Services for Mathematics: Software, Services, Models, and Data](http://www.emis.de/data/community/icms_s14.html).
 
 * * * * *
 
--   H.-G. Gräbe: The SymbolicData Project in a Computer Algebra Social Network Perspective. Some Architectural Considerations ([pdf](http://symbolicdata.org/Papers/cicm-16.pdf))
+-   H.-G. Gräbe: The SymbolicData Project in a Computer Algebra Social Network Perspective. Some Architectural Considerations. ([pdf](http://symbolicdata.org/Papers/cicm-16.pdf))
 
   
 Not accepted for the [Projects and Surveys section of CICM-16](http://cicm-conference.org/2016/cicm.php?event=surveys&menu=general).
