@@ -28,6 +28,11 @@ title: Publications
 
 Work in progress:
 
+-   H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([pdf](http://symbolicdata.org/Papers/aca-16.pdf))
+
+  
+Submitted to the [ACA 2016 Session: Information services for mathematical software, models, and research data](http://www.emis.de/data/community/aca_2016_information_services.html).
+
 -   H.-G. Gräbe: Semantic-aware Fingerprints of Symbolic Research Data. ([pdf](http://symbolicdata.org/Papers/icms-16.pdf))
 
   
