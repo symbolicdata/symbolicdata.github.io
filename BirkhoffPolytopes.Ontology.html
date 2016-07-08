@@ -1,0 +1,26 @@
+<h3 id="birkhoff-polytopes-ontology">Birkhoff Polytopes Ontology</h3>
+<p>An informal description of the Ontology of the Birkhoff Polytopes Knowledge Base developed so far.</p>
+<h4 id="metadata-and-semantics">Metadata and Semantics</h4>
+<p>All Birkhoff Polytope instances belong to the owl:Class <strong>sd:BirkhoffPolytope</strong> with predicates</p>
+<ul>
+<li>sd:hasPolymakeFile URI - the Resource file</li>
+<li>sd:hasEPSFile URI - the EPS file</li>
+</ul>
+<p>that point to the remote resource.</p>
+<h4 id="the-birkhoff-polytope-fingerprint">The Birkhoff Polytope Fingerprint</h4>
+<p>A list of all predicates with number of occurences can be generated with a SPARQL-Query:</p>
+<p><code>PREFIX sd: </code><a href="http://symbolicdata.org/Data/Model#">http://symbolicdata.org/Data/Model#</a> <code>select distinct ?p count(?s)</code> <code>where { ?s a sd:BirkhoffPolytope . ?s ?p ?o .}</code> <code>order by ?p</code></p>
+<p>We list all properties with some comments:</p>
+<ul>
+<li>sd:f-vector - a list of integers, e.g., &quot;(16,40,44,26,8)&quot;</li>
+<li>sd:hasCombinatorialType - some of sd:wed, sd:prod, sd:pyr, sd:join, sd:pyrb.
+<ul>
+<li>The deeper semantics has to be explained.</li>
+</ul></li>
+<li>sd:hasDescription - a description of the polytope, e.g., &quot;wedge(join(edge,square))&quot;</li>
+<li>sd:hasDimension integer - the dimension of the polytope, values within 2..8</li>
+<li>sd:hasNodes integer - values within 3..16</li>
+<li>sd:hasVertices integer - values within 3..256</li>
+<li>sd:hiCube integer - values within 1..8</li>
+<li>sd:simpl integer - values within 1..7</li>
+</ul>

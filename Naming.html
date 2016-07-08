@@ -1,0 +1,45 @@
+<h3 id="naming-rules">Naming Rules</h3>
+<h4 id="general-naming-rules">General Naming Rules</h4>
+<p>We manage different knowledge bases of meta data that aggregate data (instances) of certain types. Usually a knowledge base is named by a word in plural whereas the instance URIs are within a name space with the same word in singular.</p>
+<p>Example:</p>
+<ul>
+<li>symbolicdata.org/Data/Systems is the URI of the knowledge base of CA Systems</li>
+<li>symbolicdata.org/Data/System/ is the name prefix of CA Systems URIs</li>
+</ul>
+<p>The URIs of SD Data have the form <NamespacePrefix>/<identifier> and contain only ASCII symbols to make life easier.</p>
+<p><identifier> consists of substrings matching the regex [a-zA-Z0-9_-]+ that are concatenated by '.' as separator. For special types more restrictive naming schemes are applied.</p>
+<p>To have human readable URIs they are generated from parts of the data that are <strong>ASCII fixed</strong> to get identifiers with ASCII characters only (substituting á -&gt; a, ä -&gt; ae, ß -&gt; ss etc.)</p>
+<h4 id="knowledge-bases">Knowledge bases</h4>
+<ul>
+<li>Annotations.ttl - Annotations</li>
+<li>Bibliography.ttl - Bibliographical references</li>
+<li>FanoPolytopes.ttl - Examples of Fano polytopes</li>
+<li>FreeAlgebras.ttl - Examples of twosided ideals in free algebras</li>
+<li>GAlgebras.ttl - Examples of twosided ideals in almost commutative polynomial rings (G-Algebras)</li>
+<li>GeoCode.ttl - The GeoCode language specification used for GeoProofSchemes</li>
+<li>GeometryProblemFormulations.ttl - Latex-formulated references of geometry problems</li>
+<li>GeoProofSchemes.ttl - Examples of Proof Schemes from geometry</li>
+<li>People.ttl - People involved in SymbolicData or mentioned in the data</li>
+<li>PolynomialSystems.ttl - Examples of polynomial systems and ideals, derived from such systems in different ways</li>
+<li>Systems.ttl - List of CA systems</li>
+<li>TestSets.ttl - Examples of test sets from Integer Programming</li>
+</ul>
+<h4 id="namespaces">Namespaces</h4>
+<p>We try to reuse established namespaces and namespace abbreviations as, e.g., listed in <a href="http://www.prefix.cc">http://www.prefix.cc</a> or <a href="http://lov.okfn.org">http://lov.okfn.org</a>. It is a strong advice by Tim Berners-Lee to do so, and he set out the (moral) award to earn the <a href="http://5stardata.info">fifth star</a> for ontology projects that follow this advice.</p>
+<p>We use the standard namespaces rdf, rdfs, owl, xsd and the following ontologies:</p>
+<ul>
+<li>foaf: <a href="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</a> (see <a href="People" title="wikilink">People</a>)</li>
+<li>dct: <a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a> (see <a href="Bibliography" title="wikilink">Bibliography</a>)</li>
+<li>org: <a href="http://www.w3.org/ns/org#">http://www.w3.org/ns/org#</a> (see org:Organisation in <a href="People" title="wikilink">People</a>)</li>
+<li>skos: <a href="http://www.w3.org/2004/02/skos/core#">http://www.w3.org/2004/02/skos/core#</a> (as superconcept of org: and sd:)</li>
+<li>sd: <a href="http://symbolicdata.org/Data/Model#">http://symbolicdata.org/Data/Model#</a> (our own namespace for concepts)
+<ul>
+<li>Note that Virtuoso in its default setting uses sd for another ontology. I fixed that for symbolicdata.org (HGG,2013-08-02)</li>
+</ul></li>
+</ul>
+<p>Inner project abbreviations:</p>
+<ul>
+<li>sdp: <a href="http://symbolicdata.org/Data/Person/">http://symbolicdata.org/Data/Person/</a> (see <a href="People.Ontology" title="wikilink">People.Ontology</a>)</li>
+<li>sdb: <a href="http://symbolicdata.org/Data/BIB/">http://symbolicdata.org/Data/BIB/</a> (see <a href="BIB.Ontology" title="wikilink">BIB.Ontology</a>)</li>
+<li>sdg: <a href="http://symbolicdata.org/Data/GeometryProblem/">http://symbolicdata.org/Data/GeometryProblem/</a></li>
+</ul>

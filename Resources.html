@@ -1,0 +1,49 @@
+<h3 id="resources">Resources</h3>
+<h4 id="main-project">Main project</h4>
+<p>Within the main project we manage the following resources:</p>
+<ul>
+<li>This Web site for background information and informal descriptions
+<ul>
+<li>A <a href="http://symbolicdata.org/Uploads/overview-poster.pdf">poster</a> displays the overall structure and embedding of the project</li>
+</ul></li>
+<li>A Google mailing list <a href="https://groups.google.com/forum/">https://groups.google.com/forum/</a>#!forum/symbolicdata</li>
+<li>A public git master repo at <a href="https://github.com/symbolicdata/symbolicdata">https://github.com/symbolicdata/symbolicdata</a>
+<ul>
+<li>We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.</li>
+<li><a href="Using.Git" title="wikilink">More</a> about the way how we use git</li>
+</ul></li>
+<li>Some docu at <a href="http://symbolicdata.readthedocs.org">readthedocs.org</a>.</li>
+<li>Primary data as <a href="http://symbolicdata.org/XMLResources">XML Resources</a> and <a href="http://symbolicdata.org/OtherResources">other Resources</a> available (e.g.) via HTTP Get.</li>
+<li>Primary meta data in RDF format, accessible by <a href="http://linkeddata.org">Linked Data</a> standards.</li>
+</ul>
+<p>Try out</p>
+<p><code>curl -LH &quot;Accept: application/rdf+xml&quot; </code><a href="http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog"><code>http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog</code></a></p>
+<p>to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf/xml format by a simple HTTP Get request to the URI</p>
+<ul>
+<li>An <a href="http://symbolicdata.org/Data">instance of OntoWiki</a> to present and maintain these primary RDF Metadata.
+<ul>
+<li><a href="OntoWiki" title="wikilink">OntoWiki</a> is a tool providing support for agile, distributed knowledge engineering scenarios developed by the <a href="http://aksw.org">AKSW team</a> at the Leipzig University. It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.</li>
+</ul></li>
+<li>A <a href="http://symbolicdata.org:8890/sparql">SPARQL endpoint</a> to explore the primary RDF Metadata.
+<ul>
+<li><a href="QuickStart" title="wikilink">More</a> about the way how to use Sparql</li>
+<li>How to set up your <a href="LocalSparqlEndpoint" title="wikilink">local Sparql endpoint</a> on a server running debian and apache</li>
+</ul></li>
+<li>Dumps according to our <a href="Backups" title="wikilink">Backup strategy</a>.</li>
+</ul>
+<h4 id="casn---towards-a-computer-algebra-social-network">CASN - Towards a <em>Computer Algebra Social Network</em></h4>
+<p>The vision is a digitally supported <a href="CASN" title="wikilink">distributed social semantic network</a> within Open Science for the needs of the Computer Algebra Community.</p>
+<p>For first steps in such a direction we</p>
+<ul>
+<li>started the <em>CASN SD subproject</em>,</li>
+<li>set up a <em>non public git repo</em> (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,</li>
+<li>operate another <em>Virtuoso based RDF data store</em> and a <em><a href="http://symbolicdata.org/casn">second OntoWiki</a> instance</em> to display the public part of our CASN data</li>
+<li>and a <em><a href="http://symbolicdata.org:8891/sparql">second SPARQL Endpoint</a></em> to explore that data.</li>
+</ul>
+<p>Links to the currently available infrastructure</p>
+<ul>
+<li><a href="http://symbolicdata.org:8891/sparql">http://symbolicdata.org:8891/sparql</a> - CASN SPARQL Endpoint</li>
+<li><a href="http://symbolicdata.org/xodx">http://symbolicdata.org/xodx</a> - the CASN xodx node (very experimental yet)</li>
+<li><a href="http://symbolicdata.org/casn">http://symbolicdata.org/casn</a> - the CASN OntoWiki (aligned with Linked Data standards)</li>
+<li><a href="http://symbolicdata.org/info">http://symbolicdata.org/info</a> - different views on the CASN data (in progress)</li>
+</ul>

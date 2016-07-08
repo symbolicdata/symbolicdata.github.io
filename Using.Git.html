@@ -1,0 +1,73 @@
+<h3 id="more-about-the-way-we-organize-our-repos">More about the way we organize our Repos</h3>
+<h4 id="about-the-new-as-of-oct-2015-repo-structure">About the new (as of Oct 2015) repo structure</h4>
+<p>In October 2015 we converted our <strong>main git repo</strong> at <a href="https://github.com/symbolicdata">https://github.com/symbolicdata</a> to an organizational account and set up several new repos with different maintenance rules</p>
+<ul>
+<li><em>data</em> - the data repo with a single master branch mainly to backup recent versions of data, no versioning,</li>
+<li><em>code</em> - code directory with master and develop branches, under versioning,</li>
+<li><em>maintenance</em> - code chunks from different tasks and demos how to work with RDF based data, no versioning,</li>
+<li><em>publications</em> - as a backup store of the LaTeX sources of SD publications, only master branch, no versioning,</li>
+<li><em>web</em> - as an extended backup store of the SD web site that provides useful code to learn how RDF based data can be presented</li>
+</ul>
+<p>Note that the former repo <em>symbolicdata</em> is deprecated and will be deleted in a near future.</p>
+<p>The main development will be coordinated within the <strong>SD Core Team</strong> (Hans-Gert Gräbe, Ralf Hemmecke, Albert Heinle) with direct access to the organizational account.</p>
+<p>The repos <em>maintenance</em> and <em>web</em> are intended to show best practice code for using the RDF based data of the SymbolicData project. To use the code you may fork the repo but there is almost no reason to pull back code. If you have a valuable contribution please contact the Core Team to discuss how that contribution can be added to the project.</p>
+<p>The repo <em>data</em> is mainly for backup purposes. If you plan to add valuable data to the project please contact the Core Team to discuss how that contribution can be added. We provide you help to put the data in an appropriate Linked Open Data format.</p>
+<p>The repo <em>publications</em> is mainly for reference and not intended for public additions. We provide LaTeX sources of our papers and slides and also information about reviews of our work.</p>
+<p>The repo <em>code</em> contains several coding subprojects and is the only repo with a versioning strategy described below.</p>
+<h4 id="repos-and-development-model">Repos and Development Model</h4>
+<p>On the <em>code</em> repo we run dedicated branches 'master' and 'develop' and follow the <a href="http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow">Integration-Manager-Workflow Model</a>.</p>
+<p>To <strong>contribute to the code repo</strong></p>
+<ul>
+<li>Clone the develop branch of the public master to a private account (best, if also at github).</li>
+<li>Start a feature branch from develop on your blessed repo.</li>
+<li>Do valuable work.</li>
+<li>Issue a pull request to the Integration Manager <a href="http://symbolicdata.org/Data/Person/Hemmecke_Ralf">Ralf Hemmecke</a>.</li>
+<li>The Integration Manager starts the integration process to merge your work.</li>
+<li>If accepted, the contribution will be merged into the develop branch of the official repo.</li>
+<li>Realign your blessed repo with the official one.</li>
+</ul>
+<p>Some more background: <a href="http://symbolicdata.readthedocs.org/en/latest/authornotes.html">Notes for Authors</a> at <a href="http://symbolicdata.readthedocs.org">http://symbolicdata.readthedocs.org</a> how to get involved.</p>
+<h4 id="how-the-integration-manager-workflow-model-works">How the Integration-Manager-Workflow Model works</h4>
+<p>Here is a more detailed explanation about the workflow.</p>
+<p>Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These are the repositories at github (GH) and local (LOC) repositories for the developers HGG and RH. Each one has only write access to his own repos. Everyone has read-access to the github repo, but not to the local repository of the other person.</p>
+<p>Here are typical sessions at LOC-HGG and LOC-RH:</p>
+<p><code>HGG$ git clone git@github.com:hg-graebe/code.git </code> <code>HGG$ git remote add ralf </code><a href="git://github.com/hemmecke/code.git"><code>git://github.com/hemmecke/code.git</code></a><code> </code> <code>HGG$ git fetch ralf</code> <code>HGG$ git merge ralf/master   # or maybe &quot;git rebase ralf/master&quot;</code> <code>HGG$ git push                # put the merged commits to GH-HGG</code> <code>RH$ git clone git@github.com:hemmecke/code.git</code> <code>RH$ git remote add hgg </code><a href="git://github.com/hg-graebe/code.git"><code>git://github.com/hg-graebe/code.git</code></a> <code>RH$ git fetch hgg</code> <code>RH$ git merge hgg/master     # or maybe &quot;git rebase hgg/master&quot;</code> <code>RH$ git push                 # put the merged commits to GH-RH</code> <code>HGG$ edit, edit, edit</code> <code>HGG$ git add ...</code> <code>HGG$ git commit</code> <code>HGG$ push origin master      # this pushes changes to GH-HGG</code> <code>RH$ edit edit edit</code> <code>RH$ git add ...</code> <code>RH$ git commit</code> <code>RH$ git fetch hgg            # this fetches GH-HGG changes to LOC-RH</code> <code>RH$ git rebase hgg/master    # this puts LOC-RH commit on top of hgg/master.</code> <code>HGG$ git pull ralf master    # merges in the latest changes from GH-RH</code></p>
+<p>I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/code.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/code.git.</p>
+<p>Only the Integration manager needs write access to the blessed repo.</p>
+<h4 id="how-to-run-certain-tasks">How to run certain tasks?</h4>
+<h5 id="pick-a-file-from-one-branch-to-another">Pick a file from one branch to another</h5>
+<p>You can easily extract a file from another branch by doing</p>
+<p><code> git checkout develop</code> <code> git checkout another-branch -- </code><em><code>path/to/thisFile</code></em> <code> git reset</code></p>
+<p>After that you would have <em>path/to/thisFile</em> from another-branch which is not committed in the develop branch. Modify as you like, use it, maybe even commit it.</p>
+<h5 id="git-merge-or-git-rebase">'git merge' or 'git rebase'?</h5>
+<p><a href="https://www.atlassian.com/git/tutorial/rewriting-git-history">https://www.atlassian.com/git/tutorial/rewriting-git-history</a>#!rebase says about that:</p>
+<p>Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with git merge results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”</p>
+<p><strong>Don’t Rebase Public History!</strong> You should never rebase commits that have been pushed to a public repository. The rebase would replace the old commits with new ones, and it would look like that part of your project history abruptly vanished.</p>
+<p>Hence use 'git pull --rebase' only to reorder your <strong>local</strong> commits that are <strong>not yet pushed to a remote repo</strong>.</p>
+<h4 id="whats-about-commit-messages">What's about commit messages?</h4>
+<p>In the git world there is a convention of how commit messages should be structured.</p>
+<ul>
+<li><a href="http://doc.norang.ca/git-howto.html#sec-2">http://doc.norang.ca/git-howto.html#sec-2</a></li>
+<li><a href="http://www.mediawiki.org/wiki/Git/Commit_message_guidelines">http://www.mediawiki.org/wiki/Git/Commit_message_guidelines</a></li>
+</ul>
+<h4 id="why-git-and-how-does-it-work">Why git and how does it work?</h4>
+<p>Some remarks from Ralf Hemmecke's mails:</p>
+<ol style="list-style-type: decimal">
+<li><p>A git repository for a project is a huge (world-unique) directed acyclic graph (DAG). This DAG might have non-connected components (as we have it for the components of &quot;master&quot; and &quot;old-master&quot; - no connection between them).</p></li>
+<li><p>Every person has just a part of that &quot;world&quot;-DAG on his local hard disk on github or anywhere else. In other words, the part that I have on my computer is usually different from the one that other people have. But (also usually) we share quite a big part of our project's &quot;world&quot;-DAG (usually all the commits on the &quot;master&quot; branch).</p></li>
+<li><p>To each node in the DAG corresponds a sha1.</p></li>
+<li><p>Different from Mercurial and SVN, a branch in git is nothing than another name for a sha1. The difference between the concepts &quot;tag&quot; and &quot;branch&quot; in git is simply that branch names move forward with a commit while tag names stay where they are. In Mercurial the concept of &quot;branches&quot; is very different.</p></li>
+<li><p>The concept of &quot;closing a branch&quot; is a Mercurial concept. In git (if wanted) one simply get's rid of such disturbing stuff completely. &quot;git branch -d&quot; removes the branch and after &quot;git gc&quot;, nobody will be able to see that a branch ever existed in git. (Well, it's a bit more complicated, but let's keep it simple.)</p></li>
+<li><p>Branches in git are totally local. If someone has a branch &quot;foo&quot;, that branch could be &quot;bar&quot; in my repository. Here we have &quot;remotes&quot; to name remote repositories and basically create namespaces for external branches. The name &quot;origin&quot; is such a &quot;remote&quot;. In fact, neither &quot;master&quot; nor &quot;origin&quot; are particularly special in git. They are just used by convention.</p></li>
+</ol>
+<p>When I do the following:</p>
+<p><code>git clone git@github.com:hemmecke/code.git</code> <code>git remote add upstream </code><a href="git://github.com/symbolicdata/code.git"><code>git://github.com/symbolicdata/code.git</code></a></p>
+<p>I'll have two &quot;remotes&quot;. One is called &quot;origin&quot; and the other &quot;upstream&quot;. At that moment I only have a copy of the data from &quot;origin&quot; on my local machine. After</p>
+<p><code>git fetch upstream</code></p>
+<p>I'll have also the data from &quot;upstream&quot;. And all these branches are different since they will be called &quot;upstream/master&quot;, &quot;upstream/...&quot;. The command &quot;git branch -av&quot; give you a list of all your branches including the &quot;remotes&quot;. So you will see remotes/upstream/master, remotes/upstream/old-master, etc.</p>
+<p>In other words, renaming branches is a local business, i.e. no problem at all.</p>
+<hr />
+<p>Due to a well elaborated concept git allows for flexible management also of earlier commits. Git takes the content of a file (blob), computes the sha1, adds the length of the blob, zips that and stores it with the computed sha1 as file name. So it stores complete files and not increments as other VCS. Only &quot;git gc&quot; (it is called automatically after a while) tries to collect garbage.</p>
+<p>From &quot;git help gc&quot;: Runs a number of housekeeping tasks within the current repository, such as compressing file revisions (to reduce disk space and increase performance) and removing unreachable objects which may have been created from prior invocations of git add.</p>
+<p>Due to the sha1 signature one has all the time the assurance that all data are intact. And if you are in doubt you can start &quot;git fsck&quot;</p>
+<p>git-fsck - Verifies the connectivity and validity of the objects in the database</p>

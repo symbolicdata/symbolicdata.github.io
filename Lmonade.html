@@ -1,0 +1,24 @@
+<h3 id="the-lmonade-project">The lmonade Project</h3>
+<p><a href="http://www.lmona.de/">http://www.lmona.de/</a></p>
+<p><strong>Goal</strong>: A platform for development and distribution of mathematical software</p>
+<p>lmonade is a light-weight meta distribution of scientific software that can be installed without administrative rights on Unix based operating systems. It creates a uniform environment for development to simplify code sharing and distribution especially when complex dependencies are involved. This platform enables researchers to build on existing tools without fear of losing users to baffling installation instructions, and allows them to concentrate on specialized reusable libraries while taking advantage of testing and distribution infrastructure available only in large monolithic systems. (<a href="http://www.lmona.de/about">Source</a>)</p>
+<hr />
+<p>From a mail conversation between Hans-Gert Gräbe (HGG), Burcin Erocal (BE) and Albert Heinle (AH) (2013-02-20)</p>
+<p><strong>Cooperation with the SymbolicData project</strong></p>
+<p>BE: Yes, we are definitely interested in such a cooperation.</p>
+<ul>
+<li>We should have a SymbolicData package in lmonade which installs a snapshot of the database and perhaps some of the scripts:
+<ul>
+<li><a href="http://issues.lmona.de/issue74">http://issues.lmona.de/issue74</a></li>
+</ul></li>
+<li>At some point in the future, I'd like to set up a framework to test the performance of (nightly snapshots of) major open source computer algebra systems on a selected set of examples from symbolic data.
+<ul>
+<li>Codespeed might be used for this purpose: <a href="https://github.com/tobami/codespeed">https://github.com/tobami/codespeed</a></li>
+<li>For an example see: <a href="http://speed.pypy.org/">http://speed.pypy.org/</a></li>
+</ul></li>
+<li>We could try to work on this infrastructure together, but I'm afraid I don't have any spare resources ATM.</li>
+</ul>
+<p>I would be happy to discuss issues related to symbolic data packaging in lmonade on the mailing list <a href="https://groups.google.com/forum/?fromgroups">https://groups.google.com/forum/?fromgroups</a>#!forum/lmnd-devel</p>
+<p><strong>Relation to <a href="SDEval" title="wikilink">SDEval</a></strong></p>
+<p>BE: We can optionally install the scripts from SDEval from the (yet to be created) symbolic data package in lmonade. For this we need to make sure that they work outside of the directory tree obtained from the SD repository.</p>
+<p>AH: It does. If you do not have the SymbolicData entries, you will be asked for a complete path to access them in the create_tasks_gui.py. You cannot make export folders without taking the entries from SymbolicData.</p>

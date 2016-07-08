@@ -1,0 +1,22 @@
+<h3 id="dynamical-geometry-and-geometry-theorem-proving">Dynamical Geometry and Geometry Theorem Proving</h3>
+<h4 id="about">About</h4>
+<p>Many hard examples in Polynomial Systems Solving originate from problems in Geometry Theorem Proving. Geometric configurations and constraints can be formulated as algebraic conditions on the coordinates of the geometric objects within the configuration. A main road of mechanized geometry theorem proving is such a translation of geometric into algebraic problems about Polynomial Systems Solving, and such examples of algebraic problems were collected within SymbolicData version 1. A large collection of examples from <a href="http://dl.acm.org/citation.cfm?id=39060">S.C. Chou's famous book</a> was supplied by Malte Witte in 2001 (at those times student at Leipzig Univ.).</p>
+<p>Starting from such a more algebraic point of view, with SymbolicData version 2 H.-G. Gräbe developed a (functional) geometric language for Geometry Straight Line Programs, the <a href="GeoCode" title="wikilink">GeoCode</a> language, to describe the dynamic geometric nature of those examples directly. These descriptions introduce a more concise distinction between basic dynamic elements (movable points and sliders), geometric constructions (building up the whole picture step by step from the basic dynamic elements), geometric constraints (boolean constraint conditions that translate algebraically into zeroes of rational expressions) and geometric conclusions (boolean conditions, too).</p>
+<p>These descriptions can be used as input to the <a href="Software.GeoProver" title="wikilink">GeoProver Software</a> that aims to translate the problem settings from the generic language into polynomial systems syntax to be solved with the target CAS (Maple, Mathematica, MuPAD, Reduce for the moment).</p>
+<p>During redesign it turned out that there is a close relation to the description of drawings within Dynamical Geometry Software (DGS). The main difference is in the nature of variables for geometric objects - the SymbolicData descriptions (SD version 2) used a call by value semantics for geometric objects, the variable semantics in DGS is call by reference since all even intermediate geometric objects (even hidden ones) are required to generate the drawing and to track the dynamics. The main difference between both semantics is that a call by value semantics allows for nested function calls, but a call by reference semantics requires function calls with explicit variable names as parameters.</p>
+<p>To change the semantics required to denest nested geometric function calls, i.e., to transform the geometry problems from a weak (or extended) Geometry Straight Line syntax, allowing nested function calls, to a strong Geometry Straight Line syntax without nested function calls. This was done during the relaunch of SymbolicData version 3.</p>
+<h4 id="structure-of-the-data">Structure of the Data</h4>
+<p>The SymbolicData collection contains</p>
+<ul>
+<li><a href="http://symbolicdata.org/RDFData/GeometryProblems.ttl">GeometryProblems.ttl</a> - a knowledge base of <strong>Geometry Problem Formulations</strong> in latex
+<ul>
+<li>The URI of the problem is used as reference in different proof schemes of the problem</li>
+</ul></li>
+<li><a href="http://symbolicdata.org/RDFData/GeoCode.ttl">GeoCode.ttl</a> - the specification of the <strong><a href="GeoCode" title="wikilink">GeoCode</a> language</strong>, a generic language to describe geometry problems, generate drawings and proof schemes</li>
+<li><a href="http://symbolicdata.org/XMLResources/GeoProofSchemes">GeoProofSchemes</a> - XML Resources containing formally specified <strong>Proof Schemes</strong> for different problems using the GeoCode language</li>
+<li><a href="http://symbolicdata.org/RDFData/GeoProofSchemes.ttl">GeoProofSchemes.ttl</a> - Additional information about the algebraization of the geometric proof scheme
+<ul>
+<li>Proof schemes of constructive type do not contain a constraints part. The conclusion translates algebraically to a complicated rational function that has to be shown to vanish generically, i.e., to simplizy to zero.</li>
+<li>Proof schemes of equational type translate into Polynomial Systems Solving tasks and are related to different problems in SymbolicData <a href="PolynomialSystems" title="wikilink">PolynomialSystems</a> part.</li>
+</ul></li>
+</ul>

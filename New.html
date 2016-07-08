@@ -1,0 +1,64 @@
+<h3 id="whats-new">What's new?</h3>
+<ul>
+<li>(2016-05-08) Hans-Gert Gräbe submitted an <a href="Publications" title="wikilink">extended abstract</a> for a presentation at the <a href="http://www.emis.de/data/community/icms_s14.html">ICMS 2016 Session: Information Services for Mathematics: Software, Services, Models, and Data</a> in Berlin, Germany</li>
+</ul>
+<hr />
+<ul>
+<li>(2016-03-15) Hans-Gert Gräbe submitted a <a href="Publications" title="wikilink">paper</a> to the <a href="http://cicm-conference.org/2016/cicm.php?event=surveys">&quot;Projects and Surveys&quot; track of CICM'16</a> in Bialystok, Poland.</li>
+<li>(2016-05-06) The paper was not accepted for presentation.</li>
+</ul>
+<hr />
+<ul>
+<li>SD Release 3.1
+<ul>
+<li>(2015-10-16) Ralf Hemmecke managed to switch <a href="https://github.com/symbolicdata">https://github.com/symbolicdata</a> to an organizational account to maintain code directly within that account (no more forks, at least within the central team).</li>
+<li>(2015-11-11) Hans-Gert Gräbe set up the <a href="http://lists.informatik.uni-leipzig.de/mailman/listinfo/sd-announce">mailing list sd-announce</a> as a common channel for news within the CA community beyond conference announcements. Conference announcements are collected within the <a href="Conferences" title="wikilink">CASN Conferences subproject</a>.</li>
+<li>(2015-12-26) Hans-Gert Gräbe set up several new repos with different maintenance rules - <em>data</em> (data repo with a single master branch mainly to backup recent versions of data, no versioning), <em>code</em> (code directory with master and develop branches, under versioning), <em>publications</em> (as a backup store of the LaTeX sources of SD publications, only master branch, no versioning), <em>web</em> (as an extended backup store of the SD web site that provides useful code to learn how RDF based data can be presented) and synced the new repos with the most propagated SD version at hg-graebe/symbolicdata/tree/develop, the formely private web repo and also with the src/sdeval dir of ioah86/symbolicdata/tree/develop.</li>
+<li>(2016-02-21) Hans-Gert Gräbe aligned the data and wiki descriptions of <a href="BirkhoffPolytopes" title="wikilink">BirkhoffPolytopes</a>, <a href="FanoPolytopes" title="wikilink">FanoPolytopes</a> and <a href="TransitiveGroups" title="wikilink">TransitiveGroups</a> and created another git repo <em>maintenance</em> (code chunks from different tasks and demos how to work with RDF based data, no versioning).
+<ul>
+<li>In particular, this repo contains a mirror of the Wordpress plugin code used by the German CA Fachgruppe and the transformation code developed by Andreas Nareike in 2013 for polytopes and groups databases.</li>
+</ul></li>
+<li>(2016-03-01) Hans-Gert Gräbe released the new version tagging the git repos.
+<ul>
+<li>develop branch of <em>code</em> created.</li>
+<li>The old repo <a href="https://github.com/symbolicdata/symbolicdata">https://github.com/symbolicdata/symbolicdata</a> is deprecated and was removed.</li>
+</ul></li>
+</ul></li>
+<li>Reorganization of the formerly separate CASN part
+<ul>
+<li>(2015-07-26) The first tabs of <a href="http://symbolicdata.org/info">our new info site</a> go online. It is used to demonstrate the power of our CASN concepts in a standalone fashion, i.e., not bound to the Wordpress environment of the <a href="http://www.fachgruppe-computeralgebra.de/symbolicdata/">website of the German Fachgruppe</a>.</li>
+<li>(2015-12-30) Hans-Gert Gräbe moved the RDF Graphs <em>PersonalProfiles</em>, <em>ZBMathPeople</em>, <em>UpcomingConferences</em> and <em>PastConferences</em> to the main RDF Store and adjusted the corresponding scripts.
+<ul>
+<li>Now the separate CASN RDF store operates only some experimental stuff and data for the website of the German Fachgruppe.</li>
+</ul></li>
+<li>(2016-01-03) Hans-Gert Gräbe finished the redesign of the CASN stuff of the German Fachgruppe. Now it uses data from a <a href="http://www.fachgruppe-computeralgebra.de/rdf/">local store</a> at the website of the German Fachgruppe and shortcode defined in a special Wordpress plugin (both backed up in a git repo private to the German Fachgruppe).
+<ul>
+<li>The available features are listed in a <a href="http://www.fachgruppe-computeralgebra.de/symbolicdata/">separate menu point</a> at the website of the German Fachgruppe, the Wordpress plugin code is <a href="https://github.com/symbolicdata/web/tree/master/casn-plugin">mirrored in our public repo</a>.</li>
+<li>Now the separate CASN RDF store operates only some experimental stuff.</li>
+</ul></li>
+<li>(2016-02-20) Hans-Gert Gräbe added another tab to explore the SD people list to <a href="http://symbolicdata.org/info">our new info site</a>. The <a href="http://symbolicdata.org/Data/People/">SD people list</a> contains 1036 entries of people involved with Computer Algebra. The sd:country property was removed, country is now listed as part of the affiliation.</li>
+<li>(2016-02-20) Hans-Gert Gräbe moved the <a href="http://symbolicdata.org/Data/News/">RDF Graph <em>News</em></a> to the main RDF Store and added some more news to the sd-announce list. This RDF Graph is intended to feed a <a href="News" title="wikilink">news channel</a>.
+<ul>
+<li>The separate CASN RDF store can be closed down.</li>
+</ul></li>
+<li>(2016-02-20) Hans-Gert Gräbe added conference reports of Bad Boll 2014, CICM 2012, CICM 2013, CICM 2014, CICM 2015 to the <a href="http://symbolicdata.org/rdf">SymbolicData CASN node</a> and linked that with the <em>PastConferences</em> data.</li>
+<li>(2016-03-01) Hans-Gert Gräbe fixed some flaws in the TransitiveGroups data, removed the deprecated repo 'symbolicdata' and tagged the remaining git repos <em>code</em>, <em>data</em>, <em>maintenance</em>, <em>publications</em> and <em>web</em> with tag v3.1 as snapshot of SD Version 3.1.</li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li>(2015-07-20) Hans-Gert Gräbe gave a <a href="Publications" title="wikilink">Presentation of SymbolicData</a> at ACA 2015 in Kalamata, Greece.</li>
+</ul>
+<hr />
+<ul>
+<li>(2015-04-07) Albert Heinles paper &quot;The SDEval Benchmarking Toolkit&quot; appeared in the March 2015 issue of the SIGSAM Communications in Computer Algebra.</li>
+</ul>
+<hr />
+<ul>
+<li>(2015-04-06) Tim Römer recompiled also the old TestSets examples according to the new syntax. All stuff from the old format was cleaned up from the repos and the web pages were adjusted.</li>
+<li>(2015-03-13) Tim Römer (Osnabrück, Normaliz team) provided a consolidated and &quot;fingerprinted&quot; version of the TestSets collection in a new format close related to the Normaliz notation.</li>
+</ul>
+<hr />
+<ul>
+<li>(2015-02-17) Albert Heinle released a new version of <a href="SDEval" title="wikilink">SDEval</a> and added a tutorial for interested users.</li>
+</ul>

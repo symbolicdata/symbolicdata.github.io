@@ -1,0 +1,42 @@
+<h3 id="conferences">Conferences</h3>
+<p>We manage records of announcements of <a href="http://symbolicdata.org/Data/UpcomingConferences/">upcoming conferences</a> and information files about <a href="http://symbolicdata.org/Data/PastConferences/">past conferences</a>. See the files <em>UpcomingConferences.ttl</em> and <em>PastConferences.ttl</em> <a href="http://symbolicdata.org/RDFData/">in the repository</a>.</p>
+<p>Used ontologies:</p>
+<ul>
+<li>ical: <a href="http://lov.okfn.org/dataset/lov/details/vocabulary_cal.html">Calendar Ontology</a></li>
+<li>swc: [<a href="http://data.semanticweb.org/ns/swc/ontology">http://data.semanticweb.org/ns/swc/ontology</a># Semantic Web Conference Ontology] (for detailed conference reports)</li>
+</ul>
+<p>Conferences are modeled as <strong>sd:Event</strong> resp. <strong>sd:UpcomingConference</strong> with predicates</p>
+<p>Conference venue</p>
+<ul>
+<li>rdfs:label</li>
+<li>ical:dtstart xsd:date</li>
+<li>ical:dtend xsd:date</li>
+<li>ical:location Literal - location of the conference</li>
+<li>ical:description Literal - a description of the conference</li>
+<li>ical:url URI - URL of the conference</li>
+</ul>
+<p>Deadlines</p>
+<ul>
+<li>sd:hasAbstractsDeadline xsd:date</li>
+<li>sd:hasEarlyRegistrationDeadline xsd:date</li>
+<li>sd:hasPaperDeadline xsd:date</li>
+<li>sd:hasRegistrationDeadline xsd:date</li>
+</ul>
+<p>People involved with the conference</p>
+<ul>
+<li>ical:contact sd:Person</li>
+<li>sd:hasGeneralChair sd:Person</li>
+<li>sd:hasOrganizers sd:Person</li>
+<li>sd:hasProgramChair sd:Person</li>
+<li>sd:hasProgramCommittee sd:Person</li>
+<li>sd:invitedSpeakers sd:Person</li>
+</ul>
+<p>Additional information about past conferences</p>
+<ul>
+<li>sd:hasCARReport Literal - reference to a conference report in the CA Rundbrief of the German Fachgruppe</li>
+<li>sd:hasDetailedRecord URI - a detailed record about the conference using the swc ontology
+<ul>
+<li>see, e.g., <a href="http://symbolicdata.org/rdf/Conferences/CICM-15.rdf">http://symbolicdata.org/rdf/Conferences/CICM-15.rdf</a></li>
+</ul></li>
+</ul>
+<p>We use <symbolicdata.org/Data/Conference> as namespace prefix followed by a well established shortcut of the conference as naming scheme.</p>
