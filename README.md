@@ -1,3 +1,8 @@
+---
+layout: default
+title: README
+---
+
 # symbolicdata.github.io
 
 Pages were converted with [convert-mediawiki-to-gh-pages](https://github.com/FreeON/convert-mediawiki-to-gh-pages)
