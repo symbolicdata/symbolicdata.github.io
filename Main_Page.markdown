@@ -19,7 +19,7 @@ The SymbolicData Project Wiki
     -   The [CASN Demonstration Site](http://symbolicdata.org/info)
 -   [What's new?](New "wikilink")
 
-Don't hesitate to **post all questions about using SymbolicData Tools and Data** on the [<https://groups.google.com/forum/>\#!forum/symbolicdata SymbolicData Mailing List] to help us to improve our presentation.
+Don't hesitate to **post all questions about using SymbolicData Tools and Data** on the [SymbolicData Mailing List](https://groups.google.com/forum/?fromgroups#!forum/symbolicdata) to help us to improve our presentation.
 
 ### Main goals
 
