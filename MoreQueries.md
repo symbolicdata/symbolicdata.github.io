@@ -26,7 +26,7 @@ List
 * number of extreme rays
 * number of Hilbert Basis elements
 * external link to the Normaliz Database
-* link to the [http://symbolicdata.org/OtherResources/TestSets/ SD OtherResources] TestSets collection
+* link to the [SD OtherResources](http://symbolicdata.org/OtherResources/TestSets/) TestSets collection
 for the "graph examples" from the Normaliz test suite.
 <pre>
   PREFIX sd: <http://symbolicdata.org/Data/Model#>
@@ -55,7 +55,7 @@ List for all Fano Polytopes
 * volume
 * cone dimension
 * number of facets
-* file name in [https://polymake.org/polytopes/paffenholz/www/fano.html Andreas Paffenholz' collection] fano-v4d.tgz) 
+* file name in [Andreas Paffenholz' collection](https://polymake.org/polytopes/paffenholz/www/fano.html) fano-v4d.tgz
 with lattice volume < 100 and at most 7 facets. 
 
 <pre>
