@@ -20,12 +20,14 @@ Here we describe how to install an RDF infrastructure based on the more powerful
 -   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. We recommend to use the Virtuoso Open Source Distribution (VOS) bundled with Debian.
 -   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at the University of Leipzig. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
 
-It may be necessary to **adjust the apache settings** in `etc/php5/apache2/php.ini` to be able to upload large knowledge bases:
+It may be necessary to **adjust the apache settings** in etc/php5/apache2/php.ini to be able to upload large knowledge bases:
 
-` post_max_size = 128M`
-` short_open_tag = off`
-` memory_limit = 1280M`
-` upload_max_filesize = 128M`
+<pre>
+   post_max_size = 128M
+   short_open_tag = off
+   memory_limit = 1280M
+   upload_max_filesize = 128M
+</pre>
 
   
 Caveat: In any case it is a good advice to upload larger RDF graphs via the Virtuoso console (as described below).
@@ -36,8 +38,9 @@ Moreover, mod\_rewrite has to be activated since OntoWiki heavily uses URI Rewri
 
 The virtuoso engine can easily be installed with the single command
 
-  
-sudo aptitude install virtuoso-opensource
+<pre>
+  sudo aptitude install virtuoso-opensource
+</pre>
 
 For security reasons during installation you will be asked for a password for the db users 'dba' and 'dav' (default: dba). The password should match the regex [a-zA-Z0-9]+, i.e., have only letters and ciphers.
 
@@ -55,7 +58,9 @@ At server start time a Virtuoso database is started with configuration read from
 -   /var/lib/virtuoso-opensource-6.1/db/ as the directory where all data and logging information resides
 -   the DB server port 1111 to be used by the console command
 
-`isql-vt 1111 dba YourDBPassword`
+<pre>
+  isql-vt 1111 dba YourDBPassword
+</pre>
 
 if the daemon is running.
 
@@ -65,32 +70,42 @@ if the daemon is running.
 
 Copy /etc/virtuoso-opensource-6.1/virtuoso.ini to a fresh directory /myPATH/myNewVDir, change all file names to local ones
 
-`DatabaseFile                   = virtuoso.db`
-`ErrorLogFile                   = virtuoso.log`
-`LockFile                       = virtuoso.lck `
-`TransactionFile                = virtuoso.trx`
-`xa_persistent_file             = virtuoso.pxa`
-`DatabaseFile                   = virtuoso-temp.db`
-`TransactionFile                = virtuoso-temp.trx`
+<pre>
+  DatabaseFile                   = virtuoso.db
+  ErrorLogFile                   = virtuoso.log
+  LockFile                       = virtuoso.lck 
+  TransactionFile                = virtuoso.trx
+  xa_persistent_file             = virtuoso.pxa
+  DatabaseFile                   = virtuoso-temp.db
+  TransactionFile                = virtuoso-temp.trx
+</pre>
 
 change the ports 1111 (new, e.g. 1112) and 8890 (new, e.g. 8891) to different ones and start a new daemon with
 
-`cd /myPATH/myNewVDir; virtuoso-t +configfile virtuoso.ini `
+<pre>
+  cd /myPATH/myNewVDir; virtuoso-t +configfile virtuoso.ini 
+</pre>
 
 This will generate all additional files in that directory and start the daemon. Access the database via console
 
-`isql-vt 1112 dba dba`
+<pre>
+  isql-vt 1112 dba dba
+</pre>
 
 and first change the default password 'dba'
 
-`SQL> set password dba YourVerySecretPassword ;`
+<pre>
+  SQL> set password dba YourVerySecretPassword ;
+</pre>
 
 The web front end to the new database will be available at <http://localhost:8891>.
 
 Shut down the service from the console with
 
-`isql-vt 1112 dba YourVerySecretPassword`
-`SQL> shutdown() ;`
+<pre>
+  isql-vt 1112 dba YourVerySecretPassword
+  SQL> shutdown() ;
+</pre>
 
 ### (Optional) Install Ontowiki
 
@@ -98,19 +113,23 @@ Ontowiki is a pure PHP application, that runs completely within the apache web s
 
 Ontowiki requires apache with php5 support. To operate with Virtuoso the php5-odbc extension has to be installed.
 
-`sudo apt-get install php5-odbc php5 libapache2-mod-php5`
+<pre>
+  sudo apt-get install php5-odbc php5 libapache2-mod-php5
+</pre>
 
   
 hgg, 2014-01-09: We get reported for ubuntu 13.10, that 'php-json' is put (by legal restrictions) into a separate package and is required to be installed additionally.
 
 The database service has to be be registered with ODBC. Add a section
 
-` # Symbolicdata OntoWiki dsn start`
-` [SDOW]`
-` Description=Symbolicdata OntoWiki Virtuoso DSN`
-` Driver=/usr/lib/odbc/virtodbc.so`
-` Address=localhost:1111`
-` # Symbolicdata OntoWiki dsn end`
+<pre>
+   # Symbolicdata OntoWiki dsn start
+   [SDOW]
+   Description=Symbolicdata OntoWiki Virtuoso DSN
+   Driver=/usr/lib/odbc/virtodbc.so
+   Address=localhost:1111
+   # Symbolicdata OntoWiki dsn end
+</pre>
 
 with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.
 
@@ -119,13 +138,15 @@ hgg, 2013-07-22: I had a problem if the the port is not 1111, OntoWiki was insta
 
 To run Ontowiki requires Apache with php5 and mod\_rewrite enabled. A typical configuration in apache2/sites-enabled looks as follows:
 
-` DocumentRoot /home/web/public_html`
-` `<Directory /home/web/public_html/>
-`   Options Indexes FollowSymLinks MultiViews`
-`   AllowOverride All `
-`   Order allow,deny`
-`   Allow from all`
-` `</Directory>
+<pre>
+   DocumentRoot /home/web/public_html
+   <Directory /home/web/public_html/>
+     Options Indexes FollowSymLinks MultiViews
+     AllowOverride All 
+     Order allow,deny
+     Allow from all
+   </Directory>
+</pre>
 
 We recommend to deploy one Ontowiki instance per application.
 
@@ -133,11 +154,15 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
 
 -   Clone Ontowiki from the github repo to the target directory
 
-` git clone `[`https://github.com/AKSW/OntoWiki.git`](https://github.com/AKSW/OntoWiki.git)
+<pre>
+   git clone https://github.com/AKSW/OntoWiki.git
+</pre>
 
 -   Change to that directory and load the additional libraries Erfurt, RDFAuthor and Zend
 
-` make deploy`
+<pre>
+   make deploy
+</pre>
 
 -   Copy config.ini.sample to config.ini and adapt it. Note that values in config.ini overwrite standard settings in various other ini files.
     -   store.virtuoso.dsn - Put here the section head of the Virtuoso store from odbc.ini (without quotes)
@@ -157,29 +182,37 @@ To load SD data from the files supplied with the git repo directly into the Virt
 
 1) Check out the repo to /YourPathTo/symbolicdata, add the path /YourPathTo/symbolicdata to the data part of the distribution to the DirsAllowed
 
-`DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata`
+<pre>
+  DirsAllowed =., /usr/share/virtuoso-opensource-6.1/vad, /YourPathTo/symbolicdata
+</pre>
 
-and restart the daemon. Set up the environment variable SD:
+and restart the daemon. 
 
-` export SD=/YourPathTo/symbolicdata`
+2) Load all turtle graphs into the Virtuoso Engine. The perl script at src/vsql/loaddata.pl writes the required output to stdout, that contains a number of records like
 
-2) Load all turtle graphs into the Virtuoso Engine. The perl script at `src/vsql/loaddata.pl` writes the required output to stdout, that contains a number of records like
+<pre>
+   sparql create silent graph <http://symbolicdata.org/Data/People/> ; 
+   DB.DBA.TTLP_MT (file_to_string_output('/YourPathTo/symbolicdata/data/RDFData/People.ttl'),'[http://symbolicdata.org/Data/People/](http://symbolicdata.org/Data/People/)'); 
+</pre>
 
-` sparql create silent graph `<http://symbolicdata.org/Data/People/>` ; `
-` DB.DBA.TTLP_MT (file_to_string_output('/YourPathTo/symbolicdata/data/RDFData/People.ttl'),'`[`http://symbolicdata.org/Data/People/`](http://symbolicdata.org/Data/People/)`'); `
+Read that into Virtuoso using the command line tool isql-vt:
 
-Read that into Virtuoso using the command line tool `isql-vt`:
-
-` perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword`
+<pre>
+   perl loaddata.pl | isql-vt 1111 dba YourVerySecretPassword
+</pre>
 
 3) Check success from within the console
 
-` isql-vt 1111 dba YourVerySecretPassword`
-` SQL> sparql select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o};`
+<pre>
+   isql-vt 1111 dba YourVerySecretPassword
+   SQL> sparql select distinct ?s from <http://symbolicdata.org/Data/People/> where {?s ?p ?o};
+</pre>
 
 and similar for the other graphs 'Bibliography', 'PolynomialSystems', 'Systems' etc. The command will list you the URIs of all instances in the given graph. Try the same at the Sparql endpoint <http://localhost:8890/sparql> with
 
-` select distinct ?s from `<http://symbolicdata.org/Data/People/>` where {?s ?p ?o}`
+<pre>
+   select distinct ?s from <http://symbolicdata.org/Data/People/> where {?s ?p ?o}
+</pre>
 
 It should list the URIs of all people stored in the SD People knowledge base. Compare your output with that from <http://symbolicdata.org:8890/sparql>
 
@@ -195,11 +228,15 @@ Adapt at least the items ServerPort in the Parameters section (default 1111), th
 
 Open the console
 
-`isql-v `<DBServerPort>` dba `<passwd>
+<pre>
+  isql-v &lt;DBServerPort> dba &lt;passwd>
+</pre>
 
 and change the password (standard user = dba, passwd = dba)
 
-`set password `<old password>` `<new password>`;`
+<pre>
+  SQL>  set password &lt;old password> &lt;new password>;
+</pre>
 
 For curious people: Direct your Browser to <http://localhost:8890>. It will show you the Virtuoso VSP pages with a "phpmyadmin" like administration web frontend at <http://localhost:8890/conductor>. Not required for beginners.
 
@@ -207,12 +244,18 @@ For curious people: Direct your Browser to <http://localhost:8890>. It will show
 
 Shutdown the service from the console with
 
-` SQL> shutdown() ;`
+<pre>
+   SQL> shutdown() ;
+</pre>
 
 Clear Data from a given graph:
 
-` SQL> sparql clear graph `<http://symbolicdata.org/Data/Annotations/>` ; `
+<pre>
+   SQL> sparql clear graph <http://symbolicdata.org/Data/Annotations/> ; 
+</pre>
 
 Graphs are not created automatically. If you have problems to display content in Ontowiki, a command as the following may help to resolve the trouble
 
-` SQL> sparql create silent graph `<http://symbolicdata.org/Data/Bibliography/>` ;`
+<pre>
+   SQL> sparql create silent graph <http://symbolicdata.org/Data/Bibliography/> ;
+</pre>
