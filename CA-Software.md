@@ -21,8 +21,8 @@ Namespaces:
 * dct: &lt;http://purl.org/dc/terms/&gt; 
 
 Records of type '''sd:CAS''' have the following predicates
-* owl:sameAs URI reference to the [http://www.swmath.org/ swmath.org] collection. 
-or (for 3 systems not listed in swmath - [http://symbolicdata.org/Data/System/ASYS Reduce package ASYS], and the systems [http://symbolicdata.org/Data/System/Points Points] and [http://symbolicdata.org/Data/System/QPoints QPoints])
+* owl:sameAs URI reference to the [swmath.org](http://www.swmath.org/) collection. 
+or (for 3 systems not listed in swmath - [Reduce package ASYS](http://symbolicdata.org/Data/System/ASYS), and the systems [Points](http://symbolicdata.org/Data/System/Points) and [QPoints](http://symbolicdata.org/Data/System/QPoints))
 * sd:lastUpdate xsd:date
 * sd:hasURL URI - homepage of the CAS
 * dct:license URI - the software license

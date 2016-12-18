@@ -7,7 +7,7 @@ title: Publications
 
 ### Presentations
 - SymbolicData at [ACA 2016](http://www.mathematik.uni-kassel.de/ACA2016/) in Kassel (Germany), August 2016.
-  - H.-G. Gräbe: [http://symbolicdata.org/Presentations/aca16-graebe.pdf [The SymbolicData Project – a Community Driven Project for Computer Algebra](http://symbolicdata.org/Presentations/aca16-graebe.pdf). 
+  - H.-G. Gräbe: [The SymbolicData Project – a Community Driven Project for Computer Algebra](http://symbolicdata.org/Presentations/aca16-graebe.pdf). 
     - [Abstract](http://symbolicdata.org/Papers/aca-16.pdf)
     - [Additional material](Events.2016-08.Graebe "wikilink")
   - A. Heinle: [Benchmarks and Quality Evaluation of CAS](http://symbolicdata.org/Presentations/aca16-heinle.pdf).
@@ -31,12 +31,12 @@ title: Publications
 ### Publications
 
 Work in progress: 
-- H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([http://symbolicdata.org/Papers/aca-16-paper.pdf pdf]) 
+- H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([pdf](http://symbolicdata.org/Papers/aca-16-paper.pdf)) 
   - Submitted to the MATHEMATICS IN COMPUTER SCIENCE SPECIAL ISSUE on “Applications of Computer Algebra (ACA 2016 Kassel)”
 
 * * * * *
 
-- H.-G. Gräbe: The SymbolicData Project - Maturing the Computer Algebra Social Network Perspective. ([http://symbolicdata.org/Papers/car-59.pdf pdf]) 
+- H.-G. Gräbe: The SymbolicData Project - Maturing the Computer Algebra Social Network Perspective. ([pdf](http://symbolicdata.org/Papers/car-59.pdf)) 
   - In: Computeralgebra-Rundbrief 59 (October 2016)
 
 - H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([pdf](http://symbolicdata.org/Papers/aca-16.pdf))

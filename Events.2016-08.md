@@ -5,9 +5,9 @@ title: Events.2016-08
 
 [Main\_Page](Main_Page "wikilink") \> [Events](Events "wikilink")
     
-## August 01, 2014 &ndash; Session *Information services for mathematical software, models, and research data* at [http://www.mathematik.uni-kassel.de/ACA2016 ACA-2016] in Kassel, Germany ##
+## August 01, 2014 &ndash; Session *Information services for mathematical software, models, and research data* at [ACA-2016](http://www.mathematik.uni-kassel.de/ACA2016) in Kassel, Germany ##
 
-[http://www.emis.de/data/community/aca_2016_information_services.html Homepage of the session].
+[Homepage of the session](http://www.emis.de/data/community/aca_2016_information_services.html).
 
 ### Organizers### 
 
@@ -28,12 +28,12 @@ The aim of the session is to present and discuss some relevant problems and deve
 
 ###  Talks### 
 
-See the [http://www.emis.de/data/community/aca_2016_information_services.html Homepage of the session] for abstracts of the talks.
+See the [Homepage of the session](http://www.emis.de/data/community/aca_2016_information_services.html) for abstracts of the talks.
 
-- Information services for mathematical research data. *Wolfram Sperber* (FIZ Karlsruhe, zbMATH, Germany) -> [http://symbolicdata.org/Presentations/aca16-sperber.pdf Slides]
-- The swMATH service for mathematical software - state of the art and perspectives. *Hagen Chrapary* (FIZ Karlsruhe, zbMATH and ZIB Berlin, Germany), *Winfried Neun* (ZIB Berlin, Germany) -> [http://symbolicdata.org/Presentations/aca16-neun.pdf Slides]
-- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (University of Leipzig, Germany) -> [http://symbolicdata.org/Presentations/aca16-graebe.pdf Slides], [[Events.2016-08.Graebe]]
-- Benchmarks for and quality evaluation of CAS. *Albert Heinle* (University of Waterloo, Canada) -> [http://symbolicdata.org/Presentations/aca16-heinle.pdf Slides]
+- Information services for mathematical research data. *Wolfram Sperber* (FIZ Karlsruhe, zbMATH, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-sperber.pdf)
+- The swMATH service for mathematical software - state of the art and perspectives. *Hagen Chrapary* (FIZ Karlsruhe, zbMATH and ZIB Berlin, Germany), *Winfried Neun* (ZIB Berlin, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-neun.pdf)
+- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (University of Leipzig, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-graebe.pdf), [[Events.2016-08.Graebe]]
+- Benchmarks for and quality evaluation of CAS. *Albert Heinle* (University of Waterloo, Canada) -> [Slides](http://symbolicdata.org/Presentations/aca16-heinle.pdf)
 - Round table discussion on the future of information infrastructure for the CA community. 
 
 ###  Round Table Discussion### 
@@ -42,54 +42,54 @@ For the round table discussion the session organizers prepared a list of questio
 
 **1. How do we envision the research infrastructure in computer algebra ten years from now? What's going on just now?**
 - Big information portals
-  - the [http://dl.acm.org ACM Digital Library]
-  - the [http://arxiv.org ArXiv]
-  - [https://scholar.google.com Google Scholar]
-  - the [http://www.mathnet.ru Mathnet.ru] - in particular their [http://www.mathnet.ru/php/conference.phtml conference announcement system]
+  - the [ACM Digital Library](http://dl.acm.org)
+  - the [ArXiv](http://arxiv.org)
+  - [Google Scholar](https://scholar.google.com)
+  - the [Mathnet.ru](http://www.mathnet.ru) - in particular their [conference announcement system](http://www.mathnet.ru/php/conference.phtml)
 - Math search engines
-  - [http://search.mathweb.org/ MathWebSearch] 
+  - [MathWebSearch](http://search.mathweb.org/) 
 - What's about the author disambiguation systems of 
-  - the [http://dl.acm.org/author_page.cfm?id=81479660561&CFID=815707619&CFTOKEN=13404294 ACM Digital Library]
-  - the [http://www.ams.org/mathscinet/ Math Reviews] (most part available only by subscription, see  [http://www.ams.org/mathscinet/MRAuthorID/1099411 MRAuthorID/1099411] for a special author ID)
-  - the [https://zbmath.org/authors/?q=ai:heinle.albert Zentralblatt]
-  - the [http://arxiv.org:443/find/math/1/au:+Heinle_A/0/1/0/all/0/1 ArXiv]
-  - [http://citeseerx.ist.psu.edu/viewauth/summary?aid=1654916 CiteSeer]
-  - [https://scholar.google.com/scholar?q=Hans-Gert+Gräbe Google Scholar]
-  - [https://www.researchgate.net Research Gate] (seems to play almost no role for our community)
-  - [https://genealogy.math.ndsu.nodak.edu/id.php?id=136649 The Math Genealogy Project] (they link to MathSciNet Author IDs)
-  - [http://www.bibsonomy.org/search/Hans-Gert%20Gr%c3%a4be Bibsonomy] (no author disambiguation!)
-- Distributed information services about publications in, e.g. [http://kobra.bibliothek.uni-kassel.de/ Uni Kassel], [http://publications.rwth-aachen.de/ RWTH Aachen], [https://opus4.kobv.de/opus4-uni-passau/home Uni Passau] etc.
-  - Note that RWTH Aachen meanwhile [http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-49933 redirects URNs] directly to http://d-nb.info as, e.g., to [http://d-nb.info/1052162177 d-nb.info/1052162177] for the [http://symbolicdata.org/Data/Dissertation/LangeHegermann_14 PhD of Markus Lange-Hegermann]
-  - [https://www.openarchives.org/pmh/ OAI-PMH] - The Open Archives Initiative Protocol for Metadata Harvesting 
-  - The [http://lod-cloud.net/ Linked Open Data Cloud]
-- Conference management with [http://easychair.org/ EasyChair]
+  - the [ACM Digital Library](http://dl.acm.org/author_page.cfm?id=81479660561&CFID=815707619&CFTOKEN=13404294)
+  - the [Math Reviews](http://www.ams.org/mathscinet/) (most part available only by subscription, see  [MRAuthorID/1099411](http://www.ams.org/mathscinet/MRAuthorID/1099411) for a special author ID)
+  - the [Zentralblatt](https://zbmath.org/authors/?q=ai:heinle.albert)
+  - the [ArXiv](http://arxiv.org:443/find/math/1/au:+Heinle_A/0/1/0/all/0/1)
+  - [CiteSeer](http://citeseerx.ist.psu.edu/viewauth/summary?aid=1654916)
+  - [Google Scholar](https://scholar.google.com/scholar?q=Hans-Gert+Gräbe)
+  - [Research Gate](https://www.researchgate.net) (seems to play almost no role for our community)
+  - [The Math Genealogy Project](https://genealogy.math.ndsu.nodak.edu/id.php?id=136649) (they link to MathSciNet Author IDs)
+  - [Bibsonomy](http://www.bibsonomy.org/search/Hans-Gert%20Gr%c3%a4be) (no author disambiguation!)
+- Distributed information services about publications in, e.g. [Uni Kassel](http://kobra.bibliothek.uni-kassel.de/), [RWTH Aachen](http://publications.rwth-aachen.de/), [Uni Passau](https://opus4.kobv.de/opus4-uni-passau/home) etc.
+  - Note that RWTH Aachen meanwhile [redirects URNs](http://nbn-resolving.de/urn:nbn:de:hbz:82-opus-49933) directly to http://d-nb.info as, e.g., to [d-nb.info/1052162177](http://d-nb.info/1052162177) for the [PhD of Markus Lange-Hegermann](http://symbolicdata.org/Data/Dissertation/LangeHegermann_14)
+  - [OAI-PMH](https://www.openarchives.org/pmh/) - The Open Archives Initiative Protocol for Metadata Harvesting 
+  - The [Linked Open Data Cloud](http://lod-cloud.net/)
+- Conference management with [EasyChair](http://easychair.org/)
   - RDF conference reports at http://www.scholarlydata.org
-  - see the [https://github.com/AnLiGentile/cLODg cLODg - conference Linked Open Data generator] project with automated export from EasyChair.
+  - see the [cLODg - conference Linked Open Data generator](https://github.com/AnLiGentile/cLODg) project with automated export from EasyChair.
 
 **2. Where will the resources for the computer algebra research infrastructure come from?**
 - Do we have the resources to build up a new infrastructure for our community?
 - What are our strategic partners?
 - What's going on in other communities?
-  - The [http://miplib.zib.de/ MIPLIB Community]
+  - The [MIPLIB Community](http://miplib.zib.de/)
 
 **3. Are we currently asking the right questions?**
 - Are our dreams realistic resp. compatible with the progress on research infrastructure?
 
 **4. Are we offering what we need, and do we need what we offer?**
 - ... and offering we our information in good way, e.g. citations of CAS?
-- What's about established models, techniques and protocols, in particular the [https://en.wikipedia.org/wiki/Semantic_Web_Stack Sematic Web Stack]? 
-- What edges does our vertex have on the [http://lod-cloud.net/ Linked Open Data Cloud]?
+- What's about established models, techniques and protocols, in particular the [Sematic Web Stack](https://en.wikipedia.org/wiki/Semantic_Web_Stack)? 
+- What edges does our vertex have on the [Linked Open Data Cloud](http://lod-cloud.net/)?
 
 **5. How can we create a synergy between the efforts of the German Fachgruppe and SIGSAM? More generally, how do we assist and improve communication between different yet similar groups?**
 
 ###  Some notes about the discussion ### 
 
 Participants of the round table:
-- [http://bis.informatik.uni-leipzig.de/HansGertGraebe Hans-Gert Gräbe], SymbolicData project
-- [https://cs.uwaterloo.ca/~aheinle/ Albert Heinle], SymbolicData project and SIGSAM
-- [http://www.mathematik.uni-kassel.de/~koepf/ Wolfram Koepf], German CA Fachgruppe
-- [https://kwarc.info/people/mkohlhase Michael Kohlhase], [https://blog.wias-berlin.de/imu-icm-panel-wdml/tag/gdml/ GDML Working Group] and [http://opendreamkit.org/ OpenDreamKit] project
-- Wolfram Sperber, [http://swmath.org swMath] project and ZBMath at FIZ Karlsruhe
+- [Hans-Gert Gräbe](http://bis.informatik.uni-leipzig.de/HansGertGraebe), SymbolicData project
+- [Albert Heinle](https://cs.uwaterloo.ca/~aheinle/), SymbolicData project and SIGSAM
+- [Wolfram Koepf](http://www.mathematik.uni-kassel.de/~koepf/), German CA Fachgruppe
+- [Michael Kohlhase](https://kwarc.info/people/mkohlhase), [GDML Working Group](https://blog.wias-berlin.de/imu-icm-panel-wdml/tag/gdml/) and [OpenDreamKit](http://opendreamkit.org/) project
+- Wolfram Sperber, [swMath](http://swmath.org) project and ZBMath at FIZ Karlsruhe
 
 Wolfram Sperber, some general notes about the discussion: 
 - The session has discussed some problems of a e-infrastructure in Symbolic Computation, especially information services. 
@@ -102,7 +102,7 @@ Wolfram Sperber, some general notes about the discussion:
 - There is not yet a commonly agreed definition of "research data" in Symbolic Computation. It cannot be reduced to information about CAS systems only as provided by swmath. There are also libraries, services, software versions, but also data about people, events, etc.
   - A useful information model, even a particular one, should be discussed and agreed upon by interested parties. 
 - The e-infrastructure for Symbolic Computation must integrate information about all available resources in a flexible way.
-- The e-infrastructure for Symbolic Computation must be organized in a decentralized flexible way, combining and interlinking already existing infrastructures of the different CA subcommunities. [http://lod-cloud.net/ Linked open data] is a meanwhile widely used approach and concept to develop and interlink such infrastructures.
+- The e-infrastructure for Symbolic Computation must be organized in a decentralized flexible way, combining and interlinking already existing infrastructures of the different CA subcommunities. [Linked open data](http://lod-cloud.net/) is a meanwhile widely used approach and concept to develop and interlink such infrastructures.
 - The existing information services are not sufficient and overlapping in scope. 
 - Research data are dynamic. It requires to develop machine-based methods to handle and maintain this data within different information services.
 - Structures and standards of research data are yet missing.
