@@ -7,6 +7,7 @@ The SymbolicData Project Wiki
 -----------------------------
 
 -   [About the SymbolicData Project](About "wikilink")
+-   [Copyright Issues](Copyrights "wikilink")
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
     -   [Overview on the Tools](Main_Page#Tools "wikilink")
