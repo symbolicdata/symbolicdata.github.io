@@ -30,17 +30,14 @@ title: Publications
 
 ### Publications
 
-Work in progress: 
-- H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([pdf](http://symbolicdata.org/Papers/aca-16-paper.pdf)) 
-  - Submitted to the MATHEMATICS IN COMPUTER SCIENCE SPECIAL ISSUE on “Applications of Computer Algebra (ACA 2016 Kassel)”
-
-* * * * *
+- A. Heinle, W. Koepf, W. Sperber: Some steps to improve software information. ([pdf](http://symbolicdata.org/Papers/car-60.pdf))
+  - In: Computeralgebra-Rundbrief 60 (March 2017) and Communications in Computer Algebra ??
 
 - H.-G. Gräbe: The SymbolicData Project - Maturing the Computer Algebra Social Network Perspective. ([pdf](http://symbolicdata.org/Papers/car-59.pdf)) 
   - In: Computeralgebra-Rundbrief 59 (October 2016)
 
 - H.-G. Gräbe: The SymbolicData Project – a Community Driven Project for the CA Community. ([pdf](http://symbolicdata.org/Papers/aca-16.pdf))
-  - Submitted to the [ACA 2016 Session: Information services for mathematical software, models, and research data](http://www.emis.de/data/community/aca_2016_information_services.html).
+  - Submitted to the [ACA 2016 Session: Information services for mathematical software, models, and research data](http://www.emis.de/data/community/aca_2016_information_services.html). Not accepted for the conference proceedings.
 
 - H.-G. Gräbe: Semantic-aware Fingerprints of Symbolic Research Data. ([pdf](http://symbolicdata.org/Papers/icms-16.pdf))
   - Talk at the [ICMS 2016](http://icms2016.zib.de/) Session ''Information Services for Mathematics: Software, Services, Models, and Data''.
@@ -50,6 +47,7 @@ Work in progress:
   - Version of 2016-03-19, not accepted for the [Projects and Surveys section of CICM-16](http://cicm-conference.org/2016/cicm.php?event=surveys&menu=general).
 
 - A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10. ([pdf](http://symbolicdata.org/Papers/cca-15.pdf))
+
 - H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
   - Revised version of 2014-06-23, not accepted for the conference proceedings.
   - Presented at [iceseh-2014](http://openaccess.tu-dresden.de/ocs/index.php/ic-escience/iceseh2014).
