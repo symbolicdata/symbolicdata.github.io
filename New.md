@@ -5,12 +5,27 @@ title: New
 
 ### What's new?
 
--   (2016-05-08) Hans-Gert Gräbe submitted an [extended abstract](Publications "wikilink") for a presentation at the [ICMS 2016 Session: Information Services for Mathematics: Software, Services, Models, and Data](http://www.emis.de/data/community/icms_s14.html) in Berlin, Germany
+-   (2017-12-16) Hans-Gert Gräbe closed the mailing list sd-announce.
+
+-   (2017-12-11) Viktor Levandovskyy mentioned the SymbolicData Project and the SDEval approach at the conference [Open Source Computer Algebra Research (OSCAR)](https://www.mis.mpg.de/calendar/conferences/2017/oscar2017.html).
+    - He asked about support for the SymbolicData Project from TRR 195 an got the answer "who will care about that, we have no free resources".
+    
+-   (2017-12-03) Hans-Gert Gräbe asked Wolfram Decker about the role that SymbolicData will play within the TRR 195 and the upcoming [OSCAR Project](https://www.computeralgebra.de/sfb/).
+    - No answer so far.
 
 * * * * *
 
+-   (2017-03) Albert Heinle and others publish a [paper "Some steps to improve software information"](Publications "wikilink") both in the [Computeralgebra-Rundbrief](http://www.fachgruppe-computeralgebra.de/rundbrief/) and the [Communications in Computer Algebra](https://www.sigsam.org/cca/).
+
+-   (2016-08) Hans-Gert Gräbe published a [note about the SymbolicData Project](Publications "wikilink") in the Computeralgebra-Rundbrief. 
+
+-   (2016-08) Hans-Gert Gräbe submitted a [paper about the SymbolicData concepts](Publications "wikilink") to the ACA 2016 Session: Information services for mathematical software, models, and research data. It was not accepted for the conference proceedings and not presented at the conference.
+  
+-   (2016-05-08) Hans-Gert Gräbe submitted an [extended abstract](Publications "wikilink") for a presentation at the [ICMS 2016 Session: Information Services for Mathematics: Software, Services, Models, and Data](http://www.emis.de/data/community/icms_s14.html) in Berlin, Germany
+    - (2016-07) The talk was given at the conference, the paper was published in the conference proceedings.  
+
 -   (2016-03-15) Hans-Gert Gräbe submitted a [paper](Publications "wikilink") to the ["Projects and Surveys" track of CICM'16](http://cicm-conference.org/2016/cicm.php?event=surveys) in Bialystok, Poland.
--   (2016-05-06) The paper was not accepted for presentation.
+    -   (2016-05-06) The paper was not accepted for presentation.
 
 * * * * *
 
