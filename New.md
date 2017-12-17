@@ -11,7 +11,7 @@ title: New
     - He asked about support for the SymbolicData Project from TRR 195 an got the answer "who will care about that, we have no free resources".
     
 -   (2017-12-03) Hans-Gert Gräbe asked Wolfram Decker about the role that SymbolicData will play within the TRR 195 and the upcoming [OSCAR Project](https://www.computeralgebra.de/sfb/).
-    - No answer so far.
+    - Antwort (2017-12-17): Bei dem von Ihnen angesprochenen SFB/Transregio TRR 195 geht es nicht um die Konsolidierung von Daten sondern um ausgewählte mathematische Projekte sowie die Entwicklung eines neuen fachübergreifenden CAS, das unter dem Namen OSCAR auf in Deutschland bereits etablierte Software wie GAP, polymake oder Singular aufbaut.
 
 * * * * *
 
