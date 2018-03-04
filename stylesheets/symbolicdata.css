@@ -1,0 +1,7 @@
+/* Setting changes against bootstrap jumbotron */
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 14pt;
+    font-weight: 200;
+}
