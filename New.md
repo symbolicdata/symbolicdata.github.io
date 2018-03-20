@@ -5,6 +5,7 @@ title: New
 
 ### What's new?
 
+-   (2018-03-20) Hans-Gert Gräbe added a first DCAT Catalogue description of the data. 
 -   (2017-12-16) Hans-Gert Gräbe closed the mailing list sd-announce.
 
 * * * * *
