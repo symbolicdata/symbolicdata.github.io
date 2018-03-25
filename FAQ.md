@@ -38,16 +38,16 @@ description](https://www.w3.org/TR/vocab-dcat/) is on the way.
 
 * * * * *
 
-**Question:** How to set up a Local Sparql Endpoint?
+(T.4) **Question:** How to set up a Local Sparql Endpoint?
 
 **Answer:** Look at our wiki page [LocalSparqlEndpoint](LocalSparqlEndpoint "wikilink").
 
 * * * * *
 * * * * *
 
-### Frequently asked Questions about SymbolicData by our Reviewers
+#### Frequently asked Questions about SymbolicData by our (anonymous) Reviewers and Others
 
-**Question:** Who is the team behind SymbolicData and what are your resources?
+(R.1) **Question:** Who is the team behind SymbolicData and what are your resources?
 
 **Answer:** SymbolicData grew up in 1998 in a situation where heavily founded projects
 finished and people formerly not involved with the projects took efforts to
@@ -56,8 +56,8 @@ was, is and remains (intentionally) a volunteer's project without funding and
 lives on the resources that these (changing over the time) volunteers are able
 to sideline for SymbolicData.
 
-**Question:** You have no clear focus in your [papers](Publications
-  "wikilink"), resubmit material.
+(R.2) **Question:** You have no clear focus in your [papers](Publications
+"wikilink"), resubmit material.
 
 **Answer:** Papers about SymbolicData are not research papers but report about
 aspects and design decisions for Research Infrastructure.  Hence they are
@@ -69,13 +69,28 @@ SymbolicData follows a very Open Publication strategy - you find pdf versions
 of all papers under submission, accepted, rejected, and published [in our
 wiki](Publications "wikilink") and selected reviewer reports in our git Repo.
 
-**Question:** What motivated you to publish your data as linked data.
+(R.3) **Question:** What motivated you to publish your data as linked data.
 
 **Answer:** All world is talking about [Linked Open
 Data](http://lod-cloud.net/) and its enormously growing importance during the
 last 10 years. There are, of course, also more substantial arguments ...
 
-**Question:** What is the motivation for your choice of vocabulary?
+(R.4) **Question:** How sustainable is your project? (asked by Stephen Watt at
+CICM 2014)
+
+**Background:** We supplied to CICM-14 a paper that was not accepted for
+presentation in the projects slot but "downgraded" to a "Work in progress
+report".  Stephen Watt asked that question during the discussion of our talk.
+We supplied another paper to CICM-16 with the same result but decided not to
+present the project another time as "Work in progress". 
+
+**Answer:** The project started in 1998, hence survived much longer as many
+  other well staffed projects.  During that time we had "dry periods" and
+  learned to "survive in the desert" until the next rain (i.e., project
+  money).  The project is as long alive as the last person works on the last
+  bits of the project.
+
+(R.5) **Question:** What is the motivation for your choice of vocabulary?
 
 **Answer:** Not every ontology on the internet has equal influence and it is
 hard to decide about their "weights". We use foaf, dct, org, but also an agile
@@ -87,14 +102,14 @@ process.
 Our reference for potentially useful vocabularies is the standard reference
 http://lov.okfn.org of the Open Knowledge Foundation. 
 
-**Question:** How do you describe mathematical software packages?
+(R.6) **Question:** How do you describe mathematical software packages?
 
 **Answer:** We decided to maintain within SymbolicData only a tall interface to
 descriptions of mathematical software packages with [references to
 swmath](http://www.swmath.org/).  So all questions about ontologies should be
 discussed directly with the swmath people.
 
-**Question:** How information about conference announcements is collected? 
+(R.2) **Question:** How information about conference announcements is collected? 
 
 **Answer:** This data was populated neither "manually" nor "crawled" but
 tool-based from several mailing lists to ensure quality of the data. This is a
@@ -106,7 +121,7 @@ without support from the communities.  For the communities it seems to be
 enough to get informed along their mailing lists and to collect casual
 overviews of upcoming conferences at many not interrelated web pages.
 
-**Question:** Some of your arguments sound pretty standard, is this
+(R.7) **Question:** Some of your arguments sound pretty standard, is this
   innovative?
 
 **Answer:** Yes, this is very innovative, since many semantic web projects
@@ -114,14 +129,14 @@ don't use and even don't recognize existing standards. Using standards reduces
 efforts and thus enlarges the scope of work that could be done with given
 resources.
 
-**Question:** You claim, that "practical use of data from a special field
+(R.8) **Question:** You claim, that "practical use of data from a special field
 requires a minimum of semantic-awareness of the user itself". Indeed?
 
 **Answer:** Example: To use Wreath Product decomposition information from
 [Transitive Groups](http://symbolicdata.org/Data/TransitiveGroups/) you have
 to know what a Wreath Product is.
 
-**Question:** Some of the data is mentioned as not up to date - what are the
+(R.9) **Question:** Some of the data is mentioned as not up to date - what are the
 steps that are being taken to keep the info fresh? This is crucial in the
 design.
 
