@@ -11,8 +11,8 @@ Within the main project we manage the following resources:
 
 -   This Web site for background information and informal descriptions
     -   A [poster](http://symbolicdata.org/Uploads/overview-poster.pdf) displays the overall structure and embedding of the project
--   A Google mailing list <https://groups.google.com/forum/>\#!forum/symbolicdata
--   A public git master repo at <https://github.com/symbolicdata/symbolicdata>
+-   A [Google mailing list](https://groups.google.com/forum/\#!forum/symbolicdata)
+-   A [github organizational account](https://github.com/symbolicdata/symbolicdata)
     -   We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.
     -   [More](Using.Git "wikilink") about the way how we use git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
@@ -33,22 +33,7 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
 -   Dumps according to our [Backup strategy](Backups "wikilink").
-
-#### CASN - Towards a *Computer Algebra Social Network*
-
-The vision is a digitally supported [distributed social semantic network](CASN "wikilink") within Open Science for the needs of the Computer Algebra Community.
-
-For first steps in such a direction we
-
--   started the *CASN SD subproject*,
--   set up a *non public git repo* (due to privacy reasons, since a Social Network maintains also private data) for both data and tools,
--   operate another *Virtuoso based RDF data store* and a *[second OntoWiki](http://symbolicdata.org/casn) instance* to display the public part of our CASN data
--   and a *[second SPARQL Endpoint](http://symbolicdata.org:8891/sparql)* to explore that data.
-
-Links to the currently available infrastructure
-
--   <http://symbolicdata.org:8891/sparql> - CASN SPARQL Endpoint
--   <http://symbolicdata.org/xodx> - the CASN xodx node (very experimental yet)
--   <http://symbolicdata.org/casn> - the CASN OntoWiki (aligned with Linked Data standards)
--   <http://symbolicdata.org/info> - different views on the CASN data (in progress)
+-   CASN - Towards a *Computer Algebra Social Network*
+    -   The vision is a digitally supported [distributed social semantic network](CASN "wikilink") within Open Science for the needs of the Computer Algebra Community.
+    -   Our [info page](http://symbolicdata.org/info) - to provide different views on the CASN data as "proof of concept" (the php code is as "best practice experience" available from our github repo) 
 
