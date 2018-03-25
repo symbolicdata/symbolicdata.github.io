@@ -14,6 +14,7 @@ title: New
 -   (2018-03-02) Gregor Kemper informed on behalf of the Board of the German Fachgruppe that there is no interest within the board visible to actively promote SymbolicData, but in honour of Gräbe's efforts they will continue to spnsor the domain.  During the relaunch of the Website of the German Fachgruppe most of the [CASN features](CASN "wikilink") were switched off, the [link](http://www.fachgruppe-computeralgebra.de/symbolicdata/) to our activities was removed from the menu bar.
 -   (2017-12-11) Viktor Levandovskyy mentioned the SymbolicData Project and the SDEval approach at the conference [Open Source Computer Algebra Research (OSCAR)](https://www.mis.mpg.de/calendar/conferences/2017/oscar2017.html).
     - He asked about support for the SymbolicData Project from TRR 195 an got the answer "who will care about that, we have no free resources".
+    - Bernd Sturmfels promoted a sessin/discussion [What to do with Big Old Data?](https://www.mis.mpg.de/fileadmin/pdf/slides_oscar2017_3198.pdf).
 -   (2017-12-03) Hans-Gert Gräbe asked Wolfram Decker about the role that SymbolicData will play within the TRR 195 and the upcoming [OSCAR Project](https://www.computeralgebra.de/sfb/).
     - Antwort (2017-12-17): Bei dem von Ihnen angesprochenen SFB/Transregio TRR 195 geht es nicht um die Konsolidierung von Daten sondern um ausgewählte mathematische Projekte sowie die Entwicklung eines neuen fachübergreifenden CAS, das unter dem Namen OSCAR auf in Deutschland bereits etablierte Software wie GAP, polymake oder Singular aufbaut.
 
