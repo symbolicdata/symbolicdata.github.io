@@ -3,6 +3,20 @@ layout: default
 title: OntoWiki
 ---
 
+### The OntoWiki
+
+**OntoWiki** is a tool providing support for agile, distributed knowledge engineering scenarios. 
+
+It facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
+
+[OntoWiki](http://aksw.org/Projects/OntoWiki.html) is one of the man projects of the [Agile Knowledge Engineering and Semantic Web (AKSW) Group](http://aksw.org).
+
+-  More Information how to [use the OntoWiki](Using.Ontowiki.md "wikilink") within your own projects.
+
+#### The OntoWiki Problem sheet
+
+##### There are several security problems with bot attacks reported
+
 **2014-04-14, Natanael Arndt**
 
 And we hat the same problem with aksw.org two month ago. The 4 steps, Konrad wrote are the same which I think were the reason for the aksw.org data lose. I could see the bot requests in the apache log. ...

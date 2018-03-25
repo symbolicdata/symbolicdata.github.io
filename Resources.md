@@ -11,8 +11,8 @@ Within the main project we manage the following resources:
 
 -   This Web site for background information and informal descriptions
     -   A [poster](http://symbolicdata.org/Uploads/overview-poster.pdf) displays the overall structure and embedding of the project
--   A [Google mailing list](https://groups.google.com/forum/\#!forum/symbolicdata)
--   A [github organizational account](https://github.com/symbolicdata/symbolicdata)
+-   A [Google mailing list](https://groups.google.com/forum/#!forum/symbolicdata)
+-   A [github organizational account](https://github.com/symbolicdata)
     -   We use the integration manager workflow, hence look up for the forks of the master repo at the github accounts of SymbolicData followers for more recent information.
     -   [More](Using.Git "wikilink") about the way how we use git
 -   Some docu at [readthedocs.org](http://symbolicdata.readthedocs.org).
