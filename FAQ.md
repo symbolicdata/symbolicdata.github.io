@@ -5,7 +5,9 @@ title: FAQ
 
 ### Frequently asked Questions about SD
 
-**Question:** Do you provide Linked Open Data in RDF format?
+#### Technical Questions
+
+(T.1) **Question:** Do you provide Linked Open Data in RDF format?
 
 **Answer:** Yes, we
 
@@ -23,7 +25,7 @@ that serve the (experimentally yet) [Computer Algebra Social Network](CASN "wiki
 
 * * * * *
 
-**Question:** RDF is about *resource descriptions*. What's about resources?
+(T.2) **Question:** RDF is about *resource descriptions*. What's about resources?
 
 **Answer:** The SymbolicData RDF store links both to
 
@@ -35,7 +37,7 @@ All that is available for download not only from our web site but also can be cl
 
 * * * * *
 
-**Question:** How do you link resources and resource descriptions?
+(T.3) **Question:** How do you link resources and resource descriptions?
 
 **Answer:** Through *fingerprints*, a concept explained in more detail in our [paper](http://symbolicdata.uni-leipzig.de/Papers/car-55.pdf) in Computeralgebra-Rundbrief 55 (October 2014)
 
