@@ -19,4 +19,4 @@ Personal data as defined in [art. 5 EUDATAP](https://www.iitr.us/eudatap) are pr
 
 Personal data are processed for scientific purposes only, hence [art. 27 BDSG (neu)](https://dsgvo-gesetz.de/bdsg-neu/27-bdsg-neu/) of the German Bundesdatenschutzgesetz (new) applies. 
 
-Processing personal infomation according to art. 24 EUDATAP we apply the codes of conduct (art. 40 EUDATAP) of the [German Fachgruppe](http://www.fachgruppe-computeralgebra.de/). 
+Processing personal information according to art. 24 EUDATAP we apply the codes of conduct (art. 40 EUDATAP) of the [German Fachgruppe](http://www.fachgruppe-computeralgebra.de/). 
