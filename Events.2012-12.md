@@ -3,7 +3,7 @@ layout: default
 title: Events.2012-12
 ---
 
-[Main\_Page](Main_Page "wikilink") \> [Events](Events "wikilink")
+[Home](index "wikilink") \> [Events](Events "wikilink")
 
 ### 13.-14. December 2012 - Workshop on SymbolicData Design in Leipzig.
 
@@ -64,7 +64,7 @@ Let me summarize the results of the workshop for the future of SymbolicData:
 
 First we decided to refocus the SymbolicData Project to address needs of *communities* within Symbolic Computation to profile, test and benchmark implementations. There is a commonly complained misrecognition of these efforts because such contributions are not in the focus of reputational processes of the respective communities and are rarely proper acknowledged. This is mainly due to the specifics in that area, and SymbolicData will address, collect, offer, ... standards and best practices to change that *across* the different CA communities.
 
-SymbolicData (v.1 and v.2) had its origin within the Polynomial Systems Community, so such a refocussing has to be processed also as a reorganization of data for SymbolicData v.3. A list of communities (at the moment called "areas") with benchmarking activities addressed by SymbolicData will be maintained on the [wiki main page](Main_Page "wikilink"), and there is a process of standardized presentation of community aims on the way.
+SymbolicData (v.1 and v.2) had its origin within the Polynomial Systems Community, so such a refocussing has to be processed also as a reorganization of data for SymbolicData v.3. A list of communities (at the moment called "areas") with benchmarking activities addressed by SymbolicData will be maintained on the [wiki main page](index "wikilink"), and there is a process of standardized presentation of community aims on the way.
 
 For the future there should be a better interlinking between (intracommunity) sources, resources and communication structures *within* such a community and SymbolicData. A new use case to really understand the problems with such interlinking is given with [PoCaB](http://pocab.cg.cs.uni-bonn.de). This will be a great step towards Linked Data. Other use cases are given by the Databases of the SPP1489.
 

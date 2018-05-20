@@ -3,7 +3,7 @@ layout: default
 title: Events.2016-08.Graebe
 ---
 
-[Main\_Page](Main_Page "wikilink") \> [Events](Events "wikilink")
+[Home](index "wikilink") \> [Events](Events "wikilink")
 
 ## Additional material on SymbolicData ##  
 

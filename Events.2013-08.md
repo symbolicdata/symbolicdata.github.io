@@ -3,7 +3,7 @@ layout: default
 title: Events.2013-08
 ---
 
-[Main\_Page](Main_Page "wikilink") \> [Events](Events "wikilink")
+[Home](index "wikilink") \> [Events](Events "wikilink")
 
 ### 27.-28. August 2013 - Workshop on SymbolicData Design in Leipzig.
 
@@ -23,7 +23,7 @@ The program addressed different use cases, efforts and aspects of RDF based conc
 -   9:30-10:30 Welcome
 -   10:30-12 Presentation of the state of the SymbolicData project (Hans-Gert Gräbe)
 -   12-14 Lunch
--   14-15 Tutorial - Using Symbolicdata with Sage via the **sdsage package** (Andreas Nareike)
+-   14-15 Tutorial - Using SymbolicData with Sage via the **sdsage package** (Andreas Nareike)
 -   15-16 The projects [E-Science Saxonia](http://www.escience-sachsen.de) and the [Saxonian E-Science Research Platform](https://escience.htwk-leipzig.de/) (Todor Tontchev, HTWK Leipzig)
 -   16-17 Natural Language Processing approaches to discover and understand mathematical formulas in research texts (Ulf Schöneberg)
 -   17-19 Inter project aspects - cooperation with [swmath](http://www.swmath.org)

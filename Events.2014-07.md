@@ -3,7 +3,7 @@ layout: default
 title: Events.2014-07
 ---
 
-[Main\_Page](Main_Page "wikilink") \> [Events](Events "wikilink")
+[Home](index "wikilink") \> [Events](Events "wikilink")
 
 ### 30. July 2014 - Workshop on SymbolicData and Related Activities in Leipzig.
 

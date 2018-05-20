@@ -123,12 +123,12 @@ hgg, 2014-01-09: We get reported for ubuntu 13.10, that 'php-json' is put (by le
 The database service has to be be registered with ODBC. Add a section
 
 <pre>
-   # Symbolicdata OntoWiki dsn start
+   # SymbolicData OntoWiki dsn start
    [SDOW]
-   Description=Symbolicdata OntoWiki Virtuoso DSN
+   Description=SymbolicData OntoWiki Virtuoso DSN
    Driver=/usr/lib/odbc/virtodbc.so
    Address=localhost:1111
-   # Symbolicdata OntoWiki dsn end
+   # SymbolicData OntoWiki dsn end
 </pre>
 
 with a unique section name [SDOW] and the DBPort to the /etc/odbc.ini file.

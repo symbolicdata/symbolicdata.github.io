@@ -8,10 +8,11 @@ The SymbolicData Project Wiki
 
 -   [About the SymbolicData Project](About "wikilink")
 -   [Copyright Issues](Copyrights "wikilink")
+-   [Privacy Issues](Disclaimer "wikilink")
 -   [Getting Started / What is this all about?](QuickStart "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
-    -   [Overview on the Tools](Main_Page#tools "wikilink")
-    -   [Overview on the Data](Main_Page#data "wikilink")
+    -   [Overview on the Tools](index#Tools "wikilink")
+    -   [Overview on the Data](index#Data "wikilink")
 -   [A Guide through the SD Infrastructure](Resources "wikilink")
 -   [Events](Events "wikilink")
 -   [Presentations and Publications](Publications "wikilink")

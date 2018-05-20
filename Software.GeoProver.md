@@ -3,7 +3,7 @@ layout: default
 title: Software.GeoProver
 ---
 
-[Main\_Page](Main_Page "wikilink") \> [Software](Software "wikilink")
+[Home](index "wikilink") \> [Software](Software "wikilink")
 
 ### GeoProver
 
