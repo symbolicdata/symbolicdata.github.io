@@ -5,7 +5,7 @@ title: New
 
 ### What's new?
 
--   (2018-03-24) Hans-Gert Gräbe offered the SymbolicData data collection to the [Hackathon Da Vinci Ost 2018](https://codingdavinci.de/events/ost/)
+-   (2018-05-20) Hans-Gert Gräbe added a section [Disclaimer](Disclaimer "wikilink") that reflects the legal situation according to the regulations of the [EUDATAP](https://www.iitr.us/eudatap).
 -   (2018-03-20) Hans-Gert Gräbe added a first DCAT Catalogue description of the data. 
 -   (2017-12-16) Hans-Gert Gräbe closed the mailing list sd-announce.
 
