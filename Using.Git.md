@@ -51,26 +51,27 @@ Let abbreviate the involved repositories GH-HGG, GH-RH, LOC-HGG, LOC-RH: These a
 
 Here are typical sessions at LOC-HGG and LOC-RH:
 
-`HGG$ git clone git@github.com:hg-graebe/code.git `
-`HGG$ git remote add ralf `[`git://github.com/hemmecke/code.git`](git://github.com/hemmecke/code.git)` `
-`HGG$ git fetch ralf`
-`HGG$ git merge ralf/master   # or maybe "git rebase ralf/master"`
-`HGG$ git push                # put the merged commits to GH-HGG`
-`RH$ git clone git@github.com:hemmecke/code.git`
-`RH$ git remote add hgg `[`git://github.com/hg-graebe/code.git`](git://github.com/hg-graebe/code.git)
-`RH$ git fetch hgg`
-`RH$ git merge hgg/master     # or maybe "git rebase hgg/master"`
-`RH$ git push                 # put the merged commits to GH-RH`
-`HGG$ edit, edit, edit`
-`HGG$ git add ...`
-`HGG$ git commit`
-`HGG$ push origin master      # this pushes changes to GH-HGG`
-`RH$ edit edit edit`
-`RH$ git add ...`
-`RH$ git commit`
-`RH$ git fetch hgg            # this fetches GH-HGG changes to LOC-RH`
-`RH$ git rebase hgg/master    # this puts LOC-RH commit on top of hgg/master.`
-`HGG$ git pull ralf master    # merges in the latest changes from GH-RH`
+```HGG$ git clone git@github.com:hg-graebe/code.git 
+HGG$ git remote add ralf git://github.com/hemmecke/code.git
+HGG$ git fetch ralf
+HGG$ git merge ralf/master   # or maybe "git rebase ralf/master"
+HGG$ git push                # put the merged commits to GH-HGG
+RH$ git clone git@github.com:hemmecke/code.git
+RH$ git remote add hgg git://github.com/hg-graebe/code.git
+RH$ git fetch hgg
+RH$ git merge hgg/master     # or maybe "git rebase hgg/master"
+RH$ git push                 # put the merged commits to GH-RH
+HGG$ edit, edit, edit
+HGG$ git add ...
+HGG$ git commit
+HGG$ push origin master      # this pushes changes to GH-HGG
+RH$ edit edit edit
+RH$ git add ...
+RH$ git commit
+RH$ git fetch hgg            # this fetches GH-HGG changes to LOC-RH
+RH$ git rebase hgg/master    # this puts LOC-RH commit on top of hgg/master.
+HGG$ git pull ralf master    # merges in the latest changes from GH-RH
+```
 
 I hope that pretty much explains how the patches flow. RH counts as the Integration manager of his blessed github repo git@github.com:hemmecke/code.git and HGG acts as the Integration manager of his blessed repo git@github.com:hg-graebe/code.git.
 
@@ -82,9 +83,10 @@ Only the Integration manager needs write access to the blessed repo.
 
 You can easily extract a file from another branch by doing
 
-` git checkout develop`
-` git checkout another-branch -- `*`path/to/thisFile`*
-` git reset`
+``` git checkout develop
+ git checkout another-branch -- *path/to/thisFile*
+ git reset
+```
 
 After that you would have *path/to/thisFile* from another-branch which is not committed in the develop branch. Modify as you like, use it, maybe even commit it.
 
@@ -124,8 +126,9 @@ Some remarks from Ralf Hemmecke's mails:
 
 When I do the following:
 
-`git clone git@github.com:hemmecke/code.git`
-`git remote add upstream `[`git://github.com/symbolicdata/code.git`](git://github.com/symbolicdata/code.git)
+```git clone git@github.com:hemmecke/code.git
+git remote add upstream git://github.com/symbolicdata/code.git
+```
 
 I'll have two "remotes". One is called "origin" and the other "upstream". At that moment I only have a copy of the data from "origin" on my local machine. After
 
