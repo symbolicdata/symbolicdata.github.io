@@ -92,9 +92,8 @@ After that you would have *path/to/thisFile* from another-branch which is not co
 
 ##### 'git merge' or 'git rebase'?
 
-<https://www.atlassian.com/git/tutorial/rewriting-git-history>\#!rebase says about that:
+<https://www.atlassian.com/git/tutorial/rewriting-git-history> says about that:
 
-  
 Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with git merge results in a superfluous merge commit every time you want to see how the project has progressed. On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”
 
 **Don’t Rebase Public History!** You should never rebase commits that have been pushed to a public repository. The rebase would replace the old commits with new ones, and it would look like that part of your project history abruptly vanished.
@@ -132,7 +131,7 @@ git remote add upstream git://github.com/symbolicdata/code.git
 
 I'll have two "remotes". One is called "origin" and the other "upstream". At that moment I only have a copy of the data from "origin" on my local machine. After
 
-`git fetch upstream`
+```git fetch upstream```
 
 I'll have also the data from "upstream". And all these branches are different since they will be called "upstream/master", "upstream/...". The command "git branch -av" give you a list of all your branches including the "remotes". So you will see remotes/upstream/master, remotes/upstream/old-master, etc.
 
