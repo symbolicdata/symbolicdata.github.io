@@ -109,7 +109,7 @@ Shut down the service from the console with
 
 ### (Optional) Install Ontowiki
 
-[Ontowiki](Ontowiki) is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
+[Ontowiki](Ontowiki "wikilink") is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
 
 Ontowiki requires apache with php5 support. To operate with Virtuoso the php5-odbc extension has to be installed.
 
