@@ -109,7 +109,7 @@ Shut down the service from the console with
 
 ### (Optional) Install Ontowiki
 
-Ontowiki is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
+[Ontowiki](Ontowiki) is a pure PHP application, that runs completely within the apache web server and can be configured by various plugins.
 
 Ontowiki requires apache with php5 support. To operate with Virtuoso the php5-odbc extension has to be installed.
 
@@ -172,7 +172,6 @@ We describe the main steps to deploy Ontowiki. See <https://github.com/AKSW/Onto
 -   Direct your browser to <http://localhost/WebDir>
     -   Test if <http://localhost/WebDir/config.ini> is delivered. It shouldn't, sinde this is forbidded by the .htaccess file in /WebDir, that was pulled from the repo. Note that functioning mod\_rewrite and the content of .htaccess are essential for Ontowiki since they provide all the URI rewrite magics required in the Linked Data standards.
     -   Now you can login as Superadmin with login/passwd of the Virtuoso, configure users and user rights and manage rdf data files via OntoWiki.
--   For best practises using a Virtuoso based OntoWiki see [Using.Ontowiki](Using.Ontowiki "wikilink").
 
 **Security warning:** In the current default installation (as of 2013-11-09, present also in 2014-03-01) the preconfigured *Admin* account has no password set and the *Anonymous* account has write access to all ontologies. This should be changed for an non local OntoWiki installation.
 

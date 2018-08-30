@@ -11,8 +11,6 @@ It facilitates the visual presentation of a knowledge base as an information map
 
 [OntoWiki](http://aksw.org/Projects/OntoWiki.html) is one of the man projects of the [Agile Knowledge Engineering and Semantic Web (AKSW) Group](http://aksw.org).
 
--  More Information how to [use the OntoWiki](Using.Ontowiki.md "wikilink") within your own projects.
-
 #### The OntoWiki Problem sheet
 
 ##### There are several security problems with bot attacks reported
