@@ -12,7 +12,7 @@ On this page we explain how a Computer Algebra System like Sage can be used to b
 
 Obviously, Sage is required. It can be obtained from <http://www.sagemath.org>. Once downloaded and unzipped, it will be located in a folder \$SAGE\_ROOT. Sage comes with its own Python version. Scripts using the Sage libraries can be run with
 
-```./sage -python script.py```
+`./sage -python script.py`
 
 Another possibility is to install all the Sage modules into your running Python instance. We will not discuss this further here.
 
@@ -22,15 +22,15 @@ Additionally to Sage, the [requests library](http://docs.python-requests.org/) i
 
 Installing new packages can easily be done by installing pip. This can be done by invoking a Sage sub-shell:
 
-```./sage -sh```
+`./sage -sh`
 
 Next, install pip for Sage Python:
 
-```**(sage-sh)** easy_install pip```
+`**(sage-sh)** easy_install pip`
 
 In the message that follows, there should be something like "Installing pip script to \$SAGE\_ROOT/local/bin". New libraries can now be installed with pip. However, calling simply pip from the Sage sub-shell might not work (the 'normal' pip was called, not the Sage pip). In this case pip can be called by prefixing the correct path:
 
-```**(sage-sh)** $SAGE_ROOT/local/bin/pip install requests```
+`**(sage-sh)** $SAGE_ROOT/local/bin/pip install requests`
 
 The Sage sub-shell can be exited by typing 'exit'.
 
@@ -38,19 +38,20 @@ The Sage sub-shell can be exited by typing 'exit'.
 
 To use the sdsage.py module, it has to be imported into the running python instance of Sage:
 
-```**sage:** import sdsage```
+`**sage:** import sdsage`
 
 The module has to be initialized by the command
 
-```**sage:** sd = sdsage.SymbolicData()```
+`**sage:** sd = sdsage.SymbolicData()`
 
 which will parse the configuration file (sdsage.ini) and set-up variables. It is possible to use different SPARQL end-points by passing a keyword to the constructor:
 
-```**sage:** sd = sdsage.SymbolicData('local')```
+`**sage:** sd = sdsage.SymbolicData('local')`
 
 Keywords are defined in the SPARQL section of the sdsage.ini file:
 
-````[sparql]`
+```
+[sparql]
 symbolicdata.org = http://symbolicdata.org:8890/sparql
 local = http://localhost:8890/sparql
 ```
@@ -67,20 +68,20 @@ The SymbolicData object we created above has several methods:
 The parameter <name> is a string that either can be a complete URI like <http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog> or just 'Buchberger-87.Homog'. The SD\_Ideal object will be discussed in greater detail in the next section. We end this section with a longer usage example:
 
 ```
-**sage:** import sdsage
-**sage:** sd = sdsage.SymbolicData()
-**sage:** sd.list_ideals()
+sage: import sdsage
+sage: sd = sdsage.SymbolicData()
+sage: sd.list_ideals()
 Curves.curve15_20.Generators              Buchberger-87.Homog
 Butcher                                   Cassou
 Cohn_2.Homog                              Curves.curve10_20.Generators
 *<more lines here>*
-**sage:** bb87h = sd.get_ideal('Buchberger-87.Homog')
-**sage:** bb87h
+sage: bb87h = sd.get_ideal('Buchberger-87.Homog')
+sage: bb87h
 Ideal (-r*t + x*hv, -r^2 + z*hv, -r*t^2 + y*hv^2) of Multivariate Polynomial Ring in r, t, x, y, z, hv over Integer Ring
-**sage:** bb87h.groebner_basis()
+sage: bb87h.groebner_basis()
 [t^2*z*hv - r*y*hv^2, x^2*hv^2 - r*y*hv^2, r*x*hv - t*z*hv, t*x*hv - y*hv^2, r^2 - z*hv, r*t - x*hv]
-**sage:** sd_bb87h = sd.get_sd_ideal('Buchberger-87.Homog')
-**sage:** sd_bb887
+sage: sd_bb87h = sd.get_sd_ideal('Buchberger-87.Homog')
+sage: sd_bb887
 <sdsage.SD_Ideal instance at 0xc88902c>
 ```
 
@@ -107,20 +108,20 @@ Take for example Buchberger-87, the TTL for this Ideal looks like this:
 
 Once loaded by
 
-```**sage:** sd_bb87 = sd.get_sd_ideal('Buchberger-87')```
+`**sage:** sd_bb87 = sd.get_sd_ideal('Buchberger-87')`
 
 these value can be accessed as follows:
 
 ```
-**sage:** sd_bb87.createdAt
+sage: sd_bb87.createdAt
 u'1999-03-26'
-**sage:** sd_bb87.createdBy
+sage: sd_bb87.createdBy
 u'http://symbolicdata.org/Data/Person/Graebe_HG'
-**sage:** sd_bb87.type
+sage: sd_bb87.type
 u'http://symbolicdata.org/Data/Model#Ideal'
-**sage:** sd_bb87.hasLengthsList
+sage: sd_bb87.hasLengthsList
 u'2,2,2'
-**sage:** sd_bb87.relatedPolynomialSystem
+sage: sd_bb87.relatedPolynomialSystem
 u'http://symbolicdata.org/Data/IntPS/Buchberger-87' ;
 ```
 
@@ -134,7 +135,7 @@ Another important thing is, that the integer polynomial system <http://symbolicd
 Of course the SD\_Ideal objects are more than just an alternative representation of the TTL file. In the case of the Buchberger-87 ideal, also the data from the referenced integer polynomial system is loaded. Most importantly, the expressions that define the basis elements are loaded. With Sage, a Polynomial Ring is constructed (according to the information found in the TTL file) and the aforementioned expressions are interpreted as elements of this Polynomial Ring. These element will form a basis of the ideal and finally, the ideal can be recreated within Sage. Continuing our example from above, this Sage ideal can be retrieved by:
 
 ```
-**sage:** sd_bb87.get_ideal()
+sage: sd_bb87.get_ideal()
 Ideal (-r*t + x, -r^2 + z, -r*t^2 + y) of Multivariate Polynomial Ring in r, t, x, y, z over Integer Ring
 ```
 
