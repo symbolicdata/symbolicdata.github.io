@@ -56,7 +56,7 @@ To test the following queries yourself, go to <http://symbolicdata.org:8890/spar
 
 This will extract the predicate of all triples. Since a given predicate usually is used in a lot of sentences we indicate that we want a list of distinct values.
 
-*NB:* This list does not contain a lot information. Usually additional information is given in a documentation. For the polynomial systems you can find it here: <http://symbolicdata.org/wiki/PolynomialSystems.Ontology>
+*NB:* This list does not contain a lot information. Usually additional information is given in a documentation. For the polynomial systems you can find it here: <http://symbolicdata.github.io/PolynomialSystems.Ontology>
 
 **2)** To retrieve all possible values ('objects') to a given predicate <pred>:
 

@@ -17,7 +17,7 @@ All Transitive Group instances belong to the owl:Class **sd:TransitiveGroup** wi
 
 **Naming scheme**
 
--   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (`<nowiki><http://symbolicdata.org/Data/TransitiveGroups/Gr8T43></nowiki>`), because there are some RDF problems with names starting with numbers.
+-   The names in the tables are in the form of "8T42". We convert this to a name in the form of "Gr8T42" (<http://symbolicdata.org/Data/TransitiveGroups/Gr8T43>), because there are some RDF problems with names starting with numbers.
 
 **Products**
 
