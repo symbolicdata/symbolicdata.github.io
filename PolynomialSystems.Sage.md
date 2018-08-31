@@ -26,11 +26,11 @@ Installing new packages can easily be done by installing pip. This can be done b
 
 Next, install pip for Sage Python:
 
-`**(sage-sh)** easy_install pip`
+`(sage-sh) easy_install pip`
 
 In the message that follows, there should be something like "Installing pip script to \$SAGE\_ROOT/local/bin". New libraries can now be installed with pip. However, calling simply pip from the Sage sub-shell might not work (the 'normal' pip was called, not the Sage pip). In this case pip can be called by prefixing the correct path:
 
-`**(sage-sh)** $SAGE_ROOT/local/bin/pip install requests`
+`(sage-sh) $SAGE_ROOT/local/bin/pip install requests`
 
 The Sage sub-shell can be exited by typing 'exit'.
 
@@ -38,15 +38,15 @@ The Sage sub-shell can be exited by typing 'exit'.
 
 To use the sdsage.py module, it has to be imported into the running python instance of Sage:
 
-`**sage:** import sdsage`
+`sage: import sdsage`
 
 The module has to be initialized by the command
 
-`**sage:** sd = sdsage.SymbolicData()`
+`sage: sd = sdsage.SymbolicData()`
 
 which will parse the configuration file (sdsage.ini) and set-up variables. It is possible to use different SPARQL end-points by passing a keyword to the constructor:
 
-`**sage:** sd = sdsage.SymbolicData('local')`
+`sage: sd = sdsage.SymbolicData('local')`
 
 Keywords are defined in the SPARQL section of the sdsage.ini file:
 
@@ -108,7 +108,7 @@ Take for example Buchberger-87, the TTL for this Ideal looks like this:
 
 Once loaded by
 
-`**sage:** sd_bb87 = sd.get_sd_ideal('Buchberger-87')`
+`sage: sd_bb87 = sd.get_sd_ideal('Buchberger-87')`
 
 these value can be accessed as follows:
 
