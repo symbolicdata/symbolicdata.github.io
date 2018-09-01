@@ -5,17 +5,17 @@ title: Events.2016-08
 
 [Home](index "wikilink") \> [Events](Events "wikilink")
     
-## August 01, 2014 &ndash; Session *Information services for mathematical software, models, and research data* at [ACA-2016](http://www.mathematik.uni-kassel.de/ACA2016) in Kassel, Germany ##
+## August 01, 2014 &ndash; Session *Information services for mathematical software, models, and research data* at [ACA-2016](http://www.mathematik.uni-kassel.de/ACA2016) in Kassel, Germany 
 
 [Homepage of the session](http://www.emis.de/data/community/aca_2016_information_services.html).
 
-### Organizers### 
+### Organizers
 
-- Hans-Gert Gräbe, University of Leipzig, Germany
+- Hans-Gert Gräbe, Leipzig University, Germany
 - Albert Heinle, University of Waterloo, Canada
 - Wolfram Sperber, FIZ Karlsruhe, Germany
 
-### Overview### 
+### Overview
 
 Today mathematical knowledge manifests itself in different form. Besides publications, new forms of mathematical knowledge especially mathematical software, mathematical models, and mathematical data are becoming more and more important. But the access to these resources and their re-use is limited. The absence of powerful strategies and information services is one reason. The session *Information services for mathematical software, models, and research data* will address some problems of information services for these types of mathematical knowledge.
 
@@ -26,17 +26,17 @@ The aim of the session is to present and discuss some relevant problems and deve
 :(d) management of research data in mathematics
 :(e) content analysis and semantification especially with respect to their relevance for computer algebra.
 
-###  Talks### 
+###  Talks
 
 See the [Homepage of the session](http://www.emis.de/data/community/aca_2016_information_services.html) for abstracts of the talks.
 
 - Information services for mathematical research data. *Wolfram Sperber* (FIZ Karlsruhe, zbMATH, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-sperber.pdf)
 - The swMATH service for mathematical software - state of the art and perspectives. *Hagen Chrapary* (FIZ Karlsruhe, zbMATH and ZIB Berlin, Germany), *Winfried Neun* (ZIB Berlin, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-neun.pdf)
-- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (University of Leipzig, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-graebe.pdf), [[Events.2016-08.Graebe]]
+- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (Leipzig University, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-graebe.pdf), [Notes](Events.2016-08.Graebe "wikilink")
 - Benchmarks for and quality evaluation of CAS. *Albert Heinle* (University of Waterloo, Canada) -> [Slides](http://symbolicdata.org/Presentations/aca16-heinle.pdf)
 - Round table discussion on the future of information infrastructure for the CA community. 
 
-###  Round Table Discussion### 
+###  Round Table Discussion
 
 For the round table discussion the session organizers prepared a list of questions:
 

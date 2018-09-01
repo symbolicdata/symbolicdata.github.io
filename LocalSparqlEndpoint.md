@@ -18,7 +18,7 @@ There are plenty of RDF stores based on MySQL databases. Much of them are well s
 Here we describe how to install an RDF infrastructure based on the more powerful RDF Engine [Virtuoso](http://virtuoso.openlinksw.com) and (optional) the RDF Editor Tool [Ontowiki](http://aksw.org/Projects/OntoWiki.html).
 
 -   Virtuoso is a commercial Database store of *Openlink Software* specially designed to serve huge RDF data that comes with a built in Sparql endpoint. We recommend to use the Virtuoso Open Source Distribution (VOS) bundled with Debian.
--   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at the University of Leipzig. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
+-   Ontowiki is a performant Open Source RDF Editing Tool developed by the ASWK group at Leipzig University. It can directly be installed from the Ontowiki git Repo and easily configured to run with Virtuoso.
 
 It may be necessary to **adjust the apache settings** in etc/php5/apache2/php.ini to be able to upload large knowledge bases:
 
