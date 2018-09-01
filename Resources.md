@@ -32,7 +32,6 @@ to get the Buchberger-87.Homog meta data from the sd:Ideal knowledge base in rdf
 -   A [SPARQL endpoint](http://symbolicdata.org:8890/sparql) to explore the primary RDF Metadata.
     -   [More](QuickStart "wikilink") about the way how to use Sparql
     -   How to set up your [local Sparql endpoint](LocalSparqlEndpoint "wikilink") on a server running debian and apache
--   Dumps according to our [Backup strategy](Backups "wikilink").
 -   CASN - Towards a *Computer Algebra Social Network*
     -   The vision is a digitally supported [distributed social semantic network](CASN "wikilink") within Open Science for the needs of the Computer Algebra Community.
     -   Our [info page](http://symbolicdata.org/info) - to provide different views on the CASN data as "proof of concept" (the php code is as "best practice experience" available from our github repo) 

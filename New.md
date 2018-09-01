@@ -5,6 +5,7 @@ title: New
 
 ### What's new?
 
+-   (2018-09-01) Hans-Gert Gräbe closed the RDF graph UpcomingConferences.
 -   (2018-05-20) Hans-Gert Gräbe added a section [Disclaimer](Disclaimer "wikilink") that reflects the legal situation according to the regulations of the [EUDATAP](https://www.iitr.us/eudatap).
 -   (2018-03-20) Hans-Gert Gräbe added a first DCAT Catalogue description of the data. 
 -   (2017-12-16) Hans-Gert Gräbe closed the mailing list sd-announce.
@@ -16,7 +17,7 @@ title: New
     - He asked about support for the SymbolicData Project from TRR 195 an got the answer "who will care about that, we have no free resources".
     - Bernd Sturmfels promoted a session/discussion [What to do with Big Old Data?](https://www.mis.mpg.de/fileadmin/pdf/slides_oscar2017_3198.pdf).
 -   (2017-12-03) Hans-Gert Gräbe asked Wolfram Decker about the role that SymbolicData will play within the TRR 195 and the upcoming [OSCAR Project](https://www.computeralgebra.de/sfb/).
-    - Antwort (2017-12-17): Bei dem von Ihnen angesprochenen SFB/Transregio TRR 195 geht es nicht um die Konsolidierung von Daten sondern um ausgewählte mathematische Projekte sowie die Entwicklung eines neuen fachübergreifenden CAS, das unter dem Namen OSCAR auf in Deutschland bereits etablierte Software wie GAP, polymake oder Singular aufbaut.
+    - Antwort Decker (2017-12-17): Bei dem von Ihnen angesprochenen SFB/Transregio TRR 195 geht es nicht um die Konsolidierung von Daten sondern um ausgewählte mathematische Projekte sowie die Entwicklung eines neuen fachübergreifenden CAS, das unter dem Namen OSCAR auf in Deutschland bereits etablierte Software wie GAP, polymake oder Singular aufbaut.
 
 * * * * *
 

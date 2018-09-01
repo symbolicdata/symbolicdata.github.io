@@ -5,8 +5,7 @@ title: Guide
 
 ### A Small Guide through this Site
 
--   [Backup Strategy](Backups "wikilink")
--   [Towards a Computer Algebra Social Network](CASN "wikilink")
+-   [CASN - Towards a Computer Algebra Social Network](CASN "wikilink")
 -   [Calculation Tasks](Benchmarks "wikilink")
     -   [The SDEval Framework](SDEval "wikilink") developed by Albert Heinle.
     -   [The Interface to SageMath](Sage "wikilink") developed by Andreas Nareike.
