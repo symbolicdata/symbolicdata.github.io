@@ -31,7 +31,7 @@ title: Publications
 ### Publications
 
 - A. Heinle, W. Koepf, W. Sperber: Some steps to improve software information. ([pdf](http://symbolicdata.org/Papers/car-60.pdf))
-  - In: Computeralgebra-Rundbrief 60 (March 2017) and Communications in Computer Algebra ??
+  - In: Computeralgebra-Rundbrief 60 (March 2017) and Communications in Computer Algebra 51.1 (March 2017), pp 1-11. 
 
 - H.-G. Gräbe: The SymbolicData Project - Maturing the Computer Algebra Social Network Perspective. ([pdf](http://symbolicdata.org/Papers/car-59.pdf)) 
   - In: Computeralgebra-Rundbrief 59 (October 2016)
@@ -41,13 +41,13 @@ title: Publications
 
 - H.-G. Gräbe: Semantic-aware Fingerprints of Symbolic Research Data. ([pdf](http://symbolicdata.org/Papers/icms-16.pdf))
   - Talk at the [ICMS 2016](http://icms2016.zib.de/) Session ''Information Services for Mathematics: Software, Services, Models, and Data''.
-  - Published in: Gert-Martin Greuel, Thorsten Koch, Peter Paule, Andrew Sommese (Eds.). ''Mathematical Software – ICMS 2016''. LNCS 9725, 411-418. DOI 10.1007/978-3-319-42432-3. 
+  - In: Gert-Martin Greuel, Thorsten Koch, Peter Paule, Andrew Sommese (Eds.). ''Mathematical Software – ICMS 2016''. LNCS 9725, 411-418. DOI 10.1007/978-3-319-42432-3. 
 
 - H.-G. Gräbe: The SymbolicData Project in a Computer Algebra Social Network Perspective. Some Architectural Considerations. ([pdf](http://symbolicdata.org/Papers/cicm-16.pdf))
   - Version of 2016-03-19, not accepted for the [Projects and Surveys section of CICM-16](http://cicm-conference.org/2016/cicm.php?event=surveys&menu=general).
 
-- A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit.
-  - Published in: Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10. ([pdf](http://symbolicdata.org/Papers/cca-15.pdf))
+- A. Heinle, V. Levandovskyy: The SDEval Benchmarking Toolkit. ([pdf](http://symbolicdata.org/Papers/cca-15.pdf))
+  - In: Communications in Computer Algebra vol. 49.1 (March 2015), pp 1-10. 
 
 - H.-G. Gräbe, A. Nareike, S. Johanning: The SymbolicData Project. ([pdf](http://symbolicdata.org/Papers/iceseh-14.pdf))
   - Revised version of 2014-06-23, not accepted for the conference proceedings.
