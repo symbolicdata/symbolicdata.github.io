@@ -36,7 +36,9 @@ With SymbolicData Release 3.1 (Jan 2016) we reorganized the experimental CASN st
 -   Several applications specific to the German Fachgruppe use RDF data at the [CASN node of the German CA Fachgruppe](http://www.fachgruppe-computeralgebra.de/rdf/). Additionally this data is publicly available for remote applications but there is no RDF store, hence also no Linked Data.
 -   Additional RDF data at the [CASN node of the SymbolicData Project](http://symbolicdata.org/rdf). This data is publicly available for remote applications but not yet used in applications.
 
-The *current CASN data base* contains different RDF graphs within the namespace <symbolicdata.org/Data/> that are available at Linked Data standards from our central RDF store <http://symbolicdata.org/Data> and also as files from our [RDF upload area](http://symbolicdata.org/RDFData/). Additional data are supplied by different partners that run CASN nodes to provide own publicly available RDF based data for remote applications without running an RDF store, hence also no Linked Data.
+The *current CASN data base* contains different RDF graphs within the namespace <symbolicdata.org/Data/> that are available at Linked Data standards from our central RDF store <http://symbolicdata.org/Data> and also as files from our [RDF upload area](http://symbolicdata.org/RDFData/). Additional data can be supplied by partners that run CASN nodes to provide own publicly available RDF based data for remote applications without running an RDF store, hence also no Linked Data.
+
+We run the CASN showcases for several years to show the potential of the concepts. Most of the services were terminated in 2018 due to limited staff capacity. 
 
 #### CASN and CA People
 
@@ -70,15 +72,17 @@ and [cache it at the local web site](http://www.fachgruppe-computeralgebra.de/rd
 
 The [main SymbolicData RDF store](http://symbolicdata.org/Data) provides in particular this data:
 
--   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences
+-   The RDF Graph <http://symbolicdata.org/Data/UpcomingConferences/> with informations about upcoming conferences (deprecated)
     -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:UpcomingConference** instances
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/tagungsankuendigungen/) in the Wordpress based site of the German CA Fachgruppe.
     -   Learn more about that code from the *casn-plugin* directory in our *github web repo* at <https://github.com/symbolicdata/web>
+    - The Upcoming Conferences service was terminated in August 2018.
 -   Past conferences are provided in the RDF Graph <http://symbolicdata.org/Data/PastConferences/> for reference
-    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:Event** instances
-    -   Both are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
+    -   Conferences in the <symbolicdata.org/Data/Conference/> namespace with **sd:Conference** instances
+    -   They are includes into the [SymbolicData CASN demo site](http://symbolicdata.org/info)
     -   Learn more about that code from the *info* directory in our *github web repo* at <https://github.com/symbolicdata/web>
 -   The [CASN News Channel](News "wikilink")
+    - The News service was terminated in June 2017.
 -   Information about people working in CA (mainly extracted from program committee and invited speakers lists in conference announcements)
     -   The RDF Graph <http://symbolicdata.org/Data/People/> with names and affiliations - <symbolicdata.org/Data/Person/> namespace with **foaf:Person** instances
     -   The RDF Graph <http://symbolicdata.org/Data/ZBMathPeople/> with links to the author disambiguation system of the Zentralblatt (common effort with Wolfram Sperber)
@@ -97,24 +101,23 @@ The [local CASN node of the German CA Fachgruppe](http://www.fachgruppe-computer
     -   Groups - <www.fachgruppe-computeralgebra.de/rdf/Group/> namespace with instances of **sd:WorkingGroup** and **foaf:Group** - are related to affiliations - <www.fachgruppe-computeralgebra.de/rdf/Organization/> namespace with instances of **org:FormalOrganization** - by the predicate **org:subOrganizationOf**.
     -   People are referenced as sd:Person instances in the main SymbolicData RDF store by the predicate **org:hasMember**.
     -   The information is extracted using the [EasyRdf PHP library](http://www.easyrdf.org/) to be [displayed](http://www.fachgruppe-computeralgebra.de/arbeitsgruppen/) in the Wordpress based site of the German CA Fachgruppe.
+    - The service was terminated after vol. 60.
 -   the RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/SPP-Projekte.rdf> with information about CA projects within the SPP 1489
-    -   The projects - <www.fachgruppe-computeralgebra.de/rdf/Project/> namespace with instances of **sd:Project** - were extracted from the projects' section at <http://www.computeralgebra.de>
+    -   The projects - <www.fachgruppe-computeralgebra.de/rdf/Project/> namespace with instances of **sd:Project** - were extracted from the projects' section at <http://spp.computeralgebra.de>
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/projekte/) in the Wordpress based site of the German CA Fachgruppe.
 -   The RDF Graph <http://www.fachgruppe-computeralgebra.de/rdf/Dissertationen.rdf> with informations about dissertations in CA - <www.fachgruppe-computeralgebra.de/rdf/Dissertation> namespace with **bibo:Thesis** instances.
     -   uses standard predicates dcterms:creator (value: URI in SD-Person), dcterms:title, dcterms:date, bibo:degree from the [bibo ontology](http://bibliontology.com).
     -   more predicates: sd:hasSupervisor, sd:hasReviewer (value: URI in SD-Person)
     -   The information is extracted via SPARQL query and [displayed](http://www.fachgruppe-computeralgebra.de/dissertationen/) in the Wordpress based site of the German CA Fachgruppe.
+    - The service was terminated in 2018.
 
 #### Additional data at the CASN node of the SymbolicData Team
 
 The [local CASN node of the SymbolicData Team](http://symbolicdata.org/rdf/) provides this data:
 
 -   [Detailed conference reports](http://symbolicdata.org/rdf/Conferences) using the [<http://data.semanticweb.org/ns/swc/ontology>\# Semantic Web Conference Ontology]
+    - The service was terminated in 2018.
 
-#### Some more thoughts about bootstrapping a distributed CASN
+#### Additional concepts about bootstrapping a distributed CASN
 
-We set up a [first prototype](http://symbolicdata.org/xodx) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
-
--   A registered person has a **foaf:Person** FOAF Profile and a **sioc:UserAccount** instance not yet aligned with the remaining infrastructure.
-
-This has further to be discussed and is not actively maintained at the moment.
+We played around with a [first prototype](http://symbolicdata.org/xodx) to technically support such a social network upon the [Xodx implementation](http://aksw.org/Projects/Xodx.html) (Natanael Arndt, U Leipzig).
