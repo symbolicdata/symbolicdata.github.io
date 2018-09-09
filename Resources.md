@@ -9,6 +9,7 @@ title: Resources
 
 Within the main project we manage the following resources:
 
+-   The [domain symbolicdata.org](Domain "wikilink")
 -   This Web site for background information and informal descriptions
     -   A [poster](http://symbolicdata.org/Uploads/overview-poster.pdf) displays the overall structure and embedding of the project
 -   A [Google mailing list](https://groups.google.com/forum/#!forum/symbolicdata)
