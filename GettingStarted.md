@@ -8,7 +8,9 @@ title: GettingStarted
 This is about how to get startet with **SymbolicData v. 3**.
 
 -  Some information about the [History of the project](History "wikilink").  
-  
+-  [Quick Start to Queries](QuickStart "wikilink")
+-  [More Queries](MoreQueries "wikilink")
+    
 Meanwhile the experience with complex Semantic Web tasks is coined into a whole stack of protocols for different levels of communication. In particular, there is a clear distinction between **Resources** (with XML and XSchema proved useful to describe their data structures) and **Descriptions** (with RDF and OWL as appropriate standards). This is the current direction of development of a **third version** of SymbolicData.
 
 Tools and data are designed to be used both
