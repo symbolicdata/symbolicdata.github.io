@@ -18,8 +18,8 @@ title: Guide
 -   [Local Sparql Endpoint](LocalSparqlEndpoint "wikilink"): How to set up a local Sparql endpoint on a server running debian and apache
 -   [Maintenance](Domain "wikilink") of the domain symbolicdata.org
 -   Thoughts about the [Project Organization](Organization "wikilink")
--   [Overview on the Tools](index#Tools "wikilink")
--   [Overview on the Data](index#Data "wikilink")
+-   [Overview on the Tools](About "wikilink")
+-   [Overview on the Data](About "wikilink")
 -   [Subprojects](Projects "wikilink") within SymbolicData
 -   [Publications and Presentations](Publications "wikilink")
 -   [Related Activities](RelatedActivities "wikilink")

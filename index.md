@@ -6,6 +6,9 @@ title: Main Page
 The SymbolicData Project Wiki
 -----------------------------
 
+Learn more [about the SymbolicData Project](About "wikilink").
+
+Our main pages:
 -   [About the SymbolicData Project](About "wikilink")
 -   [Copyright Issues](Copyrights "wikilink")
 -   [Privacy Issues](Disclaimer "wikilink")
@@ -13,8 +16,8 @@ The SymbolicData Project Wiki
     -  [Quick Start to Queries](QuickStart "wikilink")
     -  [More Queries](MoreQueries "wikilink")
 -   [A Guide through this Site](Guide "wikilink")
-    -   [Overview on the Tools](index#Tools "wikilink")
-    -   [Overview on the Data](index#Data "wikilink")
+    -   [Overview on the Tools](About "wikilink")
+    -   [Overview on the Data](About "wikilink")
 -   [A Guide through the SD Infrastructure](Resources "wikilink")
 -   [Events](Events "wikilink")
 -   [Presentations and Publications](Publications "wikilink")

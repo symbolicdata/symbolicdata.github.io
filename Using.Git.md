@@ -5,7 +5,7 @@ title: Using.Git
 
 ### More about the way we organize our Repos
 
-#### About the new (as of Oct 2015) repo structure
+#### About the new repo structure
 
 In October 2015 we converted our **main git repo** at <https://github.com/symbolicdata> to an organizational account and set up several new repos with different maintenance rules
 
@@ -15,13 +15,13 @@ In October 2015 we converted our **main git repo** at <https://github.com/symbol
 -   *publications* - as a backup store of the LaTeX sources of SD publications, only master branch, no versioning,
 -   *web* - as an extended backup store of the SD web site that provides useful code to learn how RDF based data can be presented
 
-Note that the former repo *symbolicdata* is deprecated and will be deleted in a near future.
+Note that the former repo *symbolicdata* was deleted. **Do not base on forks of it**.
 
-The main development will be coordinated within the **SD Core Team** (Hans-Gert Gräbe, Ralf Hemmecke, Albert Heinle) with direct access to the organizational account.
+The main development is coordinated within the **SD Core Team** (Hans-Gert Gräbe, Ralf Hemmecke, Albert Heinle, Viktor Levandovskyy, Karim Abou Zeid) with direct access to the organizational account.
 
 The repos *maintenance* and *web* are intended to show best practice code for using the RDF based data of the SymbolicData project. To use the code you may fork the repo but there is almost no reason to pull back code. If you have a valuable contribution please contact the Core Team to discuss how that contribution can be added to the project.
 
-The repo *data* is mainly for backup purposes. If you plan to add valuable data to the project please contact the Core Team to discuss how that contribution can be added. We provide you help to put the data in an appropriate Linked Open Data format.
+The repo *data* is the primary source for our data and is steadily updated. If you plan to add valuable data to the project please contact the Core Team to discuss how that contribution can be added. We provide you help to put the data in an appropriate Linked Open Data format.
 
 The repo *publications* is mainly for reference and not intended for public additions. We provide LaTeX sources of our papers and slides and also information about reviews of our work.
 
@@ -84,7 +84,7 @@ Only the Integration manager needs write access to the blessed repo.
 You can easily extract a file from another branch by doing
 
 ``` git checkout develop
- git checkout another-branch -- *path/to/thisFile*
+ git checkout another-branch -- path/to/thisFile
  git reset
 ```
 
@@ -125,13 +125,16 @@ Some remarks from Ralf Hemmecke's mails:
 
 When I do the following:
 
-```git clone git@github.com:hemmecke/code.git
+```
+git clone git@github.com:hemmecke/code.git
 git remote add upstream git://github.com/symbolicdata/code.git
 ```
 
 I'll have two "remotes". One is called "origin" and the other "upstream". At that moment I only have a copy of the data from "origin" on my local machine. After
 
-```git fetch upstream```
+```
+git fetch upstream
+```
 
 I'll have also the data from "upstream". And all these branches are different since they will be called "upstream/master", "upstream/...". The command "git branch -av" give you a list of all your branches including the "remotes". So you will see remotes/upstream/master, remotes/upstream/old-master, etc.
 
