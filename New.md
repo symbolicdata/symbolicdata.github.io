@@ -12,6 +12,10 @@ title: New
 
 * * * * *
 
+-   (2020-02-12) The Board of the German Fachgruppe announces that it will end its sponsorship of the domain symbolicdata.org.
+-   (2018-03-03) Envisaging the upcoming retirement of Hans-Gert Gräbe in Aug 2021 HGG rises the question to move the domain hosted currently at Leipzig University to a different location. The domain is owned by the GI, the German Computer Science Society, on behalf of the German Fachgruppe.  During the last years the main part of the SymbolicData web infrastructure was moved to github pages.  Currently [at Leipzig University](Domain "wikilink") are hosted
+    - data that is also available from the github repository and 
+    - the last remainder of the [CASN Demo page](http://symbolicdata.org/info/), that extracts information from a [Virtuoso based SPARQL endpoint](LocalSparqlEndpoint "wikilink") also located at that server.
 -   (2018-03-02) Gregor Kemper informed on behalf of the Board of the German Fachgruppe that there is no interest within the board visible to actively promote SymbolicData, but in honour of Gräbe's efforts they will continue to sponsor the domain.  During the relaunch of the Website of the German Fachgruppe most of the [CASN features](CASN "wikilink") were switched off, the [link](http://www.fachgruppe-computeralgebra.de/symbolicdata/) to our activities was removed from the menu bar.
 -   (2017-12-11) Viktor Levandovskyy mentioned the SymbolicData Project and the SDEval approach at the conference [Open Source Computer Algebra Research (OSCAR)](https://www.mis.mpg.de/calendar/conferences/2017/oscar2017.html).
     - He asked about support for the SymbolicData Project from TRR 195 an got the answer "who will care about that, we have no free resources".
@@ -21,6 +25,7 @@ title: New
 
 * * * * *
 
+-   (2018-10) Hans-Gert Gräbe published a last paper ["20 Years SymbolicData"](Publications "wikilink") both in Computeralgebra-Rundbrief and the ACM CCA. The paper explains the ups and downs of the project during the 20 years of its existence, with special emphasis on the - ultimately futile - efforts in recent years to merge it with other activities such as the swMath project at the ZBMath or the SIGSAM CCA group and to convince the project's target group of its importance for strengthening a research data infrastructure.
 -   (2017-03) Albert Heinle and others publish a [paper "Some steps to improve software information"](Publications "wikilink") both in the [Computeralgebra-Rundbrief](http://www.fachgruppe-computeralgebra.de/rundbrief/) and the [Communications in Computer Algebra](https://www.sigsam.org/cca/).
 -   (2016-08) Hans-Gert Gräbe published a [note about the SymbolicData Project](Publications "wikilink") in the Computeralgebra-Rundbrief. 
 -   (2016-08) Hans-Gert Gräbe submitted a [paper about the SymbolicData concepts](Publications "wikilink") to the ACA 2016 Session: Information services for mathematical software, models, and research data. It was not accepted for the conference proceedings and not presented at the conference.  

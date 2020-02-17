@@ -31,7 +31,7 @@ title: Publications
 ### Publications
 
 - H.-G. Gräbe: 20 Years SymbolicData. ([pdf](http://symbolicdata.org/Papers/cca-18.pdf)) 
-  - In: Computeralgebra-Rundbrief 63 (October 2018) and Communications in Computer Algebra (tba). 
+  - In: Computeralgebra-Rundbrief 63 (October 2018) and Communications in Computer Algebra, vol. 52.3 (2019), pp 45–54.
 
 - A. Heinle, W. Koepf, W. Sperber: Some steps to improve software information. ([pdf](http://symbolicdata.org/Papers/car-60.pdf))
   - In: Computeralgebra-Rundbrief 60 (March 2017) and Communications in Computer Algebra 51.1 (March 2017), pp 1-11. 
