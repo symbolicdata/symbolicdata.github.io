@@ -14,7 +14,7 @@ It serves both
 
 The domain is sponsored since 2005 by the German Fachgruppe and currently
 operated on a server at Leipzig University. It operates an Apache web server
-and a Virtuoso based RDF store and provides
+and a [Virtuoso based RDF store](LocalSparqlEndpoint "wikilink") and provides
 - http://symbolicdata.org/index.html - A redirection to this site 
 - http://symbolicdata.org/info/ - The CASN demonstration site
 - http://symbolicdata.org/OtherResources/ - SD resources (TestSets)
