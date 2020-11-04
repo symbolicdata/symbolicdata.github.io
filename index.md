@@ -3,12 +3,25 @@ layout: default
 title: Main Page
 ---
 
-The SymbolicData Project Wiki
------------------------------
+# The SymbolicData Project Wiki
 
-Learn more [about the SymbolicData Project](About "wikilink").
+## The End
 
-Our main pages:
+The SymbolicData Project started in 1998 with several ambitious goals is over.
+To keep the heritage available for the next generations we transferred most of
+the material to this
+[github organizational account](https://github.com/symbolicdata) but switched
+off the more elaborated RDF infrastructure. This means that several links also
+in these wiki pages will no longer work.
+
+You may read in our [News section](New "wikilink") more about the details of
+the "last days" of the project, lasting several years.
+
+Hans-Gert Gräbe, Nov. 4, 2020
+
+## Learn more [about the SymbolicData Project](About "wikilink")
+
+## Our main pages
 -   [About the SymbolicData Project](About "wikilink")
 -   [Copyright Issues](Copyrights "wikilink")
 -   [Privacy Issues](Disclaimer "wikilink")
@@ -25,5 +38,3 @@ Our main pages:
 -   [Towards a Computer Algebra Social Network](CASN "wikilink")
     -   The [CASN Demonstration Site](http://symbolicdata.org/info)
 -   [What's new?](New "wikilink")
-
-Don't hesitate to **post all questions about using SymbolicData Tools and Data** on the [SymbolicData Mailing List](https://groups.google.com/forum/?fromgroups#!forum/symbolicdata) to help us to improve our presentation.
