@@ -10,7 +10,7 @@ Benchmarking for Computer Algebra
 
 </td>
 <td width="30%" >
-<img width="70%" src="http://symbolicdata.org/Uploads/images/sdeval_logo.png"/>
+<img width="70%" src="images/sdeval_logo.png"/>
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ There is also a [video tutorial/introduction for `SDEval`](https://www.youtube.c
 
 **Papers and Presentations:**
 
--   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone ([pdf](http://symbolicdata.uni-leipzig.de/Papers/casc2013-preprint.pdf)). Preprint, 2013.
+-   Albert Heinle, Viktor Levandovskyy, Andreas Nareike: SymbolicData:SDEval – Benchmarks for Everyone ([pdf](Papers/casc2013-preprint.pdf)). Preprint, 2013.
 
 ### News and History
 

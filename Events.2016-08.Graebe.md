@@ -8,7 +8,7 @@ title: Events.2016-08.Graebe
 ## Additional material on SymbolicData
 
 
-This web page continues the [presentation of Hans-Gert Gräbe](http://symbolicdata.org/Presentations/aca-16.pdf) at the ACA 2016 session on [Information services](Events.2016-08).
+This web page continues the [presentation of Hans-Gert Gräbe](Presentations/aca-16.pdf) at the ACA 2016 session on [Information services](Events.2016-08).
 
 ### SymbolicData in different stages:
 - Version 1 (1999&ndash;2002): 

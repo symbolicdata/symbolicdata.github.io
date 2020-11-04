@@ -30,10 +30,10 @@ The aim of the session is to present and discuss some relevant problems and deve
 
 See the [Homepage of the session](http://www.emis.de/data/community/aca_2016_information_services.html) for abstracts of the talks.
 
-- Information services for mathematical research data. *Wolfram Sperber* (FIZ Karlsruhe, zbMATH, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-sperber.pdf)
-- The swMATH service for mathematical software - state of the art and perspectives. *Hagen Chrapary* (FIZ Karlsruhe, zbMATH and ZIB Berlin, Germany), *Winfried Neun* (ZIB Berlin, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-neun.pdf)
-- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (Leipzig University, Germany) -> [Slides](http://symbolicdata.org/Presentations/aca16-graebe.pdf), [Notes](Events.2016-08.Graebe "wikilink")
-- Benchmarks for and quality evaluation of CAS. *Albert Heinle* (University of Waterloo, Canada) -> [Slides](http://symbolicdata.org/Presentations/aca16-heinle.pdf)
+- Information services for mathematical research data. *Wolfram Sperber* (FIZ Karlsruhe, zbMATH, Germany) -> [Slides](Presentations/aca16-sperber.pdf)
+- The swMATH service for mathematical software - state of the art and perspectives. *Hagen Chrapary* (FIZ Karlsruhe, zbMATH and ZIB Berlin, Germany), *Winfried Neun* (ZIB Berlin, Germany) -> [Slides](Presentations/aca16-neun.pdf)
+- The SymbolicData project &ndash; a community driven project for the CA community. *Hans-Gert Gräbe* (Leipzig University, Germany) -> [Slides](Presentations/aca16-graebe.pdf), [Notes](Events.2016-08.Graebe "wikilink")
+- Benchmarks for and quality evaluation of CAS. *Albert Heinle* (University of Waterloo, Canada) -> [Slides](Presentations/aca16-heinle.pdf)
 - Round table discussion on the future of information infrastructure for the CA community. 
 
 ###  Round Table Discussion

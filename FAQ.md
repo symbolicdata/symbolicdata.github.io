@@ -5,6 +5,11 @@ title: FAQ
 
 ### Frequently asked Questions about SymbolicData
 
+Note that these FAQ suppose a running web infrastructure of the SD project.
+This infrastructure was switched off in Nov. 2020.
+
+Hans-Gert Gräbe
+
 #### Technical Questions
 
 (T.1) **Question:** Do you provide Linked Open Data in RDF format?
