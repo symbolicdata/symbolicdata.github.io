@@ -5,6 +5,7 @@ title: New
 
 ### What's new?
 
+- (2021-02-26) Hans-Gert Gräbe left the German Fachgruppe.
 - (2020-11-04) Hans-Gert Gräbe closed the web infrastructure at
     symbolicdata.org running so far at Leipzig University.
 - (2018-09-01) Hans-Gert Gräbe closed the RDF graph UpcomingConferences.
